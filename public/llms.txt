@@ -1,0 +1,52 @@
+# הצרחן הנבון — כלים חכמים אך פשוטים לחיי יומיום
+> Smart, simple tools for everyday life in Israel
+
+## About
+הצרחן הנבון (The Smart Screamer) is a collection of free web tools built by Samuel Dratwa (שמואל דרטבה), each solving a real everyday problem in Israel. All tools are free, privacy-respecting, and open for community suggestions.
+
+## Tools
+
+### מדד הצרחן הנבון (Tsarchan Food Price Index)
+- URL: https://hamadad.sadot.click
+- Daily Israeli food price index tracking 37 staple products across 8 supermarket chains
+- Regional comparison across 5 areas in Israel
+- Data from legally mandated public price filings (Kaggle)
+- Base 100 = December 15, 2025
+
+### מחשבון נסיעות במונית (Taxi Price Estimator)
+- URL: https://il-taxi-price-estimator.sadot.click
+- Calculates taxi fare in Israel based on distance, time, and current official tariffs (April 2026)
+- Supports day/night/Shabbat tariffs and the new split-distance pricing
+- Uses Google Maps for route calculation
+
+### שבעתיים (ShivaTime)
+- URL: https://shivatime.sadot.click
+- Coordinates shiva (mourning) visits in Jewish communities
+- Families publish visiting hours, visitors can mark when they plan to come
+- Hebrew-first, designed with sensitivity for bereavement context
+
+### סטטוס טיסה (FlightStatus)
+- URL: https://flightstatus.sadot.click
+- Multi-source flight status checker with majority-vote consensus
+- Pulls from IAA (Israel Airports Authority), FlightRadar24, and Google
+- No API keys required — uses publicly available data
+
+### השוואת מסלולי חשמל (Smart Power Calc)
+- URL: https://smart-power-calc.sadot.click
+- Compares electricity discount plans from 7 alternative providers in Israel
+- Users upload their IEC smart meter CSV — all processing happens client-side
+- Includes consumption analysis and anomaly detection
+
+## Blog
+- URL: https://sadot.click/blog
+- Posts explaining the story behind each tool, technical decisions, and general interest topics
+- Written in Hebrew
+
+## Community Ideas
+- URL: https://sadot.click/ideas
+- Public idea board for suggesting new tools or improvements
+- Anyone can submit ideas or claim projects to work on
+
+## Contact
+- URL: https://sadot.click/contact
+- Email: samuel.dratwa@gmail.com
