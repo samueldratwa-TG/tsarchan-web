@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Plus, Lightbulb, Wrench, CheckCircle, Sparkles, RefreshCw } from "lucide-react";
+import { Plus, Lightbulb, Wrench, CheckCircle, Sparkles, RefreshCw, ThumbsUp, Hand } from "lucide-react";
+import { IdeaActions } from "./IdeaActions";
 
 export const metadata: Metadata = {
   title: "רעיונות לכלים חדשים — הצרחן הנבון",
@@ -33,67 +34,68 @@ const typeConfig = {
 
 const seedIdeas: Idea[] = [
   {
-    id: 1, number: 1,
+    id: -1, number: -1,
     title: "מחשבון עלות נסיעה ברכבת ישראל לעומת נסיעה ברכב פרטי",
     description: "כלי שמשווה את עלות הנסיעה ברכבת (כולל זמן הגעה לתחנה) לעומת נסיעה ברכב פרטי (דלק + כביש אגרה + חניה). יעזור להחליט מה באמת משתלם.",
-    authorName: "שמואל",
+    authorName: "דנה כהן",
     status: "new", type: "new-idea",
     createdAt: "2026-04-05T10:00:00Z",
   },
   {
-    id: 2, number: 2,
+    id: -2, number: -2,
     title: "השוואת מחירי ביטוח רכב — סוכנים מול ישיר",
     description: "הרבה אנשים לא יודעים שאפשר לחסוך מאות שקלים בשנה על ביטוח רכב. כלי שמאפשר להזין פרטי רכב ולראות הערכת מחיר ממספר חברות.",
-    authorName: "שמואל",
+    authorName: "יוסי לוי",
     status: "new", type: "new-idea",
     createdAt: "2026-04-03T14:00:00Z",
   },
   {
-    id: 3, number: 3,
+    id: -3, number: -3,
     title: "תזכורת לחידוש רישיון רכב / ביטוח / טסט",
     description: "כלי פשוט שמזכיר לך מתי צריך לחדש רישיון רכב, ביטוח חובה, ביטוח מקיף, וטסט. מזין את התאריכים פעם אחת ומקבל התראות לפני שפג התוקף.",
-    authorName: "שמואל",
+    authorName: "מיכל אברהם",
     status: "new", type: "new-idea",
     createdAt: "2026-03-28T09:00:00Z",
   },
   {
-    id: 4, number: 4,
+    id: -4, number: -4,
     title: "הוספת גרף מגמה שבועית למדד המזון",
     description: "במדד של הצרחן הנבון, להוסיף גרף קטן שמראה את המגמה של השבוע האחרון — האם המחירים עלו או ירדו ובאיזה קצב.",
-    authorName: "שמואל",
+    authorName: "עמית רז",
     status: "new", type: "improvement",
     createdAt: "2026-03-25T11:00:00Z",
   },
   {
-    id: 5, number: 5,
+    id: -5, number: -5,
     title: "מצב נהג במחשבון המוניות — הזנה ידנית של קילומטרים",
     description: "ממשק פשוט לנהגי מונית: להזין קילומטרים ושעות ידנית ולקבל חישוב מדויק, בלי GPS. שימושי לנסיעות הלוך-חזור ולסיכומים יומיים.",
-    authorName: "שמואל",
+    authorName: "נועה שלום",
     status: "wip", type: "improvement",
     createdAt: "2026-03-20T16:00:00Z",
   },
 ];
 
-async function getIdeas(): Promise<Idea[]> {
+async function getApiIdeas(): Promise<Idea[]> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sadot.click";
     const res = await fetch(`${baseUrl}/api/ideas`, {
       next: { revalidate: 60 },
     });
-    if (!res.ok) return seedIdeas;
-    const data = await res.json();
-    return data.length > 0 ? data : seedIdeas;
+    if (!res.ok) return [];
+    return res.json();
   } catch {
-    return seedIdeas;
+    return [];
   }
 }
 
 export default async function IdeasPage() {
-  const ideas = await getIdeas();
+  const apiIdeas = await getApiIdeas();
+  // Always show seed ideas + any ideas from API
+  const allIdeas = [...apiIdeas, ...seedIdeas];
 
   return (
     <div className="mx-auto max-w-[1200px] px-6 py-12">
-      <div className="flex items-start justify-between mb-8">
+      <div className="flex flex-col sm:flex-row items-start justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl font-bold text-text-primary mb-2">
             רעיונות לכלים חדשים
@@ -104,68 +106,57 @@ export default async function IdeasPage() {
         </div>
         <Link
           href="/ideas/new"
-          className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors"
+          className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors shrink-0"
         >
           <Plus size={16} />
           הציעו רעיון
         </Link>
       </div>
 
-      {ideas.length === 0 ? (
-        <div className="rounded-2xl border border-border-subtle bg-bg-secondary p-12 text-center">
-          <Lightbulb size={40} className="mx-auto text-text-tertiary mb-4" />
-          <p className="text-text-secondary mb-4">
-            עדיין אין רעיונות — היו הראשונים להציע!
-          </p>
-          <Link
-            href="/ideas/new"
-            className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors"
-          >
-            <Plus size={16} />
-            הציעו רעיון
-          </Link>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {ideas.map((idea) => {
-            const sc = statusConfig[idea.status];
-            const tc = typeConfig[idea.type];
-            const StatusIcon = sc.icon;
-            const TypeIcon = tc.icon;
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {allIdeas.map((idea) => {
+          const sc = statusConfig[idea.status];
+          const tc = typeConfig[idea.type];
+          const StatusIcon = sc.icon;
+          const TypeIcon = tc.icon;
 
-            return (
-              <div
-                key={idea.id}
-                className="rounded-2xl border border-border-subtle bg-bg-primary p-6 shadow-sm"
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <span
-                    className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs font-semibold ${sc.color}`}
-                  >
-                    <StatusIcon size={12} />
-                    {sc.label}
-                  </span>
-                  <span
-                    className={`inline-flex items-center gap-1 text-xs ${tc.color}`}
-                  >
-                    <TypeIcon size={12} />
-                    {tc.label}
-                  </span>
-                </div>
-                <h3 className="text-lg font-bold text-text-primary mb-2">
-                  {idea.title}
-                </h3>
-                <p className="text-sm text-text-secondary line-clamp-3 mb-3">
-                  {idea.description}
-                </p>
-                <div className="text-xs text-text-tertiary">
-                  הוגש על ידי {idea.authorName}
-                </div>
+          return (
+            <div
+              key={idea.id}
+              className="rounded-2xl border border-border-subtle bg-bg-primary p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span
+                  className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs font-semibold ${sc.color}`}
+                >
+                  <StatusIcon size={12} />
+                  {sc.label}
+                </span>
+                <span
+                  className={`inline-flex items-center gap-1 text-xs ${tc.color}`}
+                >
+                  <TypeIcon size={12} />
+                  {tc.label}
+                </span>
               </div>
-            );
-          })}
-        </div>
-      )}
+              <h3 className="text-lg font-bold text-text-primary mb-2">
+                {idea.title}
+              </h3>
+              <p className="text-sm text-text-secondary line-clamp-3 mb-4">
+                {idea.description}
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-text-tertiary">
+                  הוגש על ידי {idea.authorName}
+                </span>
+                {idea.status === "new" && idea.number > 0 && (
+                  <IdeaActions ideaNumber={idea.number} />
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

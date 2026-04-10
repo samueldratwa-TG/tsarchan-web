@@ -133,9 +133,12 @@ export default async function BlogPostPage({
         </div>
       </div>
 
-      {/* Post Body */}
+      {/* Post Body — strip first H1 (already shown in header) */}
       <div className="prose-rtl">
-        <MDXRemote source={post.content} components={mdxComponents} />
+        <MDXRemote
+          source={post.content.replace(/^#\s+.+\n+/, "")}
+          components={mdxComponents}
+        />
       </div>
 
       {/* Post Footer */}

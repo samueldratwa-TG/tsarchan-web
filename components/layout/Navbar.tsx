@@ -35,21 +35,27 @@ export function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-6">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              aria-current={pathname === link.href ? "page" : undefined}
-              className={cn(
-                "text-sm font-medium transition-colors",
-                pathname === link.href
-                  ? "text-accent"
-                  : "text-text-secondary hover:text-text-primary"
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive =
+              link.href === "/"
+                ? pathname === "/"
+                : pathname.startsWith(link.href);
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={isActive ? "page" : undefined}
+                className={cn(
+                  "text-sm font-medium transition-colors",
+                  isActive
+                    ? "text-accent"
+                    : "text-text-secondary hover:text-text-primary"
+                )}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
 
         {/* Right side */}
@@ -70,21 +76,27 @@ export function Navbar() {
       {mobileOpen && (
         <div className="md:hidden border-t border-border-subtle bg-bg-primary">
           <div className="flex flex-col gap-1 px-6 py-4">
-            {navLinks.map((link) => (
+            {navLinks.map((link) => {
+              const isActive =
+                link.href === "/"
+                  ? pathname === "/"
+                  : pathname.startsWith(link.href);
+              return (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
                 className={cn(
                   "block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
-                  pathname === link.href
+                  isActive
                     ? "bg-accent-light text-accent"
                     : "text-text-secondary hover:bg-bg-tertiary hover:text-text-primary"
                 )}
               >
                 {link.label}
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}
