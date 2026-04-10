@@ -31,16 +31,60 @@ const typeConfig = {
   improvement: { label: "שיפור לכלי קיים", icon: RefreshCw, color: "text-accent" },
 };
 
+const seedIdeas: Idea[] = [
+  {
+    id: 1, number: 1,
+    title: "מחשבון עלות נסיעה ברכבת ישראל לעומת נסיעה ברכב פרטי",
+    description: "כלי שמשווה את עלות הנסיעה ברכבת (כולל זמן הגעה לתחנה) לעומת נסיעה ברכב פרטי (דלק + כביש אגרה + חניה). יעזור להחליט מה באמת משתלם.",
+    authorName: "שמואל",
+    status: "new", type: "new-idea",
+    createdAt: "2026-04-05T10:00:00Z",
+  },
+  {
+    id: 2, number: 2,
+    title: "השוואת מחירי ביטוח רכב — סוכנים מול ישיר",
+    description: "הרבה אנשים לא יודעים שאפשר לחסוך מאות שקלים בשנה על ביטוח רכב. כלי שמאפשר להזין פרטי רכב ולראות הערכת מחיר ממספר חברות.",
+    authorName: "שמואל",
+    status: "new", type: "new-idea",
+    createdAt: "2026-04-03T14:00:00Z",
+  },
+  {
+    id: 3, number: 3,
+    title: "תזכורת לחידוש רישיון רכב / ביטוח / טסט",
+    description: "כלי פשוט שמזכיר לך מתי צריך לחדש רישיון רכב, ביטוח חובה, ביטוח מקיף, וטסט. מזין את התאריכים פעם אחת ומקבל התראות לפני שפג התוקף.",
+    authorName: "שמואל",
+    status: "new", type: "new-idea",
+    createdAt: "2026-03-28T09:00:00Z",
+  },
+  {
+    id: 4, number: 4,
+    title: "הוספת גרף מגמה שבועית למדד המזון",
+    description: "במדד של הצרחן הנבון, להוסיף גרף קטן שמראה את המגמה של השבוע האחרון — האם המחירים עלו או ירדו ובאיזה קצב.",
+    authorName: "שמואל",
+    status: "new", type: "improvement",
+    createdAt: "2026-03-25T11:00:00Z",
+  },
+  {
+    id: 5, number: 5,
+    title: "מצב נהג במחשבון המוניות — הזנה ידנית של קילומטרים",
+    description: "ממשק פשוט לנהגי מונית: להזין קילומטרים ושעות ידנית ולקבל חישוב מדויק, בלי GPS. שימושי לנסיעות הלוך-חזור ולסיכומים יומיים.",
+    authorName: "שמואל",
+    status: "wip", type: "improvement",
+    createdAt: "2026-03-20T16:00:00Z",
+  },
+];
+
 async function getIdeas(): Promise<Idea[]> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sadot.click";
     const res = await fetch(`${baseUrl}/api/ideas`, {
       next: { revalidate: 60 },
     });
-    if (!res.ok) return [];
-    return res.json();
+    if (!res.ok) return seedIdeas;
+    const data = await res.json();
+    return data.length > 0 ? data : seedIdeas;
   } catch {
-    return [];
+    return seedIdeas;
   }
 }
 
