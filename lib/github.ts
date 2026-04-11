@@ -83,7 +83,7 @@ function mapIssue(issue: GitHubIssue): Idea {
 
 export async function listIdeas(): Promise<Idea[]> {
   const res = await fetch(
-    `https://api.github.com/repos/${GITHUB_REPO}/issues?state=all&labels=&per_page=50&sort=created&direction=desc`,
+    `https://api.github.com/repos/${GITHUB_REPO}/issues?state=open&per_page=50&sort=created&direction=desc`,
     {
       headers: {
         ...getHeaders(),
