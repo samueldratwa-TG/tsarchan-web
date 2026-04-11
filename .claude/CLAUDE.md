@@ -54,7 +54,7 @@ Hebrew-first (RTL), LIGHT theme default (dark toggle), desktop-first, Next.js 16
 ## Environment Variables Needed
 GITHUB_TOKEN=       # Fine-grained PAT for ideas repo
 GITHUB_REPO=        # e.g., samueldratwa-TG/tsarchan-ideas
-RESEND_API_KEY=     # re_U63aAvrM_JoujdEFzq8qn6GuaWNXAEb59
+RESEND_API_KEY=     # see .env file (NEVER put actual keys here)
 NEXT_PUBLIC_SITE_URL=https://sadot.click
 
 ## Deployment
