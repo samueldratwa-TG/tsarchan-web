@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Plus, Lightbulb, Wrench, CheckCircle, Sparkles, RefreshCw, ThumbsUp, Hand } from "lucide-react";
-import { IdeaActions } from "./IdeaActions";
+import { Plus, Lightbulb, Wrench, CheckCircle, Sparkles, RefreshCw } from "lucide-react";
+import { VoteButton, ClaimButton } from "./IdeaActions";
 
 export const metadata: Metadata = {
   title: "רעיונות לכלים חדשים — הצרחן הנבון",
@@ -19,6 +19,7 @@ interface Idea {
   status: "new" | "wip" | "done";
   type: "new-idea" | "improvement";
   createdAt: string;
+  votes: number;
 }
 
 const statusConfig = {
@@ -40,6 +41,7 @@ const seedIdeas: Idea[] = [
     authorName: "דנה כהן",
     status: "new", type: "new-idea",
     createdAt: "2026-04-05T10:00:00Z",
+    votes: 3,
   },
   {
     id: -2, number: -2,
@@ -48,6 +50,7 @@ const seedIdeas: Idea[] = [
     authorName: "יוסי לוי",
     status: "new", type: "new-idea",
     createdAt: "2026-04-03T14:00:00Z",
+    votes: 1,
   },
   {
     id: -3, number: -3,
@@ -56,6 +59,7 @@ const seedIdeas: Idea[] = [
     authorName: "מיכל אברהם",
     status: "new", type: "new-idea",
     createdAt: "2026-03-28T09:00:00Z",
+    votes: 5,
   },
   {
     id: -4, number: -4,
@@ -64,6 +68,7 @@ const seedIdeas: Idea[] = [
     authorName: "עמית רז",
     status: "new", type: "improvement",
     createdAt: "2026-03-25T11:00:00Z",
+    votes: 2,
   },
   {
     id: -5, number: -5,
@@ -72,6 +77,7 @@ const seedIdeas: Idea[] = [
     authorName: "נועה שלום",
     status: "wip", type: "improvement",
     createdAt: "2026-03-20T16:00:00Z",
+    votes: 4,
   },
 ];
 
@@ -149,9 +155,19 @@ export default async function IdeasPage() {
                 <span className="text-xs text-text-tertiary">
                   הוגש על ידי {idea.authorName}
                 </span>
-                {idea.status === "new" && idea.number > 0 && (
-                  <IdeaActions ideaNumber={idea.number} />
-                )}
+                <div className="flex items-center gap-2">
+                  {idea.number > 0 && (
+                    <VoteButton ideaNumber={idea.number} initialVotes={idea.votes} />
+                  )}
+                  {idea.number < 0 && (
+                    <span className="inline-flex items-center gap-1.5 rounded-lg bg-bg-tertiary px-3 py-1.5 text-xs font-semibold text-text-tertiary">
+                      👍 {idea.votes}
+                    </span>
+                  )}
+                  {idea.status === "new" && idea.number > 0 && (
+                    <ClaimButton ideaNumber={idea.number} />
+                  )}
+                </div>
               </div>
             </div>
           );

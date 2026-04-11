@@ -20,6 +20,7 @@ interface GitHubIssue {
   created_at: string;
   updated_at: string;
   state: string;
+  reactions?: { "+1": number };
 }
 
 export interface Idea {
@@ -32,6 +33,7 @@ export interface Idea {
   type: "new-idea" | "improvement";
   createdAt: string;
   updatedAt: string;
+  votes: number;
 }
 
 function getHeaders() {
@@ -75,17 +77,39 @@ function mapIssue(issue: GitHubIssue): Idea {
     type: mapType(issue.labels),
     createdAt: issue.created_at,
     updatedAt: issue.updated_at,
+    votes: issue.reactions?.["+1"] ?? 0,
   };
 }
 
 export async function listIdeas(): Promise<Idea[]> {
   const res = await fetch(
     `https://api.github.com/repos/${GITHUB_REPO}/issues?state=all&labels=&per_page=50&sort=created&direction=desc`,
-    { headers: getHeaders(), next: { revalidate: 60 } }
+    {
+      headers: {
+        ...getHeaders(),
+        Accept: "application/vnd.github.squirrel-girl-preview+json",
+      },
+      next: { revalidate: 60 },
+    }
   );
   if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
   const issues: GitHubIssue[] = await res.json();
   return issues.map(mapIssue);
+}
+
+export async function voteForIdea(issueNumber: number): Promise<void> {
+  await fetch(
+    `https://api.github.com/repos/${GITHUB_REPO}/issues/${issueNumber}/reactions`,
+    {
+      method: "POST",
+      headers: {
+        ...getHeaders(),
+        "Content-Type": "application/json",
+        Accept: "application/vnd.github.squirrel-girl-preview+json",
+      },
+      body: JSON.stringify({ content: "+1" }),
+    }
+  );
 }
 
 export async function createIdea(
