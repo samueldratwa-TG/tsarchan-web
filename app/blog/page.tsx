@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllPosts, getAllTags } from "@/lib/blog";
+import { getAllPosts } from "@/lib/blog";
 import { formatHebrewDate } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -12,31 +12,15 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const posts = getAllPosts();
-  const tags = getAllTags();
 
   return (
     <div className="mx-auto max-w-[1200px] px-6 py-12">
       <h1 className="text-3xl font-bold text-text-primary mb-2">
         הבלוג של הצרחן הנבון
       </h1>
-      <p className="text-text-secondary mb-8">
+      <p className="text-text-secondary mb-10">
         סיפורים, תובנות, והחלטות טכניות מאחורי הכלים
       </p>
-
-      {/* Tags */}
-      <div className="flex flex-wrap gap-2 mb-10">
-        <span className="rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white">
-          הכל
-        </span>
-        {tags.map((tag) => (
-          <span
-            key={tag}
-            className="rounded-lg bg-bg-tertiary px-3 py-1.5 text-xs font-medium text-text-secondary hover:bg-bg-secondary cursor-pointer transition-colors"
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
 
       {/* Post List */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
