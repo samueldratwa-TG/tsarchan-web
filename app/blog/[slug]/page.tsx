@@ -13,6 +13,7 @@ import { ArrowRight, Clock, Calendar } from "lucide-react";
 import { Callout } from "@/components/blog/mdx/Callout";
 import { AppLinkCard } from "@/components/blog/mdx/AppLinkCard";
 import { CodeBlock } from "@/components/blog/mdx/CodeBlock";
+import { Comments } from "@/components/blog/Comments";
 
 const mdxComponents = {
   Callout,
@@ -175,6 +176,9 @@ export default async function BlogPostPage({
           </div>
         )}
       </div>
+
+      {/* Comments */}
+      <Comments postSlug={slug} />
 
       {/* JSON-LD */}
       <script
