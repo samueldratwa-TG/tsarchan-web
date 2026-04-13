@@ -55,7 +55,7 @@ export async function GET() {
       "ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני",
       "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר",
     ];
-    const hebrewDate = `${d.getDate()} ב${months[d.getMonth()]} ${d.getFullYear()}`;
+    const hebrewDate = `${d.getUTCDate()} ב${months[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 
     return NextResponse.json({
       currentValue: current.value,
