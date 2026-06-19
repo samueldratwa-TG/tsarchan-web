@@ -80,7 +80,7 @@ export default async function Home() {
             <div className={`text-3xl font-bold ${change > 0 ? "text-red-600" : change < 0 ? "text-green-600" : "text-gray-900"}`}>
               {change > 0 ? "+" : ""}{change.toFixed(2)}%
             </div>
-            <div className="text-xs text-gray-400 mt-1">מאז 15/12/2025</div>
+            <div className="text-xs text-gray-400 mt-1">מאז 15/06/2025</div>
           </div>
           {topIncrease && (
             <div className="bg-red-50 rounded-xl shadow p-5 text-center">
@@ -101,7 +101,7 @@ export default async function Home() {
         {/* Main Chart */}
         <div className="bg-white rounded-xl shadow p-6 mb-4">
           <h2 className="text-lg font-semibold mb-1">מדד מחירי מזון</h2>
-          <p className="text-xs text-gray-400 mb-4">קו מחירי מזון (כחול) מול מדד המחירים לצרכן של הלמ&quot;ס (כתום, אינטרפולציה)</p>
+          <p className="text-xs text-gray-400 mb-4">קו מחירי מזון (כחול) מול מדד המחירים לצרכן של הלמ&quot;ס (כתום) &mdash; הנקודות הכתומות הן ימי פרסום המדד הרשמי (ה&minus;15 בכל חודש); בין לבין הקו משוערך</p>
           <IndexChart data={validIndex.map((r) => ({ date: r.date, index: r.index!, cbs_cpi: r.cbs_cpi }))} />
         </div>
 

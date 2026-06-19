@@ -27,8 +27,13 @@ export function Footer() {
               <li>8 רשתות סופרמרקט</li>
               <li>ממוצע גיאומטרי משוקלל</li>
               <li>עדכון יומי</li>
-              <li>בסיס 100 = 15 דצמבר 2025</li>
+              <li>בסיס 100 = 15 יוני 2025</li>
               <li>מקור: קגל (נתונים פתוחים)</li>
+              <li className="pt-1">
+                <a href="/methodology" className="text-blue-400 hover:text-blue-300">
+                  פירוט מלא על המתודולוגיה &rarr;
+                </a>
+              </li>
             </ul>
           </div>
 

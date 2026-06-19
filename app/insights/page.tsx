@@ -1,120 +1,61 @@
+import { InsightsClient } from "../components/InsightsClient";
 import { Footer } from "../components/Footer";
 import { promises as fs } from "fs";
 import path from "path";
-import Link from "next/link";
 
-interface InsightItem {
-  id: string;
-  name: string;
-  change_pct?: number;
-  base?: number;
-  current?: number;
-  gap_pct?: number;
-  cheapest_chain?: string;
-  cheapest_price?: number;
-  expensive_chain?: string;
-  expensive_price?: number;
-}
+async function loadData() {
+  // Load daily_prices.csv and extract only first-of-month rows from Dec 2025+
+  const dailyPath = path.join(process.cwd(), "public", "data", "daily_prices.csv");
+  const raw = await fs.readFile(dailyPath, "utf-8");
+  const lines = raw.replace(/^﻿/, "").trim().split("\n").map(l => l.replace(/\r/g, ""));
+  const headers = lines[0].split(",");
 
-const chainNamesHe: Record<string, string> = {
-  shufersal: "שופרסל", rami_levy: "רמי לוי", yohananof: "יוחננוף",
-  victory: "ויקטורי", osher_ad: "אושר עד", hazi_hinam: "חצי חינם",
-  tiv_taam: "טיב טעם", yayno_bitan_and_carrefour: "יינות ביתן",
-};
+  const priceColIndices = headers
+    .map((h, i) => ({ h, i }))
+    .filter(({ h }) => h !== "date" && !h.endsWith("_chains"))
+    .map(({ h, i }) => ({ name: h, idx: i }));
 
-async function getData() {
-  const filePath = path.join(process.cwd(), "public", "data", "insights.json");
-  const content = await fs.readFile(filePath, "utf-8");
-  return JSON.parse(content);
+  const allRows = lines.slice(1).map(line => {
+    const cells = line.split(",");
+    const row: Record<string, string | number> = { date: cells[0] };
+    for (const { name, idx } of priceColIndices) {
+      const v = cells[idx];
+      row[name] = v ? parseFloat(v) : 0;
+    }
+    return row;
+  });
+
+  // Keep: 1st of each month from Dec 2025 onward, plus the latest date always
+  const latestDate = allRows[allRows.length - 1]?.date as string;
+  const filteredRows = allRows.filter(r => {
+    const d = r.date as string;
+    if (d === latestDate) return true;
+    const [y, m, day] = d.split("-");
+    if (day !== "01") return false;
+    if (y === "2025") return parseInt(m) >= 12;
+    return y >= "2026";
+  });
+
+  // Product names from products.json
+  const productsPath = path.join(process.cwd(), "public", "data", "products.json");
+  const productsJson = JSON.parse(await fs.readFile(productsPath, "utf-8"));
+  const productIds = new Set(priceColIndices.map(c => c.name));
+  const productMeta = (productsJson.products as { id: string; name: string }[])
+    .filter(p => productIds.has(p.id))
+    .map(p => ({ id: p.id, name: p.name }));
+
+  // Chain gaps from insights.json (static, date-independent)
+  const insightsPath = path.join(process.cwd(), "public", "data", "insights.json");
+  const insights = JSON.parse(await fs.readFile(insightsPath, "utf-8"));
+
+  return { priceData: filteredRows, productMeta, chainGaps: insights.biggest_chain_gap };
 }
 
 export default async function InsightsPage() {
-  const insights = await getData();
-
+  const { priceData, productMeta, chainGaps } = await loadData();
   return (
     <>
-      <main className="max-w-5xl mx-auto px-4 py-8">
-        <Link href="/" className="text-blue-600 hover:text-blue-800 text-sm mb-4 inline-block">&rarr; חזרה לדף הראשי</Link>
-
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">תובנות והשוואות</h1>
-        <p className="text-gray-500 mb-8">ניתוחים והשוואות מעמיקות המבוססים על 37 מוצרים ב-8 רשתות</p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {/* Biggest increases */}
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-lg font-semibold text-red-700 mb-4">התייקרויות הכי גדולות (מאז 15/12/2025)</h2>
-            <div className="space-y-3">
-              {(insights.biggest_increase as InsightItem[]).slice(0, 8).map((item, i) => (
-                <div key={item.id} className="flex items-center justify-between border-b border-gray-100 pb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-gray-400 text-sm">{i + 1}.</span>
-                    <span className="text-sm">{item.name}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-400">{item.base?.toFixed(2)} &larr; {item.current?.toFixed(2)}</span>
-                    <span className="text-red-600 font-bold text-sm bg-red-50 px-2 py-0.5 rounded">+{item.change_pct}%</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Biggest decreases */}
-          <div className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-lg font-semibold text-green-700 mb-4">הוזלות הכי גדולות (מאז 15/12/2025)</h2>
-            <div className="space-y-3">
-              {(insights.biggest_decrease as InsightItem[]).slice(0, 8).map((item, i) => (
-                <div key={item.id} className="flex items-center justify-between border-b border-gray-100 pb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-gray-400 text-sm">{i + 1}.</span>
-                    <span className="text-sm">{item.name}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-400">{item.base?.toFixed(2)} &larr; {item.current?.toFixed(2)}</span>
-                    <span className="text-green-600 font-bold text-sm bg-green-50 px-2 py-0.5 rounded">{item.change_pct}%</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Biggest chain gaps */}
-        <div className="bg-white rounded-xl shadow p-6">
-          <h2 className="text-lg font-semibold text-amber-700 mb-2">פערי מחירים גדולים בין הרשתות</h2>
-          <p className="text-xs text-gray-400 mb-4">אותו מוצר זהה, מחיר שונה</p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b-2 border-gray-200">
-                  <th className="text-right py-2 px-3 font-semibold">מוצר</th>
-                  <th className="text-center py-2 px-3 font-semibold text-green-700">הכי זול</th>
-                  <th className="text-center py-2 px-3 font-semibold text-red-600">הכי יקר</th>
-                  <th className="text-center py-2 px-3 font-semibold">פער</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(insights.biggest_chain_gap as InsightItem[]).slice(0, 15).map((item) => (
-                  <tr key={item.id} className="border-b border-gray-100 hover:bg-gray-50">
-                    <td className="py-2 px-3">{item.name}</td>
-                    <td className="py-2 px-3 text-center">
-                      <span className="text-green-700 font-medium">{item.cheapest_price?.toFixed(2)}</span>
-                      <span className="text-xs text-gray-400 block">{chainNamesHe[item.cheapest_chain || ""] || item.cheapest_chain}</span>
-                    </td>
-                    <td className="py-2 px-3 text-center">
-                      <span className="text-red-600 font-medium">{item.expensive_price?.toFixed(2)}</span>
-                      <span className="text-xs text-gray-400 block">{chainNamesHe[item.expensive_chain || ""] || item.expensive_chain}</span>
-                    </td>
-                    <td className="py-2 px-3 text-center">
-                      <span className="bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded text-xs">{item.gap_pct}%</span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </main>
+      <InsightsClient priceData={priceData} productMeta={productMeta} chainGaps={chainGaps} />
       <Footer />
     </>
   );

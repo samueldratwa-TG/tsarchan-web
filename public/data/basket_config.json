@@ -23,7 +23,8 @@
       "id": "emek_28",
       "cat": "dairy",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "barcode": "7290000056753"
+      "barcode": "7290000056753",
+      "mapped": true
     },
     {
       "id": "butter",
@@ -35,7 +36,8 @@
       "id": "sweet_cream",
       "cat": "dairy",
       "name": "שמנת מתוקה 32% 250 מל",
-      "barcode": "7290114311038"
+      "barcode": "7290114311038",
+      "mapped": true
     },
     {
       "id": "sour_cream",
@@ -47,7 +49,8 @@
       "id": "eggs_12",
       "cat": "dairy",
       "name": "ביצים 12 יח XL פיקוח",
-      "barcode": "7290001201572"
+      "barcode": "7290001201572",
+      "mapped": true
     },
     {
       "id": "yogurt",
@@ -59,7 +62,8 @@
       "id": "bread",
       "cat": "grains",
       "name": "לחם אחיד פרוס 750 גרם",
-      "barcode": "7290000574035"
+      "barcode": "7290000574035",
+      "mapped": true
     },
     {
       "id": "rice",
@@ -71,7 +75,8 @@
       "id": "spaghetti",
       "cat": "grains",
       "name": "ספגטי אסם 500 גרם",
-      "barcode": "7290000060880"
+      "barcode": "7290000060880",
+      "mapped": true
     },
     {
       "id": "couscous",
@@ -131,19 +136,22 @@
       "id": "schnitzel",
       "cat": "meat",
       "name": "שניצל תירס טבעול 750 גרם",
-      "barcode": "7290000300900"
+      "barcode": "7290000300900",
+      "mapped": true
     },
     {
       "id": "hot_dogs",
       "cat": "meat",
       "name": "נקניקיות 500 גרם",
-      "barcode": "7290000530598"
+      "barcode": "7290000530598",
+      "mapped": true
     },
     {
       "id": "sugar",
       "cat": "pantry",
       "name": "סוכר 1 קג",
-      "barcode": "7290003643370"
+      "barcode": "7290003643370",
+      "mapped": true
     },
     {
       "id": "salt",
@@ -155,25 +163,28 @@
       "id": "tahini",
       "cat": "pantry",
       "name": "טחינה גולמית 500 גרם",
-      "barcode": "7290017275338"
+      "barcode": "7290017275338",
+      "mapped": true
     },
     {
       "id": "hummus",
       "cat": "pantry",
       "name": "חומוס 400 גרם",
-      "barcode": "7290014435360"
+      "barcode": "7290014435360",
+      "mapped": true
     },
     {
       "id": "chocolate_spread",
       "cat": "pantry",
       "name": "ממרח שוקולד השחר",
-      "barcode": "7290000416045"
+      "barcode": "7290000416045",
+      "mapped": true
     },
     {
       "id": "coca_cola",
       "cat": "beverages",
       "name": "קוקה קולה 1.5 ליטר",
-      "barcode": "7290110115845"
+      "barcode": "7290110115203"
     },
     {
       "id": "water",
@@ -191,13 +202,15 @@
       "id": "coffee_turkish",
       "cat": "beverages",
       "name": "קפה טורקי עלית 200 גרם",
-      "barcode": "7290005201882"
+      "barcode": "7290005201882",
+      "mapped": true
     },
     {
       "id": "tea",
       "cat": "beverages",
       "name": "תה ויסוצקי 25 שקיקים",
-      "barcode": "7290000345208"
+      "barcode": "7290000345208",
+      "mapped": true
     },
     {
       "id": "bamba",
@@ -221,19 +234,20 @@
       "id": "cookies",
       "cat": "snacks",
       "name": "עוגיות חמאה מן 300 גרם",
-      "barcode": "7290000311128"
+      "barcode": "7290000311128",
+      "mapped": true
     }
   ],
   "chain_mapping": {
     "tomato": {
-      "shufersal": "7290000000060",
+      "shufersal": "7290000000022",
       "rami_levy": "7290000000100",
       "yohananof": "7290000000725",
       "victory": "2036",
       "osher_ad": "7290009000122",
-      "hazi_hinam": "13008",
+      "hazi_hinam": "7000",
       "tiv_taam": "4412784",
-      "yayno_bitan_and_carrefour": "7290000003103"
+      "yayno_bitan_and_carrefour": "1501"
     },
     "cucumber": {
       "shufersal": "7290000986272",
@@ -246,64 +260,203 @@
       "yayno_bitan_and_carrefour": "7290000002600"
     },
     "onion": {
-      "shufersal": "7290000000329",
+      "shufersal": "7290000000480",
       "rami_levy": "7290000001083",
-      "yohananof": "7290000093321",
-      "victory": "50005",
-      "osher_ad": "7290000000108",
-      "hazi_hinam": "7113",
-      "tiv_taam": "3211876",
+      "yohananof": "620",
+      "victory": "2010",
+      "osher_ad": "7290009000900",
+      "hazi_hinam": "6660",
+      "tiv_taam": "9913019",
       "yayno_bitan_and_carrefour": "7290000002105"
     },
     "potato": {
       "shufersal": "7290000001715",
       "rami_levy": "7290000002111",
-      "yohananof": "7290000000111",
-      "victory": "7290000000306",
+      "yohananof": "785",
+      "victory": "2058",
       "osher_ad": "7290018825617",
       "hazi_hinam": "5610028",
       "tiv_taam": "7290005610127",
-      "yayno_bitan_and_carrefour": "7290000000422"
+      "yayno_bitan_and_carrefour": "1550"
     },
     "carrot": {
       "shufersal": "7290011128005",
       "rami_levy": "7290000001021",
-      "yohananof": "7290000001021",
+      "yohananof": "7290018825006",
       "victory": "7290000654973",
-      "osher_ad": "7290000001021",
+      "osher_ad": "7290009000313",
       "hazi_hinam": "6800",
-      "tiv_taam": "7290000001021",
+      "tiv_taam": "7290018825006",
       "yayno_bitan_and_carrefour": "7290000002210"
     },
     "apple": {
-      "shufersal": "7290000963105",
-      "rami_levy": "7290000000105",
-      "yohananof": "7290000000787",
-      "victory": "7290000000105",
-      "osher_ad": "8034108740539",
-      "hazi_hinam": "7546",
-      "tiv_taam": "7290000000105",
-      "yayno_bitan_and_carrefour": "658"
+      "shufersal": "7290000963082",
+      "rami_levy": "7290000000115",
+      "yohananof": "792",
+      "victory": "2017",
+      "osher_ad": "7290009007022",
+      "hazi_hinam": "14081",
+      "tiv_taam": "4412463",
+      "yayno_bitan_and_carrefour": "1561"
     },
     "frozen_peas": {
       "shufersal": "7290000104201",
       "rami_levy": "7290000104201",
       "yohananof": "7290000104201",
       "victory": "7290000104201",
-      "osher_ad": "7290000104201",
+      "osher_ad": "7290017616506",
       "hazi_hinam": "7290000104201",
       "tiv_taam": "7290000104201",
       "yayno_bitan_and_carrefour": "7290000104201"
     },
     "chicken_breast": {
-      "shufersal": "7290000962016",
-      "rami_levy": "7290010619054",
+      "shufersal": "7290000616827",
+      "rami_levy": "7290002610700",
       "yohananof": "7290000407708",
       "victory": "1003756",
-      "osher_ad": "7290002477464",
+      "osher_ad": "7290002939108",
       "hazi_hinam": "8835862",
       "tiv_taam": "7290100320020",
       "yayno_bitan_and_carrefour": "7290000505471"
+    },
+    "tahini": {
+      "shufersal": "7290000112220",
+      "rami_levy": "7290000112220",
+      "yohananof": "7290000112220",
+      "victory": "7290000112220",
+      "osher_ad": "7290017275338",
+      "hazi_hinam": "7290000112220",
+      "tiv_taam": "7290000112220",
+      "yayno_bitan_and_carrefour": "7290000112220"
+    },
+    "spaghetti": {
+      "shufersal": "8076808150072",
+      "rami_levy": "7290000060316",
+      "yohananof": "7290000060316",
+      "victory": "7290000060316",
+      "osher_ad": "7290000060880",
+      "hazi_hinam": "7290000060316",
+      "tiv_taam": "7290000060316",
+      "yayno_bitan_and_carrefour": "7290000060316"
+    },
+    "eggs_12": {
+      "shufersal": "7290001201572",
+      "rami_levy": "7290001201572",
+      "yohananof": "742259241901",
+      "victory": "7290001201572",
+      "osher_ad": "7290001201572",
+      "hazi_hinam": "7290001201572",
+      "tiv_taam": "7290001201572",
+      "yayno_bitan_and_carrefour": "7290001201572"
+    },
+    "bread": {
+      "shufersal": "7290000574035",
+      "rami_levy": "7290002079477",
+      "yohananof": "7290000574035",
+      "victory": "7290000574035",
+      "osher_ad": "7290000497112",
+      "hazi_hinam": "7290000497112",
+      "tiv_taam": "7290002037163",
+      "yayno_bitan_and_carrefour": "7290000574035"
+    },
+    "hummus": {
+      "shufersal": "7296073725565",
+      "rami_levy": "7290105964564",
+      "yohananof": "7290014435360",
+      "victory": "7290014435360",
+      "osher_ad": "7290104061417",
+      "hazi_hinam": "7290014435360",
+      "tiv_taam": "7290104061417",
+      "yayno_bitan_and_carrefour": "7290014435360"
+    },
+    "tea": {
+      "shufersal": "7290000345260",
+      "rami_levy": "7290000345208",
+      "yohananof": "7290000345260",
+      "victory": "7290000345208",
+      "osher_ad": "7290000345055",
+      "hazi_hinam": "7290000345208",
+      "tiv_taam": "7290000345208",
+      "yayno_bitan_and_carrefour": "7290000345208"
+    },
+    "emek_28": {
+      "shufersal": "7290000056753",
+      "rami_levy": "7290000056753",
+      "yohananof": "7290000056753",
+      "victory": "7290000056753",
+      "hazi_hinam": "7290000056753",
+      "tiv_taam": "7290004122270",
+      "yayno_bitan_and_carrefour": "7290000056753"
+    },
+    "sweet_cream": {
+      "shufersal": "7290114311038",
+      "rami_levy": "7290114311038",
+      "yohananof": "7290114311038",
+      "victory": "7290114311038",
+      "osher_ad": "7290114311038",
+      "hazi_hinam": "7290004125738",
+      "tiv_taam": "7290114311038",
+      "yayno_bitan_and_carrefour": "7290114311038"
+    },
+    "schnitzel": {
+      "shufersal": "7290000300900",
+      "rami_levy": "7290000300900",
+      "yohananof": "7290000300900",
+      "victory": "7290000300900",
+      "osher_ad": "7290000300900",
+      "hazi_hinam": "7290118426479",
+      "tiv_taam": "7290000300900",
+      "yayno_bitan_and_carrefour": "7290000300900"
+    },
+    "hot_dogs": {
+      "shufersal": "7290000530598",
+      "rami_levy": "7290000530598",
+      "yohananof": "7290000530598",
+      "victory": "7290000530598",
+      "osher_ad": "7290000152288",
+      "hazi_hinam": "7290000530598",
+      "tiv_taam": "7290000364872",
+      "yayno_bitan_and_carrefour": "7290000530598"
+    },
+    "sugar": {
+      "shufersal": "7296073383666",
+      "rami_levy": "7290003643370",
+      "yohananof": "7290003643370",
+      "victory": "7290003643370",
+      "osher_ad": "7290003643370",
+      "hazi_hinam": "7290003485222",
+      "tiv_taam": "7290000211503",
+      "yayno_bitan_and_carrefour": "7290003643370"
+    },
+    "chocolate_spread": {
+      "shufersal": "7290000416045",
+      "rami_levy": "7290000416045",
+      "yohananof": "7290000416045",
+      "victory": "7290000416045",
+      "osher_ad": "7290000416632",
+      "hazi_hinam": "7290000416045",
+      "tiv_taam": "7290000416045",
+      "yayno_bitan_and_carrefour": "7290000416045"
+    },
+    "coffee_turkish": {
+      "shufersal": "7290005201882",
+      "rami_levy": "7290005201882",
+      "yohananof": "7290005201882",
+      "victory": "7290005201882",
+      "osher_ad": "7290107953559",
+      "hazi_hinam": "7290005201882",
+      "tiv_taam": "7290005201882",
+      "yayno_bitan_and_carrefour": "7290005201882"
+    },
+    "cookies": {
+      "shufersal": "7290000311128",
+      "rami_levy": "7290000311128",
+      "yohananof": "7290000311128",
+      "victory": "7290000311128",
+      "osher_ad": "7290000311128",
+      "hazi_hinam": "7290000311128",
+      "tiv_taam": "7290014083806",
+      "yayno_bitan_and_carrefour": "7290000311128"
     }
   },
   "chains": [
