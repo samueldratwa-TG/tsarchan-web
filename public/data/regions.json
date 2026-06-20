@@ -183,11 +183,11 @@
       "jerusalem": 27.99
     },
     "coca_cola": {
-      "center": 8.84,
-      "bnei_brak": 8.3,
-      "north": 8.93,
-      "south": 8.93,
-      "jerusalem": 8.88
+      "center": 47.23,
+      "bnei_brak": 45.9,
+      "north": 47.79,
+      "south": 47.8,
+      "jerusalem": 47.73
     },
     "water": {
       "center": 16.27,
@@ -242,7 +242,7 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 96.0,
+    "bnei_brak": 96.2,
     "north": 101.2,
     "south": 101.5,
     "jerusalem": 101.1

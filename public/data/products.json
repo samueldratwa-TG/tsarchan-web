@@ -422,18 +422,18 @@
     },
     {
       "id": "coca_cola",
-      "name": "קוקה קולה 1.5 ליטר",
+      "name": "קוקה קולה 6x1.5 ליטר",
       "category": "beverages",
-      "base_price": 8.59,
+      "base_price": 46.21,
       "chains": {
-        "shufersal": 9.9,
-        "rami_levy": 6.9,
-        "yohananof": 8.3,
-        "victory": 8.2,
-        "yayno_bitan_and_carrefour": 9.5
+        "shufersal": 46.9,
+        "rami_levy": 45.9,
+        "yohananof": 45.9,
+        "victory": 46.9,
+        "yayno_bitan_and_carrefour": 48.9
       },
-      "avg_price": 8.52,
-      "change_pct": -0.8
+      "avg_price": 46.89,
+      "change_pct": 1.5
     },
     {
       "id": "water",

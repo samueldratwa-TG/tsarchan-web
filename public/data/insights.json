@@ -120,6 +120,13 @@
       "current": 18.28
     },
     {
+      "id": "coca_cola",
+      "name": "קוקה קולה 6x1.5 ליטר",
+      "change_pct": 1.5,
+      "base": 46.21,
+      "current": 46.9
+    },
+    {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
       "change_pct": 0.7,
@@ -246,13 +253,6 @@
       "change_pct": -0.3,
       "base": 15.06,
       "current": 15.01
-    },
-    {
-      "id": "coca_cola",
-      "name": "קוקה קולה 1.5 ליטר",
-      "change_pct": -0.3,
-      "base": 8.59,
-      "current": 8.56
     },
     {
       "id": "coffee_tasters",
@@ -426,15 +426,6 @@
       "expensive_price": 4.1
     },
     {
-      "id": "coca_cola",
-      "name": "קוקה קולה 1.5 ליטר",
-      "gap_pct": 43.5,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 6.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 9.9
-    },
-    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "gap_pct": 34.2,
@@ -577,6 +568,15 @@
       "cheapest_price": 5.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 6.3
+    },
+    {
+      "id": "coca_cola",
+      "name": "קוקה קולה 6x1.5 ליטר",
+      "gap_pct": 6.5,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 45.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 48.9
     },
     {
       "id": "milk_tnuva_3",
