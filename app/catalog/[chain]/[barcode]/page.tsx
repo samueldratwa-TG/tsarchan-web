@@ -17,7 +17,7 @@ const CHAINS = Object.keys(CHAIN_NAMES);
 
 interface Entry {
   name: string;
-  stats: { median: number; mean: number; min: number; max: number; stores: number; chg: number | null };
+  stats: { median: number; mean: number; min: number; max: number; stores: number; chg: number | null; chain_stores?: number };
   stores: Store[];
 }
 
@@ -114,13 +114,19 @@ export default async function StoreDetailPage({
           <StatCard label="חציון" value={`₪${st.median?.toFixed(2)}`} />
           <StatCard label="ממוצע" value={`₪${st.mean?.toFixed(2)}`} />
           <StatCard label="טווח" value={`${st.min?.toFixed(2)}–${st.max?.toFixed(2)}`} ltr />
-          <StatCard label="סניפים" value={`${st.stores}`} />
+          <StatCard label="סניפים" value={st.chain_stores ? `${st.stores} / ${st.chain_stores}` : `${st.stores}`} ltr />
           <StatCard
             label="שינוי שבועי"
             value={st.chg != null && st.chg !== 0 ? `${st.chg > 0 ? "+" : ""}${st.chg}%` : "—"}
             color={st.chg && st.chg > 0 ? "text-red-600" : st.chg && st.chg < 0 ? "text-green-600" : undefined}
           />
         </div>
+
+        {st.chain_stores && st.stores < st.chain_stores ? (
+          <p className="text-sm text-gray-500 -mt-3 mb-5">
+            {`המוצר מתפרסם ב-${st.stores} מתוך ${st.chain_stores} סניפי הרשת — לא כל סניף מוכר (או מפרסם) כל מק"ט.`}
+          </p>
+        ) : null}
 
         <div className="bg-white rounded-xl shadow p-5">
           <StoreTable stores={entry.stores} regionNames={REGION_NAMES} />
