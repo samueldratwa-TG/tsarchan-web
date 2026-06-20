@@ -3,16 +3,16 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 35.6,
+      "change_pct": 26.6,
       "base": 5.55,
-      "current": 7.52
+      "current": 7.02
     },
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 16.9,
+      "change_pct": 21.2,
       "base": 5.9,
-      "current": 6.9
+      "current": 7.15
     },
     {
       "id": "carrot",
@@ -22,25 +22,25 @@
       "current": 4.27
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 12.6,
-      "base": 4.02,
-      "current": 4.52
-    },
-    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
-      "change_pct": 9.6,
+      "change_pct": 11.2,
       "base": 7.72,
-      "current": 8.46
+      "current": 8.59
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 10.7,
+      "base": 4.02,
+      "current": 4.45
     },
     {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 9.4,
+      "change_pct": 8.1,
       "base": 4.08,
-      "current": 4.46
+      "current": 4.41
     },
     {
       "id": "hot_dogs",
@@ -73,9 +73,9 @@
     {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 5.0,
+      "change_pct": 4.4,
       "base": 8.45,
-      "current": 8.87
+      "current": 8.82
     },
     {
       "id": "salt",
@@ -90,6 +90,13 @@
       "change_pct": 4.2,
       "base": 8.9,
       "current": 9.28
+    },
+    {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "change_pct": 3.8,
+      "base": 7.59,
+      "current": 7.88
     },
     {
       "id": "frozen_peas",
@@ -118,13 +125,6 @@
       "change_pct": 0.7,
       "base": 19.37,
       "current": 19.51
-    },
-    {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "change_pct": 0.5,
-      "base": 7.59,
-      "current": 7.62
     },
     {
       "id": "gevina_levana_5",
@@ -199,6 +199,13 @@
       "current": 4.68
     },
     {
+      "id": "schnitzel",
+      "name": "שניצל תירס טבעול 750 גרם",
+      "change_pct": -2.4,
+      "base": 32.63,
+      "current": 31.85
+    },
+    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": -2.0,
@@ -213,18 +220,18 @@
       "current": 42.15
     },
     {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "change_pct": -1.8,
+      "base": 5.08,
+      "current": 4.99
+    },
+    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": -1.6,
       "base": 16.9,
       "current": 16.64
-    },
-    {
-      "id": "schnitzel",
-      "name": "שניצל תירס טבעול 750 גרם",
-      "change_pct": -0.9,
-      "base": 32.63,
-      "current": 32.35
     },
     {
       "id": "cottage_5",
@@ -239,13 +246,6 @@
       "change_pct": -0.3,
       "base": 15.06,
       "current": 15.01
-    },
-    {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "change_pct": -0.3,
-      "base": 5.08,
-      "current": 5.06
     },
     {
       "id": "coca_cola",
@@ -280,15 +280,6 @@
       "cheapest_price": 8.9,
       "expensive_chain": "shufersal",
       "expensive_price": 22.9
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 153.8,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 3.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.9
     },
     {
       "id": "frozen_peas",
@@ -327,19 +318,28 @@
       "expensive_price": 9.9
     },
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 102.0,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 9.9
+    },
+    {
       "id": "spaghetti",
       "name": "ספגטי אסם 500 גרם",
-      "gap_pct": 89.8,
+      "gap_pct": 91.8,
       "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.3
+      "expensive_chain": "rami_levy",
+      "expensive_price": 9.4
     },
     {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "gap_pct": 87.0,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "hazi_hinam",
       "cheapest_price": 6.9,
       "expensive_chain": "osher_ad",
       "expensive_price": 12.9
@@ -438,7 +438,7 @@
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "gap_pct": 34.2,
-      "cheapest_chain": "osher_ad",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 3.8,
       "expensive_chain": "tiv_taam",
       "expensive_price": 5.1
@@ -494,7 +494,7 @@
       "gap_pct": 19.6,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 4.6,
-      "expensive_chain": "yohananof",
+      "expensive_chain": "victory",
       "expensive_price": 5.5
     },
     {
@@ -519,7 +519,7 @@
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
       "gap_pct": 15.4,
-      "cheapest_chain": "osher_ad",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 29.9,
       "expensive_chain": "rami_levy",
       "expensive_price": 34.5
