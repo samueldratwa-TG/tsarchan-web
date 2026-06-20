@@ -48,6 +48,14 @@ async function loadUpdated(): Promise<string> {
   return _updated!;
 }
 
+function decodeBc(barcode: string): string | null {
+  try {
+    return decodeURIComponent(barcode);
+  } catch {
+    return null; // malformed %-sequence (e.g. a scanner hitting a bad URL) -> treat as not found
+  }
+}
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -65,8 +73,9 @@ export async function generateMetadata({
   params: Promise<{ chain: string; barcode: string }>;
 }): Promise<Metadata> {
   const { chain, barcode } = await params;
+  const bc = decodeBc(barcode);
   const data = await loadChain(chain);
-  const entry = data[decodeURIComponent(barcode)];
+  const entry = bc ? data[bc] : undefined;
   const chainHe = CHAIN_NAMES[chain] || chain;
   if (!entry) return { title: "מוצר לא נמצא | מדד על מחירי מזון" };
   return { title: `${entry.name} ב${chainHe} — מחירים לפי סניף | מדד על מחירי מזון` };
@@ -78,8 +87,9 @@ export default async function StoreDetailPage({
   params: Promise<{ chain: string; barcode: string }>;
 }) {
   const { chain, barcode } = await params;
+  const bc = decodeBc(barcode);
   const data = await loadChain(chain);
-  const entry = data[decodeURIComponent(barcode)];
+  const entry = bc ? data[bc] : undefined;
   if (!entry) notFound();
 
   const chainHe = CHAIN_NAMES[chain] || chain;
@@ -107,7 +117,7 @@ export default async function StoreDetailPage({
           <StatCard label="סניפים" value={`${st.stores}`} />
           <StatCard
             label="שינוי שבועי"
-            value={st.chg != null ? `${st.chg > 0 ? "+" : ""}${st.chg}%` : "—"}
+            value={st.chg != null && st.chg !== 0 ? `${st.chg > 0 ? "+" : ""}${st.chg}%` : "—"}
             color={st.chg && st.chg > 0 ? "text-red-600" : st.chg && st.chg < 0 ? "text-green-600" : undefined}
           />
         </div>

@@ -39,7 +39,7 @@ function rowMinMedian(r: Row): number {
   return vals.length ? Math.min(...vals) : Infinity;
 }
 
-type TipState = { cell: Cell; chain: string; chainHe: string; name: string; x: number; y: number } | null;
+type TipState = { cell: Cell; chain: string; chainHe: string; name: string; x: number; y: number; below: boolean } | null;
 
 export function CatalogTable({ catalog }: { catalog: Catalog }) {
   const { chains, chain_names, categories } = catalog;
@@ -64,7 +64,9 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
 
   function enter(e: React.MouseEvent, cell: Cell, chain: string, name: string) {
     const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    setTip({ cell, chain, chainHe: chain_names[chain] || chain, name, x: r.left + r.width / 2, y: r.top });
+    const below = r.top < 130; // flip under the cell when too close to the top (sticky header)
+    const x = Math.max(110, Math.min(window.innerWidth - 110, r.left + r.width / 2)); // keep on-screen
+    setTip({ cell, chain, chainHe: chain_names[chain] || chain, name, x, y: below ? r.bottom : r.top, below });
   }
 
   const colCount = chains.length + 2;
@@ -142,7 +144,7 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
       {tip && (
         <div
           className="bg-gray-900 text-white rounded-lg px-3 py-2 text-[12.5px] leading-relaxed shadow-xl"
-          style={{ position: "fixed", left: tip.x, top: tip.y - 10, transform: "translate(-50%,-100%)", width: 210, zIndex: 50, pointerEvents: "none" }}
+          style={{ position: "fixed", left: tip.x, top: tip.below ? tip.y + 10 : tip.y - 10, transform: tip.below ? "translate(-50%,0)" : "translate(-50%,-100%)", width: 210, zIndex: 50, pointerEvents: "none" }}
         >
           <div className="font-bold mb-1">{tip.chainHe} · {tip.name}</div>
           <Stat k="חציון" v={`₪${tip.cell.median.toFixed(2)}`} />
