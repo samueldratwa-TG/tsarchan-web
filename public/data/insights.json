@@ -43,13 +43,6 @@
       "current": 4.41
     },
     {
-      "id": "hot_dogs",
-      "name": "נקניקיות 500 גרם",
-      "change_pct": 7.7,
-      "base": 16.13,
-      "current": 17.38
-    },
-    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 5.8,
@@ -99,11 +92,11 @@
       "current": 7.88
     },
     {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "change_pct": 3.0,
-      "base": 17.01,
-      "current": 17.53
+      "id": "hot_dogs",
+      "name": "נקניקיות 500 גרם",
+      "change_pct": 3.8,
+      "base": 17.83,
+      "current": 18.5
     },
     {
       "id": "bisli",
@@ -118,6 +111,13 @@
       "change_pct": 2.0,
       "base": 7.97,
       "current": 8.13
+    },
+    {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "change_pct": 1.6,
+      "base": 17.98,
+      "current": 18.28
     },
     {
       "id": "emek_28",
@@ -273,24 +273,6 @@
       "expensive_price": 12.9
     },
     {
-      "id": "hot_dogs",
-      "name": "נקניקיות 500 גרם",
-      "gap_pct": 157.3,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 8.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 22.9
-    },
-    {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "gap_pct": 131.3,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 9.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 22.9
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 103.4,
@@ -363,6 +345,15 @@
       "expensive_price": 17.9
     },
     {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "gap_pct": 63.6,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 14.0,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 22.9
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -415,6 +406,15 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 11.8
+    },
+    {
+      "id": "hot_dogs",
+      "name": "נקניקיות 500 גרם",
+      "gap_pct": 47.7,
+      "cheapest_chain": "tiv_taam",
+      "cheapest_price": 15.5,
+      "expensive_chain": "shufersal",
+      "expensive_price": 22.9
     },
     {
       "id": "sour_cream",

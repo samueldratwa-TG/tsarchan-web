@@ -289,7 +289,7 @@
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "category": "produce",
-      "base_price": 17.01,
+      "base_price": 17.98,
       "chains": {
         "shufersal": 14.0,
         "rami_levy": 18.8,
@@ -297,8 +297,8 @@
         "victory": 18.9,
         "yayno_bitan_and_carrefour": 22.9
       },
-      "avg_price": 17.06,
-      "change_pct": 0.3
+      "avg_price": 18.11,
+      "change_pct": 0.7
     },
     {
       "id": "chicken_breast",
@@ -334,7 +334,7 @@
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
       "category": "meat",
-      "base_price": 16.13,
+      "base_price": 17.83,
       "chains": {
         "shufersal": 22.9,
         "rami_levy": 16.9,
@@ -342,8 +342,8 @@
         "victory": 19.9,
         "yayno_bitan_and_carrefour": 21.9
       },
-      "avg_price": 16.79,
-      "change_pct": 4.1
+      "avg_price": 18.33,
+      "change_pct": 2.8
     },
     {
       "id": "sugar",
