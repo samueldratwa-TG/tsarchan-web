@@ -132,6 +132,17 @@ export default async function Home() {
           />
         </div>
 
+        {/* Catalog Teaser */}
+        <Link href="/catalog" className="block mb-8">
+          <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all border-r-4 border-blue-500">
+            <h2 className="text-lg font-semibold mb-2">קטלוג המוצרים המלא</h2>
+            <p className="text-gray-500 text-sm">
+              כל המוצרים שאנו מתעדים בכל אחת מ&minus;8 הרשתות &mdash; מחיר חציוני, פערים בין הרשתות ושינוי שבועי, עם פירוט מחיר בכל סניף.
+              {" "}<span className="text-blue-600">לקטלוג המלא &larr;</span>
+            </p>
+          </div>
+        </Link>
+
         {/* Insights Teaser */}
         <Link href="/insights" className="block mb-8">
           <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all border-r-4 border-amber-400">
