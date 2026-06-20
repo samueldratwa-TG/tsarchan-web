@@ -157,18 +157,18 @@
       "current": 15.13
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -4.6,
-      "base": 6.3,
-      "current": 6.01
-    },
-    {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
       "change_pct": -4.5,
       "base": 12.56,
       "current": 12.0
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -4.4,
+      "base": 6.42,
+      "current": 6.14
     },
     {
       "id": "cookies",
