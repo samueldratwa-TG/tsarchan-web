@@ -83,12 +83,12 @@
       "chains": {
         "shufersal": 8.6,
         "rami_levy": 8.2,
-        "yohananof": 8.5,
+        "yohananof": 8.9,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.8
       },
-      "avg_price": 8.67,
-      "change_pct": 2.6
+      "avg_price": 8.72,
+      "change_pct": 3.2
     },
     {
       "id": "sour_cream",
@@ -115,10 +115,10 @@
         "rami_levy": 15.4,
         "yohananof": 14.24,
         "victory": 15.48,
-        "yayno_bitan_and_carrefour": 13.12
+        "yayno_bitan_and_carrefour": 15.48
       },
-      "avg_price": 14.99,
-      "change_pct": -0.5
+      "avg_price": 15.3,
+      "change_pct": 1.6
     },
     {
       "id": "yogurt",
@@ -173,12 +173,12 @@
       "chains": {
         "shufersal": 9.9,
         "rami_levy": 9.4,
-        "yohananof": 6.9,
+        "yohananof": 7.6,
         "victory": 7.4,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.8,
-      "change_pct": 2.8
+      "avg_price": 8.05,
+      "change_pct": 6.1
     },
     {
       "id": "couscous",
@@ -202,13 +202,13 @@
       "base_price": 5.9,
       "chains": {
         "shufersal": 9.9,
-        "rami_levy": 5.9,
+        "rami_levy": 4.9,
         "yohananof": 4.9,
-        "victory": 8.9,
+        "victory": 5.9,
         "yayno_bitan_and_carrefour": 6.9
       },
-      "avg_price": 6.73,
-      "change_pct": 14.1
+      "avg_price": 6.25,
+      "change_pct": 5.9
     },
     {
       "id": "cucumber",
@@ -217,13 +217,13 @@
       "base_price": 5.55,
       "chains": {
         "shufersal": 5.9,
-        "rami_levy": 5.9,
+        "rami_levy": 4.9,
         "yohananof": 3.9,
         "victory": 8.9,
-        "yayno_bitan_and_carrefour": 10.9
+        "yayno_bitan_and_carrefour": 6.9
       },
-      "avg_price": 7.02,
-      "change_pct": 26.5
+      "avg_price": 6.48,
+      "change_pct": 16.8
     },
     {
       "id": "onion",
@@ -232,13 +232,13 @@
       "base_price": 4.02,
       "chains": {
         "shufersal": 3.9,
-        "rami_levy": 3.9,
-        "yohananof": 2.9,
+        "rami_levy": 3.3,
+        "yohananof": 3.9,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 4.15,
-      "change_pct": 3.2
+      "avg_price": 4.22,
+      "change_pct": 5.0
     },
     {
       "id": "potato",
@@ -248,12 +248,12 @@
       "chains": {
         "shufersal": 4.9,
         "rami_levy": 5.0,
-        "yohananof": 2.9,
+        "yohananof": 3.9,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 5.4,
-      "change_pct": -15.9
+      "avg_price": 5.7,
+      "change_pct": -11.2
     },
     {
       "id": "carrot",
@@ -277,13 +277,13 @@
       "base_price": 12.52,
       "chains": {
         "shufersal": 13.9,
-        "rami_levy": 11.9,
-        "yohananof": 9.9,
+        "rami_levy": 12.9,
+        "yohananof": 10.9,
         "victory": 9.9,
         "yayno_bitan_and_carrefour": 11.9
       },
-      "avg_price": 11.91,
-      "change_pct": -4.9
+      "avg_price": 11.96,
+      "change_pct": -4.5
     },
     {
       "id": "frozen_peas",
@@ -323,12 +323,12 @@
       "chains": {
         "shufersal": 33.9,
         "rami_levy": 34.5,
-        "yohananof": 29.9,
+        "yohananof": 33.9,
         "victory": 30.9,
         "yayno_bitan_and_carrefour": 32.9
       },
-      "avg_price": 32.18,
-      "change_pct": -1.4
+      "avg_price": 32.69,
+      "change_pct": 0.2
     },
     {
       "id": "hot_dogs",
@@ -353,12 +353,12 @@
       "chains": {
         "shufersal": 4.9,
         "rami_levy": 4.6,
-        "yohananof": 4.9,
+        "yohananof": 5.5,
         "victory": 5.5,
         "yayno_bitan_and_carrefour": 4.6
       },
-      "avg_price": 4.98,
-      "change_pct": -2.0
+      "avg_price": 5.05,
+      "change_pct": -0.6
     },
     {
       "id": "salt",
@@ -415,10 +415,10 @@
         "rami_levy": 28.5,
         "yohananof": 27.9,
         "victory": 28.9,
-        "yayno_bitan_and_carrefour": 30.9
+        "yayno_bitan_and_carrefour": 28.5
       },
-      "avg_price": 28.26,
-      "change_pct": 0.0
+      "avg_price": 27.97,
+      "change_pct": -1.0
     },
     {
       "id": "coca_cola",
@@ -439,7 +439,7 @@
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "category": "beverages",
-      "base_price": 16.9,
+      "base_price": 16.8,
       "chains": {
         "shufersal": 15.9,
         "rami_levy": 16.8,
@@ -448,7 +448,7 @@
         "yayno_bitan_and_carrefour": 16.7
       },
       "avg_price": 16.63,
-      "change_pct": -1.6
+      "change_pct": -1.0
     },
     {
       "id": "coffee_tasters",
@@ -505,10 +505,10 @@
         "rami_levy": 4.4,
         "yohananof": 3.9,
         "victory": 4.9,
-        "yayno_bitan_and_carrefour": 4.9
+        "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 4.73,
-      "change_pct": -1.5
+      "avg_price": 4.84,
+      "change_pct": 0.8
     },
     {
       "id": "bisli",
@@ -518,12 +518,12 @@
       "chains": {
         "shufersal": 4.9,
         "rami_levy": 5.2,
-        "yohananof": 4.3,
+        "yohananof": 4.9,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.6
       },
-      "avg_price": 4.9,
-      "change_pct": 1.2
+      "avg_price": 4.98,
+      "change_pct": 2.9
     },
     {
       "id": "para_chocolate",
