@@ -177,8 +177,8 @@
         "victory": 7.4,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.95,
-      "change_pct": 4.7
+      "avg_price": 7.8,
+      "change_pct": 2.8
     },
     {
       "id": "couscous",
@@ -201,14 +201,14 @@
       "category": "produce",
       "base_price": 5.9,
       "chains": {
-        "shufersal": 6.9,
+        "shufersal": 4.9,
         "rami_levy": 5.9,
         "yohananof": 4.9,
         "victory": 6.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 5.67,
-      "change_pct": -3.9
+      "avg_price": 5.61,
+      "change_pct": -4.9
     },
     {
       "id": "cucumber",
@@ -217,13 +217,13 @@
       "base_price": 5.55,
       "chains": {
         "shufersal": 4.9,
-        "rami_levy": 2.9,
+        "rami_levy": 7.9,
         "yohananof": 3.9,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 7.9
       },
-      "avg_price": 6.03,
-      "change_pct": 8.6
+      "avg_price": 6.25,
+      "change_pct": 12.6
     },
     {
       "id": "onion",
@@ -232,13 +232,13 @@
       "base_price": 4.02,
       "chains": {
         "shufersal": 3.9,
-        "rami_levy": 2.3,
+        "rami_levy": 4.9,
         "yohananof": 3.9,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 3.94,
-      "change_pct": -2.0
+      "avg_price": 4.6,
+      "change_pct": 14.4
     },
     {
       "id": "potato",
@@ -252,8 +252,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 5.6,
-      "change_pct": -12.8
+      "avg_price": 5.7,
+      "change_pct": -11.2
     },
     {
       "id": "carrot",
@@ -262,13 +262,13 @@
       "base_price": 3.71,
       "chains": {
         "shufersal": 2.9,
-        "rami_levy": 1.9,
+        "rami_levy": 2.9,
         "yohananof": 2.9,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 3.56,
-      "change_pct": -4.0
+      "avg_price": 3.84,
+      "change_pct": 3.5
     },
     {
       "id": "apple",
@@ -277,13 +277,13 @@
       "base_price": 12.52,
       "chains": {
         "shufersal": 13.9,
-        "rami_levy": 11.8,
-        "yohananof": 10.9,
+        "rami_levy": 10.9,
+        "yohananof": 9.9,
         "victory": 9.9,
         "yayno_bitan_and_carrefour": 11.9
       },
-      "avg_price": 12.04,
-      "change_pct": -3.8
+      "avg_price": 11.78,
+      "change_pct": -5.9
     },
     {
       "id": "frozen_peas",
@@ -337,13 +337,13 @@
       "base_price": 17.83,
       "chains": {
         "shufersal": 22.9,
-        "rami_levy": 16.9,
+        "rami_levy": 19.2,
         "yohananof": 15.9,
         "victory": 19.9,
         "yayno_bitan_and_carrefour": 21.9
       },
-      "avg_price": 18.33,
-      "change_pct": 2.8
+      "avg_price": 18.62,
+      "change_pct": 4.4
     },
     {
       "id": "sugar",
@@ -353,12 +353,12 @@
       "chains": {
         "shufersal": 4.9,
         "rami_levy": 4.9,
-        "yohananof": 5.5,
+        "yohananof": 4.9,
         "victory": 5.5,
         "yayno_bitan_and_carrefour": 4.6
       },
-      "avg_price": 5.09,
-      "change_pct": 0.2
+      "avg_price": 5.02,
+      "change_pct": -1.2
     },
     {
       "id": "salt",
@@ -400,10 +400,10 @@
         "rami_levy": 10.5,
         "yohananof": 10.9,
         "victory": 15.9,
-        "yayno_bitan_and_carrefour": 11.9
+        "yayno_bitan_and_carrefour": 10.9
       },
-      "avg_price": 11.63,
-      "change_pct": -0.7
+      "avg_price": 11.5,
+      "change_pct": -1.8
     },
     {
       "id": "chocolate_spread",
