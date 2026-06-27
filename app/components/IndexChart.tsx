@@ -51,19 +51,23 @@ function fmtDay(v: string): string {
 }
 
 // Custom tooltip: shows only the two real series (ignores the cbs_pub marker
-// helper, so it never adds a duplicate row).
+// helper, so it never adds a duplicate row). When `norm` is set the values are
+// rebased to 100 at the period start, so show them as a signed % change.
 function ChartTooltip(props: {
   active?: boolean;
   label?: string | number;
+  norm?: boolean;
   payload?: { dataKey?: string | number; value?: number }[];
 }) {
-  const { active, payload, label } = props;
+  const { active, payload, label, norm } = props;
   if (!active || !payload || payload.length === 0) return null;
   const val = (key: string) =>
     payload.find((p) => p.dataKey === key)?.value ?? null;
   const idx = val("index");
   const cbs = val("cbs_cpi");
   const p = String(label).split("-");
+  const fmt = (v: number) =>
+    norm ? `${v - 100 >= 0 ? "+" : ""}${(v - 100).toFixed(2)}%` : Number(v).toFixed(2);
   return (
     <div
       style={{
@@ -78,10 +82,10 @@ function ChartTooltip(props: {
     >
       <div style={{ color: "#6b7280", marginBottom: 4 }}>{`${p[2]}/${p[1]}/${p[0]}`}</div>
       {idx != null && (
-        <div style={{ color: "#2563eb" }}>מדד מזון: {Number(idx).toFixed(2)}</div>
+        <div style={{ color: "#2563eb" }}>מדד מזון: {fmt(Number(idx))}</div>
       )}
       {cbs != null && (
-        <div style={{ color: "#f97316" }}>מדד למ&quot;ס: {Number(cbs).toFixed(2)}</div>
+        <div style={{ color: "#f97316" }}>מדד למ&quot;ס: {fmt(Number(cbs))}</div>
       )}
     </div>
   );
@@ -92,6 +96,11 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
   const [zoom, setZoom] = useState(1);
   // The right edge (most recent visible index) of the zoom window. null = latest.
   const [endIdx, setEndIdx] = useState<number | null>(null);
+  // Rebase both lines to 100 at the start of the selected period (display-only),
+  // so their relative movement is comparable. Only meaningful for a sub-range
+  // (in "all" both series already start at 100 on the base date).
+  const [rebased, setRebased] = useState(false);
+  const norm = rebased && rangeKey !== "all";
   const plotRef = useRef<HTMLDivElement>(null);
 
   // 1) Filter to the selected time range, then tag publication days.
@@ -121,10 +130,40 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
   const end = Math.min(endIdx ?? n - 1, n - 1);
   const start = Math.max(0, end - windowSize + 1);
   const realEnd = Math.min(n - 1, start + windowSize - 1);
-  const visible = useMemo(
-    () => ranged.slice(start, realEnd + 1),
-    [ranged, start, realEnd]
-  );
+
+  // Rebase factors: divide each series by its first valid value in the FULL
+  // selected period (not the zoom sub-window) so the baseline stays stable while
+  // panning. cbs can be absent in recent ranges → its factor is then null.
+  const base = useMemo(() => {
+    let bi: number | null = null;
+    let bc: number | null = null;
+    for (const r of ranged) {
+      if (bi == null && r.index != null && r.index > 0) bi = r.index;
+      if (bc == null && r.cbs_cpi != null && r.cbs_cpi > 0) bc = r.cbs_cpi;
+      if (bi != null && bc != null) break;
+    }
+    return {
+      fi: bi != null ? 100 / bi : null,
+      fc: bc != null ? 100 / bc : null,
+    };
+  }, [ranged]);
+
+  const visible = useMemo(() => {
+    const slice = ranged.slice(start, realEnd + 1);
+    if (!norm || base.fi == null) return slice;
+    return slice.map((d) => ({
+      ...d,
+      index: d.index != null ? Math.round(d.index * base.fi! * 100) / 100 : d.index,
+      cbs_cpi:
+        d.cbs_cpi != null && base.fc != null
+          ? Math.round(d.cbs_cpi * base.fc * 100) / 100
+          : d.cbs_cpi,
+      cbs_pub:
+        d.cbs_pub != null && base.fc != null
+          ? Math.round(d.cbs_pub * base.fc * 100) / 100
+          : d.cbs_pub,
+    }));
+  }, [ranged, start, realEnd, norm, base]);
   const zoomed = windowSize < n;
 
   // Y axis auto-fits whatever is currently visible (like a stock chart).
@@ -186,20 +225,35 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
     <div>
       {/* Controls */}
       <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
-        <div className="flex flex-wrap gap-1">
-          {RANGES.map((r) => (
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap gap-1">
+            {RANGES.map((r) => (
+              <button
+                key={r.key}
+                onClick={() => pickRange(r.key)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                  rangeKey === r.key
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {r.label}
+              </button>
+            ))}
+          </div>
+          {rangeKey !== "all" && (
             <button
-              key={r.key}
-              onClick={() => pickRange(r.key)}
-              className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
-                rangeKey === r.key
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+              onClick={() => setRebased((v) => !v)}
+              className={`px-2.5 py-1 rounded-md text-xs font-medium border transition-colors ${
+                rebased
+                  ? "bg-blue-600 text-white border-blue-600"
+                  : "bg-white text-blue-600 border-blue-300 hover:bg-blue-50"
               }`}
+              title="הצגת שני הקווים מאותה נקודת פתיחה (100) — להשוואת השינוי היחסי לאורך התקופה"
             >
-              {r.label}
+              {rebased ? "✓ התחלה מאותה נקודה" : "התחלה מאותה נקודה"}
             </button>
-          ))}
+          )}
         </div>
         <div className="flex items-center gap-2" dir="ltr">
           <button
@@ -260,7 +314,7 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
               minTickGap={24}
             />
             <YAxis domain={[yMin, yMax]} tick={{ fontSize: 12 }} allowDecimals={false} />
-            <Tooltip content={<ChartTooltip />} />
+            <Tooltip content={<ChartTooltip norm={norm} />} />
             <ReferenceLine y={100} stroke="#9ca3af" strokeDasharray="5 5" />
             <Line
               type="monotone"
@@ -312,6 +366,12 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
           ימי פרסום המדד הרשמי
         </span>
       </div>
+
+      {norm && (
+        <p className="text-[11px] text-blue-500 mt-1 text-center">
+          תצוגה יחסית: שני הקווים מתחילים מ&minus;100 בתחילת התקופה, כך שניתן להשוות את השינוי באחוזים (לתצוגה בלבד)
+        </p>
+      )}
 
       {zoomed && (
         <p className="text-[11px] text-gray-400 mt-1 text-center">

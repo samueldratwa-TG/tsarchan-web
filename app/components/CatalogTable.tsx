@@ -82,10 +82,12 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
           placeholder="חיפוש מוצר…"
           className="text-sm px-3 py-2 border border-gray-200 rounded-lg w-64 focus:outline-none focus:border-blue-400"
         />
-        <label className="flex items-center gap-2 text-sm text-gray-700 bg-blue-50 border border-blue-200 px-3 py-2 rounded-lg cursor-pointer">
-          <input type="checkbox" checked={comparableOnly} onChange={(e) => setComparableOnly(e.target.checked)} />
-          רק מוצרים בני-השוואה (2+ רשתות)
-        </label>
+        {catalog.counts.single > 0 && (
+          <label className="flex items-center gap-2 text-sm text-gray-700 bg-blue-50 border border-blue-200 px-3 py-2 rounded-lg cursor-pointer">
+            <input type="checkbox" checked={comparableOnly} onChange={(e) => setComparableOnly(e.target.checked)} />
+            רק מוצרים בני-השוואה (2+ רשתות)
+          </label>
+        )}
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value as SortKey)}
@@ -128,7 +130,7 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
             {hero.map((r) => (
               <CatalogRow key={r.key} row={r} chains={chains} categories={categories} onEnter={enter} onLeave={() => setTip(null)} />
             ))}
-            {!comparableOnly && (
+            {!comparableOnly && tail.length > 0 && (
               <>
                 <SectionHeader colCount={colCount} label="מוצרים ברשת אחת" sub={`${catalog.counts.single} מוצרים · ללא השוואה`} />
                 {tail.map((r) => (
