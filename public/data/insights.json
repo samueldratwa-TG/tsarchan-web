@@ -3,9 +3,16 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 31.1,
+      "change_pct": 17.6,
       "base": 5.55,
-      "current": 7.28
+      "current": 6.52
+    },
+    {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "change_pct": 16.9,
+      "base": 3.71,
+      "current": 4.34
     },
     {
       "id": "hot_dogs",
@@ -15,25 +22,11 @@
       "current": 18.25
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 12.6,
-      "base": 4.02,
-      "current": 4.52
-    },
-    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "change_pct": 11.2,
       "base": 7.72,
       "current": 8.59
-    },
-    {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "change_pct": 8.5,
-      "base": 3.71,
-      "current": 4.02
     },
     {
       "id": "yogurt",
@@ -48,6 +41,13 @@
       "change_pct": 7.4,
       "base": 17.01,
       "current": 18.28
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 6.3,
+      "base": 4.02,
+      "current": 4.27
     },
     {
       "id": "sour_cream",
@@ -90,13 +90,6 @@
       "change_pct": 2.7,
       "base": 8.45,
       "current": 8.67
-    },
-    {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "change_pct": 2.6,
-      "base": 4.8,
-      "current": 4.92
     },
     {
       "id": "bisli",
@@ -180,9 +173,16 @@
     {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -8.3,
+      "change_pct": -6.3,
       "base": 6.42,
-      "current": 5.89
+      "current": 6.01
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -5.0,
+      "base": 12.52,
+      "current": 11.9
     },
     {
       "id": "rice",
@@ -190,13 +190,6 @@
       "change_pct": -4.7,
       "base": 12.56,
       "current": 11.98
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -4.0,
-      "base": 12.52,
-      "current": 12.03
     },
     {
       "id": "cookies",
@@ -220,11 +213,11 @@
       "current": 19.28
     },
     {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": -2.2,
-      "base": 16.9,
-      "current": 16.52
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "change_pct": -2.6,
+      "base": 4.8,
+      "current": 4.68
     },
     {
       "id": "chicken_breast",
@@ -239,6 +232,13 @@
       "change_pct": -1.9,
       "base": 10.13,
       "current": 9.94
+    },
+    {
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": -1.5,
+      "base": 16.9,
+      "current": 16.65
     },
     {
       "id": "cottage_5",
@@ -275,20 +275,11 @@
     {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "gap_pct": 206.9,
+      "gap_pct": 128.2,
       "cheapest_chain": "yohananof",
-      "cheapest_price": 2.9,
+      "cheapest_price": 3.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 8.9
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 103.4,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 2.9,
-      "expensive_chain": "rami_levy",
-      "expensive_price": 5.9
     },
     {
       "id": "carrot",
@@ -339,19 +330,19 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 76.9,
-      "cheapest_chain": "shufersal",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 3.9,
       "expensive_chain": "victory",
       "expensive_price": 6.9
     },
     {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "gap_pct": 76.9,
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 69.0,
       "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
+      "cheapest_price": 2.9,
+      "expensive_chain": "victory",
+      "expensive_price": 4.9
     },
     {
       "id": "frozen_peas",
@@ -408,6 +399,15 @@
       "expensive_price": 15.9
     },
     {
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "gap_pct": 51.3,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 5.9
+    },
+    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "gap_pct": 50.6,
@@ -417,15 +417,6 @@
       "expensive_price": 11.9
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "gap_pct": 50.5,
-      "cheapest_chain": "victory",
-      "cheapest_price": 9.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 14.9
-    },
-    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "gap_pct": 46.4,
@@ -433,6 +424,15 @@
       "cheapest_price": 2.8,
       "expensive_chain": "tiv_taam",
       "expensive_price": 4.1
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "gap_pct": 40.4,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 9.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 13.9
     },
     {
       "id": "yogurt",
@@ -489,15 +489,6 @@
       "expensive_price": 5.6
     },
     {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "gap_pct": 20.1,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 14.9,
-      "expensive_chain": "victory",
-      "expensive_price": 17.9
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "gap_pct": 16.1,
@@ -514,6 +505,15 @@
       "cheapest_price": 29.9,
       "expensive_chain": "shufersal",
       "expensive_price": 33.9
+    },
+    {
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "gap_pct": 12.6,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 15.9,
+      "expensive_chain": "victory",
+      "expensive_price": 17.9
     },
     {
       "id": "coffee_tasters",
