@@ -1,18 +1,25 @@
 {
   "biggest_increase": [
     {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 15.7,
+      "base": 4.02,
+      "current": 4.65
+    },
+    {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 17.6,
+      "change_pct": 15.3,
       "base": 5.55,
-      "current": 6.52
+      "current": 6.4
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 13.2,
+      "change_pct": 15.2,
       "base": 3.71,
-      "current": 4.2
+      "current": 4.27
     },
     {
       "id": "hot_dogs",
@@ -27,13 +34,6 @@
       "change_pct": 11.2,
       "base": 7.72,
       "current": 8.59
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 10.4,
-      "base": 4.02,
-      "current": 4.44
     },
     {
       "id": "yogurt",
@@ -64,13 +64,6 @@
       "current": 7.3
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 4.4,
-      "base": 8.45,
-      "current": 8.82
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 4.3,
@@ -83,6 +76,13 @@
       "change_pct": 4.2,
       "base": 8.9,
       "current": 9.28
+    },
+    {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": 2.7,
+      "base": 8.45,
+      "current": 8.67
     },
     {
       "id": "spaghetti",
@@ -99,6 +99,13 @@
       "current": 4.95
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "change_pct": 2.2,
+      "base": 19.37,
+      "current": 19.8
+    },
+    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.0,
@@ -113,25 +120,18 @@
       "current": 15.31
     },
     {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "change_pct": 1.6,
+      "base": 5.08,
+      "current": 5.16
+    },
+    {
       "id": "coca_cola",
       "name": "קוקה קולה 6x1.5 ליטר",
       "change_pct": 1.5,
       "base": 46.21,
       "current": 46.9
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": 0.7,
-      "base": 19.37,
-      "current": 19.51
-    },
-    {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "change_pct": 0.6,
-      "base": 5.08,
-      "current": 5.11
     },
     {
       "id": "cottage_5",
@@ -166,9 +166,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": -27.5,
+      "change_pct": -14.8,
       "base": 5.9,
-      "current": 4.27
+      "current": 5.02
     },
     {
       "id": "tahini",
@@ -185,13 +185,6 @@
       "current": 6.01
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -6.0,
-      "base": 12.52,
-      "current": 11.78
-    },
-    {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
       "change_pct": -4.7,
@@ -204,6 +197,13 @@
       "change_pct": -4.4,
       "base": 10.07,
       "current": 9.62
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -4.1,
+      "base": 12.52,
+      "current": 12.01
     },
     {
       "id": "schnitzel",
@@ -273,31 +273,22 @@
       "expensive_price": 12.9
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 263.2,
-      "cheapest_chain": "tiv_taam",
-      "cheapest_price": 1.9,
-      "expensive_chain": "victory",
-      "expensive_price": 6.9
-    },
-    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "gap_pct": 128.2,
+      "gap_pct": 206.9,
       "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "tiv_taam",
+      "cheapest_price": 2.9,
+      "expensive_chain": "hazi_hinam",
       "expensive_price": 8.9
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 103.4,
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 172.4,
       "cheapest_chain": "shufersal",
       "cheapest_price": 2.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 5.9
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 7.9
     },
     {
       "id": "carrot",
@@ -305,7 +296,7 @@
       "gap_pct": 103.4,
       "cheapest_chain": "shufersal",
       "cheapest_price": 2.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_chain": "tiv_taam",
       "expensive_price": 5.9
     },
     {
@@ -399,6 +390,15 @@
       "expensive_price": 15.9
     },
     {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 51.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 3.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 5.9
+    },
+    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "gap_pct": 51.3,
@@ -420,7 +420,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 50.5,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 9.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 14.9
@@ -480,15 +480,6 @@
       "expensive_price": 9.7
     },
     {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "gap_pct": 21.7,
-      "cheapest_chain": "yayno_bitan_and_carrefour",
-      "cheapest_price": 4.6,
-      "expensive_chain": "rami_levy",
-      "expensive_price": 5.6
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "gap_pct": 16.1,
@@ -496,6 +487,15 @@
       "cheapest_price": 1.8,
       "expensive_chain": "shufersal",
       "expensive_price": 2.09
+    },
+    {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "gap_pct": 14.3,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 4.9,
+      "expensive_chain": "rami_levy",
+      "expensive_price": 5.6
     },
     {
       "id": "schnitzel",
