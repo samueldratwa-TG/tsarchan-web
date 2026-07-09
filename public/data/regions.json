@@ -8,25 +8,25 @@
   },
   "products": {
     "milk_tnuva_3": {
-      "center": 7.15,
+      "center": 7.14,
       "north": 7.2,
       "south": 7.2,
       "jerusalem": 7.2
     },
     "cottage_5": {
       "center": 6.28,
-      "north": 6.33,
+      "north": 6.3,
       "south": 6.3,
       "jerusalem": 6.3
     },
     "gevina_levana_5": {
-      "center": 5.75,
+      "center": 5.74,
       "north": 5.8,
       "south": 5.8,
       "jerusalem": 5.8
     },
     "emek_28": {
-      "center": 20.18,
+      "center": 20.34,
       "north": 20.9,
       "south": 20.9,
       "jerusalem": 20.9
@@ -48,7 +48,7 @@
     },
     "eggs_12": {},
     "yogurt": {
-      "center": 4.13,
+      "center": 4.12,
       "north": 4.2,
       "south": 4.2,
       "jerusalem": 4.2
@@ -59,69 +59,69 @@
       "south": 8.2
     },
     "rice": {
-      "center": 11.8,
+      "center": 11.79,
       "north": 11.9,
       "south": 11.9,
       "jerusalem": 11.9
     },
     "spaghetti": {
-      "center": 6.14,
-      "jerusalem": 8.9
+      "center": 6.14
     },
     "couscous": {
-      "center": 7.58,
+      "center": 7.56,
       "north": 7.9,
       "south": 7.9,
       "jerusalem": 7.9
     },
     "tomato": {
-      "center": 5.71,
+      "center": 5.64,
       "north": 5.9,
       "south": 5.9,
       "jerusalem": 5.9
     },
     "cucumber": {
-      "center": 5.75,
+      "center": 5.74,
       "north": 5.9,
       "south": 5.9,
       "jerusalem": 5.9
     },
     "onion": {
-      "center": 4.68,
+      "center": 4.67,
       "north": 4.9,
       "south": 4.9,
       "jerusalem": 4.9
     },
     "potato": {
-      "center": 5.8
+      "center": 5.8,
+      "south": 5.8
     },
     "carrot": {
-      "center": 4.68,
+      "center": 4.74,
       "north": 4.9,
       "south": 4.9,
       "jerusalem": 4.9
     },
     "apple": {
-      "center": 13.66,
+      "center": 13.54,
       "north": 13.9,
       "south": 13.9,
       "jerusalem": 13.9
     },
     "frozen_peas": {
-      "center": 21.6,
+      "center": 21.61,
       "north": 21.9,
       "south": 21.9,
       "jerusalem": 21.9
     },
     "chicken_breast": {},
     "schnitzel": {
-      "center": 33.99,
+      "center": 33.91,
       "north": 34.9,
       "south": 34.9,
       "jerusalem": 34.9
     },
     "hot_dogs": {
-      "center": 16.56,
+      "center": 16.57,
       "north": 16.9,
       "south": 16.9,
       "jerusalem": 16.9
@@ -135,13 +135,13 @@
       "south": 1.8
     },
     "tahini": {
-      "center": 16.73,
+      "center": 16.72,
       "north": 16.9,
       "south": 16.9,
       "jerusalem": 16.9
     },
     "hummus": {
-      "center": 10.3,
+      "center": 10.31,
       "north": 10.5,
       "south": 10.5,
       "jerusalem": 10.5
@@ -157,26 +157,25 @@
       "jerusalem": 45.9
     },
     "water": {
-      "center": 16.66,
+      "center": 16.67,
       "north": 16.9,
       "south": 16.9,
       "jerusalem": 16.9
     },
     "coffee_tasters": {
-      "center": 37.42,
+      "center": 37.41,
       "north": 37.9,
       "south": 37.9,
       "jerusalem": 37.9
     },
     "coffee_turkish": {
-      "center": 18.9
+      "center": 17.9
     },
     "tea": {
-      "center": 6.8,
-      "north": 6.9
+      "center": 6.68
     },
     "bamba": {
-      "center": 5.57,
+      "center": 5.59,
       "north": 5.9,
       "south": 5.9,
       "jerusalem": 5.9
