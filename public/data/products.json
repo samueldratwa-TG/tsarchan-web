@@ -52,13 +52,13 @@
       "base_price": 19.37,
       "chains": {
         "shufersal": 17.2,
-        "rami_levy": 20.9,
+        "rami_levy": 21.3,
         "yohananof": 18.9,
         "victory": 19.4,
         "yayno_bitan_and_carrefour": 20.9
       },
-      "avg_price": 19.33,
-      "change_pct": -0.2
+      "avg_price": 19.39,
+      "change_pct": 0.1
     },
     {
       "id": "butter",
@@ -82,13 +82,13 @@
       "base_price": 8.45,
       "chains": {
         "shufersal": 8.6,
-        "rami_levy": 8.2,
+        "rami_levy": 10.0,
         "yohananof": 8.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.8
       },
-      "avg_price": 8.74,
-      "change_pct": 3.4
+      "avg_price": 8.96,
+      "change_pct": 6.0
     },
     {
       "id": "sour_cream",
@@ -187,13 +187,13 @@
       "base_price": 7.38,
       "chains": {
         "shufersal": 6.9,
-        "rami_levy": 7.9,
+        "rami_levy": 6.7,
         "yohananof": 5.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.45,
-      "change_pct": 0.9
+      "avg_price": 7.3,
+      "change_pct": -1.1
     },
     {
       "id": "tomato",
@@ -218,12 +218,12 @@
       "chains": {
         "shufersal": 3.9,
         "rami_levy": 3.9,
-        "yohananof": 3.9,
+        "yohananof": 5.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 5.78,
-      "change_pct": 4.1
+      "avg_price": 6.08,
+      "change_pct": 9.5
     },
     {
       "id": "onion",
@@ -237,8 +237,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 3.9
       },
-      "avg_price": 4.94,
-      "change_pct": 22.9
+      "avg_price": 4.76,
+      "change_pct": 18.4
     },
     {
       "id": "potato",
@@ -412,13 +412,13 @@
       "base_price": 28.25,
       "chains": {
         "shufersal": 28.5,
-        "rami_levy": 28.5,
+        "rami_levy": 28.4,
         "yohananof": 27.9,
         "victory": 28.9,
         "yayno_bitan_and_carrefour": 27.9
       },
-      "avg_price": 27.85,
-      "change_pct": -1.4
+      "avg_price": 27.84,
+      "change_pct": -1.5
     },
     {
       "id": "coca_cola",
@@ -442,13 +442,13 @@
       "base_price": 16.9,
       "chains": {
         "shufersal": 15.9,
-        "rami_levy": 16.9,
+        "rami_levy": 15.3,
         "yohananof": 16.5,
         "victory": 17.9,
         "yayno_bitan_and_carrefour": 18.7
       },
-      "avg_price": 16.88,
-      "change_pct": -0.1
+      "avg_price": 16.67,
+      "change_pct": -1.4
     },
     {
       "id": "coffee_tasters",
@@ -487,13 +487,13 @@
       "base_price": 7.72,
       "chains": {
         "shufersal": 8.5,
-        "rami_levy": 7.2,
+        "rami_levy": 7.0,
         "yohananof": 8.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 8.2
       },
-      "avg_price": 8.53,
-      "change_pct": 10.5
+      "avg_price": 8.5,
+      "change_pct": 10.1
     },
     {
       "id": "bamba",
@@ -516,14 +516,14 @@
       "category": "snacks",
       "base_price": 4.84,
       "chains": {
-        "shufersal": 4.9,
+        "shufersal": 4.5,
         "rami_levy": 5.2,
         "yohananof": 4.3,
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.6
       },
-      "avg_price": 4.9,
-      "change_pct": 1.2
+      "avg_price": 4.85,
+      "change_pct": 0.2
     },
     {
       "id": "para_chocolate",
@@ -547,13 +547,13 @@
       "base_price": 10.07,
       "chains": {
         "shufersal": 9.9,
-        "rami_levy": 10.0,
+        "rami_levy": 8.1,
         "yohananof": 7.9,
         "victory": 10.5,
         "yayno_bitan_and_carrefour": 10.9
       },
-      "avg_price": 9.61,
-      "change_pct": -4.6
+      "avg_price": 9.36,
+      "change_pct": -7.1
     }
   ],
   "display_chains": [
