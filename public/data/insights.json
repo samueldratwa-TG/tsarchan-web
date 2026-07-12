@@ -22,13 +22,6 @@
       "current": 6.52
     },
     {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "change_pct": 13.8,
-      "base": 17.01,
-      "current": 19.36
-    },
-    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "change_pct": 12.0,
@@ -41,6 +34,13 @@
       "change_pct": 10.0,
       "base": 16.13,
       "current": 17.75
+    },
+    {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "change_pct": 9.5,
+      "base": 17.01,
+      "current": 18.62
     },
     {
       "id": "yogurt",
@@ -57,13 +57,6 @@
       "current": 3.38
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 6.4,
-      "base": 8.45,
-      "current": 8.99
-    },
-    {
       "id": "milk_tnuva_3",
       "name": "חלב תנובה 3% קרטון 1 ליטר",
       "change_pct": 5.4,
@@ -78,11 +71,25 @@
       "current": 2.0
     },
     {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": 4.9,
+      "base": 8.45,
+      "current": 8.86
+    },
+    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 4.8,
       "base": 8.9,
       "current": 9.32
+    },
+    {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "change_pct": 4.4,
+      "base": 7.59,
+      "current": 7.93
     },
     {
       "id": "apple",
@@ -92,18 +99,25 @@
       "current": 13.01
     },
     {
+      "id": "bisli",
+      "name": "ביסלי גריל 70 גרם",
+      "change_pct": 2.8,
+      "base": 4.84,
+      "current": 4.98
+    },
+    {
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "change_pct": 2.6,
+      "base": 4.8,
+      "current": 4.92
+    },
+    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.0,
       "base": 7.97,
       "current": 8.13
-    },
-    {
-      "id": "coca_cola",
-      "name": "קוקה קולה 6x1.5 ליטר",
-      "change_pct": 1.8,
-      "base": 46.21,
-      "current": 47.02
     },
     {
       "id": "eggs_12",
@@ -120,18 +134,11 @@
       "current": 7.5
     },
     {
-      "id": "bisli",
-      "name": "ביסלי גריל 70 גרם",
+      "id": "coca_cola",
+      "name": "קוקה קולה 6x1.5 ליטר",
       "change_pct": 1.2,
-      "base": 4.84,
-      "current": 4.9
-    },
-    {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "change_pct": 1.1,
-      "base": 7.59,
-      "current": 7.68
+      "base": 46.21,
+      "current": 46.77
     },
     {
       "id": "gevina_levana_5",
@@ -159,9 +166,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": -8.5,
+      "change_pct": -6.4,
       "base": 5.9,
-      "current": 5.4
+      "current": 5.52
     },
     {
       "id": "potato",
@@ -187,9 +194,9 @@
     {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
-      "change_pct": -4.5,
+      "change_pct": -4.7,
       "base": 12.56,
-      "current": 12.0
+      "current": 11.98
     },
     {
       "id": "hummus",
@@ -197,13 +204,6 @@
       "change_pct": -3.8,
       "base": 11.71,
       "current": 11.26
-    },
-    {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "change_pct": -2.6,
-      "base": 4.8,
-      "current": 4.68
     },
     {
       "id": "butter",
@@ -309,6 +309,15 @@
       "expensive_price": 6.9
     },
     {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "gap_pct": 102.0,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 9.9
+    },
+    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 102.0,
@@ -316,15 +325,6 @@
       "cheapest_price": 4.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.9
-    },
-    {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "gap_pct": 89.8,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.3
     },
     {
       "id": "tea",
@@ -341,8 +341,26 @@
       "gap_pct": 76.9,
       "cheapest_chain": "hazi_hinam",
       "cheapest_price": 3.9,
-      "expensive_chain": "victory",
+      "expensive_chain": "shufersal",
       "expensive_price": 6.9
+    },
+    {
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "gap_pct": 76.9,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 6.9
+    },
+    {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "gap_pct": 63.6,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 14.0,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 22.9
     },
     {
       "id": "cookies",
@@ -381,15 +399,6 @@
       "expensive_price": 52.9
     },
     {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "gap_pct": 51.3,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 5.9
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "gap_pct": 50.6,
@@ -406,15 +415,6 @@
       "cheapest_price": 2.8,
       "expensive_chain": "tiv_taam",
       "expensive_price": 4.1
-    },
-    {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "gap_pct": 44.0,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 15.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 22.9
     },
     {
       "id": "tahini",
@@ -473,11 +473,11 @@
     {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
-      "gap_pct": 26.6,
+      "gap_pct": 25.3,
       "cheapest_chain": "osher_ad",
       "cheapest_price": 7.9,
-      "expensive_chain": "rami_levy",
-      "expensive_price": 10.0
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 9.9
     },
     {
       "id": "emek_28",
@@ -555,7 +555,7 @@
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
       "gap_pct": 10.3,
-      "cheapest_chain": "osher_ad",
+      "cheapest_chain": "shufersal",
       "cheapest_price": 11.7,
       "expensive_chain": "rami_levy",
       "expensive_price": 12.9
@@ -573,7 +573,7 @@
       "id": "coca_cola",
       "name": "קוקה קולה 6x1.5 ליטר",
       "gap_pct": 6.5,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "shufersal",
       "cheapest_price": 45.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 48.9
