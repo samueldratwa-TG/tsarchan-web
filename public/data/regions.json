@@ -20,19 +20,19 @@
       "jerusalem": 6.3
     },
     "gevina_levana_5": {
-      "center": 5.75,
+      "center": 5.8,
       "north": 5.8,
       "south": 5.8,
       "jerusalem": 5.8
     },
     "emek_28": {
-      "center": 20.47,
+      "center": 20.46,
       "north": 20.9,
       "south": 20.9,
       "jerusalem": 20.9
     },
     "butter": {
-      "center": 9.72,
+      "center": 9.73,
       "north": 9.9,
       "south": 9.9,
       "jerusalem": 9.9
@@ -67,7 +67,7 @@
       "jerusalem": 11.9
     },
     "spaghetti": {
-      "center": 6.22
+      "center": 6.17
     },
     "couscous": {
       "center": 7.57,
@@ -88,14 +88,13 @@
       "jerusalem": 5.9
     },
     "onion": {
-      "center": 4.69,
+      "center": 4.68,
       "north": 4.9,
       "south": 4.9,
       "jerusalem": 4.9
     },
     "potato": {
-      "center": 5.8,
-      "south": 5.8
+      "center": 5.8
     },
     "carrot": {
       "center": 4.72,
@@ -110,20 +109,20 @@
       "jerusalem": 13.9
     },
     "frozen_peas": {
-      "center": 21.49,
+      "center": 21.23,
       "north": 21.9,
       "south": 21.9,
       "jerusalem": 21.9
     },
     "chicken_breast": {},
     "schnitzel": {
-      "center": 34.0,
+      "center": 33.98,
       "north": 34.9,
       "south": 34.9,
       "jerusalem": 34.9
     },
     "hot_dogs": {
-      "center": 16.6,
+      "center": 16.59,
       "north": 16.9,
       "south": 16.9,
       "jerusalem": 16.9
@@ -143,13 +142,13 @@
       "jerusalem": 16.9
     },
     "hummus": {
-      "center": 10.31,
+      "center": 10.33,
       "north": 10.5,
       "south": 10.5,
       "jerusalem": 10.5
     },
     "chocolate_spread": {
-      "center": 24.57,
+      "center": 24.46,
       "jerusalem": 27.9
     },
     "coca_cola": {
@@ -165,7 +164,7 @@
       "jerusalem": 16.9
     },
     "coffee_tasters": {
-      "center": 37.43,
+      "center": 37.42,
       "north": 37.9,
       "south": 37.9,
       "jerusalem": 37.9
@@ -174,7 +173,7 @@
       "center": 19.9
     },
     "tea": {
-      "center": 6.66
+      "center": 6.62
     },
     "bamba": {
       "center": 5.67,
@@ -186,13 +185,13 @@
       "center": 5.2
     },
     "para_chocolate": {
-      "center": 9.7,
+      "center": 9.69,
       "north": 9.9,
       "south": 9.9,
       "jerusalem": 9.9
     },
     "cookies": {
-      "center": 7.02
+      "center": 6.99
     }
   },
   "basket_index": {

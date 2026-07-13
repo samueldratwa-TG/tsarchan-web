@@ -3,16 +3,16 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 30.1,
+      "change_pct": 25.3,
       "base": 3.71,
-      "current": 4.82
+      "current": 4.65
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 21.9,
+      "change_pct": 18.8,
       "base": 4.02,
-      "current": 4.9
+      "current": 4.77
     },
     {
       "id": "cucumber",
@@ -31,9 +31,9 @@
     {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
-      "change_pct": 10.0,
+      "change_pct": 10.8,
       "base": 16.13,
-      "current": 17.75
+      "current": 17.88
     },
     {
       "id": "frozen_peas",
@@ -43,18 +43,18 @@
       "current": 18.62
     },
     {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 8.8,
-      "base": 4.08,
-      "current": 4.44
-    },
-    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 8.2,
       "base": 3.12,
       "current": 3.38
+    },
+    {
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 6.3,
+      "base": 4.08,
+      "current": 4.34
     },
     {
       "id": "milk_tnuva_3",
@@ -94,9 +94,9 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": 3.9,
+      "change_pct": 2.9,
       "base": 12.52,
-      "current": 13.01
+      "current": 12.89
     },
     {
       "id": "bisli",
@@ -166,9 +166,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": -6.4,
+      "change_pct": -12.7,
       "base": 5.9,
-      "current": 5.52
+      "current": 5.15
     },
     {
       "id": "potato",
@@ -291,19 +291,10 @@
       "expensive_price": 8.9
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 137.9,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 2.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
       "gap_pct": 137.9,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 2.9,
       "expensive_chain": "shufersal",
       "expensive_price": 6.9
@@ -339,7 +330,16 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 76.9,
-      "cheapest_chain": "hazi_hinam",
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 3.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 6.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 76.9,
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 6.9
