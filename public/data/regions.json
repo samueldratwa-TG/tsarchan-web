@@ -103,19 +103,19 @@
       "bnei_brak": 5.46,
       "north": 5.78,
       "south": 5.58,
-      "jerusalem": 5.21
+      "jerusalem": 5.18
     },
     "cucumber": {
       "center": 6.07,
       "bnei_brak": 5.9,
       "north": 5.57,
       "south": 5.38,
-      "jerusalem": 5.18
+      "jerusalem": 5.11
     },
     "onion": {
-      "center": 5.69,
+      "center": 5.68,
       "bnei_brak": 4.17,
-      "north": 5.15,
+      "north": 5.14,
       "south": 5.04,
       "jerusalem": 4.89
     },
@@ -129,7 +129,7 @@
     "carrot": {
       "center": 5.52,
       "bnei_brak": 3.9,
-      "north": 4.89,
+      "north": 4.87,
       "south": 4.82,
       "jerusalem": 4.74
     },

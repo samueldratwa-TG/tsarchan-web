@@ -24,6 +24,8 @@ interface Props {
   priceData: PriceRow[];
   productMeta: ProductMeta[];
   chainGaps: ChainGapItem[];
+  universalCount: number;
+  mappedCount: number;
 }
 
 const chainNamesHe: Record<string, string> = {
@@ -42,7 +44,7 @@ function toHebrewDate(dateStr: string): string {
 
 const DEFAULT_DATE = '2026-01-01';
 
-export function InsightsClient({ priceData, productMeta, chainGaps }: Props) {
+export function InsightsClient({ priceData, productMeta, chainGaps, universalCount, mappedCount }: Props) {
   const latestRow = priceData[priceData.length - 1];
   const latestDate = latestRow?.date as string;
 
@@ -73,8 +75,11 @@ export function InsightsClient({ priceData, productMeta, chainGaps }: Props) {
     }).filter(Boolean) as { id: string; name: string; base: number; current: number; change_pct: number }[];
   }, [baseRow, latestRow, productMeta]);
 
+  // Filter to REAL increases — without it, when fewer than 8 products rose the
+  // panel back-fills with the least-negative decreases (rendered green inside
+  // the red "increases" panel).
   const increases = useMemo(() =>
-    [...changes].sort((a, b) => b.change_pct - a.change_pct).slice(0, 8)
+    [...changes].filter(c => c.change_pct > 0).sort((a, b) => b.change_pct - a.change_pct).slice(0, 8)
   , [changes]);
 
   const decreases = useMemo(() =>
@@ -204,9 +209,9 @@ export function InsightsClient({ priceData, productMeta, chainGaps }: Props) {
           <div>
             <p className="font-semibold text-gray-800 mb-1">האם 37 המוצרים זהים בכל הרשתות?</p>
             <p className="text-gray-600 leading-relaxed">
-              רוב המוצרים (29 מתוך 37) הם מותגים לאומיים עם ברקוד GS1 אחיד — אותו ברקוד
-              בשופרסל, ברמי לוי ובכל שאר הרשתות. 8 המוצרים הנותרים (ירקות ופירות טריים, עוף)
-              משתמשים בקוד PLU שנקבע לפי כל רשת בנפרד.{' '}
+              חלק מהמוצרים ({universalCount} מתוך {universalCount + mappedCount}) הם מותגים לאומיים עם ברקוד GS1 אחיד — אותו ברקוד
+              בשופרסל, ברמי לוי ובכל שאר הרשתות. {mappedCount} המוצרים הנותרים (ירקות ופירות טריים במשקל,
+              וכן מוצרים שהברקוד הזמין שלהם שונה בין הרשתות) ממופים ידנית לפי קוד נפרד בכל רשת.{' '}
               <Link href="/methodology" className="text-blue-600 hover:text-blue-800 underline">
                 קראו עוד על נושא הברקודים בעמוד המתודולוגיה
               </Link>.

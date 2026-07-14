@@ -202,13 +202,13 @@
       "base_price": 5.9,
       "chains": {
         "shufersal": 6.9,
-        "rami_levy": 3.9,
+        "rami_levy": 2.9,
         "yohananof": 4.9,
         "victory": 6.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 5.04,
-      "change_pct": -14.6
+      "avg_price": 4.86,
+      "change_pct": -17.6
     },
     {
       "id": "cucumber",

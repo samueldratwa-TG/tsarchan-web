@@ -1,7 +1,20 @@
 import { Footer } from "../components/Footer";
 import Link from "next/link";
+import { promises as fs } from "fs";
+import path from "path";
 
-export default function MethodologyPage() {
+export const metadata = {
+  title: "מתודולוגיה — מדד מחירי מזון",
+  description: "איך מדד מחירי המזון עובד: מקורות הנתונים, מיפוי הברקודים, סינון חריגים ומגבלות השיטה",
+};
+
+export default async function MethodologyPage() {
+  // Universal-vs-mapped counts from the live basket config (build-time), so the
+  // numbers on this page can never drift from the actual basket again.
+  const basketPath = path.join(process.cwd(), "public", "data", "basket_config.json");
+  const basket = JSON.parse(await fs.readFile(basketPath, "utf-8"));
+  const mappedCount = (basket.products as { mapped?: boolean }[]).filter((p) => p.mapped).length;
+  const universalCount = (basket.products as { mapped?: boolean }[]).length - mappedCount;
   return (
     <>
       <main className="max-w-3xl mx-auto px-4 py-8">
@@ -37,7 +50,7 @@ export default function MethodologyPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="bg-green-50 border border-green-200 rounded-xl p-4">
-              <h3 className="font-semibold text-green-800 mb-2">23 מוצרים — ברקוד אוניברסלי</h3>
+              <h3 className="font-semibold text-green-800 mb-2">{universalCount} מוצרים — ברקוד אוניברסלי</h3>
               <p className="text-sm text-green-700 leading-relaxed">
                 מותגים לאומיים (תנובה, אסם, יטבתה, עלית וכו') משתמשים בברקוד GS1 ייחודי
                 המוגדר על ידי היצרן. ברקוד זה <strong>זהה בכל הרשתות</strong> — 7290004131074
@@ -48,7 +61,7 @@ export default function MethodologyPage() {
               </p>
             </div>
             <div className="bg-orange-50 border border-orange-200 rounded-xl p-4">
-              <h3 className="font-semibold text-orange-800 mb-2">14 מוצרים — ברקוד לפי רשת</h3>
+              <h3 className="font-semibold text-orange-800 mb-2">{mappedCount} מוצרים — ברקוד לפי רשת</h3>
               <p className="text-sm text-orange-700 leading-relaxed">
                 שני מקרים מחייבים מיפוי פרטני לכל רשת: (1) פירות, ירקות ועוף טרי הנמכרים
                 <strong> לפי משקל</strong> — כל רשת מקצה <strong>קוד PLU משלה</strong> (ברמי לוי
@@ -65,8 +78,8 @@ export default function MethodologyPage() {
             <p className="font-medium text-gray-700 mb-1">למה זה משנה?</p>
             <p className="leading-relaxed">
               כאשר בונים סל קניות להשוואה בין-רשתית, אי אפשר לחפש &quot;עגבניה&quot; לפי ברקוד אחד בכל
-              הרשתות — צריך לדעת את הקוד הספציפי שכל רשת השתמשה בו. עבור 14 המוצרים האלה,
-              בנינו מיפוי ידני לכל רשת בנפרד. עבור 23 המוצרים הנותרים, ברקוד אחד מספיק.
+              הרשתות — צריך לדעת את הקוד הספציפי שכל רשת השתמשה בו. עבור {mappedCount} המוצרים האלה,
+              בנינו מיפוי ידני לכל רשת בנפרד. עבור {universalCount} המוצרים הנותרים, ברקוד אחד מספיק.
             </p>
           </div>
         </section>

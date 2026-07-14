@@ -48,14 +48,27 @@ async function loadData() {
   const insightsPath = path.join(process.cwd(), "public", "data", "insights.json");
   const insights = JSON.parse(await fs.readFile(insightsPath, "utf-8"));
 
-  return { priceData: filteredRows, productMeta, chainGaps: insights.biggest_chain_gap };
+  // Universal-vs-mapped barcode counts straight from the basket config, so the
+  // FAQ copy can never drift from the real basket again.
+  const basketPath = path.join(process.cwd(), "public", "data", "basket_config.json");
+  const basket = JSON.parse(await fs.readFile(basketPath, "utf-8"));
+  const mappedCount = (basket.products as { mapped?: boolean }[]).filter(p => p.mapped).length;
+  const universalCount = (basket.products as { mapped?: boolean }[]).length - mappedCount;
+
+  return { priceData: filteredRows, productMeta, chainGaps: insights.biggest_chain_gap, universalCount, mappedCount };
 }
 
+export const metadata = {
+  title: "תובנות והשוואות — מדד מחירי מזון",
+  description: "המוצרים שהתייקרו והוזלו הכי הרבה ופערי המחירים הגדולים בין רשתות השיווק בישראל",
+};
+
 export default async function InsightsPage() {
-  const { priceData, productMeta, chainGaps } = await loadData();
+  const { priceData, productMeta, chainGaps, universalCount, mappedCount } = await loadData();
   return (
     <>
-      <InsightsClient priceData={priceData} productMeta={productMeta} chainGaps={chainGaps} />
+      <InsightsClient priceData={priceData} productMeta={productMeta} chainGaps={chainGaps}
+        universalCount={universalCount} mappedCount={mappedCount} />
       <Footer />
     </>
   );

@@ -27,11 +27,9 @@ function extractCommentBody(body: string): string {
   return body.replace(/^\*\*.+?\*\*\n+/, "").trim();
 }
 
-// Find or create a GitHub issue for a blog post's comments
-async function getOrCreateCommentIssue(slug: string): Promise<number> {
+// Find the GitHub issue holding a post's comments (read-only, used by GET)
+async function findCommentIssue(slug: string): Promise<number | null> {
   const label = `comments:${slug}`;
-
-  // Search for existing issue
   const searchRes = await fetch(
     `https://api.github.com/repos/${GITHUB_REPO}/issues?labels=${encodeURIComponent(label)}&state=open&per_page=1`,
     { headers: getHeaders() }
@@ -40,6 +38,15 @@ async function getOrCreateCommentIssue(slug: string): Promise<number> {
     const issues = await searchRes.json();
     if (issues.length > 0) return issues[0].number;
   }
+  return null;
+}
+
+// Find or create a GitHub issue for a blog post's comments (POST only — a GET
+// must never create issues, or any unauthenticated read could spam the repo)
+async function getOrCreateCommentIssue(slug: string): Promise<number> {
+  const existing = await findCommentIssue(slug);
+  if (existing !== null) return existing;
+  const label = `comments:${slug}`;
 
   // Create new issue for this post
   const createRes = await fetch(
@@ -66,7 +73,8 @@ export async function GET(request: Request) {
   if (!slug) return NextResponse.json([]);
 
   try {
-    const issueNumber = await getOrCreateCommentIssue(slug);
+    const issueNumber = await findCommentIssue(slug);
+    if (issueNumber === null) return NextResponse.json([]);
     const res = await fetch(
       `https://api.github.com/repos/${GITHUB_REPO}/issues/${issueNumber}/comments?per_page=50&sort=created&direction=asc`,
       { headers: getHeaders(), next: { revalidate: 60 } }

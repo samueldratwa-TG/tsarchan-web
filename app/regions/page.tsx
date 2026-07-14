@@ -16,6 +16,11 @@ async function getProducts() {
   return JSON.parse(content);
 }
 
+export const metadata = {
+  title: "השוואה אזורית — מדד מחירי מזון",
+  description: "כמה עולה סל קניות זהה במרכז, בצפון, בדרום, בירושלים ובבני ברק — השוואת מחירים בין 5 אזורים בישראל",
+};
+
 export default async function RegionsPage() {
   const regionsData = await getData();
   const productsData = await getProducts();

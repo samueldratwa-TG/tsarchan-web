@@ -80,7 +80,7 @@ export default async function Home() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">מדד על מחירי מזון</h1>
-          <p className="text-gray-500">מדד מחירי מזון שבועי | {productsData.products.length} מוצרים | 8 רשתות שיווק</p>
+          <p className="text-gray-500">מדד מחירי מזון יומי | {productsData.products.length} מוצרים | 8 רשתות שיווק</p>
         </div>
 
         {/* KPI Cards */}
