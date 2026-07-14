@@ -27,7 +27,15 @@ export function RegionBar({ data, darkBg = false }: { data: RegionData[]; darkBg
         <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke={gridColor} />
           <XAxis dataKey="name" tick={{ fontSize: 13, fill: textColor }} />
-          <YAxis domain={[88, 102]} tick={{ fontSize: 12, fill: textColor }} />
+          {/* Adaptive domain that always includes the 100 reference line, so
+              bars stay readable wherever the regional spread lands. */}
+          <YAxis
+            domain={[
+              (dataMin: number) => Math.floor(Math.min(dataMin, 100) - 2),
+              (dataMax: number) => Math.ceil(Math.max(dataMax, 100) + 1),
+            ]}
+            tick={{ fontSize: 12, fill: textColor }}
+          />
           <Tooltip formatter={(value) => [Number(value).toFixed(1), "מדד מחירי"]} />
           <ReferenceLine y={100} stroke={refColor} strokeDasharray="5 5" />
           <Bar dataKey="index" radius={[6, 6, 0, 0]}>

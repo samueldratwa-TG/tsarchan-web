@@ -30,17 +30,24 @@ export default async function RegionsPage() {
     bnei_brak: "bg-teal-100 text-teal-800",
   };
 
-  const chartData = regionOrder.map((r) => ({
-    region: r, name: regionNames[r] || r, index: regionsData.basket_index[r] || 100,
+  // Only regions that actually have data — a region missing from basket_index
+  // must be shown as missing, never silently rendered as a fake 100.
+  const basketIndex: Record<string, number> = regionsData.basket_index || {};
+  const liveRegions = regionOrder.filter((r) => typeof basketIndex[r] === "number");
+  const chartData = liveRegions.map((r) => ({
+    region: r, name: regionNames[r] || r, index: basketIndex[r],
   }));
 
-  const cheapest = regionOrder.reduce((a, b) =>
-    (regionsData.basket_index[a] || 100) < (regionsData.basket_index[b] || 100) ? a : b
-  );
-  const expensive = regionOrder.reduce((a, b) =>
-    (regionsData.basket_index[a] || 100) > (regionsData.basket_index[b] || 100) ? a : b
-  );
-  const gap = ((regionsData.basket_index[expensive] - regionsData.basket_index[cheapest]) / regionsData.basket_index[cheapest] * 100).toFixed(1);
+  const hasIndex = liveRegions.length >= 2;
+  const cheapest = hasIndex
+    ? liveRegions.reduce((a, b) => (basketIndex[a] <= basketIndex[b] ? a : b))
+    : null;
+  const expensive = hasIndex
+    ? liveRegions.reduce((a, b) => (basketIndex[a] >= basketIndex[b] ? a : b))
+    : null;
+  const gap = cheapest && expensive
+    ? ((basketIndex[expensive] - basketIndex[cheapest]) / basketIndex[cheapest] * 100).toFixed(1)
+    : null;
 
   return (
     <>
@@ -53,31 +60,48 @@ export default async function RegionsPage() {
         </p>
 
         {/* Highlight box */}
-        <div className="bg-teal-50 border-2 border-teal-300 rounded-xl p-6 mb-8">
-          <div className="flex items-start gap-4">
-            <div className="text-4xl">&#x1F6D2;</div>
-            <div>
-              <h2 className="text-xl font-bold text-teal-900 mb-2">
-                הכי זול לקנות: {regionNames[cheapest]}
-              </h2>
-              <p className="text-teal-800">
-                סל קניות זהה עולה <strong>{gap}% יותר</strong> ב{regionNames[cheapest]} מאשר {regionNames[expensive]}.
-                ההבדל נובע בעיקר מריכוז הרשתות &quot;חצי חנם&quot; ו&quot;אושר עד&quot; באזורים עם אוכלוסייה חרדית ושוליים קמעונאיים נמוכים - לא <strong>בגלל האזור עצמו</strong> אלא בגלל תמהיל הרשתות הפעיל.
-              </p>
+        {hasIndex && cheapest && expensive ? (
+          <div className="bg-teal-50 border-2 border-teal-300 rounded-xl p-6 mb-8">
+            <div className="flex items-start gap-4">
+              <div className="text-4xl">&#x1F6D2;</div>
+              <div>
+                <h2 className="text-xl font-bold text-teal-900 mb-2">
+                  הכי זול לקנות: {regionNames[cheapest]}
+                </h2>
+                <p className="text-teal-800">
+                  סל קניות זהה עולה <strong>{gap}% יותר</strong> ב{regionNames[expensive]} מאשר ב{regionNames[cheapest]}.
+                  ההבדל נובע בעיקר מריכוז הרשתות &quot;חצי חנם&quot; ו&quot;אושר עד&quot; באזורים עם אוכלוסייה חרדית ושוליים קמעונאיים נמוכים - לא <strong>בגלל האזור עצמו</strong> אלא בגלל תמהיל הרשתות הפעיל.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-6 mb-8 text-amber-900">
+            אין כרגע נתונים אזוריים זמינים — ההשוואה תתעדכן בריצת הנתונים הבאה.
+          </div>
+        )}
 
         {/* Bar Chart */}
-        <div className="bg-white rounded-xl shadow p-6 mb-8">
-          <h2 className="text-lg font-semibold mb-4">מדד מחירי סל לפי אזור (מרכז = 100)</h2>
-          <RegionBar data={chartData} />
-        </div>
+        {chartData.length > 0 && (
+          <div className="bg-white rounded-xl shadow p-6 mb-8">
+            <h2 className="text-lg font-semibold mb-4">מדד מחירי סל לפי אזור (מרכז = 100)</h2>
+            <RegionBar data={chartData} />
+          </div>
+        )}
 
         {/* Region Cards */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-8">
           {regionOrder.map((r) => {
-            const idx = regionsData.basket_index[r] || 100;
+            const idx = basketIndex[r];
+            if (idx == null) {
+              return (
+                <div key={r} className="rounded-xl p-4 text-center bg-gray-100 text-gray-400">
+                  <div className="text-sm font-medium mb-1">{regionNames[r]}</div>
+                  <div className="text-2xl font-bold">&mdash;</div>
+                  <div className="text-xs mt-1">אין נתונים</div>
+                </div>
+              );
+            }
             const diff = idx - 100;
             return (
               <div key={r} className={`rounded-xl p-4 text-center ${regionColors[r]}`}>

@@ -52,9 +52,24 @@ export default async function Home() {
   const regionNames: Record<string, string> = {
     center: "מרכז", bnei_brak: "בני ברק", north: "צפון", south: "דרום", jerusalem: "ירושלים",
   };
-  const regionChartData = Object.entries(regionsData.basket_index || {}).map(([r, idx]) => ({
+  const basketIndex: Record<string, number> = regionsData.basket_index || {};
+  const regionChartData = Object.entries(basketIndex).map(([r, idx]) => ({
     region: r, name: regionNames[r] || r, index: idx as number,
   }));
+  // Teaser copy computed from the data — never hardcode the gap (a hardcoded
+  // "7.7%" once drifted from reality when the regional data broke).
+  const regionEntries = Object.entries(basketIndex);
+  let regionTitle = "האם את יודעת שסל מוצרים זהה לא עולה אותו דבר בכל הארץ";
+  let regionLine = "השוו מחירי סל קניות זהה בין 5 אזורים בארץ";
+  if (regionEntries.length >= 2) {
+    const cheapest = regionEntries.reduce((a, b) => (b[1] < a[1] ? b : a));
+    const expensive = regionEntries.reduce((a, b) => (b[1] > a[1] ? b : a));
+    const gapPct = (((expensive[1] - cheapest[1]) / cheapest[1]) * 100).toFixed(1);
+    const expName = regionNames[expensive[0]] || expensive[0];
+    const cheapName = regionNames[cheapest[0]] || cheapest[0];
+    regionTitle = `האם את יודעת שסל מוצרים זהה ב${expName} עולה יותר`;
+    regionLine = `סל קניות זהה עולה עד ${gapPct}% יותר ב${expName} מאשר ב${cheapName} - מה שמגיע לאלפי שקלים`;
+  }
 
   const topIncrease = insightsData.biggest_increase?.[0];
   const topDecrease = insightsData.biggest_decrease?.[0];
@@ -109,14 +124,14 @@ export default async function Home() {
         <Link href="/regions" className="block mb-8">
           <div className="bg-gradient-to-l from-blue-600 to-blue-800 rounded-xl shadow p-6 text-white hover:from-blue-500 hover:to-blue-700 transition-all">
             <h2 className="text-2xl font-bold mb-2">
-              האם את יודעת שסל מוצרים זהה במרכז עולה יותר
+              {regionTitle}
             </h2>
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-blue-100 mb-1">סל קניות זהה עולה עד 7.7% יותר במרכז - מה שמגיע לאלפי שקלים</p>
+                <p className="text-blue-100 mb-1">{regionLine}</p>
                 <p className="text-blue-200 text-sm">לחצו להשוואה מלאה בין 5 אזורים &larr;</p>
               </div>
-              <RegionBar data={regionChartData} darkBg={true} />
+              {regionChartData.length > 0 && <RegionBar data={regionChartData} darkBg={true} />}
             </div>
           </div>
         </Link>
