@@ -61,7 +61,8 @@ export default async function RegionsPage() {
 
         <h1 className="text-3xl font-bold text-gray-900 mb-2">השוואה אזורית</h1>
         <p className="text-gray-500 mb-8">
-          השוואת {regionsData.common_product_count} מוצרים זהים ב-5 אזורים, על בסיס 878 סניפים ב-8 רשתות
+          השוואת {regionsData.common_product_count} מוצרים זהים ב-5 אזורים, על בסיס{" "}
+          {regionsData.store_count ? `${regionsData.store_count} סניפים` : "מאות סניפים"} ב-8 רשתות
         </p>
 
         {/* Highlight box */}
