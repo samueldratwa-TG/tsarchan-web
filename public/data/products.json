@@ -203,12 +203,12 @@
       "chains": {
         "shufersal": 5.9,
         "rami_levy": 2.9,
-        "yohananof": 4.9,
+        "yohananof": 8.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 5.08,
-      "change_pct": -13.9
+      "avg_price": 5.47,
+      "change_pct": -7.3
     },
     {
       "id": "cucumber",

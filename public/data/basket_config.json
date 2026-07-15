@@ -222,7 +222,8 @@
       "id": "bisli",
       "cat": "snacks",
       "name": "ביסלי גריל 70 גרם",
-      "barcode": "7290000067537"
+      "barcode": "7290000067537",
+      "mapped": true
     },
     {
       "id": "para_chocolate",
@@ -242,7 +243,7 @@
     "tomato": {
       "shufersal": "7290000000022",
       "rami_levy": "7290000000100",
-      "yohananof": "7290000000725",
+      "yohananof": "7290019107606",
       "victory": "2036",
       "osher_ad": "7290009000122",
       "hazi_hinam": "7000",
@@ -312,7 +313,7 @@
     "chicken_breast": {
       "shufersal": "7290000616827",
       "rami_levy": "7290002610700",
-      "yohananof": "7290000407708",
+      "yohananof": "407708",
       "victory": "1003756",
       "osher_ad": "7290002939108",
       "hazi_hinam": "8835862",
@@ -457,6 +458,16 @@
       "hazi_hinam": "7290000311128",
       "tiv_taam": "7290014083806",
       "yayno_bitan_and_carrefour": "7290000311128"
+    },
+    "bisli": {
+      "shufersal": "7290000067537",
+      "rami_levy": "7290000067537",
+      "yohananof": "7290000067537",
+      "victory": "7290000067537",
+      "osher_ad": "7290000066134",
+      "hazi_hinam": "7290000066141",
+      "tiv_taam": "7290000067537",
+      "yayno_bitan_and_carrefour": "7290000067537"
     }
   },
   "chains": [

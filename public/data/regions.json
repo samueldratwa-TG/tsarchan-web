@@ -99,11 +99,11 @@
       "jerusalem": 5.84
     },
     "tomato": {
-      "center": 7.22,
+      "center": 7.35,
       "bnei_brak": 5.6,
-      "north": 5.83,
-      "south": 5.76,
-      "jerusalem": 5.51
+      "north": 6.04,
+      "south": 6.0,
+      "jerusalem": 5.61
     },
     "cucumber": {
       "center": 6.4,
@@ -148,11 +148,11 @@
       "jerusalem": 19.29
     },
     "chicken_breast": {
-      "center": 39.93,
+      "center": 39.33,
       "bnei_brak": 42.23,
-      "north": 40.14,
-      "south": 38.64,
-      "jerusalem": 38.65
+      "north": 39.66,
+      "south": 38.22,
+      "jerusalem": 38.36
     },
     "schnitzel": {
       "center": 34.84,
@@ -246,11 +246,11 @@
       "jerusalem": 4.83
     },
     "bisli": {
-      "center": 5.34,
-      "bnei_brak": 4.56,
-      "north": 5.07,
-      "south": 4.94,
-      "jerusalem": 4.89
+      "center": 5.27,
+      "bnei_brak": 4.45,
+      "north": 4.97,
+      "south": 4.82,
+      "jerusalem": 4.75
     },
     "para_chocolate": {
       "center": 9.48,
@@ -269,9 +269,9 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 92.3,
-    "north": 96.4,
-    "south": 94.4,
+    "bnei_brak": 92.4,
+    "north": 96.5,
+    "south": 94.5,
     "jerusalem": 93.5
   },
   "common_product_count": 37,

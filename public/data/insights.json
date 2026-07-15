@@ -164,13 +164,6 @@
   ],
   "biggest_decrease": [
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": -10.6,
-      "base": 5.9,
-      "current": 5.28
-    },
-    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "change_pct": -8.3,
@@ -211,6 +204,13 @@
       "change_pct": -3.8,
       "base": 11.71,
       "current": 11.26
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": -2.1,
+      "base": 5.9,
+      "current": 5.78
     },
     {
       "id": "butter",
@@ -293,11 +293,11 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 172.4,
+      "gap_pct": 206.9,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 2.9,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
+      "expensive_chain": "yohananof",
+      "expensive_price": 8.9
     },
     {
       "id": "carrot",
