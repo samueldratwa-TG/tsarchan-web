@@ -1,25 +1,25 @@
 {
   "biggest_increase": [
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 22.1,
+      "base": 5.55,
+      "current": 6.78
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 26.3,
+      "change_pct": 13.2,
       "base": 3.71,
-      "current": 4.69
+      "current": 4.2
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 17.2,
+      "change_pct": 12.9,
       "base": 4.02,
-      "current": 4.71
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 15.3,
-      "base": 5.55,
-      "current": 6.4
+      "current": 4.54
     },
     {
       "id": "tea",
@@ -38,9 +38,9 @@
     {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
-      "change_pct": 9.5,
+      "change_pct": 10.5,
       "base": 17.01,
-      "current": 18.62
+      "current": 18.8
     },
     {
       "id": "yogurt",
@@ -134,6 +134,13 @@
       "current": 15.29
     },
     {
+      "id": "coffee_tasters",
+      "name": "טסטרס צויס 200 גרם",
+      "change_pct": 1.3,
+      "base": 36.96,
+      "current": 37.44
+    },
+    {
       "id": "coca_cola",
       "name": "קוקה קולה 6x1.5 ליטר",
       "change_pct": 1.2,
@@ -148,11 +155,11 @@
       "current": 5.85
     },
     {
-      "id": "coffee_tasters",
-      "name": "טסטרס צויס 200 גרם",
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
       "change_pct": 0.6,
-      "base": 36.96,
-      "current": 37.19
+      "base": 43.03,
+      "current": 43.28
     },
     {
       "id": "emek_28",
@@ -164,11 +171,18 @@
   ],
   "biggest_decrease": [
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": -10.6,
+      "base": 5.9,
+      "current": 5.28
+    },
+    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -8.3,
+      "change_pct": -6.3,
       "base": 6.42,
-      "current": 5.89
+      "current": 6.01
     },
     {
       "id": "cookies",
@@ -194,9 +208,9 @@
     {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
-      "change_pct": -4.2,
+      "change_pct": -4.3,
       "base": 32.63,
-      "current": 31.28
+      "current": 31.21
     },
     {
       "id": "hummus",
@@ -206,25 +220,11 @@
       "current": 11.26
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": -2.1,
-      "base": 5.9,
-      "current": 5.78
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": -2.0,
       "base": 10.13,
       "current": 9.93
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -1.5,
-      "base": 43.03,
-      "current": 42.4
     },
     {
       "id": "chocolate_spread",
@@ -241,6 +241,13 @@
       "current": 16.7
     },
     {
+      "id": "coffee_turkish",
+      "name": "קפה טורקי עלית 200 גרם",
+      "change_pct": -1.2,
+      "base": 19.88,
+      "current": 19.65
+    },
+    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": -1.1,
@@ -253,25 +260,9 @@
       "change_pct": -0.9,
       "base": 6.07,
       "current": 6.01
-    },
-    {
-      "id": "coffee_turkish",
-      "name": "קפה טורקי עלית 200 גרם",
-      "change_pct": -0.5,
-      "base": 19.88,
-      "current": 19.78
     }
   ],
   "biggest_chain_gap": [
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "gap_pct": 368.4,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 1.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 8.9
-    },
     {
       "id": "hummus",
       "name": "חומוס 400 גרם",
@@ -294,19 +285,37 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 206.9,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "shufersal",
       "cheapest_price": 2.9,
       "expensive_chain": "yohananof",
       "expensive_price": 8.9
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "gap_pct": 128.2,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 8.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 125.7,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 3.5,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 7.9
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
-      "gap_pct": 137.9,
+      "gap_pct": 103.4,
       "cheapest_chain": "yohananof",
       "cheapest_price": 2.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 5.9
     },
     {
       "id": "spaghetti",
@@ -334,15 +343,6 @@
       "cheapest_price": 6.9,
       "expensive_chain": "osher_ad",
       "expensive_price": 12.9
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 76.9,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
     },
     {
       "id": "bamba",
@@ -393,7 +393,7 @@
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
       "gap_pct": 51.6,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 34.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 52.9
@@ -429,7 +429,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 36.7,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 10.9,
       "expensive_chain": "victory",
       "expensive_price": 14.9
@@ -446,9 +446,9 @@
     {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
-      "gap_pct": 30.9,
+      "gap_pct": 33.5,
       "cheapest_chain": "rami_levy",
-      "cheapest_price": 25.9,
+      "cheapest_price": 25.4,
       "expensive_chain": "shufersal",
       "expensive_price": 33.9
     },
