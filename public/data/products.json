@@ -82,13 +82,13 @@
       "base_price": 8.45,
       "chains": {
         "shufersal": 8.6,
-        "rami_levy": 9.0,
+        "rami_levy": 10.0,
         "yohananof": 8.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.8
       },
-      "avg_price": 8.84,
-      "change_pct": 4.6
+      "avg_price": 8.96,
+      "change_pct": 6.0
     },
     {
       "id": "sour_cream",
@@ -128,12 +128,12 @@
       "chains": {
         "shufersal": 3.9,
         "rami_levy": 3.8,
-        "yohananof": 3.9,
+        "yohananof": 4.7,
         "victory": 4.6,
         "yayno_bitan_and_carrefour": 5.0
       },
-      "avg_price": 4.31,
-      "change_pct": 5.6
+      "avg_price": 4.41,
+      "change_pct": 8.1
     },
     {
       "id": "bread",
@@ -171,14 +171,14 @@
       "category": "grains",
       "base_price": 7.59,
       "chains": {
-        "shufersal": 9.9,
+        "shufersal": 9.4,
         "rami_levy": 7.8,
         "yohananof": 6.9,
         "victory": 7.4,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.77,
-      "change_pct": 2.4
+      "avg_price": 7.72,
+      "change_pct": 1.7
     },
     {
       "id": "couscous",
@@ -192,8 +192,8 @@
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.47,
-      "change_pct": 1.2
+      "avg_price": 7.3,
+      "change_pct": -1.1
     },
     {
       "id": "tomato",
@@ -201,29 +201,29 @@
       "category": "produce",
       "base_price": 5.9,
       "chains": {
-        "shufersal": 5.9,
-        "rami_levy": 4.9,
+        "shufersal": 4.9,
+        "rami_levy": 2.8,
         "yohananof": 8.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 5.84,
-      "change_pct": -1.0
+      "avg_price": 5.55,
+      "change_pct": -5.9
     },
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
       "category": "produce",
-      "base_price": 5.55,
+      "base_price": 6.85,
       "chains": {
-        "shufersal": 3.9,
+        "shufersal": 5.9,
         "rami_levy": 3.9,
         "yohananof": 5.9,
         "victory": 6.9,
-        "yayno_bitan_and_carrefour": 7.9
+        "yayno_bitan_and_carrefour": 11.9
       },
-      "avg_price": 6.33,
-      "change_pct": 14.1
+      "avg_price": 6.88,
+      "change_pct": 0.4
     },
     {
       "id": "onion",
@@ -237,8 +237,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 3.9
       },
-      "avg_price": 4.5,
-      "change_pct": 11.9
+      "avg_price": 4.78,
+      "change_pct": 18.9
     },
     {
       "id": "potato",
@@ -252,8 +252,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 6.03,
-      "change_pct": -6.1
+      "avg_price": 5.94,
+      "change_pct": -7.5
     },
     {
       "id": "carrot",
@@ -267,8 +267,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 4.24,
-      "change_pct": 14.3
+      "avg_price": 4.64,
+      "change_pct": 25.1
     },
     {
       "id": "apple",
@@ -277,13 +277,13 @@
       "base_price": 12.52,
       "chains": {
         "shufersal": 13.9,
-        "rami_levy": 10.9,
+        "rami_levy": 11.8,
         "yohananof": 10.9,
         "victory": 14.9,
         "yayno_bitan_and_carrefour": 14.9
       },
-      "avg_price": 12.67,
-      "change_pct": 1.2
+      "avg_price": 13.03,
+      "change_pct": 4.1
     },
     {
       "id": "frozen_peas",
@@ -471,14 +471,14 @@
       "category": "beverages",
       "base_price": 19.88,
       "chains": {
-        "shufersal": 19.9,
+        "shufersal": 21.5,
         "rami_levy": 18.9,
         "yohananof": 21.9,
         "victory": 19.9,
         "yayno_bitan_and_carrefour": 20.9
       },
-      "avg_price": 19.6,
-      "change_pct": -1.4
+      "avg_price": 19.79,
+      "change_pct": -0.5
     },
     {
       "id": "tea",

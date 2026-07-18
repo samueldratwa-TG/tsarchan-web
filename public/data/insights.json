@@ -1,25 +1,18 @@
 {
   "biggest_increase": [
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 22.1,
-      "base": 5.55,
-      "current": 6.78
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 20.3,
+      "change_pct": 30.4,
       "base": 3.71,
-      "current": 4.46
+      "current": 4.84
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 14.1,
+      "change_pct": 23.4,
       "base": 4.02,
-      "current": 4.59
+      "current": 4.96
     },
     {
       "id": "tea",
@@ -43,6 +36,13 @@
       "current": 18.8
     },
     {
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 8.8,
+      "base": 4.08,
+      "current": 4.44
+    },
+    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 8.2,
@@ -50,11 +50,18 @@
       "current": 3.38
     },
     {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 6.3,
-      "base": 4.08,
-      "current": 4.34
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 8.0,
+      "base": 6.85,
+      "current": 7.4
+    },
+    {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": 6.4,
+      "base": 8.45,
+      "current": 8.99
     },
     {
       "id": "milk_tnuva_3",
@@ -71,18 +78,18 @@
       "current": 2.0
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
+      "id": "apple",
+      "name": "תפוח עץ לקג",
       "change_pct": 4.9,
-      "base": 8.45,
-      "current": 8.86
+      "base": 12.52,
+      "current": 13.14
     },
     {
       "id": "spaghetti",
       "name": "ספגטי אסם 500 גרם",
-      "change_pct": 4.4,
+      "change_pct": 3.6,
       "base": 7.59,
-      "current": 7.93
+      "current": 7.86
     },
     {
       "id": "para_chocolate",
@@ -90,13 +97,6 @@
       "change_pct": 3.4,
       "base": 8.9,
       "current": 9.2
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "change_pct": 3.3,
-      "base": 7.38,
-      "current": 7.62
     },
     {
       "id": "bisli",
@@ -113,13 +113,6 @@
       "current": 4.92
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 2.1,
-      "base": 5.9,
-      "current": 6.02
-    },
-    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.0,
@@ -127,11 +120,11 @@
       "current": 8.13
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 2.0,
-      "base": 12.52,
-      "current": 12.78
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "change_pct": 1.6,
+      "base": 7.38,
+      "current": 7.5
     },
     {
       "id": "eggs_12",
@@ -199,6 +192,13 @@
       "current": 11.98
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -4.4,
+      "base": 6.42,
+      "current": 6.14
+    },
+    {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
       "change_pct": -4.3,
@@ -211,13 +211,6 @@
       "change_pct": -3.8,
       "base": 11.71,
       "current": 11.26
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -2.5,
-      "base": 6.42,
-      "current": 6.26
     },
     {
       "id": "butter",
@@ -241,13 +234,6 @@
       "current": 16.7
     },
     {
-      "id": "coffee_turkish",
-      "name": "קפה טורקי עלית 200 גרם",
-      "change_pct": -1.2,
-      "base": 19.88,
-      "current": 19.65
-    },
-    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": -1.1,
@@ -260,6 +246,20 @@
       "change_pct": -0.9,
       "base": 6.07,
       "current": 6.01
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": -0.2,
+      "base": 5.9,
+      "current": 5.89
+    },
+    {
+      "id": "coffee_turkish",
+      "name": "קפה טורקי עלית 200 גרם",
+      "change_pct": -0.2,
+      "base": 19.88,
+      "current": 19.85
     }
   ],
   "biggest_chain_gap": [
@@ -276,10 +276,19 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 230.8,
-      "cheapest_chain": "shufersal",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 3.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 217.9,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 2.8,
+      "expensive_chain": "yohananof",
+      "expensive_price": 8.9
     },
     {
       "id": "carrot",
@@ -291,31 +300,40 @@
       "expensive_price": 6.9
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 128.2,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 3.9,
-      "expensive_chain": "yohananof",
-      "expensive_price": 8.9
-    },
-    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "gap_pct": 128.2,
       "cheapest_chain": "yohananof",
       "cheapest_price": 3.9,
-      "expensive_chain": "hazi_hinam",
+      "expensive_chain": "tiv_taam",
       "expensive_price": 8.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 102.6,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 7.9
+    },
+    {
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "gap_pct": 102.0,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 4.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 9.9
     },
     {
       "id": "spaghetti",
       "name": "ספגטי אסם 500 גרם",
-      "gap_pct": 102.0,
+      "gap_pct": 91.8,
       "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
-      "expensive_price": 9.9
+      "expensive_price": 9.4
     },
     {
       "id": "tea",
@@ -325,24 +343,6 @@
       "cheapest_price": 6.9,
       "expensive_chain": "osher_ad",
       "expensive_price": 12.9
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "gap_pct": 80.0,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 5.5,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.9
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 76.9,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
     },
     {
       "id": "bamba",
@@ -429,7 +429,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 36.7,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 10.9,
       "expensive_chain": "victory",
       "expensive_price": 14.9
@@ -482,11 +482,11 @@
     {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
-      "gap_pct": 25.3,
+      "gap_pct": 26.6,
       "cheapest_chain": "osher_ad",
       "cheapest_price": 7.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.9
+      "expensive_chain": "rami_levy",
+      "expensive_price": 10.0
     },
     {
       "id": "emek_28",
