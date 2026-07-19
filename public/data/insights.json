@@ -3,16 +3,16 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 30.4,
+      "change_pct": 23.7,
       "base": 3.71,
-      "current": 4.84
+      "current": 4.59
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.4,
+      "change_pct": 15.7,
       "base": 4.02,
-      "current": 4.96
+      "current": 4.65
     },
     {
       "id": "tea",
@@ -36,18 +36,18 @@
       "current": 18.8
     },
     {
+      "id": "sour_cream",
+      "name": "שמנת חמוצה 15% 200 מל",
+      "change_pct": 9.8,
+      "base": 3.12,
+      "current": 3.42
+    },
+    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "change_pct": 8.8,
       "base": 4.08,
       "current": 4.44
-    },
-    {
-      "id": "sour_cream",
-      "name": "שמנת חמוצה 15% 200 מל",
-      "change_pct": 8.2,
-      "base": 3.12,
-      "current": 3.38
     },
     {
       "id": "cucumber",
@@ -59,9 +59,9 @@
     {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 6.4,
+      "change_pct": 5.8,
       "base": 8.45,
-      "current": 8.99
+      "current": 8.94
     },
     {
       "id": "milk_tnuva_3",
@@ -80,9 +80,9 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": 4.9,
+      "change_pct": 3.9,
       "base": 12.52,
-      "current": 13.14
+      "current": 13.01
     },
     {
       "id": "spaghetti",
@@ -118,6 +118,13 @@
       "change_pct": 2.0,
       "base": 7.97,
       "current": 8.13
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 1.9,
+      "base": 5.9,
+      "current": 6.01
     },
     {
       "id": "couscous",
@@ -171,6 +178,13 @@
   ],
   "biggest_decrease": [
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -8.3,
+      "base": 6.42,
+      "current": 5.89
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "change_pct": -5.5,
@@ -192,13 +206,6 @@
       "current": 11.98
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -4.4,
-      "base": 6.42,
-      "current": 6.14
-    },
-    {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
       "change_pct": -4.3,
@@ -215,23 +222,23 @@
     {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
-      "change_pct": -2.0,
+      "change_pct": -1.9,
       "base": 10.13,
-      "current": 9.93
+      "current": 9.94
     },
     {
       "id": "chocolate_spread",
       "name": "ממרח שוקולד השחר",
-      "change_pct": -1.4,
+      "change_pct": -1.2,
       "base": 28.25,
-      "current": 27.86
+      "current": 27.91
     },
     {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
+      "id": "coffee_turkish",
+      "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -1.2,
-      "base": 16.9,
-      "current": 16.7
+      "base": 19.88,
+      "current": 19.65
     },
     {
       "id": "sugar",
@@ -248,18 +255,11 @@
       "current": 6.01
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": -0.2,
-      "base": 5.9,
-      "current": 5.89
-    },
-    {
-      "id": "coffee_turkish",
-      "name": "קפה טורקי עלית 200 גרם",
-      "change_pct": -0.2,
-      "base": 19.88,
-      "current": 19.85
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": -0.7,
+      "base": 16.9,
+      "current": 16.77
     }
   ],
   "biggest_chain_gap": [
@@ -309,15 +309,6 @@
       "expensive_price": 8.9
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 102.6,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 7.9
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 102.0,
@@ -343,6 +334,15 @@
       "cheapest_price": 6.9,
       "expensive_chain": "osher_ad",
       "expensive_price": 12.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 76.9,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 3.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 6.9
     },
     {
       "id": "bamba",
@@ -530,7 +530,7 @@
       "gap_pct": 16.1,
       "cheapest_chain": "osher_ad",
       "cheapest_price": 24.9,
-      "expensive_chain": "victory",
+      "expensive_chain": "shufersal",
       "expensive_price": 28.9
     },
     {
