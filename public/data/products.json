@@ -128,12 +128,12 @@
       "chains": {
         "shufersal": 3.9,
         "rami_levy": 3.8,
-        "yohananof": 3.9,
+        "yohananof": 4.7,
         "victory": 4.6,
         "yayno_bitan_and_carrefour": 5.0
       },
-      "avg_price": 4.31,
-      "change_pct": 5.6
+      "avg_price": 4.41,
+      "change_pct": 8.1
     },
     {
       "id": "bread",
@@ -207,8 +207,8 @@
         "victory": 5.9,
         "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 5.8,
-      "change_pct": -1.7
+      "avg_price": 6.11,
+      "change_pct": 3.6
     },
     {
       "id": "cucumber",
@@ -222,8 +222,8 @@
         "victory": 6.9,
         "yayno_bitan_and_carrefour": 6.9
       },
-      "avg_price": 6.22,
-      "change_pct": -9.2
+      "avg_price": 6.55,
+      "change_pct": -4.4
     },
     {
       "id": "onion",
@@ -282,8 +282,8 @@
         "victory": 11.9,
         "yayno_bitan_and_carrefour": 14.9
       },
-      "avg_price": 12.67,
-      "change_pct": 1.2
+      "avg_price": 12.56,
+      "change_pct": 0.3
     },
     {
       "id": "frozen_peas",
@@ -462,8 +462,8 @@
         "victory": 37.9,
         "yayno_bitan_and_carrefour": 39.9
       },
-      "avg_price": 37.4,
-      "change_pct": 1.2
+      "avg_price": 37.85,
+      "change_pct": 2.4
     },
     {
       "id": "coffee_turkish",
