@@ -8,6 +8,13 @@
       "current": 4.52
     },
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 12.5,
+      "base": 5.9,
+      "current": 6.64
+    },
+    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "change_pct": 12.0,
@@ -29,18 +36,11 @@
       "current": 18.8
     },
     {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 8.8,
-      "base": 4.08,
-      "current": 4.44
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 8.3,
-      "base": 5.9,
-      "current": 6.39
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 9.5,
+      "base": 4.02,
+      "current": 4.4
     },
     {
       "id": "sour_cream",
@@ -55,6 +55,13 @@
       "change_pct": 6.5,
       "base": 4.8,
       "current": 5.11
+    },
+    {
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 6.3,
+      "base": 4.08,
+      "current": 4.34
     },
     {
       "id": "sweet_cream",
@@ -83,13 +90,6 @@
       "change_pct": 4.1,
       "base": 7.59,
       "current": 7.9
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 3.2,
-      "base": 4.02,
-      "current": 4.15
     },
     {
       "id": "bread",
@@ -162,13 +162,6 @@
       "current": 43.4
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 0.7,
-      "base": 6.85,
-      "current": 6.9
-    },
-    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -211,6 +204,13 @@
       "change_pct": -4.3,
       "base": 32.63,
       "current": 31.21
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": -2.9,
+      "base": 6.85,
+      "current": 6.65
     },
     {
       "id": "hummus",
@@ -271,15 +271,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 210.5,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 1.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 5.9
     },
     {
       "id": "hummus",
@@ -397,6 +388,15 @@
       "cheapest_price": 14.9,
       "expensive_chain": "shufersal",
       "expensive_price": 22.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 51.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 3.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 5.9
     },
     {
       "id": "butter",

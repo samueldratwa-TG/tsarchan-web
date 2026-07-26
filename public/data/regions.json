@@ -52,7 +52,7 @@
     "sour_cream": {
       "center": 3.48,
       "bnei_brak": 3.04,
-      "north": 3.29,
+      "north": 3.28,
       "south": 3.2,
       "jerusalem": 3.16
     },
@@ -115,7 +115,7 @@
     "onion": {
       "center": 5.85,
       "bnei_brak": 4.03,
-      "north": 5.33,
+      "north": 5.32,
       "south": 5.08,
       "jerusalem": 4.87
     },
@@ -129,12 +129,12 @@
     "carrot": {
       "center": 5.59,
       "bnei_brak": 4.23,
-      "north": 4.99,
-      "south": 4.9,
+      "north": 4.98,
+      "south": 4.89,
       "jerusalem": 4.77
     },
     "apple": {
-      "center": 13.72,
+      "center": 13.71,
       "bnei_brak": 12.23,
       "north": 12.78,
       "south": 12.5,
@@ -150,9 +150,9 @@
     "chicken_breast": {
       "center": 39.5,
       "bnei_brak": 42.23,
-      "north": 39.82,
-      "south": 38.27,
-      "jerusalem": 38.09
+      "north": 39.71,
+      "south": 38.17,
+      "jerusalem": 37.44
     },
     "schnitzel": {
       "center": 34.83,
@@ -241,7 +241,7 @@
     "bamba": {
       "center": 5.72,
       "bnei_brak": 4.85,
-      "north": 5.33,
+      "north": 5.34,
       "south": 5.16,
       "jerusalem": 4.83
     },
@@ -272,7 +272,7 @@
     "bnei_brak": 91.9,
     "north": 96.4,
     "south": 94.4,
-    "jerusalem": 93.4
+    "jerusalem": 93.3
   },
   "common_product_count": 37,
   "store_count": 863
