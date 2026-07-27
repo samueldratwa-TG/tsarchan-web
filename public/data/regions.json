@@ -106,7 +106,7 @@
       "jerusalem": 5.78
     },
     "cucumber": {
-      "center": 6.88,
+      "center": 6.89,
       "bnei_brak": 4.9,
       "north": 6.34,
       "south": 6.31,
@@ -136,7 +136,7 @@
     "apple": {
       "center": 13.71,
       "bnei_brak": 12.23,
-      "north": 12.78,
+      "north": 12.8,
       "south": 12.5,
       "jerusalem": 12.27
     },
@@ -248,7 +248,7 @@
     "bisli": {
       "center": 4.88,
       "bnei_brak": 4.33,
-      "north": 4.65,
+      "north": 4.7,
       "south": 4.53,
       "jerusalem": 4.5
     },
