@@ -29,7 +29,7 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.47,
+      "center": 19.46,
       "bnei_brak": 18.06,
       "north": 18.89,
       "south": 18.9,
@@ -37,7 +37,7 @@
     },
     "butter": {
       "center": 10.33,
-      "bnei_brak": 9.46,
+      "bnei_brak": 9.35,
       "north": 10.0,
       "south": 9.83,
       "jerusalem": 9.62
@@ -47,10 +47,10 @@
       "bnei_brak": 8.36,
       "north": 8.87,
       "south": 8.77,
-      "jerusalem": 8.49
+      "jerusalem": 8.45
     },
     "sour_cream": {
-      "center": 3.48,
+      "center": 3.49,
       "bnei_brak": 3.04,
       "north": 3.28,
       "south": 3.2,
@@ -85,7 +85,7 @@
       "jerusalem": 11.92
     },
     "spaghetti": {
-      "center": 8.69,
+      "center": 8.7,
       "bnei_brak": 7.43,
       "north": 8.24,
       "south": 7.81,
@@ -99,11 +99,11 @@
       "jerusalem": 5.84
     },
     "tomato": {
-      "center": 7.77,
+      "center": 7.83,
       "bnei_brak": 5.2,
-      "north": 6.41,
-      "south": 6.36,
-      "jerusalem": 5.78
+      "north": 6.39,
+      "south": 6.35,
+      "jerusalem": 5.72
     },
     "cucumber": {
       "center": 6.89,
@@ -134,7 +134,7 @@
       "jerusalem": 4.77
     },
     "apple": {
-      "center": 13.71,
+      "center": 13.73,
       "bnei_brak": 12.23,
       "north": 12.8,
       "south": 12.5,
@@ -164,7 +164,7 @@
     "hot_dogs": {
       "center": 19.82,
       "bnei_brak": 18.23,
-      "north": 19.52,
+      "north": 19.5,
       "south": 18.62,
       "jerusalem": 18.63
     },
@@ -246,7 +246,7 @@
       "jerusalem": 4.83
     },
     "bisli": {
-      "center": 4.88,
+      "center": 4.89,
       "bnei_brak": 4.33,
       "north": 4.7,
       "south": 4.53,
@@ -255,7 +255,7 @@
     "para_chocolate": {
       "center": 9.35,
       "bnei_brak": 8.78,
-      "north": 8.91,
+      "north": 8.89,
       "south": 8.84,
       "jerusalem": 8.93
     },
@@ -272,7 +272,7 @@
     "bnei_brak": 91.9,
     "north": 96.4,
     "south": 94.4,
-    "jerusalem": 93.3
+    "jerusalem": 93.2
   },
   "common_product_count": 37,
   "store_count": 863
