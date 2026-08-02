@@ -3,44 +3,44 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 30.4,
+      "change_pct": 20.3,
       "base": 3.71,
-      "current": 4.84
-    },
-    {
-      "id": "hot_dogs",
-      "name": "נקניקיות 500 גרם",
-      "change_pct": 13.5,
-      "base": 16.13,
-      "current": 18.3
+      "current": 4.46
     },
     {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
-      "change_pct": 13.2,
+      "change_pct": 17.6,
       "base": 17.01,
-      "current": 19.26
+      "current": 20.0
     },
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 12.7,
+      "change_pct": 16.9,
       "base": 5.9,
-      "current": 6.65
+      "current": 6.9
+    },
+    {
+      "id": "hot_dogs",
+      "name": "נקניקיות 500 גרם",
+      "change_pct": 12.7,
+      "base": 16.13,
+      "current": 18.18
     },
     {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
-      "change_pct": 11.9,
+      "change_pct": 10.9,
       "base": 7.72,
-      "current": 8.64
+      "current": 8.56
     },
     {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
-      "change_pct": 9.8,
+      "change_pct": 8.6,
       "base": 3.12,
-      "current": 3.42
+      "current": 3.39
     },
     {
       "id": "onion",
@@ -71,6 +71,13 @@
       "current": 7.91
     },
     {
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "change_pct": 3.7,
+      "base": 7.38,
+      "current": 7.65
+    },
+    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 3.4,
@@ -83,6 +90,13 @@
       "change_pct": 3.3,
       "base": 8.45,
       "current": 8.72
+    },
+    {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "change_pct": 3.1,
+      "base": 8.9,
+      "current": 9.18
     },
     {
       "id": "bread",
@@ -99,25 +113,11 @@
       "current": 7.02
     },
     {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "change_pct": 2.5,
-      "base": 8.9,
-      "current": 9.12
-    },
-    {
-      "id": "hummus",
-      "name": "חומוס 400 גרם",
-      "change_pct": 2.3,
-      "base": 11.71,
-      "current": 11.98
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "change_pct": 2.0,
-      "base": 7.38,
-      "current": 7.52
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": 2.1,
+      "base": 16.75,
+      "current": 17.1
     },
     {
       "id": "schnitzel",
@@ -141,13 +141,6 @@
       "current": 37.65
     },
     {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": 1.6,
-      "base": 16.75,
-      "current": 17.02
-    },
-    {
       "id": "eggs_12",
       "name": "ביצים 12 יח XL פיקוח",
       "change_pct": 1.5,
@@ -160,6 +153,13 @@
       "change_pct": 1.3,
       "base": 10.13,
       "current": 10.26
+    },
+    {
+      "id": "hummus",
+      "name": "חומוס 400 גרם",
+      "change_pct": 1.2,
+      "base": 11.71,
+      "current": 11.85
     },
     {
       "id": "emek_28",
@@ -192,18 +192,18 @@
   ],
   "biggest_decrease": [
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -14.1,
+      "base": 6.42,
+      "current": 5.51
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "change_pct": -8.8,
       "base": 10.07,
       "current": 9.19
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -8.3,
-      "base": 6.42,
-      "current": 5.89
     },
     {
       "id": "tahini",
@@ -222,9 +222,9 @@
     {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
-      "change_pct": -6.4,
+      "change_pct": -6.2,
       "base": 12.56,
-      "current": 11.75
+      "current": 11.78
     },
     {
       "id": "coffee_turkish",
@@ -241,18 +241,18 @@
       "current": 42.4
     },
     {
+      "id": "chocolate_spread",
+      "name": "ממרח שוקולד השחר",
+      "change_pct": -0.3,
+      "base": 28.25,
+      "current": 28.18
+    },
+    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": -0.1,
       "base": 5.08,
       "current": 5.08
-    },
-    {
-      "id": "chocolate_spread",
-      "name": "ממרח שוקולד השחר",
-      "change_pct": -0.1,
-      "base": 28.25,
-      "current": 28.22
     }
   ],
   "biggest_chain_gap": [
@@ -289,17 +289,17 @@
       "gap_pct": 168.2,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 2.2,
-      "expensive_chain": "tiv_taam",
+      "expensive_chain": "shufersal",
       "expensive_price": 5.9
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "gap_pct": 137.9,
+      "gap_pct": 103.4,
       "cheapest_chain": "hazi_hinam",
       "cheapest_price": 2.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 6.9
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 5.9
     },
     {
       "id": "tea",
@@ -345,15 +345,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 6.4
-    },
-    {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "gap_pct": 63.6,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 14.0,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 22.9
     },
     {
       "id": "spaghetti",
@@ -410,13 +401,22 @@
       "expensive_price": 4.1
     },
     {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "gap_pct": 44.0,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 15.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 22.9
+    },
+    {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
-      "gap_pct": 44.0,
+      "gap_pct": 37.7,
       "cheapest_chain": "victory",
       "cheapest_price": 15.9,
       "expensive_chain": "shufersal",
-      "expensive_price": 22.9
+      "expensive_price": 21.9
     },
     {
       "id": "tahini",
@@ -476,7 +476,7 @@
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "gap_pct": 28.2,
-      "cheapest_chain": "shufersal",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 8.5,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 10.9

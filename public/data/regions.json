@@ -60,7 +60,7 @@
       "center": 15.26,
       "bnei_brak": 15.48,
       "north": 15.26,
-      "south": 15.15,
+      "south": 15.16,
       "jerusalem": 15.32
     },
     "yogurt": {
@@ -85,70 +85,70 @@
       "jerusalem": 11.92
     },
     "spaghetti": {
-      "center": 8.65,
-      "bnei_brak": 6.8,
-      "north": 8.07,
-      "south": 7.75,
-      "jerusalem": 7.46
+      "center": 8.91,
+      "bnei_brak": 7.27,
+      "north": 8.34,
+      "south": 7.86,
+      "jerusalem": 7.79
     },
     "couscous": {
-      "center": 7.87,
+      "center": 8.33,
       "bnei_brak": 5.63,
-      "north": 6.65,
-      "south": 6.69,
-      "jerusalem": 5.95
+      "north": 7.47,
+      "south": 7.23,
+      "jerusalem": 6.38
     },
     "tomato": {
-      "center": 7.74,
+      "center": 7.93,
       "bnei_brak": 4.7,
-      "north": 6.36,
-      "south": 6.26,
-      "jerusalem": 5.73
+      "north": 6.52,
+      "south": 6.36,
+      "jerusalem": 5.78
     },
     "cucumber": {
-      "center": 6.8,
+      "center": 6.83,
       "bnei_brak": 4.9,
       "north": 6.21,
-      "south": 6.04,
+      "south": 6.15,
       "jerusalem": 5.44
     },
     "onion": {
-      "center": 5.83,
+      "center": 5.9,
       "bnei_brak": 4.03,
       "north": 5.28,
       "south": 5.05,
       "jerusalem": 4.89
     },
     "potato": {
-      "center": 6.29,
+      "center": 6.33,
       "bnei_brak": 5.57,
       "north": 5.69,
       "south": 5.46,
-      "jerusalem": 5.56
+      "jerusalem": 5.57
     },
     "carrot": {
-      "center": 5.59,
+      "center": 5.58,
       "bnei_brak": 4.23,
       "north": 4.99,
       "south": 4.89,
       "jerusalem": 4.73
     },
     "apple": {
-      "center": 13.88,
+      "center": 13.86,
       "bnei_brak": 11.15,
       "north": 12.76,
-      "south": 12.56,
+      "south": 12.49,
       "jerusalem": 11.55
     },
     "frozen_peas": {
-      "center": 20.93,
+      "center": 20.97,
       "bnei_brak": 17.9,
-      "north": 19.99,
-      "south": 19.43,
-      "jerusalem": 19.31
+      "north": 20.01,
+      "south": 19.49,
+      "jerusalem": 19.4
     },
     "chicken_breast": {
-      "center": 39.52,
+      "center": 39.53,
       "bnei_brak": 42.23,
       "north": 39.82,
       "south": 38.22,
@@ -159,10 +159,10 @@
       "bnei_brak": 31.65,
       "north": 33.37,
       "south": 32.51,
-      "jerusalem": 32.02
+      "jerusalem": 32.25
     },
     "hot_dogs": {
-      "center": 19.82,
+      "center": 19.83,
       "bnei_brak": 18.23,
       "north": 19.46,
       "south": 18.71,
@@ -211,14 +211,14 @@
       "jerusalem": 46.39
     },
     "water": {
-      "center": 17.72,
+      "center": 17.71,
       "bnei_brak": 16.72,
       "north": 17.21,
       "south": 16.83,
       "jerusalem": 16.82
     },
     "coffee_tasters": {
-      "center": 39.03,
+      "center": 39.01,
       "bnei_brak": 36.63,
       "north": 37.93,
       "south": 36.97,
@@ -232,17 +232,17 @@
       "jerusalem": 19.25
     },
     "tea": {
-      "center": 8.38,
+      "center": 8.4,
       "bnei_brak": 8.12,
       "north": 8.23,
       "south": 7.89,
       "jerusalem": 7.86
     },
     "bamba": {
-      "center": 5.7,
+      "center": 5.69,
       "bnei_brak": 4.76,
-      "north": 5.27,
-      "south": 5.03,
+      "north": 5.29,
+      "south": 5.04,
       "jerusalem": 4.76
     },
     "bisli": {
@@ -253,27 +253,27 @@
       "jerusalem": 4.54
     },
     "para_chocolate": {
-      "center": 9.64,
-      "bnei_brak": 8.9,
-      "north": 9.11,
-      "south": 9.03,
-      "jerusalem": 9.01
+      "center": 9.69,
+      "bnei_brak": 8.86,
+      "north": 9.18,
+      "south": 9.19,
+      "jerusalem": 9.04
     },
     "cookies": {
       "center": 10.17,
       "bnei_brak": 8.1,
       "north": 9.0,
       "south": 9.12,
-      "jerusalem": 8.28
+      "jerusalem": 8.26
     }
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.3,
-    "north": 96.3,
+    "bnei_brak": 91.2,
+    "north": 96.4,
     "south": 94.3,
     "jerusalem": 93.0
   },
   "common_product_count": 37,
-  "store_count": 863
+  "store_count": 866
 }
