@@ -43,6 +43,13 @@
       "current": 4.44
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 9.9,
+      "base": 6.85,
+      "current": 7.52
+    },
+    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 9.8,
@@ -85,13 +92,6 @@
       "current": 8.19
     },
     {
-      "id": "bisli",
-      "name": "ביסלי גריל 70 גרם",
-      "change_pct": 2.8,
-      "base": 4.84,
-      "current": 4.98
-    },
-    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.8,
@@ -99,11 +99,11 @@
       "current": 9.15
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 2.6,
-      "base": 6.85,
-      "current": 7.02
+      "id": "bisli",
+      "name": "ביסלי גריל 70 גרם",
+      "change_pct": 2.0,
+      "base": 4.84,
+      "current": 4.94
     },
     {
       "id": "spaghetti",
@@ -381,15 +381,6 @@
       "expensive_price": 22.9
     },
     {
-      "id": "bisli",
-      "name": "ביסלי גריל 70 גרם",
-      "gap_pct": 59.0,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 3.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 6.2
-    },
-    {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
       "gap_pct": 54.4,
@@ -397,6 +388,15 @@
       "cheapest_price": 34.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 53.9
+    },
+    {
+      "id": "bisli",
+      "name": "ביסלי גריל 70 גרם",
+      "gap_pct": 51.3,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 3.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 5.9
     },
     {
       "id": "butter",

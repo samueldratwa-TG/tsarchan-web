@@ -106,11 +106,11 @@
       "jerusalem": 5.78
     },
     "cucumber": {
-      "center": 6.83,
-      "bnei_brak": 4.9,
-      "north": 6.21,
-      "south": 6.04,
-      "jerusalem": 5.44
+      "center": 6.82,
+      "bnei_brak": 5.3,
+      "north": 6.06,
+      "south": 5.97,
+      "jerusalem": 5.9
     },
     "onion": {
       "center": 5.9,
@@ -246,10 +246,10 @@
       "jerusalem": 4.76
     },
     "bisli": {
-      "center": 4.94,
+      "center": 5.11,
       "bnei_brak": 4.33,
-      "north": 4.67,
-      "south": 4.46,
+      "north": 4.72,
+      "south": 4.56,
       "jerusalem": 4.54
     },
     "para_chocolate": {
@@ -269,10 +269,10 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.2,
-    "north": 96.4,
+    "bnei_brak": 91.3,
+    "north": 96.3,
     "south": 94.3,
-    "jerusalem": 92.9
+    "jerusalem": 93.0
   },
   "common_product_count": 37,
   "store_count": 866

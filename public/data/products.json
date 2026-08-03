@@ -216,14 +216,14 @@
       "category": "produce",
       "base_price": 6.85,
       "chains": {
-        "shufersal": 5.9,
+        "shufersal": 9.9,
         "rami_levy": 3.9,
         "yohananof": 5.9,
         "victory": 6.9,
         "yayno_bitan_and_carrefour": 11.9
       },
-      "avg_price": 6.38,
-      "change_pct": -6.9
+      "avg_price": 6.81,
+      "change_pct": -0.6
     },
     {
       "id": "onion",
@@ -522,8 +522,8 @@
         "victory": 4.9,
         "yayno_bitan_and_carrefour": 5.6
       },
-      "avg_price": 4.93,
-      "change_pct": 1.9
+      "avg_price": 4.9,
+      "change_pct": 1.2
     },
     {
       "id": "para_chocolate",
