@@ -29,9 +29,9 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.47,
+      "center": 19.46,
       "bnei_brak": 18.06,
-      "north": 18.91,
+      "north": 18.92,
       "south": 18.85,
       "jerusalem": 18.79
     },
@@ -102,14 +102,14 @@
       "center": 7.93,
       "bnei_brak": 4.7,
       "north": 6.52,
-      "south": 6.36,
+      "south": 6.34,
       "jerusalem": 5.78
     },
     "cucumber": {
       "center": 6.83,
       "bnei_brak": 4.9,
       "north": 6.21,
-      "south": 6.15,
+      "south": 6.04,
       "jerusalem": 5.44
     },
     "onion": {
@@ -134,7 +134,7 @@
       "jerusalem": 4.73
     },
     "apple": {
-      "center": 13.86,
+      "center": 13.87,
       "bnei_brak": 11.15,
       "north": 12.76,
       "south": 12.49,
@@ -159,10 +159,10 @@
       "bnei_brak": 31.65,
       "north": 33.37,
       "south": 32.51,
-      "jerusalem": 32.25
+      "jerusalem": 32.02
     },
     "hot_dogs": {
-      "center": 19.83,
+      "center": 19.82,
       "bnei_brak": 18.23,
       "north": 19.46,
       "south": 18.71,
@@ -272,7 +272,7 @@
     "bnei_brak": 91.2,
     "north": 96.4,
     "south": 94.3,
-    "jerusalem": 93.0
+    "jerusalem": 92.9
   },
   "common_product_count": 37,
   "store_count": 866
