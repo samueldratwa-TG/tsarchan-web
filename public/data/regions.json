@@ -29,7 +29,7 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.46,
+      "center": 19.47,
       "bnei_brak": 18.06,
       "north": 18.92,
       "south": 18.87,
@@ -99,45 +99,45 @@
       "jerusalem": 6.44
     },
     "tomato": {
-      "center": 7.88,
+      "center": 7.9,
       "bnei_brak": 4.6,
-      "north": 6.49,
-      "south": 6.3,
-      "jerusalem": 5.76
+      "north": 6.46,
+      "south": 6.28,
+      "jerusalem": 5.75
     },
     "cucumber": {
-      "center": 7.94,
-      "bnei_brak": 5.53,
-      "north": 7.16,
-      "south": 6.81,
-      "jerusalem": 6.35
+      "center": 7.89,
+      "bnei_brak": 5.4,
+      "north": 7.07,
+      "south": 6.79,
+      "jerusalem": 6.45
     },
     "onion": {
-      "center": 5.83,
+      "center": 5.84,
       "bnei_brak": 4.03,
-      "north": 5.23,
-      "south": 4.98,
-      "jerusalem": 4.91
+      "north": 5.21,
+      "south": 4.97,
+      "jerusalem": 4.89
     },
     "potato": {
-      "center": 6.34,
+      "center": 6.33,
       "bnei_brak": 5.57,
-      "north": 5.7,
-      "south": 5.49,
+      "north": 5.69,
+      "south": 5.48,
       "jerusalem": 5.57
     },
     "carrot": {
-      "center": 5.59,
+      "center": 5.6,
       "bnei_brak": 4.23,
       "north": 4.99,
-      "south": 4.86,
+      "south": 4.87,
       "jerusalem": 4.73
     },
     "apple": {
       "center": 13.81,
       "bnei_brak": 11.15,
-      "north": 12.7,
-      "south": 12.47,
+      "north": 12.66,
+      "south": 12.46,
       "jerusalem": 11.53
     },
     "frozen_peas": {
@@ -148,18 +148,18 @@
       "jerusalem": 19.32
     },
     "chicken_breast": {
-      "center": 39.44,
-      "bnei_brak": 41.57,
-      "north": 39.66,
-      "south": 38.44,
-      "jerusalem": 38.05
+      "center": 39.48,
+      "bnei_brak": 42.23,
+      "north": 39.79,
+      "south": 38.47,
+      "jerusalem": 38.28
     },
     "schnitzel": {
       "center": 34.84,
       "bnei_brak": 31.65,
       "north": 33.4,
       "south": 32.47,
-      "jerusalem": 32.25
+      "jerusalem": 32.21
     },
     "hot_dogs": {
       "center": 19.83,
@@ -269,7 +269,7 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.0,
+    "bnei_brak": 91.1,
     "north": 96.4,
     "south": 94.3,
     "jerusalem": 93.0
