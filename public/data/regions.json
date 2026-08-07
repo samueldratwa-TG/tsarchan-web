@@ -25,25 +25,25 @@
       "center": 5.86,
       "bnei_brak": 5.85,
       "north": 5.85,
-      "south": 5.76,
+      "south": 5.77,
       "jerusalem": 5.83
     },
     "emek_28": {
       "center": 19.47,
       "bnei_brak": 18.06,
-      "north": 18.92,
+      "north": 18.94,
       "south": 18.87,
       "jerusalem": 18.79
     },
     "butter": {
-      "center": 10.33,
-      "bnei_brak": 9.35,
-      "north": 10.0,
-      "south": 9.83,
-      "jerusalem": 9.6
+      "center": 10.4,
+      "bnei_brak": 9.43,
+      "north": 10.08,
+      "south": 9.87,
+      "jerusalem": 9.68
     },
     "sweet_cream": {
-      "center": 9.24,
+      "center": 9.25,
       "bnei_brak": 8.32,
       "north": 8.83,
       "south": 8.72,
@@ -89,7 +89,7 @@
       "bnei_brak": 7.27,
       "north": 8.34,
       "south": 7.86,
-      "jerusalem": 7.74
+      "jerusalem": 7.72
     },
     "couscous": {
       "center": 8.3,
@@ -99,46 +99,46 @@
       "jerusalem": 6.44
     },
     "tomato": {
-      "center": 7.9,
+      "center": 7.89,
       "bnei_brak": 4.6,
-      "north": 6.46,
-      "south": 6.28,
-      "jerusalem": 5.75
+      "north": 6.51,
+      "south": 6.29,
+      "jerusalem": 5.7
     },
     "cucumber": {
-      "center": 7.89,
-      "bnei_brak": 5.4,
-      "north": 7.07,
+      "center": 7.98,
+      "bnei_brak": 5.53,
+      "north": 7.18,
       "south": 6.79,
-      "jerusalem": 6.45
+      "jerusalem": 6.49
     },
     "onion": {
-      "center": 5.84,
+      "center": 5.83,
       "bnei_brak": 4.03,
-      "north": 5.21,
-      "south": 4.97,
-      "jerusalem": 4.89
+      "north": 5.23,
+      "south": 4.98,
+      "jerusalem": 4.91
     },
     "potato": {
-      "center": 6.33,
+      "center": 6.34,
       "bnei_brak": 5.57,
-      "north": 5.69,
-      "south": 5.48,
+      "north": 5.7,
+      "south": 5.49,
       "jerusalem": 5.57
     },
     "carrot": {
       "center": 5.6,
       "bnei_brak": 4.23,
-      "north": 4.99,
+      "north": 4.98,
       "south": 4.87,
       "jerusalem": 4.73
     },
     "apple": {
       "center": 13.81,
       "bnei_brak": 11.15,
-      "north": 12.66,
+      "north": 12.63,
       "south": 12.46,
-      "jerusalem": 11.53
+      "jerusalem": 11.55
     },
     "frozen_peas": {
       "center": 20.96,
@@ -148,11 +148,11 @@
       "jerusalem": 19.32
     },
     "chicken_breast": {
-      "center": 39.48,
-      "bnei_brak": 42.23,
-      "north": 39.79,
-      "south": 38.47,
-      "jerusalem": 38.28
+      "center": 39.44,
+      "bnei_brak": 41.57,
+      "north": 39.69,
+      "south": 38.37,
+      "jerusalem": 38.13
     },
     "schnitzel": {
       "center": 34.84,
@@ -165,11 +165,11 @@
       "center": 19.83,
       "bnei_brak": 18.23,
       "north": 19.49,
-      "south": 18.71,
+      "south": 18.67,
       "jerusalem": 18.63
     },
     "sugar": {
-      "center": 5.72,
+      "center": 5.73,
       "bnei_brak": 4.8,
       "north": 5.55,
       "south": 5.43,
@@ -227,16 +227,16 @@
     "coffee_turkish": {
       "center": 20.41,
       "bnei_brak": 17.9,
-      "north": 20.01,
+      "north": 20.02,
       "south": 19.61,
-      "jerusalem": 19.25
+      "jerusalem": 19.26
     },
     "tea": {
       "center": 8.4,
       "bnei_brak": 8.12,
       "north": 8.23,
       "south": 7.89,
-      "jerusalem": 7.86
+      "jerusalem": 7.87
     },
     "bamba": {
       "center": 5.69,
@@ -246,10 +246,10 @@
       "jerusalem": 4.75
     },
     "bisli": {
-      "center": 5.11,
+      "center": 5.12,
       "bnei_brak": 4.33,
       "north": 4.76,
-      "south": 4.62,
+      "south": 4.56,
       "jerusalem": 4.54
     },
     "para_chocolate": {
@@ -260,7 +260,7 @@
       "jerusalem": 9.13
     },
     "cookies": {
-      "center": 10.17,
+      "center": 10.16,
       "bnei_brak": 8.1,
       "north": 9.0,
       "south": 9.14,
@@ -269,9 +269,9 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.1,
+    "bnei_brak": 91.0,
     "north": 96.4,
-    "south": 94.3,
+    "south": 94.2,
     "jerusalem": 93.0
   },
   "common_product_count": 37,
