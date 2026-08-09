@@ -158,10 +158,26 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
         </div>
       </div>
 
+      {/* How the numbers in the two panels above are computed */}
+      <p className="-mt-6 mb-8 text-xs text-gray-500 leading-relaxed">
+        המחיר בשתי הטבלאות למעלה אינו מחיר של רשת בודדת אלא של המוצר בכל השוק: לכל רשת נלקח
+        <strong className="font-semibold text-gray-600"> חציון הסניפים</strong> שלה, ומהחציונים
+        של כל <strong className="font-semibold text-gray-600">8 הרשתות</strong> מחושב
+        <strong className="font-semibold text-gray-600"> ממוצע גאומטרי</strong> (ולא חשבוני) -
+        כך שרשת אחת קיצונית לא מושכת את המספר אחריה. שימו לב שמוצגות בטבלאות רק 5 רשתות, אך
+        החישוב כאן נעשה על כל 8.{" "}
+        <a href="/methodology" className="text-blue-600 hover:text-blue-800 underline">למה חציון ולא ממוצע?</a>
+      </p>
+
       {/* Chain gaps */}
       <div className="bg-white rounded-xl shadow p-6 mb-8">
         <h2 className="text-lg font-semibold text-amber-700 mb-2">פערי מחירים גדולים בין הרשתות</h2>
-        <p className="text-xs text-gray-400 mb-4">אותו מוצר זהה, מחיר שונה — על בסיס מחירים עדכניים</p>
+        <p className="text-xs text-gray-400 mb-1">אותו מוצר זהה, מחיר שונה — על בסיס מחירים עדכניים</p>
+        <p className="text-xs text-gray-500 mb-4 leading-relaxed">
+          כל מחיר כאן הוא <strong className="font-semibold text-gray-600">חציון הסניפים</strong> של אותה
+          רשת, לא מחיר של סניף בודד. רשת שמפרסמת את המוצר בפחות מ-5 סניפים לא נכללת בהשוואה כלל,
+          כדי שפער לא ייווצר ממחיר שנשען על סניף אחד.
+        </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
