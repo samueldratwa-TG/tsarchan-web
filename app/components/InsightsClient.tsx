@@ -160,12 +160,11 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
 
       {/* How the numbers in the two panels above are computed */}
       <p className="-mt-6 mb-8 text-xs text-gray-500 leading-relaxed">
-        המחיר בשתי הטבלאות למעלה אינו מחיר של רשת בודדת אלא של המוצר בכל השוק: לכל רשת נלקח
-        <strong className="font-semibold text-gray-600"> חציון הסניפים</strong> שלה, ומהחציונים
-        של כל <strong className="font-semibold text-gray-600">8 הרשתות</strong> מחושב
-        <strong className="font-semibold text-gray-600"> ממוצע גאומטרי</strong> (ולא חשבוני) -
-        כך שרשת אחת קיצונית לא מושכת את המספר אחריה. שימו לב שמוצגות בטבלאות רק 5 רשתות, אך
-        החישוב כאן נעשה על כל 8.{" "}
+        המחירים בשתי הטבלאות למעלה הם מחיר אחד לכל מוצר בכל השוק, לא מחיר של רשת מסוימת: בכל רשת
+        נלקח <strong className="font-semibold text-gray-600">חציון הסניפים</strong> שלה, ומ-8
+        החציונים האלה מחושב <strong className="font-semibold text-gray-600">ממוצע גאומטרי</strong>
+        {" "}(ולא חשבוני) - כך שרשת אחת קיצונית לא מושכת את המספר אחריה. כל רשת נספרת פעם אחת,
+        ללא שקלול לפי גודלה.{" "}
         <a href="/methodology" className="text-blue-600 hover:text-blue-800 underline">למה חציון ולא ממוצע?</a>
       </p>
 
@@ -176,7 +175,9 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
         <p className="text-xs text-gray-500 mb-4 leading-relaxed">
           כל מחיר כאן הוא <strong className="font-semibold text-gray-600">חציון הסניפים</strong> של אותה
           רשת, לא מחיר של סניף בודד. רשת שמפרסמת את המוצר בפחות מ-5 סניפים לא נכללת בהשוואה כלל,
-          כדי שפער לא ייווצר ממחיר שנשען על סניף אחד.
+          כדי שפער לא ייווצר ממחיר שנשען על סניף אחד. ההשוואה נעשית על כל
+          <strong className="font-semibold text-gray-600"> 8 הרשתות</strong>, ולכן עשויה להופיע כאן
+          רשת שאינה מוצגת בטבלת המחירים בעמוד הראשי (שמציגה 5).
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
