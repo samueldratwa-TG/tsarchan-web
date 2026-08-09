@@ -84,6 +84,48 @@ export default async function MethodologyPage() {
           </div>
         </section>
 
+        {/* Section 2b: why the median */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-gray-800 mb-3 border-r-4 border-blue-500 pr-3">למה חציון ולא ממוצע?</h2>
+          <p className="text-gray-600 leading-relaxed mb-3">
+            לרשת אחת יש עשרות ומאות סניפים, ולכל סניף מחיר משלו. כדי להציג מספר אחד לרשת צריך
+            לבחור איך לסכם אותם. אנחנו בוחרים <strong className="font-semibold text-gray-700">חציון</strong> -
+            המחיר שנמצא באמצע, כשמסדרים את כל הסניפים מהזול ליקר.
+          </p>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-3">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong className="font-semibold">דוגמה אמיתית מהנתונים שלנו.</strong> מלפפון ברמי לוי,
+              75 סניפים: 39 סניפים ב-5.90 ש&quot;ח, 15 ב-3.90, 9 ב-6.90, 6 ב-4.90, 3 ב-8.90 ו-3 ב-1.90.
+              הממוצע יוצא 5.50 ש&quot;ח - מחיר ש<strong className="font-semibold">לא קיים באף סניף</strong>.
+              החציון הוא 5.90 - המחיר שבו באמת קונים ברוב הסניפים.
+            </p>
+          </div>
+          <ul className="space-y-2 text-gray-600 text-sm leading-relaxed list-disc pr-5">
+            <li>
+              <strong className="font-semibold text-gray-700">מספר שאפשר באמת לשלם.</strong> בבדיקה על 826
+              תאים, החציון היה מחיר שקיים בפועל באיזשהו סניף ב-99% מהמקרים. הממוצע - ב-16% בלבד.
+            </li>
+            <li>
+              <strong className="font-semibold text-gray-700">עמידות למבצעים.</strong> סניף בודד שמריץ מבצע
+              לא אמור להזיז את המחיר של רשת שלמה. אם סניף אחד מתוך שישה יורד ל-1.90, הממוצע זז ב-0.67
+              ש&quot;ח - החציון לא זז בכלל. כדי להזיז חציון צריך שיותר מחצי מהסניפים ישנו מחיר, וזה בדיוק
+              המצב שבו נכון שהמחיר יזוז.
+            </li>
+            <li>
+              <strong className="font-semibold text-gray-700">מינימום 5 סניפים.</strong> אם רשת מפרסמת את
+              המוצר בפחות מ-5 סניפים, אנחנו לא מציגים לה מחיר בכלל ומסמנים —. עדיף להראות שאין נתון
+              מאשר להציג מספר שנשען על סניף אחד או שניים ונראה בטוח יותר ממה שהוא.
+            </li>
+          </ul>
+          <p className="text-sm text-gray-500 leading-relaxed mt-3">
+            הערה על מה שהשתנה: עד ה-9 באוגוסט 2026 טבלת המוצרים הציגה מחיר של סניף בודד - זה שעדכן
+            מחיר אחרון - ולא סיכום של הרשת. מכיוון שסניף שמעדכן מחיר הוא לרוב סניף שהתחיל מבצע, המספר
+            שהוצג נטה כלפי מטה וייצר פערים לא סבירים בין רשתות. המעבר לחציון תיקן זאת.
+            שימו לב: <strong className="font-semibold text-gray-600">המדד עצמו לא הושפע</strong> - הוא תמיד
+            חושב מחציון הסניפים.
+          </p>
+        </section>
+
         {/* Section 3: How the index is built */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-gray-800 mb-3 border-r-4 border-blue-500 pr-3">איך בונים מדד יומי מנתונים מ-8 רשתות?</h2>

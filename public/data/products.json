@@ -12,6 +12,28 @@
         "victory": 7.35,
         "yayno_bitan_and_carrefour": 7.35
       },
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 321,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
       "avg_price": 7.31,
       "change_pct": 5.3
     },
@@ -21,14 +43,36 @@
       "category": "dairy",
       "base_price": 6.07,
       "chains": {
-        "shufersal": 6.1,
-        "rami_levy": 6.1,
-        "yohananof": 6.5,
+        "shufersal": 6.4,
+        "rami_levy": 5.9,
+        "yohananof": 5.9,
         "victory": 6.1,
-        "yayno_bitan_and_carrefour": 5.0
+        "yayno_bitan_and_carrefour": 6.3
       },
-      "avg_price": 6.04,
-      "change_pct": -0.5
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 313,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 98,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 6.08,
+      "change_pct": 0.2
     },
     {
       "id": "gevina_levana_5",
@@ -42,6 +86,28 @@
         "victory": 5.87,
         "yayno_bitan_and_carrefour": 5.87
       },
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 143,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 88,
+          "as_of": "2026-08-09"
+        }
+      },
       "avg_price": 5.85,
       "change_pct": 0.5
     },
@@ -52,13 +118,35 @@
       "base_price": 19.37,
       "chains": {
         "shufersal": 17.2,
-        "rami_levy": 21.3,
+        "rami_levy": 18.1,
         "yohananof": 18.9,
         "victory": 19.4,
-        "yayno_bitan_and_carrefour": 20.9
+        "yayno_bitan_and_carrefour": 19.9
       },
-      "avg_price": 19.59,
-      "change_pct": 1.1
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 41,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 78,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 18,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 60,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 10,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 18.71,
+      "change_pct": -3.4
     },
     {
       "id": "butter",
@@ -66,14 +154,36 @@
       "category": "dairy",
       "base_price": 10.13,
       "chains": {
-        "shufersal": 10.7,
-        "rami_levy": 7.9,
+        "shufersal": 10.4,
+        "rami_levy": 8.9,
         "yohananof": 9.5,
         "victory": 10.5,
         "yayno_bitan_and_carrefour": 10.3
       },
-      "avg_price": 9.97,
-      "change_pct": -1.6
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 300,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 98,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 10.08,
+      "change_pct": -0.5
     },
     {
       "id": "sweet_cream",
@@ -81,14 +191,36 @@
       "category": "dairy",
       "base_price": 8.45,
       "chains": {
-        "shufersal": 8.6,
+        "shufersal": 9.2,
         "rami_levy": 7.9,
         "yohananof": 8.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.8
       },
-      "avg_price": 8.7,
-      "change_pct": 3.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 103,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 28,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 25,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 28,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 8.77,
+      "change_pct": 3.8
     },
     {
       "id": "sour_cream",
@@ -96,14 +228,36 @@
       "category": "dairy",
       "base_price": 3.12,
       "chains": {
-        "shufersal": 3.2,
-        "rami_levy": 2.7,
-        "yohananof": 3.5,
+        "shufersal": 3.6,
+        "rami_levy": 3.3,
+        "yohananof": 2.9,
         "victory": 3.2,
-        "yayno_bitan_and_carrefour": 3.9
+        "yayno_bitan_and_carrefour": 3.5
       },
-      "avg_price": 3.32,
-      "change_pct": 6.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 312,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 55,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 143,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 3.23,
+      "change_pct": 3.5
     },
     {
       "id": "eggs_12",
@@ -112,13 +266,35 @@
       "base_price": 15.06,
       "chains": {
         "shufersal": 15.48,
-        "rami_levy": 15.3,
+        "rami_levy": 15.4,
         "yohananof": 14.24,
         "victory": 15.48,
         "yayno_bitan_and_carrefour": 15.48
       },
-      "avg_price": 15.29,
-      "change_pct": 1.5
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 119,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 17,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 38,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 39,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 30,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 15.24,
+      "change_pct": 1.2
     },
     {
       "id": "yogurt",
@@ -126,14 +302,36 @@
       "category": "dairy",
       "base_price": 4.08,
       "chains": {
-        "shufersal": 3.9,
+        "shufersal": 4.7,
         "rami_levy": 3.8,
         "yohananof": 3.9,
-        "victory": 4.9,
-        "yayno_bitan_and_carrefour": 4.3
+        "victory": 4.6,
+        "yayno_bitan_and_carrefour": 5.0
       },
-      "avg_price": 4.26,
-      "change_pct": 4.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 316,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 4.34,
+      "change_pct": 6.4
     },
     {
       "id": "bread",
@@ -144,11 +342,33 @@
         "shufersal": 8.38,
         "rami_levy": 8.2,
         "yohananof": 7.6,
-        "victory": 8.38,
-        "yayno_bitan_and_carrefour": 8.0
+        "victory": 7.9,
+        "yayno_bitan_and_carrefour": 8.38
       },
-      "avg_price": 8.19,
-      "change_pct": 2.8
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 132,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 40,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 37,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 51,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 115,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 8.17,
+      "change_pct": 2.5
     },
     {
       "id": "rice",
@@ -156,14 +376,36 @@
       "category": "grains",
       "base_price": 12.56,
       "chains": {
-        "shufersal": 11.7,
+        "shufersal": 11.9,
         "rami_levy": 11.7,
         "yohananof": 11.9,
         "victory": 11.9,
         "yayno_bitan_and_carrefour": 11.9
       },
-      "avg_price": 11.82,
-      "change_pct": -5.9
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 319,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 11.85,
+      "change_pct": -5.7
     },
     {
       "id": "spaghetti",
@@ -171,14 +413,36 @@
       "category": "grains",
       "base_price": 7.59,
       "chains": {
-        "shufersal": 9.4,
-        "rami_levy": 8.1,
+        "shufersal": 7.9,
+        "rami_levy": 6.9,
         "yohananof": 6.9,
         "victory": 7.4,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.75,
-      "change_pct": 2.1
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 206,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 59,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 46,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 22,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 137,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 7.43,
+      "change_pct": -2.1
     },
     {
       "id": "couscous",
@@ -186,14 +450,36 @@
       "category": "grains",
       "base_price": 7.38,
       "chains": {
-        "shufersal": 6.9,
-        "rami_levy": 6.0,
+        "shufersal": 6.65,
+        "rami_levy": 4.9,
         "yohananof": 5.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 9.2
       },
-      "avg_price": 7.2,
-      "change_pct": -2.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 90,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 7,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 6.99,
+      "change_pct": -5.3
     },
     {
       "id": "tomato",
@@ -201,14 +487,36 @@
       "category": "produce",
       "base_price": 5.9,
       "chains": {
-        "shufersal": 6.9,
-        "rami_levy": 4.8,
+        "shufersal": 4.9,
+        "rami_levy": 4.9,
         "yohananof": 13.9,
         "victory": 5.9,
-        "yayno_bitan_and_carrefour": 7.9
+        "yayno_bitan_and_carrefour": 8.9
       },
-      "avg_price": 6.55,
-      "change_pct": 11.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 254,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 96,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 43,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 62,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 6.39,
+      "change_pct": 8.3
     },
     {
       "id": "cucumber",
@@ -216,14 +524,31 @@
       "category": "produce",
       "base_price": 6.85,
       "chains": {
-        "shufersal": 6.9,
-        "rami_levy": 1.9,
-        "yohananof": 3.9,
-        "victory": 6.9,
-        "yayno_bitan_and_carrefour": 11.9
+        "shufersal": 7.9,
+        "rami_levy": 5.9,
+        "yohananof": 5.9,
+        "victory": 7.9
       },
-      "avg_price": 6.17,
-      "change_pct": -9.9
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 300,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 19,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 33,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 6.62,
+      "change_pct": -3.4
     },
     {
       "id": "onion",
@@ -231,14 +556,31 @@
       "category": "produce",
       "base_price": 4.02,
       "chains": {
-        "shufersal": 3.9,
-        "rami_levy": 3.9,
-        "yohananof": 4.9,
-        "victory": 4.9,
-        "yayno_bitan_and_carrefour": 7.9
+        "shufersal": 5.9,
+        "rami_levy": 4.9,
+        "yohananof": 3.9,
+        "victory": 5.9
       },
-      "avg_price": 4.75,
-      "change_pct": 18.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 313,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 16,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 27,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 4.81,
+      "change_pct": 19.7
     },
     {
       "id": "potato",
@@ -247,13 +589,35 @@
       "base_price": 6.42,
       "chains": {
         "shufersal": 5.9,
-        "rami_levy": 5.8,
-        "yohananof": 1.9,
-        "victory": 4.9,
-        "yayno_bitan_and_carrefour": 4.9
+        "rami_levy": 5.4,
+        "yohananof": 3.9,
+        "victory": 5.9,
+        "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 5.51,
-      "change_pct": -14.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 271,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 6,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 6.08,
+      "change_pct": -5.3
     },
     {
       "id": "carrot",
@@ -261,14 +625,36 @@
       "category": "produce",
       "base_price": 3.71,
       "chains": {
-        "shufersal": 2.8,
-        "rami_levy": 3.9,
-        "yohananof": 2.9,
-        "victory": 4.9,
-        "yayno_bitan_and_carrefour": 5.9
+        "shufersal": 4.9,
+        "rami_levy": 4.9,
+        "yohananof": 3.9,
+        "victory": 5.9,
+        "yayno_bitan_and_carrefour": 4.9
       },
-      "avg_price": 4.14,
-      "change_pct": 11.6
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 275,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 14,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 46,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 6,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 4.44,
+      "change_pct": 19.7
     },
     {
       "id": "apple",
@@ -277,13 +663,35 @@
       "base_price": 12.52,
       "chains": {
         "shufersal": 13.9,
-        "rami_levy": 10.9,
-        "yohananof": 10.9,
-        "victory": 15.9,
-        "yayno_bitan_and_carrefour": 12.9
+        "rami_levy": 7.9,
+        "yohananof": 9.9,
+        "victory": 13.9,
+        "yayno_bitan_and_carrefour": 14.9
       },
-      "avg_price": 12.27,
-      "change_pct": -2.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 275,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 62,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 11.38,
+      "change_pct": -9.1
     },
     {
       "id": "frozen_peas",
@@ -291,14 +699,36 @@
       "category": "produce",
       "base_price": 17.01,
       "chains": {
-        "shufersal": 14.0,
-        "rami_levy": 15.3,
+        "shufersal": 21.9,
+        "rami_levy": 17.9,
         "yohananof": 17.9,
         "victory": 18.9,
         "yayno_bitan_and_carrefour": 22.9
       },
-      "avg_price": 16.94,
-      "change_pct": -0.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 244,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 88,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 68,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 133,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 19.38,
+      "change_pct": 13.9
     },
     {
       "id": "chicken_breast",
@@ -308,11 +738,33 @@
       "chains": {
         "shufersal": 39.9,
         "rami_levy": 34.9,
-        "yohananof": 34.9,
+        "yohananof": 36.9,
         "victory": 49.9,
-        "yayno_bitan_and_carrefour": 51.9
+        "yayno_bitan_and_carrefour": 49.9
       },
-      "avg_price": 41.87,
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 110,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 59,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 39,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 16,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 6,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 41.86,
       "change_pct": -2.7
     },
     {
@@ -321,14 +773,36 @@
       "category": "meat",
       "base_price": 32.63,
       "chains": {
-        "shufersal": 33.9,
-        "rami_levy": 32.9,
-        "yohananof": 33.9,
+        "shufersal": 35.9,
+        "rami_levy": 29.9,
+        "yohananof": 29.9,
         "victory": 30.9,
         "yayno_bitan_and_carrefour": 36.9
       },
-      "avg_price": 32.96,
-      "change_pct": 1.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 275,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 98,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 32.3,
+      "change_pct": -1.0
     },
     {
       "id": "hot_dogs",
@@ -338,12 +812,34 @@
       "chains": {
         "shufersal": 22.9,
         "rami_levy": 14.9,
-        "yohananof": 16.9,
+        "yohananof": 15.9,
         "victory": 15.9,
         "yayno_bitan_and_carrefour": 21.9
       },
-      "avg_price": 17.87,
-      "change_pct": 10.8
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 260,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 81,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 44,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 69,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 132,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 17.49,
+      "change_pct": 8.4
     },
     {
       "id": "sugar",
@@ -351,14 +847,26 @@
       "category": "pantry",
       "base_price": 5.08,
       "chains": {
-        "shufersal": 4.9,
+        "shufersal": 5.9,
         "rami_levy": 4.9,
-        "yohananof": 4.9,
-        "victory": 5.5,
         "yayno_bitan_and_carrefour": 4.6
       },
-      "avg_price": 5.06,
-      "change_pct": -0.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 277,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 7,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 5,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 5.12,
+      "change_pct": 0.8
     },
     {
       "id": "salt",
@@ -368,12 +876,34 @@
       "chains": {
         "shufersal": 2.09,
         "rami_levy": 1.8,
-        "yohananof": 1.95,
+        "yohananof": 1.8,
         "victory": 2.0,
-        "yayno_bitan_and_carrefour": 1.8
+        "yayno_bitan_and_carrefour": 2.09
       },
-      "avg_price": 1.96,
-      "change_pct": 3.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 117,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 34,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 1.98,
+      "change_pct": 4.2
     },
     {
       "id": "tahini",
@@ -381,14 +911,36 @@
       "category": "pantry",
       "base_price": 16.74,
       "chains": {
-        "shufersal": 16.5,
-        "rami_levy": 9.9,
+        "shufersal": 17.5,
+        "rami_levy": 15.9,
         "yohananof": 15.9,
         "victory": 13.9,
         "yayno_bitan_and_carrefour": 17.5
       },
-      "avg_price": 14.69,
-      "change_pct": -12.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 316,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 15.7,
+      "change_pct": -6.2
     },
     {
       "id": "hummus",
@@ -397,13 +949,35 @@
       "base_price": 11.71,
       "chains": {
         "shufersal": 11.9,
-        "rami_levy": 5.8,
+        "rami_levy": 9.9,
         "yohananof": 10.9,
         "victory": 15.9,
         "yayno_bitan_and_carrefour": 12.9
       },
-      "avg_price": 11.02,
-      "change_pct": -5.9
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 275,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 97,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 35,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 21,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 50,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 11.79,
+      "change_pct": 0.7
     },
     {
       "id": "chocolate_spread",
@@ -412,13 +986,35 @@
       "base_price": 28.25,
       "chains": {
         "shufersal": 28.9,
-        "rami_levy": 28.4,
+        "rami_levy": 27.8,
         "yohananof": 27.9,
         "victory": 28.9,
         "yayno_bitan_and_carrefour": 30.9
       },
-      "avg_price": 28.24,
-      "change_pct": -0.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 286,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 68,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 44,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 67,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 130,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 28.17,
+      "change_pct": -0.3
     },
     {
       "id": "coca_cola",
@@ -426,14 +1022,36 @@
       "category": "beverages",
       "base_price": 46.21,
       "chains": {
-        "shufersal": 45.9,
-        "rami_levy": 46.9,
+        "shufersal": 47.9,
+        "rami_levy": 45.9,
         "yohananof": 45.9,
         "victory": 46.9,
         "yayno_bitan_and_carrefour": 48.9
       },
-      "avg_price": 46.89,
-      "change_pct": 1.5
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 319,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 97,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 68,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 143,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 47.01,
+      "change_pct": 1.7
     },
     {
       "id": "water",
@@ -441,14 +1059,36 @@
       "category": "beverages",
       "base_price": 16.9,
       "chains": {
-        "shufersal": 15.9,
-        "rami_levy": 16.8,
+        "shufersal": 17.5,
+        "rami_levy": 15.9,
         "yohananof": 16.5,
         "victory": 17.9,
         "yayno_bitan_and_carrefour": 18.7
       },
-      "avg_price": 16.86,
-      "change_pct": -0.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 320,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 98,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 143,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 16.9,
+      "change_pct": 0.0
     },
     {
       "id": "coffee_tasters",
@@ -456,14 +1096,36 @@
       "category": "beverages",
       "base_price": 36.96,
       "chains": {
-        "shufersal": 35.9,
+        "shufersal": 39.9,
         "rami_levy": 35.9,
-        "yohananof": 37.9,
+        "yohananof": 35.9,
         "victory": 35.9,
         "yayno_bitan_and_carrefour": 39.9
       },
-      "avg_price": 37.11,
-      "change_pct": 0.4
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 414,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 36.86,
+      "change_pct": -0.3
     },
     {
       "id": "coffee_turkish",
@@ -471,14 +1133,36 @@
       "category": "beverages",
       "base_price": 19.88,
       "chains": {
-        "shufersal": 19.9,
-        "rami_levy": 12.9,
-        "yohananof": 21.9,
+        "shufersal": 20.9,
+        "rami_levy": 18.9,
+        "yohananof": 18.9,
         "victory": 19.9,
         "yayno_bitan_and_carrefour": 20.9
       },
-      "avg_price": 18.69,
-      "change_pct": -6.0
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 277,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 14,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 19.36,
+      "change_pct": -2.6
     },
     {
       "id": "tea",
@@ -486,14 +1170,31 @@
       "category": "beverages",
       "base_price": 7.72,
       "chains": {
-        "shufersal": 8.5,
-        "rami_levy": 7.0,
-        "yohananof": 8.9,
-        "victory": 7.9,
+        "shufersal": 9.0,
+        "rami_levy": 5.9,
+        "yohananof": 7.5,
         "yayno_bitan_and_carrefour": 8.2
       },
-      "avg_price": 8.5,
-      "change_pct": 10.1
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 304,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 83,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 117,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 8.19,
+      "change_pct": 6.1
     },
     {
       "id": "bamba",
@@ -501,14 +1202,36 @@
       "category": "snacks",
       "base_price": 4.8,
       "chains": {
-        "shufersal": 6.9,
+        "shufersal": 5.9,
         "rami_levy": 4.0,
         "yohananof": 3.9,
         "victory": 4.9,
-        "yayno_bitan_and_carrefour": 3.9
+        "yayno_bitan_and_carrefour": 5.9
       },
-      "avg_price": 4.7,
-      "change_pct": -2.1
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 408,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 75,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 46,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 144,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 4.69,
+      "change_pct": -2.3
     },
     {
       "id": "bisli",
@@ -517,13 +1240,35 @@
       "base_price": 4.84,
       "chains": {
         "shufersal": 4.9,
-        "rami_levy": 5.2,
-        "yohananof": 4.9,
+        "rami_levy": 4.0,
+        "yohananof": 4.3,
         "victory": 4.9,
-        "yayno_bitan_and_carrefour": 4.9
+        "yayno_bitan_and_carrefour": 5.6
       },
-      "avg_price": 4.87,
-      "change_pct": 0.6
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 5,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 8,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 5,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 9,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 39,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 4.61,
+      "change_pct": -4.8
     },
     {
       "id": "para_chocolate",
@@ -531,14 +1276,36 @@
       "category": "snacks",
       "base_price": 8.9,
       "chains": {
-        "shufersal": 8.5,
-        "rami_levy": 7.6,
+        "shufersal": 9.9,
+        "rami_levy": 8.5,
         "yohananof": 8.5,
         "victory": 8.9,
         "yayno_bitan_and_carrefour": 10.9
       },
-      "avg_price": 8.98,
-      "change_pct": 0.9
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 211,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 99,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 117,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 9.28,
+      "change_pct": 4.3
     },
     {
       "id": "cookies",
@@ -546,14 +1313,36 @@
       "category": "snacks",
       "base_price": 10.07,
       "chains": {
-        "shufersal": 7.5,
-        "rami_levy": 8.1,
+        "shufersal": 7.9,
+        "rami_levy": 7.9,
         "yohananof": 7.9,
         "victory": 10.5,
-        "yayno_bitan_and_carrefour": 10.9
+        "yayno_bitan_and_carrefour": 10.4
       },
-      "avg_price": 9.04,
-      "change_pct": -10.2
+      "chain_meta": {
+        "shufersal": {
+          "n_stores": 41,
+          "as_of": "2026-08-09"
+        },
+        "rami_levy": {
+          "n_stores": 65,
+          "as_of": "2026-08-09"
+        },
+        "yohananof": {
+          "n_stores": 44,
+          "as_of": "2026-08-09"
+        },
+        "victory": {
+          "n_stores": 60,
+          "as_of": "2026-08-09"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 14,
+          "as_of": "2026-08-09"
+        }
+      },
+      "avg_price": 9.02,
+      "change_pct": -10.4
     }
   ],
   "display_chains": [
