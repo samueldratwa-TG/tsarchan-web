@@ -1,6 +1,13 @@
 {
   "biggest_increase": [
     {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 25.4,
+      "base": 4.02,
+      "current": 5.04
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 22.0,
@@ -8,18 +15,11 @@
       "current": 4.53
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 21.9,
-      "base": 4.02,
-      "current": 4.9
-    },
-    {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 16.9,
+      "change_pct": 21.2,
       "base": 5.9,
-      "current": 6.9
+      "current": 7.15
     },
     {
       "id": "frozen_peas",
@@ -57,13 +57,6 @@
       "current": 7.31
     },
     {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "change_pct": 4.8,
-      "base": 8.9,
-      "current": 9.32
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 4.3,
@@ -85,11 +78,25 @@
       "current": 3.24
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 3.2,
+      "base": 6.85,
+      "current": 7.07
+    },
+    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
+    },
+    {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "change_pct": 2.0,
+      "base": 8.9,
+      "current": 9.07
     },
     {
       "id": "coca_cola",
@@ -178,6 +185,13 @@
       "current": 4.64
     },
     {
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "change_pct": -3.8,
+      "base": 7.38,
+      "current": 7.1
+    },
+    {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
       "change_pct": -3.3,
@@ -197,20 +211,6 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "change_pct": -1.8,
-      "base": 7.38,
-      "current": 7.24
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": -1.7,
-      "base": 6.85,
-      "current": 6.73
     },
     {
       "id": "chicken_breast",
@@ -266,9 +266,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 256.4,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 3.9,
+      "gap_pct": 183.7,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
       "expensive_price": 13.9
     },
@@ -334,15 +334,6 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 61.2,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 7.9
     },
     {
       "id": "hummus",
@@ -417,6 +408,15 @@
       "expensive_price": 17.5
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 33.9,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 7.9
+    },
+    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "gap_pct": 33.7,
@@ -453,15 +453,6 @@
       "expensive_price": 5.9
     },
     {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "gap_pct": 28.2,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 8.5,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 10.9
-    },
-    {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
       "gap_pct": 25.3,
@@ -487,6 +478,15 @@
       "cheapest_price": 16.9,
       "expensive_chain": "shufersal",
       "expensive_price": 20.9
+    },
+    {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "gap_pct": 23.5,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 8.5,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 10.5
     },
     {
       "id": "schnitzel",
