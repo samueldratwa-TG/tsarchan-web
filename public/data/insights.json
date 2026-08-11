@@ -1,13 +1,6 @@
 {
   "biggest_increase": [
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 25.4,
-      "base": 4.02,
-      "current": 5.04
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 22.0,
@@ -15,11 +8,18 @@
       "current": 4.53
     },
     {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 21.9,
+      "base": 4.02,
+      "current": 4.9
+    },
+    {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 21.2,
+      "change_pct": 16.9,
       "base": 5.9,
-      "current": 7.15
+      "current": 6.9
     },
     {
       "id": "frozen_peas",
@@ -31,9 +31,9 @@
     {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
-      "change_pct": 9.9,
+      "change_pct": 9.0,
       "base": 16.13,
-      "current": 17.73
+      "current": 17.59
     },
     {
       "id": "tea",
@@ -127,6 +127,13 @@
       "current": 5.13
     },
     {
+      "id": "butter",
+      "name": "חמאה תנובה 200 גרם",
+      "change_pct": 0.7,
+      "base": 10.13,
+      "current": 10.2
+    },
+    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -150,18 +157,18 @@
   ],
   "biggest_decrease": [
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -9.5,
+      "base": 12.52,
+      "current": 11.33
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "change_pct": -8.9,
       "base": 10.07,
       "current": 9.18
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -6.1,
-      "base": 12.52,
-      "current": 11.76
     },
     {
       "id": "tahini",
@@ -185,6 +192,13 @@
       "current": 4.64
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -4.0,
+      "base": 6.42,
+      "current": 6.16
+    },
+    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.8,
@@ -197,13 +211,6 @@
       "change_pct": -3.3,
       "base": 19.37,
       "current": 18.73
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -3.2,
-      "base": 6.42,
-      "current": 6.21
     },
     {
       "id": "coffee_turkish",
@@ -253,13 +260,6 @@
       "change_pct": -0.1,
       "base": 28.25,
       "current": 28.21
-    },
-    {
-      "id": "butter",
-      "name": "חמאה תנובה 200 גרם",
-      "change_pct": -0.0,
-      "base": 10.13,
-      "current": 10.12
     }
   ],
   "biggest_chain_gap": [
