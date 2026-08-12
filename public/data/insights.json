@@ -57,6 +57,13 @@
       "current": 7.31
     },
     {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "change_pct": 4.6,
+      "base": 7.59,
+      "current": 7.94
+    },
+    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 4.3,
@@ -241,13 +248,6 @@
       "current": 32.4
     },
     {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "change_pct": -0.4,
-      "base": 7.59,
-      "current": 7.56
-    },
-    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
@@ -307,15 +307,6 @@
       "cheapest_price": 4.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.9
-    },
-    {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "gap_pct": 89.8,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.3
     },
     {
       "id": "apple",
@@ -406,6 +397,15 @@
       "cheapest_price": 12.9,
       "expensive_chain": "shufersal",
       "expensive_price": 17.5
+    },
+    {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "gap_pct": 34.8,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 9.3
     },
     {
       "id": "cucumber",
