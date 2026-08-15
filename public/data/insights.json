@@ -57,6 +57,13 @@
       "current": 7.31
     },
     {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "change_pct": 4.8,
+      "base": 8.9,
+      "current": 9.32
+    },
+    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 4.3,
@@ -71,6 +78,13 @@
       "current": 8.8
     },
     {
+      "id": "sour_cream",
+      "name": "שמנת חמוצה 15% 200 מל",
+      "change_pct": 3.8,
+      "base": 3.12,
+      "current": 3.24
+    },
+    {
       "id": "spaghetti",
       "name": "ספגטי אסם 500 גרם",
       "change_pct": 2.9,
@@ -83,13 +97,6 @@
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
-    },
-    {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "change_pct": 2.5,
-      "base": 8.9,
-      "current": 9.12
     },
     {
       "id": "coca_cola",
@@ -113,13 +120,6 @@
       "current": 15.28
     },
     {
-      "id": "sour_cream",
-      "name": "שמנת חמוצה 15% 200 מל",
-      "change_pct": 1.4,
-      "base": 3.12,
-      "current": 3.16
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.2,
@@ -127,18 +127,18 @@
       "current": 16.93
     },
     {
+      "id": "butter",
+      "name": "חמאה תנובה 200 גרם",
+      "change_pct": 1.1,
+      "base": 10.13,
+      "current": 10.24
+    },
+    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": 1.0,
       "base": 5.08,
       "current": 5.13
-    },
-    {
-      "id": "butter",
-      "name": "חמאה תנובה 200 גרם",
-      "change_pct": 0.7,
-      "base": 10.13,
-      "current": 10.2
     },
     {
       "id": "gevina_levana_5",
@@ -153,9 +153,23 @@
       "change_pct": 0.3,
       "base": 6.07,
       "current": 6.09
+    },
+    {
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "change_pct": 0.3,
+      "base": 7.38,
+      "current": 7.4
     }
   ],
   "biggest_decrease": [
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -9.5,
+      "base": 12.52,
+      "current": 11.33
+    },
     {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
@@ -169,13 +183,6 @@
       "change_pct": -7.3,
       "base": 16.74,
       "current": 15.51
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -7.2,
-      "base": 12.52,
-      "current": 11.61
     },
     {
       "id": "rice",
@@ -204,13 +211,6 @@
       "change_pct": -3.2,
       "base": 6.42,
       "current": 6.21
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "change_pct": -3.1,
-      "base": 7.38,
-      "current": 7.15
     },
     {
       "id": "emek_28",
@@ -309,22 +309,22 @@
       "expensive_price": 9.9
     },
     {
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "gap_pct": 102.0,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 9.9
+    },
+    {
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 88.6,
-      "cheapest_chain": "osher_ad",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 7.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 14.9
-    },
-    {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "gap_pct": 87.8,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 4.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 9.2
     },
     {
       "id": "cookies",
@@ -426,15 +426,6 @@
       "expensive_price": 11.9
     },
     {
-      "id": "sour_cream",
-      "name": "שמנת חמוצה 15% 200 מל",
-      "gap_pct": 33.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 2.7,
-      "expensive_chain": "shufersal",
-      "expensive_price": 3.6
-    },
-    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "gap_pct": 31.6,
@@ -442,6 +433,15 @@
       "cheapest_price": 3.8,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 5.0
+    },
+    {
+      "id": "sour_cream",
+      "name": "שמנת חמוצה 15% 200 מל",
+      "gap_pct": 28.6,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 2.8,
+      "expensive_chain": "shufersal",
+      "expensive_price": 3.6
     },
     {
       "id": "sugar",
