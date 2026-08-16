@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 25.4,
+      "change_pct": 23.3,
       "base": 5.9,
-      "current": 7.4
+      "current": 7.28
     },
     {
       "id": "carrot",
@@ -29,18 +29,18 @@
       "current": 19.5
     },
     {
-      "id": "tea",
-      "name": "תה ויסוצקי 25 שקיקים",
-      "change_pct": 9.9,
-      "base": 7.72,
-      "current": 8.49
-    },
-    {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
       "change_pct": 9.0,
       "base": 16.13,
       "current": 17.59
+    },
+    {
+      "id": "tea",
+      "name": "תה ויסוצקי 25 שקיקים",
+      "change_pct": 9.0,
+      "base": 7.72,
+      "current": 8.41
     },
     {
       "id": "yogurt",
@@ -55,13 +55,6 @@
       "change_pct": 5.4,
       "base": 6.94,
       "current": 7.31
-    },
-    {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "change_pct": 4.8,
-      "base": 8.9,
-      "current": 9.32
     },
     {
       "id": "salt",
@@ -85,18 +78,18 @@
       "current": 3.24
     },
     {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "change_pct": 2.9,
-      "base": 7.59,
-      "current": 7.81
-    },
-    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
+    },
+    {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "change_pct": 2.0,
+      "base": 8.9,
+      "current": 9.07
     },
     {
       "id": "coca_cola",
@@ -120,25 +113,18 @@
       "current": 15.28
     },
     {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": 1.2,
-      "base": 16.72,
-      "current": 16.93
-    },
-    {
-      "id": "butter",
-      "name": "חמאה תנובה 200 גרם",
-      "change_pct": 1.1,
-      "base": 10.13,
-      "current": 10.24
-    },
-    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": 1.0,
       "base": 5.08,
       "current": 5.13
+    },
+    {
+      "id": "butter",
+      "name": "חמאה תנובה 200 גרם",
+      "change_pct": 0.7,
+      "base": 10.13,
+      "current": 10.2
     },
     {
       "id": "gevina_levana_5",
@@ -155,11 +141,11 @@
       "current": 6.09
     },
     {
-      "id": "couscous",
-      "name": "קוסקוס אסם 500 גרם",
-      "change_pct": 0.3,
-      "base": 7.38,
-      "current": 7.4
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": 0.1,
+      "base": 16.9,
+      "current": 16.93
     }
   ],
   "biggest_decrease": [
@@ -180,9 +166,9 @@
     {
       "id": "tahini",
       "name": "טחינה גולמית 500 גרם",
-      "change_pct": -7.3,
+      "change_pct": -7.7,
       "base": 16.74,
-      "current": 15.51
+      "current": 15.45
     },
     {
       "id": "rice",
@@ -199,11 +185,11 @@
       "current": 4.64
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": -4.1,
-      "base": 6.85,
-      "current": 6.57
+      "id": "couscous",
+      "name": "קוסקוס אסם 500 גרם",
+      "change_pct": -3.8,
+      "base": 7.38,
+      "current": 7.1
     },
     {
       "id": "potato",
@@ -211,6 +197,13 @@
       "change_pct": -3.2,
       "base": 6.42,
       "current": 6.21
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": -2.9,
+      "base": 6.85,
+      "current": 6.65
     },
     {
       "id": "emek_28",
@@ -246,6 +239,13 @@
       "change_pct": -0.7,
       "base": 32.63,
       "current": 32.4
+    },
+    {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "change_pct": -0.4,
+      "base": 7.59,
+      "current": 7.56
     },
     {
       "id": "coffee_tasters",
@@ -300,15 +300,6 @@
       "expensive_price": 7.9
     },
     {
-      "id": "spaghetti",
-      "name": "ספגטי אסם 500 גרם",
-      "gap_pct": 102.0,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 9.9
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 102.0,
@@ -316,6 +307,15 @@
       "cheapest_price": 4.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.9
+    },
+    {
+      "id": "spaghetti",
+      "name": "ספגטי אסם 500 גרם",
+      "gap_pct": 89.8,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 4.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 9.3
     },
     {
       "id": "apple",
@@ -339,7 +339,7 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 61.2,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 7.9
@@ -453,15 +453,6 @@
       "expensive_price": 5.9
     },
     {
-      "id": "para_chocolate",
-      "name": "שוקולד פרה חלב 100 גרם",
-      "gap_pct": 28.2,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 8.5,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 10.9
-    },
-    {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
       "gap_pct": 25.3,
@@ -487,6 +478,15 @@
       "cheapest_price": 16.9,
       "expensive_chain": "shufersal",
       "expensive_price": 20.9
+    },
+    {
+      "id": "para_chocolate",
+      "name": "שוקולד פרה חלב 100 גרם",
+      "gap_pct": 23.5,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 8.5,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 10.5
     },
     {
       "id": "schnitzel",
