@@ -3,9 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 23.3,
+      "change_pct": 25.4,
       "base": 5.9,
-      "current": 7.28
+      "current": 7.4
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 25.4,
+      "base": 4.02,
+      "current": 5.04
     },
     {
       "id": "carrot",
@@ -13,13 +20,6 @@
       "change_pct": 22.0,
       "base": 3.71,
       "current": 4.53
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 21.9,
-      "base": 4.02,
-      "current": 4.9
     },
     {
       "id": "frozen_peas",
@@ -90,6 +90,13 @@
       "change_pct": 2.0,
       "base": 8.9,
       "current": 9.07
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 1.9,
+      "base": 6.85,
+      "current": 6.98
     },
     {
       "id": "coca_cola",
@@ -199,13 +206,6 @@
       "current": 6.21
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": -2.9,
-      "base": 6.85,
-      "current": 6.65
-    },
-    {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
       "change_pct": -2.6,
@@ -218,13 +218,6 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -1.5,
-      "base": 43.03,
-      "current": 42.4
     },
     {
       "id": "bamba",
@@ -260,6 +253,13 @@
       "change_pct": -0.1,
       "base": 28.25,
       "current": 28.21
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.0,
+      "base": 43.03,
+      "current": 43.02
     }
   ],
   "biggest_chain_gap": [
@@ -336,15 +336,6 @@
       "expensive_price": 12.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 61.2,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 7.9
-    },
-    {
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "gap_pct": 60.6,
@@ -366,7 +357,7 @@
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
       "gap_pct": 51.6,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "hazi_hinam",
       "cheapest_price": 34.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 52.9
@@ -388,6 +379,15 @@
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 46.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.4,
+      "expensive_chain": "shufersal",
+      "expensive_price": 7.9
     },
     {
       "id": "frozen_peas",
