@@ -1,25 +1,25 @@
 {
   "biggest_increase": [
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 25.4,
-      "base": 5.9,
-      "current": 7.4
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 25.4,
-      "base": 4.02,
-      "current": 5.04
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 22.0,
       "base": 3.71,
       "current": 4.53
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 21.9,
+      "base": 4.02,
+      "current": 4.9
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 20.1,
+      "base": 5.9,
+      "current": 7.09
     },
     {
       "id": "frozen_peas",
@@ -31,16 +31,16 @@
     {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
-      "change_pct": 9.0,
+      "change_pct": 9.9,
       "base": 16.13,
-      "current": 17.59
+      "current": 17.73
     },
     {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
-      "change_pct": 9.0,
+      "change_pct": 8.1,
       "base": 7.72,
-      "current": 8.41
+      "current": 8.34
     },
     {
       "id": "yogurt",
@@ -92,13 +92,6 @@
       "current": 9.07
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 1.9,
-      "base": 6.85,
-      "current": 6.98
-    },
-    {
       "id": "coca_cola",
       "name": "קוקה קולה 6x1.5 ליטר",
       "change_pct": 1.8,
@@ -134,6 +127,13 @@
       "current": 10.2
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 0.7,
+      "base": 6.85,
+      "current": 6.9
+    },
+    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -157,18 +157,18 @@
   ],
   "biggest_decrease": [
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -9.5,
-      "base": 12.52,
-      "current": 11.33
-    },
-    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "change_pct": -8.9,
       "base": 10.07,
       "current": 9.18
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -8.4,
+      "base": 12.52,
+      "current": 11.47
     },
     {
       "id": "tahini",
@@ -241,6 +241,13 @@
       "current": 7.56
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.3,
+      "base": 43.03,
+      "current": 42.9
+    },
+    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
@@ -253,13 +260,6 @@
       "change_pct": -0.1,
       "base": 28.25,
       "current": 28.21
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -0.0,
-      "base": 43.03,
-      "current": 43.02
     }
   ],
   "biggest_chain_gap": [
@@ -321,7 +321,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 88.6,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 7.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 14.9
@@ -334,6 +334,15 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 61.2,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 7.9
     },
     {
       "id": "hummus",
@@ -379,15 +388,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 46.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.4,
-      "expensive_chain": "shufersal",
-      "expensive_price": 7.9
     },
     {
       "id": "frozen_peas",
