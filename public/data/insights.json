@@ -10,9 +10,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.1,
+      "change_pct": 21.2,
       "base": 5.9,
-      "current": 7.09
+      "current": 7.15
     },
     {
       "id": "onion",
@@ -85,11 +85,32 @@
       "current": 7.07
     },
     {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "change_pct": 3.1,
+      "base": 5.08,
+      "current": 5.24
+    },
+    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 2.4,
+      "base": 43.03,
+      "current": 44.04
+    },
+    {
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": 2.0,
+      "base": 16.6,
+      "current": 16.93
     },
     {
       "id": "para_chocolate",
@@ -113,13 +134,6 @@
       "current": 15.28
     },
     {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "change_pct": 1.0,
-      "base": 5.08,
-      "current": 5.13
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": 0.7,
@@ -132,13 +146,6 @@
       "change_pct": 0.6,
       "base": 5.82,
       "current": 5.85
-    },
-    {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": 0.5,
-      "base": 16.84,
-      "current": 16.93
     },
     {
       "id": "cottage_5",
@@ -171,6 +178,13 @@
       "current": 15.45
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -7.0,
+      "base": 6.42,
+      "current": 5.97
+    },
+    {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
       "change_pct": -5.7,
@@ -180,9 +194,9 @@
     {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
-      "change_pct": -4.2,
+      "change_pct": -5.0,
       "base": 4.84,
-      "current": 4.64
+      "current": 4.6
     },
     {
       "id": "couscous",
@@ -197,13 +211,6 @@
       "change_pct": -3.2,
       "base": 19.37,
       "current": 18.74
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -3.2,
-      "base": 6.42,
-      "current": 6.21
     },
     {
       "id": "coffee_turkish",
@@ -239,13 +246,6 @@
       "change_pct": -0.4,
       "base": 7.59,
       "current": 7.56
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -0.3,
-      "base": 43.03,
-      "current": 42.9
     },
     {
       "id": "coffee_tasters",
@@ -296,7 +296,7 @@
       "gap_pct": 102.6,
       "cheapest_chain": "yohananof",
       "cheapest_price": 3.9,
-      "expensive_chain": "hazi_hinam",
+      "expensive_chain": "tiv_taam",
       "expensive_price": 7.9
     },
     {
@@ -363,15 +363,6 @@
       "expensive_price": 22.9
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "gap_pct": 51.6,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 34.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 52.9
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 51.3,
@@ -388,6 +379,15 @@
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "gap_pct": 47.4,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 35.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 52.9
     },
     {
       "id": "bisli",
@@ -444,15 +444,6 @@
       "expensive_price": 3.6
     },
     {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "gap_pct": 28.3,
-      "cheapest_chain": "yayno_bitan_and_carrefour",
-      "cheapest_price": 4.6,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
-    },
-    {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
       "gap_pct": 25.3,
@@ -496,6 +487,15 @@
       "cheapest_price": 29.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 36.9
+    },
+    {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "gap_pct": 20.4,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 5.9
     },
     {
       "id": "water",
