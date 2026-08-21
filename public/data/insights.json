@@ -1,6 +1,13 @@
 {
   "biggest_increase": [
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 27.3,
+      "base": 5.55,
+      "current": 7.07
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 22.0,
@@ -78,13 +85,6 @@
       "current": 3.24
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 3.2,
-      "base": 6.85,
-      "current": 7.07
-    },
-    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": 3.1,
@@ -104,13 +104,6 @@
       "change_pct": 2.4,
       "base": 43.03,
       "current": 44.04
-    },
-    {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": 2.0,
-      "base": 16.6,
-      "current": 16.93
     },
     {
       "id": "para_chocolate",
@@ -134,13 +127,6 @@
       "current": 15.28
     },
     {
-      "id": "butter",
-      "name": "חמאה תנובה 200 גרם",
-      "change_pct": 0.7,
-      "base": 10.13,
-      "current": 10.2
-    },
-    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -153,6 +139,20 @@
       "change_pct": 0.3,
       "base": 6.07,
       "current": 6.09
+    },
+    {
+      "id": "butter",
+      "name": "חמאה תנובה 200 גרם",
+      "change_pct": 0.3,
+      "base": 10.13,
+      "current": 10.16
+    },
+    {
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": 0.1,
+      "base": 16.9,
+      "current": 16.93
     }
   ],
   "biggest_decrease": [
