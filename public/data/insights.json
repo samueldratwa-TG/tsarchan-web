@@ -3,29 +3,29 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 27.5,
-      "base": 5.9,
+      "change_pct": 18.7,
+      "base": 6.34,
       "current": 7.53
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 27.3,
-      "base": 5.55,
-      "current": 7.07
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.7,
-      "base": 4.02,
+      "change_pct": 16.7,
+      "base": 4.26,
       "current": 4.97
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 16.6,
+      "base": 6.06,
+      "current": 7.07
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 22.0,
-      "base": 3.71,
+      "change_pct": 16.3,
+      "base": 3.89,
       "current": 4.53
     },
     {
@@ -48,13 +48,6 @@
       "change_pct": 8.1,
       "base": 7.72,
       "current": 8.34
-    },
-    {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 6.9,
-      "base": 4.08,
-      "current": 4.36
     },
     {
       "id": "milk_tnuva_3",
@@ -85,11 +78,11 @@
       "current": 3.24
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 3.3,
-      "base": 8.45,
-      "current": 8.72
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 3.6,
+      "base": 4.21,
+      "current": 4.36
     },
     {
       "id": "sugar",
@@ -134,6 +127,20 @@
       "current": 15.28
     },
     {
+      "id": "water",
+      "name": "מים נביעות 6x1.5 ליטר",
+      "change_pct": 1.0,
+      "base": 16.76,
+      "current": 16.93
+    },
+    {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": 0.9,
+      "base": 8.65,
+      "current": 8.72
+    },
+    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -141,25 +148,11 @@
       "current": 5.85
     },
     {
-      "id": "cottage_5",
-      "name": "קוטג' תנובה 5% 250 גרם",
-      "change_pct": 0.3,
-      "base": 6.07,
-      "current": 6.09
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": 0.3,
       "base": 10.13,
       "current": 10.16
-    },
-    {
-      "id": "water",
-      "name": "מים נביעות 6x1.5 ליטר",
-      "change_pct": 0.1,
-      "base": 16.9,
-      "current": 16.93
     }
   ],
   "biggest_decrease": [
@@ -232,6 +225,13 @@
       "change_pct": -1.0,
       "base": 4.8,
       "current": 4.75
+    },
+    {
+      "id": "cottage_5",
+      "name": "קוטג' תנובה 5% 250 גרם",
+      "change_pct": -0.9,
+      "base": 6.14,
+      "current": 6.09
     },
     {
       "id": "schnitzel",
