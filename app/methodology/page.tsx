@@ -133,25 +133,41 @@ export default async function MethodologyPage() {
             <li className="flex gap-3">
               <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">1</span>
               <div>
-                <p className="font-medium text-gray-700">מציאת מחיר היסטורי לכל מוצר בכל רשת</p>
+                <p className="font-medium text-gray-700">תצלום יומי של המחיר בכל סניף</p>
                 <p className="text-sm leading-relaxed mt-0.5">
-                  הקובץ היומי מכיל את המחיר הנוכחי + תאריך עדכונו. לכל מוצר, אנחנו אוספים את כל
-                  הסניפים בכל הרשתות, ומשחזרים סדרת זמן: &quot;ב-3 בינואר הסניף הזה עדכן ל-X שקל&quot;.
+                  מאז 6 ביוני 2026 אנחנו שומרים כל יום snapshot של המחיר בפועל בכל סניף, לכל מוצר
+                  בסל, בכל הרשתות. המחיר היומי של רשת למוצר הוא <strong>חציון הסניפים</strong> באותו
+                  יום. שני סינוני איכות חלים כאן: יום שבו רשת פרסמה רק חלק קטן מהסניפים שלה מדולג
+                  (המחיר האחרון הטוב מוחזק), ומחיר של מוצר ברשת נכנס למדד רק אם הוא נצפה
+                  ב-<strong>5 סניפים לפחות</strong> באותו יום — אותו רף בדיוק שחל על טבלת המוצרים.
                 </p>
               </div>
             </li>
             <li className="flex gap-3">
               <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">2</span>
               <div>
-                <p className="font-medium text-gray-700">ממוצע גיאומטרי לכל יום</p>
+                <p className="font-medium text-gray-700">ההיסטוריה שלפני יוני 2026 — שחזור קפוא</p>
                 <p className="text-sm leading-relaxed mt-0.5">
-                  לכל תאריך ולכל מוצר, לוקחים ממוצע גיאומטרי של המחירים מכל הרשתות שיש להן נתון.
-                  ממוצע גיאומטרי (לעומת חשבוני) מגביל את ההשפעה של מוצר קיצוני אחד על כלל המדד.
+                  לימים שלפני תחילת ה-snapshots, הסדרה שוחזרה פעם אחת משדה &quot;תאריך עדכון אחרון&quot;
+                  שבקבצים, <strong>הוקפאה לקובץ</strong>, ומחוברת לסדרת ה-snapshots בשיטת שרשור
+                  מדדים סטנדרטית (chain-linking) — כך ששינויים עתידיים בקבצי המקור לעולם לא
+                  משכתבים את העבר. צירוף מוצר-רשת שאין לו לא היסטוריה קפואה ולא נתוני snapshot
+                  מספקים פשוט אינו משתתף במדד.
                 </p>
               </div>
             </li>
             <li className="flex gap-3">
               <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">3</span>
+              <div>
+                <p className="font-medium text-gray-700">ממוצע גיאומטרי בין הרשתות</p>
+                <p className="text-sm leading-relaxed mt-0.5">
+                  לכל תאריך ולכל מוצר, לוקחים ממוצע גיאומטרי של המחירים מכל הרשתות שיש להן נתון.
+                  ממוצע גיאומטרי (לעומת חשבוני) מגביל את ההשפעה של מחיר קיצוני אחד על כלל המדד.
+                </p>
+              </div>
+            </li>
+            <li className="flex gap-3">
+              <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">4</span>
               <div>
                 <p className="font-medium text-gray-700">סינון חריגים</p>
                 <p className="text-sm leading-relaxed mt-0.5">
@@ -162,12 +178,14 @@ export default async function MethodologyPage() {
               </div>
             </li>
             <li className="flex gap-3">
-              <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">4</span>
+              <span className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">5</span>
               <div>
-                <p className="font-medium text-gray-700">חישוב מדד לפי תאריך בסיס</p>
+                <p className="font-medium text-gray-700">חישוב ביחס לתאריך בסיס קבוע</p>
                 <p className="text-sm leading-relaxed mt-0.5">
                   תאריך הבסיס הוא 15 ביוני 2025 = 100. כל יום מחושב ביחס לבסיס: אם סל המוצרים
-                  עלה 2.5% מאז הבסיס, המדד מציג 102.5.
+                  עלה 2.5% מאז הבסיס, המדד מציג 102.5. מחירי הבסיס עצמם <strong>קפואים</strong> —
+                  הם חושבו פעם אחת ונשמרו, כך שתנודות בקבצי המקור אינן יכולות להזיז את נקודת
+                  הייחוס שכל המדד נמדד ממנה.
                 </p>
               </div>
             </li>
@@ -191,8 +209,9 @@ export default async function MethodologyPage() {
             <p className="font-medium mb-1">מה עשינו בשביל העתיד?</p>
             <p className="leading-relaxed">
               מה-30 במאי 2026, אנחנו שומרים <strong>snapshot יומי</strong> של מחיר 100 מוצרים
-              בכל סניף בכל הרשתות. זה מאפשר לבנות סדרת זמן אמיתית שאינה מסתמכת על שחזור.
-              עם הצבירה הזו, ניתוח השינויים יהיה מדויק יותר ככל שהזמן עובר.
+              בכל סניף בכל הרשתות — ומאז 6 ביוני 2026 <strong>המדד עצמו מחושב מה-snapshots
+              האלה</strong>, לא משחזור. השחזור משמש רק כזנב היסטורי קפוא לימים שלפני כן.
+              ככל שארכיון ה-snapshots מצטבר, החלק המדויק של הסדרה מתארך.
             </p>
           </div>
         </section>
@@ -203,7 +222,11 @@ export default async function MethodologyPage() {
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="flex gap-2">
               <span className="text-red-400 font-bold">•</span>
-              <span><strong>חצי חינם שטוח:</strong> יש להם 13 סניפים בלבד עם עדכוני תאריך כמעט זהים — כך שהשחזור רואה אפס תנועה. המחירים שלהם מוצגים במדד, אך לא תורמים לשינוי היסטורי.</span>
+              <span><strong>חצי חינם — היסטוריה שטוחה לפני יוני 2026:</strong> יש להם 13 סניפים בלבד עם עדכוני תאריך כמעט זהים, כך שהשחזור ההיסטורי ראה אצלם אפס תנועה. מאז המעבר ל-snapshots (יוני 2026) תנועת המחירים שלהם נמדדת כרגיל; החלק שלפני כן נשאר שטוח.</span>
+            </li>
+            <li className="flex gap-2">
+              <span className="text-red-400 font-bold">•</span>
+              <span><strong>רף 5 סניפים גם במדד:</strong> צירוף מוצר-רשת שנצפה בפחות מ-5 סניפים אינו נכנס למדד (בדיוק כמו בטבלת המוצרים, שם מוצג —). המשמעות: מוצר עשוי להיות מחושב מ-6 או 7 רשתות במקום 8. עדיף פחות רשתות מאשר מחיר שנשען על סניף בודד.</span>
             </li>
             <li className="flex gap-2">
               <span className="text-red-400 font-bold">•</span>
@@ -220,6 +243,47 @@ export default async function MethodologyPage() {
             <li className="flex gap-2">
               <span className="text-red-400 font-bold">•</span>
               <span><strong>הפרש גודל מדגם:</strong> שופרסל מיוצגת על ידי 421 סניפים, אושר עד רק 23. ממוצע הרשת אינו ממוצע הסניפים.</span>
+            </li>
+          </ul>
+        </section>
+
+        {/* Section 6: Methodology changelog */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-gray-800 mb-3 border-r-4 border-purple-400 pr-3">יומן עדכוני מתודולוגיה</h2>
+          <p className="text-gray-600 text-sm leading-relaxed mb-4">
+            כשאנחנו מתקנים את שיטת החישוב, כל הסדרה מחושבת מחדש לפי השיטה החדשה — ולכן ערכים
+            היסטוריים עשויים להשתנות. כל שינוי כזה מתועד כאן, כדי שקפיצה בגרף שמקורה בשיפור
+            השיטה לא תיקרא בטעות כתנועת מחירים אמיתית.
+          </p>
+          <ul className="space-y-3 text-sm text-gray-600">
+            <li className="bg-purple-50 border border-purple-200 rounded-xl p-4">
+              <p className="font-semibold text-purple-900 mb-1">22 באוגוסט 2026 — עיגון מלא, רף 5 סניפים במדד, והקפאת הבסיס</p>
+              <p className="leading-relaxed">
+                שלושה תיקונים שנכנסו יחד: (1) כל צירוף מוצר-רשת מעוגן עכשיו לנתוני ה-snapshots
+                או להיסטוריה הקפואה — בוטל לחלוטין מנגנון &quot;שחזור חי&quot; שאיפשר לסניף בודד שנכנס
+                או יצא מקובץ המקור לשכתב רטרואקטיבית חודשים של היסטוריה מפורסמת; (2) רף 5
+                הסניפים שחל על טבלת המוצרים חל מעכשיו גם על המדד עצמו; (3) מחירי הבסיס הוקפאו.
+                כתוצאה מהתיקון המדד ירד באופן חד-פעמי מ-102.11 ל-100.80 —{' '}
+                <strong>זו הסרת עיוותים, לא ירידת מחירים</strong> (למשל: מחיר עגבניה שנשען על
+                ממוצע גולמי מוטה ירד לחציון האמיתי של 54 סניפים, ומחיר בסיס של מלפפון שזז בגלל
+                שורה בודדת מ-2019 קובע מחדש).
+              </p>
+            </li>
+            <li className="bg-purple-50 border border-purple-200 rounded-xl p-4">
+              <p className="font-semibold text-purple-900 mb-1">9 באוגוסט 2026 — מעבר לחציון בטבלת המוצרים</p>
+              <p className="leading-relaxed">
+                טבלת המוצרים הציגה עד אז מחיר של הסניף האחרון שעדכן — שנטה כלפי מטה (מבצעים).
+                מאז מוצג חציון כלל הסניפים, עם רף מינימום של 5 סניפים. המדד עצמו תמיד חושב
+                מחציון ולא הושפע.
+              </p>
+            </li>
+            <li className="bg-purple-50 border border-purple-200 rounded-xl p-4">
+              <p className="font-semibold text-purple-900 mb-1">19 ביוני 2026 — המדד עבר לנתוני snapshots</p>
+              <p className="leading-relaxed">
+                כל 8 הרשתות מחושבות מאז מארכיון ה-snapshots היומי (לתאריכים מ-6 ביוני 2026),
+                כשההיסטוריה המשוחזרת שלפני כן הוקפאה וחוברה בשרשור מדדים סטנדרטי — ללא אובדן
+                היסטוריה וללא מדרגה מלאכותית.
+              </p>
             </li>
           </ul>
         </section>
