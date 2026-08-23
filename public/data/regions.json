@@ -33,7 +33,7 @@
       "bnei_brak": 18.06,
       "north": 18.89,
       "south": 18.82,
-      "jerusalem": 18.79
+      "jerusalem": 18.81
     },
     "butter": {
       "center": 10.46,
@@ -45,8 +45,8 @@
     "sweet_cream": {
       "center": 9.24,
       "bnei_brak": 8.32,
-      "north": 8.77,
-      "south": 8.72,
+      "north": 8.78,
+      "south": 8.65,
       "jerusalem": 8.36
     },
     "sour_cream": {
@@ -61,7 +61,7 @@
       "bnei_brak": 15.48,
       "north": 15.25,
       "south": 15.13,
-      "jerusalem": 15.33
+      "jerusalem": 15.32
     },
     "yogurt": {
       "center": 4.62,
@@ -99,14 +99,14 @@
       "jerusalem": 5.81
     },
     "tomato": {
-      "center": 8.17,
-      "bnei_brak": 5.3,
-      "north": 6.7,
-      "south": 6.5,
-      "jerusalem": 6.15
+      "center": 8.33,
+      "bnei_brak": 5.5,
+      "north": 6.74,
+      "south": 6.57,
+      "jerusalem": 6.07
     },
     "cucumber": {
-      "center": 8.03,
+      "center": 8.04,
       "bnei_brak": 6.78,
       "north": 7.34,
       "south": 6.93,
@@ -144,15 +144,15 @@
       "center": 20.78,
       "bnei_brak": 17.9,
       "north": 20.0,
-      "south": 19.41,
-      "jerusalem": 19.21
+      "south": 19.38,
+      "jerusalem": 19.3
     },
     "chicken_breast": {
-      "center": 40.39,
+      "center": 40.31,
       "bnei_brak": 43.23,
       "north": 40.72,
       "south": 39.43,
-      "jerusalem": 40.53
+      "jerusalem": 40.02
     },
     "schnitzel": {
       "center": 34.81,
@@ -171,7 +171,7 @@
     "sugar": {
       "center": 5.74,
       "bnei_brak": 4.9,
-      "north": 5.55,
+      "north": 5.56,
       "south": 5.43,
       "jerusalem": 5.33
     },
@@ -187,7 +187,7 @@
       "bnei_brak": 14.81,
       "north": 15.62,
       "south": 15.51,
-      "jerusalem": 15.31
+      "jerusalem": 15.29
     },
     "hummus": {
       "center": 11.8,
@@ -242,7 +242,7 @@
       "center": 5.71,
       "bnei_brak": 4.85,
       "north": 5.32,
-      "south": 5.12,
+      "south": 5.13,
       "jerusalem": 4.84
     },
     "bisli": {
@@ -260,7 +260,7 @@
       "jerusalem": 9.07
     },
     "cookies": {
-      "center": 10.16,
+      "center": 10.18,
       "bnei_brak": 8.1,
       "north": 9.07,
       "south": 9.17,
@@ -272,7 +272,7 @@
     "bnei_brak": 91.8,
     "north": 96.3,
     "south": 94.2,
-    "jerusalem": 93.4
+    "jerusalem": 93.3
   },
   "common_product_count": 37,
   "store_count": 859

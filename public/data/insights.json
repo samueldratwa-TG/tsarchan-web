@@ -57,6 +57,13 @@
       "current": 7.31
     },
     {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "change_pct": 4.8,
+      "base": 5.08,
+      "current": 5.33
+    },
+    {
       "id": "spaghetti",
       "name": "ספגטי אסם 500 גרם",
       "change_pct": 4.6,
@@ -83,13 +90,6 @@
       "change_pct": 3.6,
       "base": 4.21,
       "current": 4.36
-    },
-    {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "change_pct": 3.1,
-      "base": 5.08,
-      "current": 5.24
     },
     {
       "id": "bread",
@@ -208,9 +208,9 @@
     {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -3.2,
+      "change_pct": -2.6,
       "base": 19.37,
-      "current": 18.74
+      "current": 18.86
     },
     {
       "id": "coffee_turkish",
@@ -492,7 +492,7 @@
       "id": "sugar",
       "name": "סוכר 1 קג",
       "gap_pct": 20.4,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
@@ -507,6 +507,15 @@
       "expensive_price": 18.7
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 16.9,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 20.1
+    },
+    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "gap_pct": 16.1,
@@ -514,15 +523,6 @@
       "cheapest_price": 1.8,
       "expensive_chain": "shufersal",
       "expensive_price": 2.09
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 12.8,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "victory",
-      "expensive_price": 19.4
     },
     {
       "id": "coffee_tasters",
