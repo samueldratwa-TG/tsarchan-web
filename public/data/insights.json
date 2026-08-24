@@ -3,16 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 18.7,
+      "change_pct": 20.7,
       "base": 6.34,
-      "current": 7.53
+      "current": 7.65
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 16.7,
+      "change_pct": 18.4,
       "base": 4.26,
-      "current": 4.97
+      "current": 5.04
     },
     {
       "id": "cucumber",
@@ -24,9 +24,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 16.3,
+      "change_pct": 14.7,
       "base": 3.89,
-      "current": 4.53
+      "current": 4.46
     },
     {
       "id": "frozen_peas",
@@ -127,6 +127,13 @@
       "current": 15.28
     },
     {
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "change_pct": 1.5,
+      "base": 4.8,
+      "current": 4.87
+    },
+    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
@@ -171,18 +178,18 @@
       "current": 15.45
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -7.2,
-      "base": 12.52,
-      "current": 11.61
-    },
-    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "change_pct": -7.0,
       "base": 6.42,
       "current": 5.97
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -6.1,
+      "base": 12.52,
+      "current": 11.76
     },
     {
       "id": "rice",
@@ -208,9 +215,9 @@
     {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -2.6,
+      "change_pct": -3.2,
       "base": 19.37,
-      "current": 18.86
+      "current": 18.74
     },
     {
       "id": "coffee_turkish",
@@ -218,13 +225,6 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
-    },
-    {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "change_pct": -1.0,
-      "base": 4.8,
-      "current": 4.75
     },
     {
       "id": "cottage_5",
@@ -507,15 +507,6 @@
       "expensive_price": 18.7
     },
     {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 16.9,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 20.1
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "gap_pct": 16.1,
@@ -523,6 +514,15 @@
       "cheapest_price": 1.8,
       "expensive_chain": "shufersal",
       "expensive_price": 2.09
+    },
+    {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 12.8,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "victory",
+      "expensive_price": 19.4
     },
     {
       "id": "coffee_tasters",
