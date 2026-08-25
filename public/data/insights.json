@@ -3,16 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.7,
+      "change_pct": 22.6,
       "base": 6.34,
-      "current": 7.65
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 18.4,
-      "base": 4.26,
-      "current": 5.04
+      "current": 7.78
     },
     {
       "id": "cucumber",
@@ -20,6 +13,13 @@
       "change_pct": 16.6,
       "base": 6.06,
       "current": 7.07
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 15.0,
+      "base": 4.26,
+      "current": 4.9
     },
     {
       "id": "carrot",
@@ -127,13 +127,6 @@
       "current": 15.28
     },
     {
-      "id": "bamba",
-      "name": "במבה 80 גרם",
-      "change_pct": 1.5,
-      "base": 4.8,
-      "current": 4.87
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
@@ -166,9 +159,9 @@
     {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
-      "change_pct": -8.9,
+      "change_pct": -9.5,
       "base": 10.07,
-      "current": 9.18
+      "current": 9.11
     },
     {
       "id": "tahini",
@@ -178,18 +171,18 @@
       "current": 15.45
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -7.2,
+      "base": 12.52,
+      "current": 11.61
+    },
+    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "change_pct": -7.0,
       "base": 6.42,
       "current": 5.97
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -6.1,
-      "base": 12.52,
-      "current": 11.76
     },
     {
       "id": "rice",
@@ -225,6 +218,13 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
+    },
+    {
+      "id": "bamba",
+      "name": "במבה 80 גרם",
+      "change_pct": -1.0,
+      "base": 4.8,
+      "current": 4.75
     },
     {
       "id": "cottage_5",
@@ -266,11 +266,11 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 183.7,
+      "gap_pct": 224.5,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
-      "expensive_price": 13.9
+      "expensive_price": 15.9
     },
     {
       "id": "tea",
