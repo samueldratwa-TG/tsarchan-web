@@ -3,30 +3,23 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 22.6,
+      "change_pct": 20.7,
       "base": 6.34,
-      "current": 7.78
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 16.6,
-      "base": 6.06,
-      "current": 7.07
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 15.0,
-      "base": 4.26,
-      "current": 4.9
+      "current": 7.65
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 14.7,
+      "change_pct": 13.1,
       "base": 3.89,
-      "current": 4.46
+      "current": 4.4
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 11.7,
+      "base": 4.26,
+      "current": 4.76
     },
     {
       "id": "frozen_peas",
@@ -34,6 +27,13 @@
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 9.7,
+      "base": 6.06,
+      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -101,9 +101,9 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "change_pct": 2.4,
+      "change_pct": 2.5,
       "base": 43.03,
-      "current": 44.04
+      "current": 44.11
     },
     {
       "id": "para_chocolate",
@@ -159,9 +159,9 @@
     {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
-      "change_pct": -9.5,
+      "change_pct": -8.9,
       "base": 10.07,
-      "current": 9.11
+      "current": 9.18
     },
     {
       "id": "tahini",
@@ -169,13 +169,6 @@
       "change_pct": -7.7,
       "base": 16.74,
       "current": 15.45
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -7.2,
-      "base": 12.52,
-      "current": 11.61
     },
     {
       "id": "potato",
@@ -218,6 +211,13 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -2.3,
+      "base": 12.52,
+      "current": 12.23
     },
     {
       "id": "bamba",
@@ -267,7 +267,7 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 224.5,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
@@ -309,15 +309,6 @@
       "expensive_price": 9.9
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "gap_pct": 88.6,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 7.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 14.9
-    },
-    {
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "gap_pct": 78.7,
@@ -334,6 +325,15 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 61.2,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 4.9,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
     },
     {
       "id": "frozen_peas",
@@ -372,13 +372,22 @@
       "expensive_price": 5.9
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "gap_pct": 50.5,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 9.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 14.9
+    },
+    {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "gap_pct": 47.4,
+      "gap_pct": 48.7,
       "cheapest_chain": "yohananof",
       "cheapest_price": 35.9,
       "expensive_chain": "tiv_taam",
-      "expensive_price": 52.9
+      "expensive_price": 53.4
     },
     {
       "id": "bisli",
@@ -406,15 +415,6 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 33.9,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 7.9
     },
     {
       "id": "butter",
