@@ -3,16 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.7,
+      "change_pct": 21.6,
       "base": 6.34,
-      "current": 7.65
+      "current": 7.71
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 13.1,
+      "change_pct": 17.9,
       "base": 3.89,
-      "current": 4.4
+      "current": 4.59
     },
     {
       "id": "onion",
@@ -22,18 +22,18 @@
       "current": 4.76
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 11.1,
+      "base": 6.06,
+      "current": 6.73
+    },
+    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 9.7,
-      "base": 6.06,
-      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -92,18 +92,18 @@
       "current": 4.36
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 3.2,
+      "base": 43.03,
+      "current": 44.4
+    },
+    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 2.5,
-      "base": 43.03,
-      "current": 44.11
     },
     {
       "id": "para_chocolate",
@@ -267,7 +267,7 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 224.5,
-      "cheapest_chain": "osher_ad",
+      "cheapest_chain": "tiv_taam",
       "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
