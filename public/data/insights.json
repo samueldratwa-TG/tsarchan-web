@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 21.6,
+      "change_pct": 28.5,
       "base": 6.34,
-      "current": 7.71
+      "current": 8.15
     },
     {
       "id": "carrot",
@@ -17,16 +17,9 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 11.7,
+      "change_pct": 15.0,
       "base": 4.26,
-      "current": 4.76
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 11.1,
-      "base": 6.06,
-      "current": 6.73
+      "current": 4.9
     },
     {
       "id": "frozen_peas",
@@ -34,6 +27,13 @@
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 9.7,
+      "base": 6.06,
+      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -164,18 +164,18 @@
       "current": 9.18
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -7.9,
+      "base": 6.42,
+      "current": 5.91
+    },
+    {
       "id": "tahini",
       "name": "טחינה גולמית 500 גרם",
       "change_pct": -7.7,
       "base": 16.74,
       "current": 15.45
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -7.0,
-      "base": 6.42,
-      "current": 5.97
     },
     {
       "id": "rice",
@@ -215,9 +215,9 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": -2.3,
+      "change_pct": -1.0,
       "base": 12.52,
-      "current": 12.23
+      "current": 12.4
     },
     {
       "id": "bamba",
@@ -267,7 +267,7 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 224.5,
-      "cheapest_chain": "tiv_taam",
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
