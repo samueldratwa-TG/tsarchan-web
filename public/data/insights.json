@@ -22,18 +22,18 @@
       "current": 4.9
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 11.1,
+      "base": 6.06,
+      "current": 6.73
+    },
+    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 9.7,
-      "base": 6.06,
-      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -92,18 +92,18 @@
       "current": 4.36
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 3.2,
-      "base": 43.03,
-      "current": 44.4
-    },
-    {
       "id": "bread",
       "name": "לחם אחיד פרוס 750 גרם",
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 2.5,
+      "base": 43.03,
+      "current": 44.11
     },
     {
       "id": "para_chocolate",
@@ -159,9 +159,9 @@
     {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
-      "change_pct": -8.9,
+      "change_pct": -8.3,
       "base": 10.07,
-      "current": 9.18
+      "current": 9.24
     },
     {
       "id": "potato",
