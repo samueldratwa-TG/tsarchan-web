@@ -115,7 +115,7 @@
     "onion": {
       "center": 5.83,
       "bnei_brak": 4.03,
-      "north": 5.28,
+      "north": 5.27,
       "south": 5.08,
       "jerusalem": 4.94
     },
@@ -129,15 +129,15 @@
     "carrot": {
       "center": 5.54,
       "bnei_brak": 3.4,
-      "north": 4.93,
-      "south": 4.85,
+      "north": 4.92,
+      "south": 4.84,
       "jerusalem": 4.69
     },
     "apple": {
       "center": 13.61,
       "bnei_brak": 12.23,
       "north": 12.65,
-      "south": 12.38,
+      "south": 12.37,
       "jerusalem": 12.21
     },
     "frozen_peas": {
@@ -148,10 +148,10 @@
       "jerusalem": 19.32
     },
     "chicken_breast": {
-      "center": 40.44,
+      "center": 40.36,
       "bnei_brak": 43.23,
-      "north": 40.39,
-      "south": 39.42,
+      "north": 40.2,
+      "south": 39.12,
       "jerusalem": 40.01
     },
     "schnitzel": {
@@ -171,7 +171,7 @@
     "sugar": {
       "center": 5.74,
       "bnei_brak": 4.9,
-      "north": 5.56,
+      "north": 5.57,
       "south": 5.43,
       "jerusalem": 5.37
     },
@@ -183,7 +183,7 @@
       "jerusalem": 1.97
     },
     "tahini": {
-      "center": 16.48,
+      "center": 16.49,
       "bnei_brak": 14.81,
       "north": 15.62,
       "south": 15.51,
@@ -225,7 +225,7 @@
       "jerusalem": 36.99
     },
     "coffee_turkish": {
-      "center": 20.4,
+      "center": 20.41,
       "bnei_brak": 17.9,
       "north": 20.02,
       "south": 19.61,
@@ -248,7 +248,7 @@
     "bisli": {
       "center": 5.12,
       "bnei_brak": 3.95,
-      "north": 4.75,
+      "north": 4.71,
       "south": 4.55,
       "jerusalem": 4.34
     },
@@ -270,7 +270,7 @@
   "basket_index": {
     "center": 100.0,
     "bnei_brak": 91.6,
-    "north": 96.2,
+    "north": 96.1,
     "south": 94.2,
     "jerusalem": 93.4
   },

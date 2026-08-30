@@ -10,9 +10,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 17.9,
+      "change_pct": 17.1,
       "base": 3.89,
-      "current": 4.59
+      "current": 4.56
     },
     {
       "id": "onion",
@@ -22,18 +22,18 @@
       "current": 4.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 11.1,
-      "base": 6.06,
-      "current": 6.73
-    },
-    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 9.7,
+      "base": 6.06,
+      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -157,6 +157,13 @@
   ],
   "biggest_decrease": [
     {
+      "id": "tahini",
+      "name": "טחינה גולמית 500 גרם",
+      "change_pct": -8.3,
+      "base": 16.74,
+      "current": 15.36
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "change_pct": -8.3,
@@ -169,13 +176,6 @@
       "change_pct": -7.9,
       "base": 6.42,
       "current": 5.91
-    },
-    {
-      "id": "tahini",
-      "name": "טחינה גולמית 500 גרם",
-      "change_pct": -7.7,
-      "base": 16.74,
-      "current": 15.45
     },
     {
       "id": "rice",
