@@ -120,7 +120,7 @@
       "jerusalem": 4.97
     },
     "potato": {
-      "center": 6.28,
+      "center": 6.32,
       "bnei_brak": 5.57,
       "north": 5.69,
       "south": 5.44,
@@ -134,7 +134,7 @@
       "jerusalem": 4.69
     },
     "apple": {
-      "center": 13.61,
+      "center": 13.59,
       "bnei_brak": 12.23,
       "north": 12.67,
       "south": 12.36,
@@ -148,7 +148,7 @@
       "jerusalem": 19.32
     },
     "chicken_breast": {
-      "center": 40.36,
+      "center": 40.05,
       "bnei_brak": 43.23,
       "north": 40.2,
       "south": 39.12,
@@ -269,7 +269,7 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.7,
+    "bnei_brak": 91.8,
     "north": 96.2,
     "south": 94.2,
     "jerusalem": 93.6

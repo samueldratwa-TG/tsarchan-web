@@ -99,13 +99,6 @@
       "current": 8.18
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 2.5,
-      "base": 43.03,
-      "current": 44.11
-    },
-    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.0,
@@ -171,13 +164,6 @@
       "current": 15.36
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -7.9,
-      "base": 6.42,
-      "current": 5.91
-    },
-    {
       "id": "rice",
       "name": "אורז פרסי סוגת 1 קג",
       "change_pct": -5.7,
@@ -190,6 +176,13 @@
       "change_pct": -5.0,
       "base": 4.84,
       "current": 4.6
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -4.0,
+      "base": 6.42,
+      "current": 6.16
     },
     {
       "id": "couscous",
@@ -211,13 +204,6 @@
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -1.0,
-      "base": 12.52,
-      "current": 12.4
     },
     {
       "id": "bamba",
@@ -246,6 +232,20 @@
       "change_pct": -0.6,
       "base": 11.71,
       "current": 11.64
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -0.4,
+      "base": 12.52,
+      "current": 12.47
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.2,
+      "base": 43.03,
+      "current": 42.96
     },
     {
       "id": "coffee_tasters",
@@ -296,7 +296,7 @@
       "gap_pct": 102.6,
       "cheapest_chain": "yohananof",
       "cheapest_price": 3.9,
-      "expensive_chain": "tiv_taam",
+      "expensive_chain": "hazi_hinam",
       "expensive_price": 7.9
     },
     {
@@ -345,6 +345,15 @@
       "expensive_price": 22.9
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "gap_pct": 53.0,
+      "cheapest_chain": "hazi_hinam",
+      "cheapest_price": 34.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 53.4
+    },
+    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 51.3,
@@ -370,15 +379,6 @@
       "cheapest_price": 9.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 14.9
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "gap_pct": 48.7,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 35.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 53.4
     },
     {
       "id": "bisli",
