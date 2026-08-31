@@ -29,7 +29,7 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.45,
+      "center": 19.44,
       "bnei_brak": 18.06,
       "north": 18.89,
       "south": 18.82,
@@ -88,7 +88,7 @@
       "center": 8.72,
       "bnei_brak": 7.43,
       "north": 8.17,
-      "south": 7.79,
+      "south": 7.72,
       "jerusalem": 7.61
     },
     "couscous": {
@@ -99,25 +99,25 @@
       "jerusalem": 5.81
     },
     "tomato": {
-      "center": 9.16,
-      "bnei_brak": 5.5,
-      "north": 7.5,
-      "south": 7.27,
-      "jerusalem": 6.48
+      "center": 9.14,
+      "bnei_brak": 5.7,
+      "north": 7.46,
+      "south": 7.24,
+      "jerusalem": 6.53
     },
     "cucumber": {
-      "center": 8.03,
-      "bnei_brak": 6.53,
-      "north": 7.26,
+      "center": 7.99,
+      "bnei_brak": 6.78,
+      "north": 7.25,
       "south": 6.93,
-      "jerusalem": 6.88
+      "jerusalem": 6.97
     },
     "onion": {
       "center": 5.83,
       "bnei_brak": 4.03,
-      "north": 5.27,
-      "south": 5.08,
-      "jerusalem": 4.94
+      "north": 5.3,
+      "south": 5.09,
+      "jerusalem": 4.97
     },
     "potato": {
       "center": 6.28,
@@ -127,17 +127,17 @@
       "jerusalem": 5.59
     },
     "carrot": {
-      "center": 5.54,
+      "center": 5.53,
       "bnei_brak": 3.4,
-      "north": 4.92,
-      "south": 4.84,
+      "north": 4.98,
+      "south": 4.86,
       "jerusalem": 4.69
     },
     "apple": {
       "center": 13.61,
       "bnei_brak": 12.23,
-      "north": 12.65,
-      "south": 12.37,
+      "north": 12.67,
+      "south": 12.36,
       "jerusalem": 12.21
     },
     "frozen_peas": {
@@ -152,7 +152,7 @@
       "bnei_brak": 43.23,
       "north": 40.2,
       "south": 39.12,
-      "jerusalem": 40.01
+      "jerusalem": 40.46
     },
     "schnitzel": {
       "center": 34.81,
@@ -260,7 +260,7 @@
       "jerusalem": 9.06
     },
     "cookies": {
-      "center": 10.18,
+      "center": 10.17,
       "bnei_brak": 8.1,
       "north": 9.07,
       "south": 9.17,
@@ -269,10 +269,10 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.6,
-    "north": 96.1,
+    "bnei_brak": 91.7,
+    "north": 96.2,
     "south": 94.2,
-    "jerusalem": 93.4
+    "jerusalem": 93.6
   },
   "common_product_count": 37,
   "store_count": 857

@@ -3,9 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 28.5,
+      "change_pct": 24.6,
       "base": 6.34,
-      "current": 8.15
+      "current": 7.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 18.4,
+      "base": 4.26,
+      "current": 5.04
     },
     {
       "id": "carrot",
@@ -15,11 +22,11 @@
       "current": 4.56
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 15.0,
-      "base": 4.26,
-      "current": 4.9
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 16.6,
+      "base": 6.06,
+      "current": 7.07
     },
     {
       "id": "frozen_peas",
@@ -27,13 +34,6 @@
       "change_pct": 10.4,
       "base": 17.01,
       "current": 18.77
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 9.7,
-      "base": 6.06,
-      "current": 6.65
     },
     {
       "id": "hot_dogs",
@@ -157,18 +157,18 @@
   ],
   "biggest_decrease": [
     {
+      "id": "cookies",
+      "name": "עוגיות חמאה מן 300 גרם",
+      "change_pct": -8.9,
+      "base": 10.07,
+      "current": 9.18
+    },
+    {
       "id": "tahini",
       "name": "טחינה גולמית 500 גרם",
       "change_pct": -8.3,
       "base": 16.74,
       "current": 15.36
-    },
-    {
-      "id": "cookies",
-      "name": "עוגיות חמאה מן 300 גרם",
-      "change_pct": -8.3,
-      "base": 10.07,
-      "current": 9.24
     },
     {
       "id": "potato",
@@ -266,9 +266,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 224.5,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
+      "gap_pct": 169.5,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 5.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
     },
@@ -325,15 +325,6 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 61.2,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 4.9,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
     },
     {
       "id": "frozen_peas",
@@ -415,6 +406,15 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 33.9,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
     },
     {
       "id": "butter",
