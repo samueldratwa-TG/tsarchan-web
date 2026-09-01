@@ -8,25 +8,25 @@
       "current": 7.9
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 18.4,
-      "base": 4.26,
-      "current": 5.04
-    },
-    {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "change_pct": 17.1,
-      "base": 3.89,
-      "current": 4.56
-    },
-    {
       "id": "cucumber",
       "name": "מלפפון לקג",
       "change_pct": 16.6,
       "base": 6.06,
       "current": 7.07
+    },
+    {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "change_pct": 16.3,
+      "base": 3.89,
+      "current": 4.53
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 11.7,
+      "base": 4.26,
+      "current": 4.76
     },
     {
       "id": "frozen_peas",
@@ -178,13 +178,6 @@
       "current": 4.6
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -4.0,
-      "base": 6.42,
-      "current": 6.16
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.8,
@@ -199,11 +192,25 @@
       "current": 18.74
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -3.2,
+      "base": 6.42,
+      "current": 6.21
+    },
+    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -1.5,
+      "base": 12.52,
+      "current": 12.33
     },
     {
       "id": "bamba",
@@ -232,13 +239,6 @@
       "change_pct": -0.6,
       "base": 11.71,
       "current": 11.64
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -0.4,
-      "base": 12.52,
-      "current": 12.47
     },
     {
       "id": "chicken_breast",
@@ -357,7 +357,7 @@
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 51.3,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
