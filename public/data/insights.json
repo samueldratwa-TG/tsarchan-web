@@ -3,16 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 24.6,
+      "change_pct": 22.6,
       "base": 6.34,
-      "current": 7.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 16.6,
-      "base": 6.06,
-      "current": 7.07
+      "current": 7.78
     },
     {
       "id": "carrot",
@@ -20,6 +13,13 @@
       "change_pct": 16.3,
       "base": 3.89,
       "current": 4.53
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 15.2,
+      "base": 6.06,
+      "current": 6.98
     },
     {
       "id": "onion",
@@ -127,18 +127,25 @@
       "current": 16.93
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 0.9,
-      "base": 8.65,
-      "current": 8.72
-    },
-    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
       "base": 5.82,
       "current": 5.85
+    },
+    {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": 0.6,
+      "base": 8.65,
+      "current": 8.7
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 0.4,
+      "base": 43.03,
+      "current": 43.21
     },
     {
       "id": "butter",
@@ -178,6 +185,13 @@
       "current": 4.6
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -4.0,
+      "base": 6.42,
+      "current": 6.16
+    },
+    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.8,
@@ -190,13 +204,6 @@
       "change_pct": -3.2,
       "base": 19.37,
       "current": 18.74
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -3.2,
-      "base": 6.42,
-      "current": 6.21
     },
     {
       "id": "coffee_turkish",
@@ -241,13 +248,6 @@
       "current": 11.64
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -0.2,
-      "base": 43.03,
-      "current": 42.96
-    },
-    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
@@ -266,9 +266,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 169.5,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 5.9,
+      "gap_pct": 224.5,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 4.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
     },
