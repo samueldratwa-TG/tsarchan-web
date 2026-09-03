@@ -10,9 +10,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 16.3,
+      "change_pct": 19.5,
       "base": 3.89,
-      "current": 4.53
+      "current": 4.65
     },
     {
       "id": "cucumber",
@@ -185,13 +185,6 @@
       "current": 4.6
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -4.0,
-      "base": 6.42,
-      "current": 6.16
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.8,
@@ -204,6 +197,13 @@
       "change_pct": -3.2,
       "base": 19.37,
       "current": 18.74
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -3.2,
+      "base": 6.42,
+      "current": 6.21
     },
     {
       "id": "coffee_turkish",
@@ -287,7 +287,7 @@
       "gap_pct": 103.4,
       "cheapest_chain": "hazi_hinam",
       "cheapest_price": 2.9,
-      "expensive_chain": "victory",
+      "expensive_chain": "shufersal",
       "expensive_price": 5.9
     },
     {
@@ -375,9 +375,9 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 50.5,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 9.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_chain": "shufersal",
       "expensive_price": 14.9
     },
     {
