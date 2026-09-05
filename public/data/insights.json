@@ -381,15 +381,6 @@
       "expensive_price": 14.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 46.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.4,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
-    },
-    {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
       "gap_pct": 43.6,
@@ -415,6 +406,15 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 33.9,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
     },
     {
       "id": "butter",
