@@ -24,9 +24,9 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 13.9,
+      "change_pct": 12.5,
       "base": 6.06,
-      "current": 6.9
+      "current": 6.82
     },
     {
       "id": "frozen_peas",
@@ -141,13 +141,6 @@
       "current": 8.7
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 0.4,
-      "base": 43.03,
-      "current": 43.21
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": 0.3,
@@ -260,6 +253,13 @@
       "change_pct": -0.1,
       "base": 28.25,
       "current": 28.21
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.0,
+      "base": 43.03,
+      "current": 43.02
     }
   ],
   "biggest_chain_gap": [
@@ -347,11 +347,11 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "gap_pct": 53.0,
+      "gap_pct": 51.6,
       "cheapest_chain": "hazi_hinam",
       "cheapest_price": 34.9,
       "expensive_chain": "tiv_taam",
-      "expensive_price": 53.4
+      "expensive_price": 52.9
     },
     {
       "id": "onion",
@@ -381,6 +381,15 @@
       "expensive_price": 14.9
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 46.3,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 5.4,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
+    },
+    {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
       "gap_pct": 43.6,
@@ -406,15 +415,6 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 33.9,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
     },
     {
       "id": "butter",
