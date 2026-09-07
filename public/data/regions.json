@@ -88,7 +88,7 @@
       "center": 8.73,
       "bnei_brak": 7.43,
       "north": 8.15,
-      "south": 7.76,
+      "south": 7.79,
       "jerusalem": 7.69
     },
     "couscous": {
@@ -99,25 +99,25 @@
       "jerusalem": 5.81
     },
     "tomato": {
-      "center": 9.26,
-      "bnei_brak": 5.6,
-      "north": 7.41,
-      "south": 7.43,
-      "jerusalem": 6.43
+      "center": 9.16,
+      "bnei_brak": 5.8,
+      "north": 7.42,
+      "south": 7.32,
+      "jerusalem": 6.38
     },
     "cucumber": {
-      "center": 7.58,
-      "bnei_brak": 5.9,
-      "north": 6.81,
-      "south": 6.76,
-      "jerusalem": 6.69
+      "center": 7.55,
+      "bnei_brak": 6.04,
+      "north": 6.84,
+      "south": 6.8,
+      "jerusalem": 6.61
     },
     "onion": {
-      "center": 5.8,
-      "bnei_brak": 4.15,
-      "north": 5.28,
-      "south": 5.12,
-      "jerusalem": 5.03
+      "center": 5.79,
+      "bnei_brak": 4.28,
+      "north": 5.29,
+      "south": 5.13,
+      "jerusalem": 5.05
     },
     "potato": {
       "center": 6.36,
@@ -127,18 +127,18 @@
       "jerusalem": 5.59
     },
     "carrot": {
-      "center": 5.71,
-      "bnei_brak": 3.4,
-      "north": 5.09,
-      "south": 4.87,
+      "center": 5.72,
+      "bnei_brak": 3.9,
+      "north": 5.11,
+      "south": 4.94,
       "jerusalem": 4.86
     },
     "apple": {
-      "center": 13.78,
+      "center": 13.77,
       "bnei_brak": 12.23,
-      "north": 12.79,
-      "south": 12.43,
-      "jerusalem": 11.92
+      "north": 12.81,
+      "south": 12.38,
+      "jerusalem": 11.9
     },
     "frozen_peas": {
       "center": 20.8,
@@ -152,7 +152,7 @@
       "bnei_brak": 43.23,
       "north": 40.43,
       "south": 39.39,
-      "jerusalem": 40.83
+      "jerusalem": 41.19
     },
     "schnitzel": {
       "center": 34.81,
@@ -246,7 +246,7 @@
       "jerusalem": 4.82
     },
     "bisli": {
-      "center": 5.13,
+      "center": 5.14,
       "bnei_brak": 3.9,
       "north": 4.7,
       "south": 4.55,
@@ -269,10 +269,10 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.6,
+    "bnei_brak": 91.8,
     "north": 96.2,
-    "south": 94.3,
-    "jerusalem": 93.6
+    "south": 94.4,
+    "jerusalem": 93.7
   },
   "common_product_count": 37,
   "store_count": 857
