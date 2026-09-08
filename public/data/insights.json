@@ -8,25 +8,25 @@
       "current": 7.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 16.6,
-      "base": 6.06,
-      "current": 7.07
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 15.0,
-      "base": 4.26,
-      "current": 4.9
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 14.9,
       "base": 3.89,
       "current": 4.47
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 12.5,
+      "base": 6.06,
+      "current": 6.82
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 11.7,
+      "base": 4.26,
+      "current": 4.76
     },
     {
       "id": "frozen_peas",
@@ -127,6 +127,13 @@
       "current": 16.93
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 0.9,
+      "base": 43.03,
+      "current": 43.4
+    },
+    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -139,13 +146,6 @@
       "change_pct": 0.6,
       "base": 8.65,
       "current": 8.7
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 0.4,
-      "base": 43.03,
-      "current": 43.21
     },
     {
       "id": "butter",
@@ -199,13 +199,6 @@
       "current": 12.15
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -2.5,
-      "base": 6.42,
-      "current": 6.26
-    },
-    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -2.4,
@@ -246,6 +239,13 @@
       "change_pct": -0.6,
       "base": 11.71,
       "current": 11.64
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -0.5,
+      "base": 6.42,
+      "current": 6.39
     },
     {
       "id": "coffee_tasters",
@@ -291,15 +291,6 @@
       "expensive_price": 5.9
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "gap_pct": 102.6,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 3.9,
-      "expensive_chain": "hazi_hinam",
-      "expensive_price": 7.9
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 102.0,
@@ -325,6 +316,15 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "gap_pct": 61.2,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 4.9,
+      "expensive_chain": "hazi_hinam",
+      "expensive_price": 7.9
     },
     {
       "id": "frozen_peas",
@@ -381,6 +381,15 @@
       "expensive_price": 14.9
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 46.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.4,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
+    },
+    {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
       "gap_pct": 43.6,
@@ -406,15 +415,6 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 33.9,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
     },
     {
       "id": "butter",
