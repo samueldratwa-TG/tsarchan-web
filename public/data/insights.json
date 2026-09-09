@@ -15,18 +15,18 @@
       "current": 4.47
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 12.5,
-      "base": 6.06,
-      "current": 6.82
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "change_pct": 11.7,
       "base": 4.26,
       "current": 4.76
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 11.1,
+      "base": 6.06,
+      "current": 6.73
     },
     {
       "id": "frozen_peas",
@@ -318,6 +318,15 @@
       "expensive_price": 12.9
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 61.2,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
+    },
+    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "gap_pct": 61.2,
@@ -379,15 +388,6 @@
       "cheapest_price": 9.9,
       "expensive_chain": "shufersal",
       "expensive_price": 14.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 46.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.4,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
     },
     {
       "id": "bisli",

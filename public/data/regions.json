@@ -37,7 +37,7 @@
     },
     "butter": {
       "center": 10.46,
-      "bnei_brak": 9.42,
+      "bnei_brak": 9.43,
       "north": 10.11,
       "south": 9.9,
       "jerusalem": 9.69
@@ -47,7 +47,7 @@
       "bnei_brak": 8.32,
       "north": 8.63,
       "south": 8.64,
-      "jerusalem": 8.31
+      "jerusalem": 8.32
     },
     "sour_cream": {
       "center": 3.48,
@@ -61,7 +61,7 @@
       "bnei_brak": 15.48,
       "north": 15.27,
       "south": 15.17,
-      "jerusalem": 15.32
+      "jerusalem": 15.33
     },
     "yogurt": {
       "center": 4.62,
@@ -89,7 +89,7 @@
       "bnei_brak": 7.43,
       "north": 8.12,
       "south": 7.79,
-      "jerusalem": 7.72
+      "jerusalem": 7.71
     },
     "couscous": {
       "center": 7.48,
@@ -102,27 +102,27 @@
       "center": 9.18,
       "bnei_brak": 5.8,
       "north": 7.42,
-      "south": 7.3,
-      "jerusalem": 6.61
+      "south": 7.33,
+      "jerusalem": 6.78
     },
     "cucumber": {
-      "center": 7.55,
+      "center": 7.46,
       "bnei_brak": 6.04,
-      "north": 6.88,
+      "north": 6.81,
       "south": 6.57,
-      "jerusalem": 6.69
+      "jerusalem": 6.67
     },
     "onion": {
       "center": 5.71,
       "bnei_brak": 4.28,
       "north": 5.21,
-      "south": 5.05,
-      "jerusalem": 5.02
+      "south": 5.04,
+      "jerusalem": 5.05
     },
     "potato": {
       "center": 6.36,
       "bnei_brak": 5.57,
-      "north": 5.73,
+      "north": 5.71,
       "south": 5.49,
       "jerusalem": 5.59
     },
@@ -130,15 +130,15 @@
       "center": 5.72,
       "bnei_brak": 3.9,
       "north": 5.11,
-      "south": 4.93,
+      "south": 4.9,
       "jerusalem": 4.86
     },
     "apple": {
-      "center": 13.8,
+      "center": 13.81,
       "bnei_brak": 12.23,
       "north": 12.88,
       "south": 12.42,
-      "jerusalem": 11.95
+      "jerusalem": 12.12
     },
     "frozen_peas": {
       "center": 20.8,
@@ -148,11 +148,11 @@
       "jerusalem": 19.39
     },
     "chicken_breast": {
-      "center": 40.06,
+      "center": 39.95,
       "bnei_brak": 44.9,
-      "north": 40.17,
-      "south": 39.14,
-      "jerusalem": 40.33
+      "north": 40.43,
+      "south": 39.29,
+      "jerusalem": 39.47
     },
     "schnitzel": {
       "center": 34.81,
@@ -180,7 +180,7 @@
       "bnei_brak": 1.98,
       "north": 1.99,
       "south": 1.95,
-      "jerusalem": 1.97
+      "jerusalem": 1.96
     },
     "tahini": {
       "center": 16.49,
@@ -190,7 +190,7 @@
       "jerusalem": 15.29
     },
     "hummus": {
-      "center": 11.78,
+      "center": 11.75,
       "bnei_brak": 10.53,
       "north": 11.13,
       "south": 11.05,
@@ -235,7 +235,7 @@
       "center": 8.4,
       "bnei_brak": 8.12,
       "north": 8.14,
-      "south": 7.9,
+      "south": 7.91,
       "jerusalem": 7.87
     },
     "bamba": {
@@ -249,8 +249,8 @@
       "center": 5.14,
       "bnei_brak": 3.9,
       "north": 4.7,
-      "south": 4.55,
-      "jerusalem": 4.34
+      "south": 4.58,
+      "jerusalem": 4.28
     },
     "para_chocolate": {
       "center": 9.8,
@@ -270,7 +270,7 @@
   "basket_index": {
     "center": 100.0,
     "bnei_brak": 92.2,
-    "north": 96.2,
+    "north": 96.3,
     "south": 94.3,
     "jerusalem": 93.6
   },
