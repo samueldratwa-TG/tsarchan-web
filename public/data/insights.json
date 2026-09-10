@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 24.6,
+      "change_pct": 28.5,
       "base": 6.34,
-      "current": 7.9
+      "current": 8.15
     },
     {
       "id": "carrot",
@@ -267,7 +267,7 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "gap_pct": 169.5,
-      "cheapest_chain": "shufersal",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "yohananof",
       "expensive_price": 15.9
