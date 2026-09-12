@@ -120,13 +120,6 @@
       "current": 15.28
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 1.2,
-      "base": 43.03,
-      "current": 43.54
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
@@ -204,6 +197,13 @@
       "change_pct": -2.3,
       "base": 12.52,
       "current": 12.23
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -2.3,
+      "base": 43.03,
+      "current": 42.04
     },
     {
       "id": "bisli",
@@ -309,6 +309,15 @@
       "expensive_price": 15.9
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "gap_pct": 70.1,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 31.4,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 53.4
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -343,15 +352,6 @@
       "cheapest_price": 14.9,
       "expensive_chain": "shufersal",
       "expensive_price": 22.9
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "gap_pct": 53.0,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 34.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 53.4
     },
     {
       "id": "onion",
