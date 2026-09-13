@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 34.5,
+      "change_pct": 33.5,
       "base": 6.34,
-      "current": 8.53
+      "current": 8.46
     },
     {
       "id": "onion",
@@ -24,9 +24,9 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 12.5,
+      "change_pct": 11.1,
       "base": 6.06,
-      "current": 6.82
+      "current": 6.73
     },
     {
       "id": "frozen_peas",
@@ -78,13 +78,6 @@
       "current": 1.98
     },
     {
-      "id": "sour_cream",
-      "name": "שמנת חמוצה 15% 200 מל",
-      "change_pct": 3.8,
-      "base": 3.12,
-      "current": 3.24
-    },
-    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "change_pct": 3.6,
@@ -118,6 +111,13 @@
       "change_pct": 1.5,
       "base": 15.06,
       "current": 15.28
+    },
+    {
+      "id": "sour_cream",
+      "name": "שמנת חמוצה 15% 200 מל",
+      "change_pct": 1.4,
+      "base": 3.12,
+      "current": 3.16
     },
     {
       "id": "water",
@@ -178,6 +178,13 @@
       "current": 7.1
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -3.8,
+      "base": 43.03,
+      "current": 41.4
+    },
+    {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
       "change_pct": -3.2,
@@ -197,13 +204,6 @@
       "change_pct": -2.3,
       "base": 12.52,
       "current": 12.23
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -2.3,
-      "base": 43.03,
-      "current": 42.04
     },
     {
       "id": "bisli",
@@ -300,6 +300,15 @@
       "expensive_price": 9.9
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "gap_pct": 98.5,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 26.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 53.4
+    },
+    {
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "gap_pct": 78.7,
@@ -309,15 +318,6 @@
       "expensive_price": 15.9
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "gap_pct": 70.1,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 31.4,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 53.4
-    },
-    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -325,6 +325,15 @@
       "cheapest_price": 7.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 12.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 61.2,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "victory",
+      "expensive_price": 7.9
     },
     {
       "id": "potato",
@@ -381,15 +390,6 @@
       "expensive_price": 14.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 46.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.4,
-      "expensive_chain": "victory",
-      "expensive_price": 7.9
-    },
-    {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
       "gap_pct": 43.6,
@@ -426,6 +426,15 @@
       "expensive_price": 11.9
     },
     {
+      "id": "sour_cream",
+      "name": "שמנת חמוצה 15% 200 מל",
+      "gap_pct": 33.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 2.7,
+      "expensive_chain": "shufersal",
+      "expensive_price": 3.6
+    },
+    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "gap_pct": 31.6,
@@ -433,15 +442,6 @@
       "cheapest_price": 3.8,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 5.0
-    },
-    {
-      "id": "sour_cream",
-      "name": "שמנת חמוצה 15% 200 מל",
-      "gap_pct": 28.6,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 2.8,
-      "expensive_chain": "shufersal",
-      "expensive_price": 3.6
     },
     {
       "id": "sweet_cream",
