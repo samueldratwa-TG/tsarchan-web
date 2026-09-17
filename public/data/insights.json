@@ -3,9 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 30.5,
+      "change_pct": 32.5,
       "base": 6.34,
-      "current": 8.28
+      "current": 8.4
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 20.1,
+      "base": 4.26,
+      "current": 5.11
     },
     {
       "id": "cucumber",
@@ -20,13 +27,6 @@
       "change_pct": 14.9,
       "base": 3.89,
       "current": 4.47
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 11.7,
-      "base": 4.26,
-      "current": 4.76
     },
     {
       "id": "frozen_peas",
@@ -129,9 +129,9 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "change_pct": 1.2,
+      "change_pct": 1.0,
       "base": 43.03,
-      "current": 43.54
+      "current": 43.47
     },
     {
       "id": "water",
@@ -192,6 +192,13 @@
       "current": 7.09
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -2.5,
+      "base": 6.42,
+      "current": 6.26
+    },
+    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -2.4,
@@ -241,13 +248,6 @@
       "current": 11.64
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": -0.5,
-      "base": 6.42,
-      "current": 6.39
-    },
-    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
@@ -291,6 +291,15 @@
       "expensive_price": 5.9
     },
     {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "gap_pct": 102.6,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "hazi_hinam",
+      "expensive_price": 7.9
+    },
+    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 102.0,
@@ -318,15 +327,6 @@
       "expensive_price": 12.9
     },
     {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "gap_pct": 61.2,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 4.9,
-      "expensive_chain": "hazi_hinam",
-      "expensive_price": 7.9
-    },
-    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "gap_pct": 53.7,
@@ -347,20 +347,11 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "gap_pct": 53.0,
+      "gap_pct": 51.6,
       "cheapest_chain": "yohananof",
       "cheapest_price": 34.9,
       "expensive_chain": "tiv_taam",
-      "expensive_price": 53.4
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 51.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 3.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
+      "expensive_price": 52.9
     },
     {
       "id": "bamba",
@@ -406,6 +397,15 @@
       "cheapest_price": 6.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.3
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 34.1,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.4,
+      "expensive_chain": "shufersal",
+      "expensive_price": 5.9
     },
     {
       "id": "cucumber",
