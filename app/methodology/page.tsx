@@ -84,6 +84,67 @@ export default async function MethodologyPage() {
           </div>
         </section>
 
+        {/* Section 2a: product substitution and chain-linking */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-gray-800 mb-3 border-r-4 border-blue-500 pr-3">מה קורה כשמחליפים מוצר במדד?</h2>
+          <p className="text-gray-600 leading-relaxed mb-3">
+            ברקודים לא חיים לנצח. רשת מפסיקה למכור פריט, ממחזרת קוד פנימי, או עוברת משיטת קידוד
+            אחת לאחרת. לפעמים גם מתברר בדיעבד שהברקוד שמדדנו הוא בכלל לא המוצר שהתכוונו אליו -
+            למשל זן פרימיום במקום הירק הרגיל בתפזורת. בכל המקרים האלה אין ברירה אלא להחליף את
+            הברקוד שאנחנו מודדים.
+          </p>
+          <p className="text-gray-600 leading-relaxed mb-4">
+            וכאן נמצאת המלכודת: המחיר שאנחנו <strong className="font-semibold text-gray-700">מודדים</strong> משתנה
+            בבת אחת, בלי ששום מחיר בעולם האמיתי זז. אם פשוט נחליף ברקוד ונמשיך, המדד יראה צניחה
+            או זינוק חדים - נתון שנראה בדיוק כמו מציאות, אבל הוא רק תוצאה של החלפת סרגל המדידה.
+          </p>
+
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+            <p className="text-sm text-gray-700 leading-relaxed mb-2">
+              <strong className="font-semibold">דוגמה אמיתית.</strong> באחת הרשתות מדדנו
+              &quot;עגבניה&quot; לפי ברקוד שהתברר כזן פרימיום במחיר 15.90 ש&quot;ח לק&quot;ג,
+              בזמן שהעגבניה בתפזורת באותה רשת נמכרת ב-5.90 ש&quot;ח לק&quot;ג.
+            </p>
+            <ul className="text-sm text-gray-700 leading-relaxed list-disc pr-5 space-y-1">
+              <li>
+                <strong className="font-semibold">החלפה נאיבית</strong> הייתה מציגה ירידה של
+                כ-63% ביום אחד - &quot;העגבניות התרסקו&quot;. שקר.
+              </li>
+              <li>
+                <strong className="font-semibold">שרשור (chain-linking)</strong> לוקח יום שבו
+                שני הברקודים מתומחרים במקביל, מחשב את היחס ביניהם, ומחבר את הסדרה החדשה לרמה
+                של הסדרה הקודמת. אין קפיצה מזויפת, וההיסטוריה שפורסמה לא משתנית.
+              </li>
+            </ul>
+          </div>
+
+          <p className="text-gray-600 leading-relaxed mb-3">
+            העיקרון הוא שהמדד מודד <strong className="font-semibold text-gray-700">תנועה</strong>,
+            לא <strong className="font-semibold text-gray-700">רמה</strong>. בתוך כל קטע אנחנו
+            מודדים שינויים באחוזים על אותו מוצר בדיוק, והשרשור מחבר בין הקטעים. המשמעות המעשית,
+            וחשוב שתהיה שקופה: הרמה ההיסטורית שנצברה נשמרת כמו שהיא, ומהרגע שבו בוצעה ההחלפה
+            כל התנועות הן של המוצר הנכון.
+          </p>
+
+          <div className="bg-gray-50 rounded-xl border border-gray-200 p-4 text-sm text-gray-600">
+            <p className="font-medium text-gray-700 mb-1">זו לא שיטה שהמצאנו</p>
+            <p className="leading-relaxed">
+              שרשור הוא הפרקטיקה הסטנדרטית של לשכות סטטיסטיקה בכל העולם, כולל
+              הלמ&quot;ס בישראל, בכל פעם שמוצר בסל המדד מוחלף בדגם או בפריט אחר. ההסברים
+              הרשמיים על אופן חישוב מדד המחירים לצרכן מתפרסמים כאן:{" "}
+              <a
+                href="https://www.cbs.gov.il/he/subjects/Pages/%D7%9E%D7%93%D7%93-%D7%94%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D-%D7%9C%D7%A6%D7%A8%D7%9B%D7%9F-%D7%94%D7%92%D7%93%D7%A8%D7%95%D7%AA-%D7%95%D7%94%D7%A1%D7%91%D7%A8%D7%99%D7%9D.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                מדד המחירים לצרכן - הגדרות והסברים, הלמ&quot;ס
+              </a>
+              .
+            </p>
+          </div>
+        </section>
+
         {/* Section 2b: why the median */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-gray-800 mb-3 border-r-4 border-blue-500 pr-3">למה חציון ולא ממוצע?</h2>
