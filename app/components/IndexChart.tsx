@@ -249,7 +249,7 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
                   ? "bg-blue-600 text-white border-blue-600"
                   : "bg-white text-blue-600 border-blue-300 hover:bg-blue-50"
               }`}
-              title="הצגת שני הקווים מאותה נקודת פתיחה (100) — להשוואת השינוי היחסי לאורך התקופה"
+              title="הצגת שני הקווים מאותה נקודת פתיחה (100) - להשוואת השינוי היחסי לאורך התקופה"
             >
               {rebased ? "✓ התחלה מאותה נקודה" : "התחלה מאותה נקודה"}
             </button>
@@ -336,7 +336,7 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
               isAnimationActive={false}
             />
             {/* Prominent markers on the real CBS publication days (the 15th).
-                Its own series with built-in dots — reliably rendered, and kept
+                Its own series with built-in dots - reliably rendered, and kept
                 out of the legend/tooltip. */}
             <Line
               type="monotone"
@@ -351,7 +351,7 @@ export function IndexChart({ data }: { data: DataPoint[] }) {
         </ResponsiveContainer>
       </div>
 
-      {/* Custom legend (HTML) — also documents the orange publication dots. */}
+      {/* Custom legend (HTML) - also documents the orange publication dots. */}
       <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 mt-2 text-xs text-gray-600">
         <span className="flex items-center gap-1.5">
           <span className="inline-block w-4 h-0.5 bg-blue-600" />

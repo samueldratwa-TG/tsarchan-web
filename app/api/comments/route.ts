@@ -41,7 +41,7 @@ async function findCommentIssue(slug: string): Promise<number | null> {
   return null;
 }
 
-// Find or create a GitHub issue for a blog post's comments (POST only — a GET
+// Find or create a GitHub issue for a blog post's comments (POST only - a GET
 // must never create issues, or any unauthenticated read could spam the repo)
 async function getOrCreateCommentIssue(slug: string): Promise<number> {
   const existing = await findCommentIssue(slug);
@@ -56,7 +56,7 @@ async function getOrCreateCommentIssue(slug: string): Promise<number> {
       headers: { ...getHeaders(), "Content-Type": "application/json" },
       body: JSON.stringify({
         title: `תגובות: ${slug}`,
-        body: `תגובות על הפוסט: ${slug}\n\nאל תמחקו issue זה — הוא משמש לאחסון תגובות.`,
+        body: `תגובות על הפוסט: ${slug}\n\nאל תמחקו issue זה - הוא משמש לאחסון תגובות.`,
         labels: [label],
       }),
     }
@@ -66,7 +66,7 @@ async function getOrCreateCommentIssue(slug: string): Promise<number> {
   return issue.number;
 }
 
-// GET — list comments for a post
+// GET - list comments for a post
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const slug = url.searchParams.get("slug");
@@ -95,7 +95,7 @@ export async function GET(request: Request) {
   }
 }
 
-// POST — add a comment
+// POST - add a comment
 export async function POST(request: Request) {
   const ip = getClientIp(request);
   const { allowed } = checkRateLimit(`comments:${ip}`, 5, 60 * 60 * 1000);

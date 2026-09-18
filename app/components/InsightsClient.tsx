@@ -75,7 +75,7 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
     }).filter(Boolean) as { id: string; name: string; base: number; current: number; change_pct: number }[];
   }, [baseRow, latestRow, productMeta]);
 
-  // Filter to REAL increases — without it, when fewer than 8 products rose the
+  // Filter to REAL increases - without it, when fewer than 8 products rose the
   // panel back-fills with the least-negative decreases (rendered green inside
   // the red "increases" panel).
   const increases = useMemo(() =>
@@ -171,7 +171,7 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
       {/* Chain gaps */}
       <div className="bg-white rounded-xl shadow p-6 mb-8">
         <h2 className="text-lg font-semibold text-amber-700 mb-2">פערי מחירים גדולים בין הרשתות</h2>
-        <p className="text-xs text-gray-400 mb-1">אותו מוצר זהה, מחיר שונה — על בסיס מחירים עדכניים</p>
+        <p className="text-xs text-gray-400 mb-1">אותו מוצר זהה, מחיר שונה - על בסיס מחירים עדכניים</p>
         <p className="text-xs text-gray-500 mb-4 leading-relaxed">
           כל מחיר כאן הוא <strong className="font-semibold text-gray-600">חציון הסניפים</strong> של אותה
           רשת, לא מחיר של סניף בודד. רשת שמפרסמת את המוצר בפחות מ-5 סניפים לא נכללת בהשוואה כלל,
@@ -218,19 +218,19 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
           <div>
             <p className="font-semibold text-gray-800 mb-1">למה לא ניתן לבחור תאריך לפני דצמבר 2025?</p>
             <p className="text-gray-600 leading-relaxed">
-              ההיסטוריה שלפני יוני 2026 שוחזרה משדה &quot;תאריך עדכון אחרון&quot; שבקבצי הרשתות —
-              אבל בחודשים יוני–נובמבר 2025 מעט מאוד עדכונים שוחזרו, ולכן הגרף שם שטוח ולא
+              ההיסטוריה שלפני יוני 2026 שוחזרה משדה &quot;תאריך עדכון אחרון&quot; שבקבצי הרשתות -
+              אבל בחודשים יוני-נובמבר 2025 מעט מאוד עדכונים שוחזרו, ולכן הגרף שם שטוח ולא
               מייצג תנועה אמיתית. מדצמבר 2025 יש מספיק נתונים כדי שהמספרים יהיו אמינים
-              (ומאז יוני 2026 המדד מחושב מתצלום יומי אמיתי של כל הסניפים — בלי שחזור בכלל).
+              (ומאז יוני 2026 המדד מחושב מתצלום יומי אמיתי של כל הסניפים - בלי שחזור בכלל).
             </p>
           </div>
           <div>
             <p className="font-semibold text-gray-800 mb-1">למה המדד ירד בבת אחת ב-22 באוגוסט 2026?</p>
             <p className="text-gray-600 leading-relaxed">
-              זו לא ירידת מחירים — זה תיקון מתודולוגיה. באותו יום עברנו לחישוב שבו כל צירוף
+              זו לא ירידת מחירים - זה תיקון מתודולוגיה. באותו יום עברנו לחישוב שבו כל צירוף
               מוצר-רשת חייב עוגן אמיתי (תצלום סניפים או היסטוריה קפואה), החלנו על המדד את רף
               5 הסניפים שכבר חל על טבלת המוצרים, והקפאנו את מחירי הבסיס. התיקון הסיר כמה
-              עיוותים שהצטברו ממחירים שנשענו על סניף בודד, והסדרה כולה חושבה מחדש —
+              עיוותים שהצטברו ממחירים שנשענו על סניף בודד, והסדרה כולה חושבה מחדש -
               מ-102.11 ל-100.80.{' '}
               <Link href="/methodology" className="text-blue-600 hover:text-blue-800 underline">
                 הפירוט המלא ביומן עדכוני המתודולוגיה
@@ -240,7 +240,7 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
           <div>
             <p className="font-semibold text-gray-800 mb-1">האם 37 המוצרים זהים בכל הרשתות?</p>
             <p className="text-gray-600 leading-relaxed">
-              חלק מהמוצרים ({universalCount} מתוך {universalCount + mappedCount}) הם מותגים לאומיים עם ברקוד GS1 אחיד — אותו ברקוד
+              חלק מהמוצרים ({universalCount} מתוך {universalCount + mappedCount}) הם מותגים לאומיים עם ברקוד GS1 אחיד - אותו ברקוד
               בשופרסל, ברמי לוי ובכל שאר הרשתות. {mappedCount} המוצרים הנותרים (ירקות ופירות טריים במשקל,
               וכן מוצרים שהברקוד הזמין שלהם שונה בין הרשתות) ממופים ידנית לפי קוד נפרד בכל רשת.{' '}
               <Link href="/methodology" className="text-blue-600 hover:text-blue-800 underline">
@@ -249,9 +249,9 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
             </p>
           </div>
           <div>
-            <p className="font-semibold text-gray-800 mb-1">פערי המחירים בין הרשתות — האם הם מושפעים מבחירת התאריך?</p>
+            <p className="font-semibold text-gray-800 mb-1">פערי המחירים בין הרשתות - האם הם מושפעים מבחירת התאריך?</p>
             <p className="text-gray-600 leading-relaxed">
-              לא — עמודת הפערים מחושבת תמיד על בסיס המחירים העדכניים ביותר, ואינה קשורה
+              לא - עמודת הפערים מחושבת תמיד על בסיס המחירים העדכניים ביותר, ואינה קשורה
               לתאריך ההתחלה שבחרתם.
             </p>
           </div>

@@ -104,7 +104,7 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
 
       {/* note */}
       <div className="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg px-4 py-2.5 text-[13px] mb-4 leading-relaxed">
-        כל תא = <b>חציון</b> המחיר בין סניפי הרשת. מעבר עכבר מציג טווח (זול–יקר), ממוצע ומספר סניפים.
+        כל תא = <b>חציון</b> המחיר בין סניפי הרשת. מעבר עכבר מציג טווח (זול-יקר), ממוצע ומספר סניפים.
         {" "}<b className="text-green-700">ירוק</b> = הרשת הזולה ביותר למוצר, <b className="text-red-600">אדום</b> = היקרה ביותר.
         החץ הקטן = שינוי שבועי (7 ימים). «—» = המוצר לא קיים ברשת. לחיצה על תא מציגה את המחיר בכל סניפי הרשת.
       </div>
@@ -150,7 +150,7 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
         >
           <div className="font-bold mb-1">{tip.chainHe} · {tip.name}</div>
           <Stat k="חציון" v={`₪${tip.cell.median.toFixed(2)}`} />
-          <Stat k="טווח סניפים" v={`${tip.cell.min.toFixed(2)}–${tip.cell.max.toFixed(2)}`} ltr />
+          <Stat k="טווח סניפים" v={`${tip.cell.min.toFixed(2)}-${tip.cell.max.toFixed(2)}`} ltr />
           <Stat k="ממוצע" v={`₪${tip.cell.mean.toFixed(2)}`} />
           <Stat k="סניפים" v={`${tip.cell.stores}`} />
           <Stat k="שינוי שבועי" v={tip.cell.chg != null ? `${tip.cell.chg > 0 ? "+" : ""}${tip.cell.chg}%` : "—"} />

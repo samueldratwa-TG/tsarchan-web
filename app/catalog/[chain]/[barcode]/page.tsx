@@ -78,7 +78,7 @@ export async function generateMetadata({
   const entry = bc ? data[bc] : undefined;
   const chainHe = CHAIN_NAMES[chain] || chain;
   if (!entry) return { title: "מוצר לא נמצא | מדד על מחירי מזון" };
-  return { title: `${entry.name} ב${chainHe} — מחירים לפי סניף | מדד על מחירי מזון` };
+  return { title: `${entry.name} ב${chainHe} - מחירים לפי סניף | מדד על מחירי מזון` };
 }
 
 export default async function StoreDetailPage({
@@ -113,7 +113,7 @@ export default async function StoreDetailPage({
         <div className="flex flex-wrap gap-2.5 mb-6">
           <StatCard label="חציון" value={`₪${st.median?.toFixed(2)}`} />
           <StatCard label="ממוצע" value={`₪${st.mean?.toFixed(2)}`} />
-          <StatCard label="טווח" value={`${st.min?.toFixed(2)}–${st.max?.toFixed(2)}`} ltr />
+          <StatCard label="טווח" value={`${st.min?.toFixed(2)}-${st.max?.toFixed(2)}`} ltr />
           <StatCard label="סניפים" value={st.chain_stores ? `${st.stores} / ${st.chain_stores}` : `${st.stores}`} ltr />
           <StatCard
             label="שינוי שבועי"
@@ -124,7 +124,7 @@ export default async function StoreDetailPage({
 
         {st.chain_stores && st.stores < st.chain_stores ? (
           <p className="text-sm text-gray-500 -mt-3 mb-5">
-            {`המוצר מתפרסם ב-${st.stores} מתוך ${st.chain_stores} סניפי הרשת — לא כל סניף מוכר (או מפרסם) כל מק"ט.`}
+            {`המוצר מתפרסם ב-${st.stores} מתוך ${st.chain_stores} סניפי הרשת - לא כל סניף מוכר (או מפרסם) כל מק"ט.`}
           </p>
         ) : null}
 

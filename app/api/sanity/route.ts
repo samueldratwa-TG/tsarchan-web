@@ -40,7 +40,7 @@ export async function GET(request: Request) {
       const vals = Object.values(regions.basket_index || {}) as number[];
       if (vals.length < 4) problems.push(`regions: only ${vals.length} regions have a basket_index`);
       if (vals.length >= 2 && new Set(vals).size === 1)
-        problems.push("regions: ALL basket_index values identical — store->region join likely collapsed");
+        problems.push("regions: ALL basket_index values identical - store->region join likely collapsed");
       if ((regions.common_product_count ?? 0) < 25)
         problems.push(`regions: common_product_count=${regions.common_product_count} (healthy ~37)`);
     }

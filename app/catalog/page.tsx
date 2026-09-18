@@ -7,7 +7,7 @@ import { CatalogTable, type Catalog } from "../components/CatalogTable";
 
 export const metadata: Metadata = {
   title: "קטלוג המוצרים המלא | מדד על מחירי מזון",
-  description: "כל המוצרים שאנו מתעדים בכל רשת — מחיר חציוני, פערים בין רשתות ושינוי שבועי, עם פירוט מחירים בכל סניף.",
+  description: "כל המוצרים שאנו מתעדים בכל רשת - מחיר חציוני, פערים בין רשתות ושינוי שבועי, עם פירוט מחירים בכל סניף.",
 };
 
 async function loadCatalog(): Promise<Catalog> {

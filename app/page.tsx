@@ -56,7 +56,7 @@ export default async function Home() {
   const regionChartData = Object.entries(basketIndex).map(([r, idx]) => ({
     region: r, name: regionNames[r] || r, index: idx as number,
   }));
-  // Teaser copy computed from the data — never hardcode the gap (a hardcoded
+  // Teaser copy computed from the data - never hardcode the gap (a hardcoded
   // "7.7%" once drifted from reality when the regional data broke).
   const regionEntries = Object.entries(basketIndex);
   let regionTitle = "האם את יודעת שסל מוצרים זהה לא עולה אותו דבר בכל הארץ";

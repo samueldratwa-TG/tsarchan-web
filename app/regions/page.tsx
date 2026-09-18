@@ -17,8 +17,8 @@ async function getProducts() {
 }
 
 export const metadata = {
-  title: "השוואה אזורית — מדד מחירי מזון",
-  description: "כמה עולה סל קניות זהה במרכז, בצפון, בדרום, בירושלים ובבני ברק — השוואת מחירים בין 5 אזורים בישראל",
+  title: "השוואה אזורית - מדד מחירי מזון",
+  description: "כמה עולה סל קניות זהה במרכז, בצפון, בדרום, בירושלים ובבני ברק - השוואת מחירים בין 5 אזורים בישראל",
 };
 
 export default async function RegionsPage() {
@@ -35,7 +35,7 @@ export default async function RegionsPage() {
     bnei_brak: "bg-teal-100 text-teal-800",
   };
 
-  // Only regions that actually have data — a region missing from basket_index
+  // Only regions that actually have data - a region missing from basket_index
   // must be shown as missing, never silently rendered as a fake 100.
   const basketIndex: Record<string, number> = regionsData.basket_index || {};
   const liveRegions = regionOrder.filter((r) => typeof basketIndex[r] === "number");
@@ -83,7 +83,7 @@ export default async function RegionsPage() {
           </div>
         ) : (
           <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-6 mb-8 text-amber-900">
-            אין כרגע נתונים אזוריים זמינים — ההשוואה תתעדכן בריצת הנתונים הבאה.
+            אין כרגע נתונים אזוריים זמינים - ההשוואה תתעדכן בריצת הנתונים הבאה.
           </div>
         )}
 
