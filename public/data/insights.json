@@ -3,16 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 32.5,
+      "change_pct": 30.5,
       "base": 6.34,
-      "current": 8.4
+      "current": 8.28
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 20.1,
+      "change_pct": 21.7,
       "base": 4.26,
-      "current": 5.11
+      "current": 5.19
     },
     {
       "id": "cucumber",
@@ -399,15 +399,6 @@
       "expensive_price": 9.3
     },
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "gap_pct": 34.1,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 4.4,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
-    },
-    {
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 33.9,
@@ -505,6 +496,15 @@
       "cheapest_price": 17.2,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 20.9
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "gap_pct": 20.4,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 5.9
     },
     {
       "id": "water",
