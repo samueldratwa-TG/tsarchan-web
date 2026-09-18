@@ -99,11 +99,11 @@
       "jerusalem": 5.93
     },
     "tomato": {
-      "center": 9.26,
+      "center": 8.6,
       "bnei_brak": 6.8,
-      "north": 7.61,
-      "south": 7.5,
-      "jerusalem": 6.99
+      "north": 7.01,
+      "south": 6.77,
+      "jerusalem": 6.67
     },
     "cucumber": {
       "center": 7.45,
@@ -269,10 +269,10 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 92.5,
+    "bnei_brak": 92.6,
     "north": 96.4,
     "south": 94.3,
-    "jerusalem": 94.0
+    "jerusalem": 94.1
   },
   "common_product_count": 37,
   "store_count": 855

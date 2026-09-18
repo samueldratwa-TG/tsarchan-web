@@ -489,7 +489,7 @@
       "chains": {
         "shufersal": 6.9,
         "rami_levy": 5.9,
-        "yohananof": 15.9,
+        "yohananof": 5.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 10.9
       },
@@ -503,7 +503,7 @@
           "as_of": "2026-09-18"
         },
         "yohananof": {
-          "n_stores": 43,
+          "n_stores": 47,
           "as_of": "2026-09-18"
         },
         "victory": {
@@ -515,8 +515,8 @@
           "as_of": "2026-09-18"
         }
       },
-      "avg_price": 7.78,
-      "change_pct": 22.7
+      "avg_price": 6.87,
+      "change_pct": 8.4
     },
     {
       "id": "cucumber",

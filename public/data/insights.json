@@ -1,13 +1,6 @@
 {
   "biggest_increase": [
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 30.5,
-      "base": 6.34,
-      "current": 8.28
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "change_pct": 21.7,
@@ -27,6 +20,13 @@
       "change_pct": 14.9,
       "base": 3.89,
       "current": 4.47
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 10.8,
+      "base": 6.34,
+      "current": 7.03
     },
     {
       "id": "frozen_peas",
@@ -264,15 +264,6 @@
   ],
   "biggest_chain_gap": [
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 169.5,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "yohananof",
-      "expensive_price": 15.9
-    },
-    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "gap_pct": 118.6,
@@ -307,6 +298,15 @@
       "cheapest_price": 4.9,
       "expensive_chain": "tiv_taam",
       "expensive_price": 9.9
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 84.7,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 10.9
     },
     {
       "id": "hummus",
