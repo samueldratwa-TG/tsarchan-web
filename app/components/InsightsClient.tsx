@@ -238,6 +238,20 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
             </p>
           </div>
           <div>
+            <p className="font-semibold text-gray-800 mb-1">ולמה המדד ירד ב-0.15 נקודות ב-18 בספטמבר 2026?</p>
+            <p className="text-gray-600 leading-relaxed">
+              גם זו לא ירידת מחירים - זה תיקון מוצר. גילינו שבאחת הרשתות מדדנו &quot;עגבניה&quot; לפי
+              ברקוד של זן פרימיום במחיר 15.90 ש&quot;ח לק&quot;ג, במקום העגבניה בתפזורת שנמכרת שם
+              ב-5.90 ש&quot;ח לק&quot;ג. עברנו לברקוד הנכון, ואיפסנו את המקדם שחיבר את הסדרה, כך
+              שהתא מחושב מעכשיו לפי המחיר האמיתי בלבד. רק שני ימים בסדרה עודכנו
+              (18 ו-19 בספטמבר, 0.15 נקודות כל אחד) - כל ההיסטוריה שלפניהם לא השתנתה.
+              ההסבר על השיטה נמצא בסעיף{' '}
+              <Link href="/methodology" className="text-blue-600 hover:text-blue-800 underline">
+                &quot;מה קורה כשמחליפים מוצר במדד?&quot;
+              </Link>.
+            </p>
+          </div>
+          <div>
             <p className="font-semibold text-gray-800 mb-1">האם 37 המוצרים זהים בכל הרשתות?</p>
             <p className="text-gray-600 leading-relaxed">
               חלק מהמוצרים ({universalCount} מתוך {universalCount + mappedCount}) הם מותגים לאומיים עם ברקוד GS1 אחיד - אותו ברקוד
