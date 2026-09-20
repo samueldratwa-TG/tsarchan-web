@@ -10,9 +10,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 16.7,
+      "change_pct": 17.7,
       "base": 6.34,
-      "current": 7.4
+      "current": 7.46
     },
     {
       "id": "cucumber",
@@ -302,11 +302,11 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 67.8,
+      "gap_pct": 76.3,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 9.9
+      "expensive_price": 10.4
     },
     {
       "id": "cookies",
