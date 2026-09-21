@@ -46,7 +46,7 @@
       "center": 8.9,
       "bnei_brak": 8.32,
       "north": 8.6,
-      "south": 8.64,
+      "south": 8.59,
       "jerusalem": 8.32
     },
     "sour_cream": {
@@ -54,7 +54,7 @@
       "bnei_brak": 3.04,
       "north": 3.28,
       "south": 3.2,
-      "jerusalem": 3.15
+      "jerusalem": 3.16
     },
     "eggs_12": {
       "center": 15.24,
@@ -92,7 +92,7 @@
       "jerusalem": 7.71
     },
     "couscous": {
-      "center": 7.54,
+      "center": 7.53,
       "bnei_brak": 5.63,
       "north": 6.39,
       "south": 6.54,
@@ -101,14 +101,14 @@
     "tomato": {
       "center": 8.79,
       "bnei_brak": 6.8,
-      "north": 7.14,
+      "north": 7.15,
       "south": 6.93,
       "jerusalem": 6.63
     },
     "cucumber": {
       "center": 7.46,
       "bnei_brak": 6.9,
-      "north": 6.86,
+      "north": 6.87,
       "south": 6.6,
       "jerusalem": 6.61
     },
@@ -117,10 +117,10 @@
       "bnei_brak": 4.9,
       "north": 5.35,
       "south": 5.14,
-      "jerusalem": 5.11
+      "jerusalem": 5.13
     },
     "potato": {
-      "center": 6.39,
+      "center": 6.38,
       "bnei_brak": 5.57,
       "north": 5.74,
       "south": 5.49,
@@ -136,7 +136,7 @@
     "apple": {
       "center": 14.19,
       "bnei_brak": 12.23,
-      "north": 13.1,
+      "north": 13.11,
       "south": 12.71,
       "jerusalem": 12.43
     },
@@ -148,16 +148,16 @@
       "jerusalem": 19.35
     },
     "chicken_breast": {
-      "center": 40.0,
+      "center": 39.9,
       "bnei_brak": 44.9,
       "north": 40.77,
-      "south": 38.72,
+      "south": 38.57,
       "jerusalem": 40.83
     },
     "schnitzel": {
       "center": 34.81,
       "bnei_brak": 31.65,
-      "north": 33.26,
+      "north": 33.25,
       "south": 32.44,
       "jerusalem": 32.21
     },
@@ -173,7 +173,7 @@
       "bnei_brak": 4.9,
       "north": 5.59,
       "south": 5.43,
-      "jerusalem": 5.39
+      "jerusalem": 5.42
     },
     "salt": {
       "center": 2.03,
@@ -232,7 +232,7 @@
       "jerusalem": 19.25
     },
     "tea": {
-      "center": 8.39,
+      "center": 8.4,
       "bnei_brak": 8.12,
       "north": 8.17,
       "south": 7.89,
@@ -272,7 +272,7 @@
     "bnei_brak": 92.7,
     "north": 96.4,
     "south": 94.2,
-    "jerusalem": 93.8
+    "jerusalem": 93.9
   },
   "common_product_count": 37,
   "store_count": 855

@@ -10,9 +10,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 17.7,
+      "change_pct": 18.7,
       "base": 6.34,
-      "current": 7.46
+      "current": 7.53
     },
     {
       "id": "cucumber",
@@ -192,18 +192,18 @@
       "current": 7.09
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "change_pct": -2.6,
+      "base": 19.37,
+      "current": 18.86
+    },
+    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -2.4,
       "base": 19.88,
       "current": 19.4
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -2.1,
-      "base": 19.37,
-      "current": 18.97
     },
     {
       "id": "bisli",
@@ -291,6 +291,15 @@
       "expensive_price": 9.9
     },
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 84.7,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 10.9
+    },
+    {
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "gap_pct": 78.7,
@@ -298,15 +307,6 @@
       "cheapest_price": 8.9,
       "expensive_chain": "victory",
       "expensive_price": 15.9
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 76.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 10.4
     },
     {
       "id": "cookies",
@@ -489,15 +489,6 @@
       "expensive_price": 36.9
     },
     {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 21.5,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 20.9
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 20.4,
@@ -514,6 +505,15 @@
       "cheapest_price": 15.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 18.7
+    },
+    {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 16.9,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 20.1
     },
     {
       "id": "salt",
