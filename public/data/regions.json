@@ -148,11 +148,11 @@
       "jerusalem": 19.35
     },
     "chicken_breast": {
-      "center": 39.9,
-      "bnei_brak": 44.9,
-      "north": 40.77,
-      "south": 38.57,
-      "jerusalem": 40.83
+      "center": 40.3,
+      "bnei_brak": 44.23,
+      "north": 41.34,
+      "south": 39.75,
+      "jerusalem": 41.86
     },
     "schnitzel": {
       "center": 34.81,
@@ -269,10 +269,10 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 92.7,
+    "bnei_brak": 92.5,
     "north": 96.4,
-    "south": 94.2,
-    "jerusalem": 93.9
+    "south": 94.3,
+    "jerusalem": 94.0
   },
   "common_product_count": 37,
   "store_count": 855

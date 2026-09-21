@@ -732,6 +732,7 @@
       "base_price": 43.03,
       "chains": {
         "shufersal": 39.9,
+        "rami_levy": 42.9,
         "yohananof": 34.9,
         "victory": 49.9,
         "yayno_bitan_and_carrefour": 49.9
@@ -739,6 +740,10 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 110,
+          "as_of": "2026-09-21"
+        },
+        "rami_levy": {
+          "n_stores": 63,
           "as_of": "2026-09-21"
         },
         "yohananof": {

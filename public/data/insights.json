@@ -127,18 +127,18 @@
       "current": 15.28
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 1.0,
-      "base": 43.03,
-      "current": 43.47
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
       "base": 16.76,
       "current": 16.93
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 0.9,
+      "base": 43.03,
+      "current": 43.4
     },
     {
       "id": "gevina_levana_5",
