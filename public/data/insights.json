@@ -15,18 +15,18 @@
       "current": 7.07
     },
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 15.7,
+      "base": 6.34,
+      "current": 7.34
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
       "change_pct": 14.9,
       "base": 3.89,
       "current": 4.47
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 14.7,
-      "base": 6.34,
-      "current": 7.28
     },
     {
       "id": "frozen_peas",
@@ -55,6 +55,13 @@
       "change_pct": 5.4,
       "base": 6.94,
       "current": 7.31
+    },
+    {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "change_pct": 4.8,
+      "base": 5.08,
+      "current": 5.33
     },
     {
       "id": "spaghetti",
@@ -97,13 +104,6 @@
       "change_pct": 2.6,
       "base": 7.97,
       "current": 8.18
-    },
-    {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "change_pct": 2.0,
-      "base": 5.08,
-      "current": 5.18
     },
     {
       "id": "para_chocolate",
@@ -293,11 +293,11 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 84.7,
+      "gap_pct": 93.2,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 10.9
+      "expensive_price": 11.4
     },
     {
       "id": "hummus",
@@ -435,15 +435,6 @@
       "expensive_price": 3.6
     },
     {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "gap_pct": 28.3,
-      "cheapest_chain": "yayno_bitan_and_carrefour",
-      "cheapest_price": 4.6,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
-    },
-    {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
       "gap_pct": 25.3,
@@ -502,6 +493,15 @@
       "name": "בצל יבש לקג",
       "gap_pct": 20.4,
       "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 5.9
+    },
+    {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "gap_pct": 20.4,
+      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
