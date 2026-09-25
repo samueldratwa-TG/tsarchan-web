@@ -160,12 +160,13 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
 
       {/* How the numbers in the two panels above are computed */}
       <p className="-mt-6 mb-8 text-xs text-gray-500 leading-relaxed">
-        המחירים בשתי הטבלאות למעלה הם מחיר אחד לכל מוצר בכל השוק, לא מחיר של רשת מסוימת: בכל רשת
-        נלקח <strong className="font-semibold text-gray-600">חציון הסניפים</strong> שלה, ומ-8
-        החציונים האלה מחושב <strong className="font-semibold text-gray-600">ממוצע גאומטרי</strong>
-        {" "}(ולא חשבוני) - כך שרשת אחת קיצונית לא מושכת את המספר אחריה. כל רשת נספרת פעם אחת,
-        ללא שקלול לפי גודלה.{" "}
-        <a href="/methodology" className="text-blue-600 hover:text-blue-800 underline">למה חציון ולא ממוצע?</a>
+        המחירים בשתי הטבלאות למעלה הם סדרת המחיר של כל מוצר במדד - מחיר אחד לכל השוק, לא מחיר של
+        רשת מסוימת. בכל רשת השינוי נמדד <strong className="font-semibold text-gray-600">על אותם סניפים בלבד</strong>
+        {" "}(כל סניף מול המחיר הקודם שלו), ומ-8 הרשתות מחושב{" "}
+        <strong className="font-semibold text-gray-600">ממוצע גאומטרי</strong> (ולא חשבוני) - כך שרשת
+        אחת קיצונית לא מושכת את המספר אחריה. כל רשת נספרת פעם אחת, ללא שקלול לפי גודלה. לכן המספר
+        הוא מחיר ייחוס שמודד תנועה, ולא בהכרח מחיר מדף שמופיע בסניף מסוים.{" "}
+        <a href="/methodology#matched-stores" className="text-blue-600 hover:text-blue-800 underline">איך מודדים שינוי מחיר?</a>
       </p>
 
       {/* Chain gaps */}
@@ -248,6 +249,21 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
               ההסבר על השיטה נמצא בסעיף{' '}
               <Link href="/methodology" className="text-blue-600 hover:text-blue-800 underline">
                 &quot;מה קורה כשמחליפים מוצר במדד?&quot;
+              </Link>.
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-gray-800 mb-1">ולמה ערכי המדד מאז 6 ביוני השתנו ב-25 בספטמבר 2026?</p>
+            <p className="text-gray-600 leading-relaxed">
+              גם זה לא שינוי מחירים - זה שיפור בשיטת המדידה. עד אז השינוי היומי של כל רשת נמדד
+              מחציון כל הסניפים שפרסמו באותו יום, והתברר שהחציון זז גם כשאף סניף לא שינה מחיר:
+              מספיק שסניף אחד נכנס לקובץ או יצא ממנו. בבדיקה על כל הנתונים מאז 6 ביוני, כ-44%
+              מהתזוזות של החציון היו כאלה. מאז אנחנו מודדים שינוי מחיר רק על אותם סניפים, כל סניף
+              מול המחיר הקודם שלו. כל התקופה מ-6 ביוני 2026 חושבה מחדש (ההיסטוריה שלפני כן ומחירי
+              הבסיס לא השתנו): המדד ל-25 בספטמבר עבר מ-101.61 ל-101.36, והתנודות היומיות ירדו
+              בכמחצית. הפירוט המלא בסעיף{' '}
+              <Link href="/methodology#matched-stores" className="text-blue-600 hover:text-blue-800 underline">
+                &quot;איך מודדים שינוי מחיר יומי?&quot;
               </Link>.
             </p>
           </div>

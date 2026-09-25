@@ -25,7 +25,7 @@ export function Footer() {
             <ul className="text-sm space-y-1">
               <li>37 מוצרי בסיס ב-7 קטגוריות</li>
               <li>8 רשתות סופרמרקט</li>
-              <li>חציון סניפים (5 ומעלה), ממוצע גיאומטרי בין רשתות</li>
+              <li>שינוי מחיר נמדד על אותם סניפים (5 ומעלה), ממוצע גיאומטרי בין רשתות</li>
               <li>עדכון יומי</li>
               <li>בסיס 100 = 15 יוני 2025</li>
               <li>מקור: קגל (נתונים פתוחים)</li>
@@ -41,6 +41,11 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">קישורים ויצירת קשר</h3>
             <ul className="text-sm space-y-2">
+              <li>
+                <a href="https://sadot.click" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                  הצרחן הנבון - כל הכלים (sadot.click)
+                </a>
+              </li>
               <li>
                 <a href="https://www.kaggle.com/datasets/erlichsefi/israeli-supermarkets-2024" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
                   מקור נתונים: Kaggle
@@ -67,6 +72,11 @@ export function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500">
           <p>המידע באתר ניתן כמות שהוא (&quot;as is&quot;) ואינו מהווה ייעוץ צרכני. השתמשו על-אחריותכם בלבד.</p>
+          <p className="mt-2">
+            המדד הוא חלק מ-
+            <a href="https://sadot.click" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 underline">הצרחן הנבון</a>
+            {" "}- כלים חכמים אך פשוטים לחיי יומיום
+          </p>
         </div>
       </div>
     </footer>
