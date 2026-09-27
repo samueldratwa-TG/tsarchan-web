@@ -59,9 +59,9 @@
     {
       "id": "sugar",
       "name": "סוכר 1 קג",
-      "change_pct": 4.8,
+      "change_pct": 5.1,
       "base": 5.08,
-      "current": 5.33
+      "current": 5.34
     },
     {
       "id": "sour_cream",
@@ -444,6 +444,15 @@
       "expensive_price": 9.9
     },
     {
+      "id": "sugar",
+      "name": "סוכר 1 קג",
+      "gap_pct": 24.5,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 4.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 6.1
+    },
+    {
       "id": "chocolate_spread",
       "name": "ממרח שוקולד השחר",
       "gap_pct": 24.1,
@@ -493,15 +502,6 @@
       "name": "בצל יבש לקג",
       "gap_pct": 20.4,
       "cheapest_chain": "rami_levy",
-      "cheapest_price": 4.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
-    },
-    {
-      "id": "sugar",
-      "name": "סוכר 1 קג",
-      "gap_pct": 20.4,
-      "cheapest_chain": "osher_ad",
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9

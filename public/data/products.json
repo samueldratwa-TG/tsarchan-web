@@ -847,16 +847,36 @@
       "category": "pantry",
       "base_price": 5.08,
       "chains": {
-        "shufersal": 5.9
+        "shufersal": 5.9,
+        "rami_levy": 4.9,
+        "yohananof": 4.9,
+        "victory": 5.5,
+        "yayno_bitan_and_carrefour": 6.1
       },
       "chain_meta": {
         "shufersal": {
           "n_stores": 275,
           "as_of": "2026-09-27"
+        },
+        "rami_levy": {
+          "n_stores": 38,
+          "as_of": "2026-09-27"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-09-27"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-09-27"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 142,
+          "as_of": "2026-09-27"
         }
       },
-      "avg_price": 5.31,
-      "change_pct": 4.5
+      "avg_price": 5.32,
+      "change_pct": 4.7
     },
     {
       "id": "salt",
