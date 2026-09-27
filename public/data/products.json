@@ -261,40 +261,40 @@
     },
     {
       "id": "eggs_12",
-      "name": "ביצים 12 יח XL פיקוח",
+      "name": "ביצים 12 יח L פיקוח",
       "category": "dairy",
       "base_price": 15.06,
       "chains": {
-        "shufersal": 15.48,
-        "rami_levy": 15.4,
+        "shufersal": 14.24,
+        "rami_levy": 14.2,
         "yohananof": 14.24,
-        "victory": 15.48,
-        "yayno_bitan_and_carrefour": 15.48
+        "victory": 14.24,
+        "yayno_bitan_and_carrefour": 14.24
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 106,
+          "n_stores": 314,
           "as_of": "2026-09-27"
         },
         "rami_levy": {
-          "n_stores": 11,
-          "as_of": "2026-09-24"
+          "n_stores": 93,
+          "as_of": "2026-09-27"
         },
         "yohananof": {
           "n_stores": 37,
           "as_of": "2026-09-27"
         },
         "victory": {
-          "n_stores": 40,
+          "n_stores": 70,
           "as_of": "2026-09-27"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 32,
+          "n_stores": 141,
           "as_of": "2026-09-27"
         }
       },
-      "avg_price": 15.27,
-      "change_pct": 1.4
+      "avg_price": 14.38,
+      "change_pct": -4.5
     },
     {
       "id": "yogurt",

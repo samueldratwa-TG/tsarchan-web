@@ -57,11 +57,11 @@
       "jerusalem": 3.22
     },
     "eggs_12": {
-      "center": 15.24,
-      "bnei_brak": 15.48,
-      "north": 15.27,
-      "south": 15.13,
-      "jerusalem": 15.33
+      "center": 14.24,
+      "bnei_brak": 14.24,
+      "north": 14.25,
+      "south": 14.14,
+      "jerusalem": 14.25
     },
     "yogurt": {
       "center": 4.7,
@@ -269,7 +269,7 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 92.2,
+    "bnei_brak": 92.1,
     "north": 96.3,
     "south": 94.3,
     "jerusalem": 94.0

@@ -48,8 +48,8 @@
     {
       "id": "eggs_12",
       "cat": "dairy",
-      "name": "ביצים 12 יח XL פיקוח",
-      "barcode": "7290001201572",
+      "name": "ביצים 12 יח L פיקוח",
+      "barcode": "7290001201589",
       "mapped": true
     },
     {
@@ -341,14 +341,14 @@
       "yayno_bitan_and_carrefour": "7290000060316"
     },
     "eggs_12": {
-      "shufersal": "7290001201572",
-      "rami_levy": "7290001201572",
+      "shufersal": "7290001201589",
+      "rami_levy": "742259241901",
       "yohananof": "742259241901",
-      "victory": "7290001201572",
+      "victory": "7290001201589",
       "osher_ad": "7290001201572",
-      "hazi_hinam": "7290001201572",
-      "tiv_taam": "7290001201572",
-      "yayno_bitan_and_carrefour": "7290001201572"
+      "hazi_hinam": "7290001201589",
+      "tiv_taam": "7290001201589",
+      "yayno_bitan_and_carrefour": "7290001201589"
     },
     "bread": {
       "shufersal": "7290000574035",
