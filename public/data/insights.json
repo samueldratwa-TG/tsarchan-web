@@ -10,9 +10,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 22.6,
+      "change_pct": 24.6,
       "base": 6.34,
-      "current": 7.78
+      "current": 7.9
     },
     {
       "id": "cucumber",
@@ -24,9 +24,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 14.9,
+      "change_pct": 16.3,
       "base": 3.89,
-      "current": 4.47
+      "current": 4.53
     },
     {
       "id": "frozen_peas",
@@ -293,11 +293,11 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "gap_pct": 84.7,
+      "gap_pct": 101.7,
       "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 10.9
+      "expensive_price": 11.9
     },
     {
       "id": "hummus",
