@@ -18,7 +18,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -55,7 +55,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -92,7 +92,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 98,
+          "n_stores": 95,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -129,7 +129,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 79,
+          "n_stores": 78,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -229,7 +229,7 @@
       "base_price": 3.12,
       "chains": {
         "shufersal": 3.8,
-        "rami_levy": 3.3,
+        "rami_levy": 2.7,
         "yohananof": 2.9,
         "victory": 3.2,
         "yayno_bitan_and_carrefour": 3.5
@@ -240,7 +240,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 56,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -256,8 +256,8 @@
           "as_of": "2026-09-28"
         }
       },
-      "avg_price": 3.25,
-      "change_pct": 4.2
+      "avg_price": 3.17,
+      "change_pct": 1.6
     },
     {
       "id": "eggs_12",
@@ -277,7 +277,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 93,
+          "n_stores": 92,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -314,7 +314,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -351,7 +351,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 38,
+          "n_stores": 37,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -388,7 +388,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -425,7 +425,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 57,
+          "n_stores": 56,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -441,8 +441,8 @@
           "as_of": "2026-09-28"
         }
       },
-      "avg_price": 8.15,
-      "change_pct": 7.4
+      "avg_price": 7.65,
+      "change_pct": 0.8
     },
     {
       "id": "couscous",
@@ -462,7 +462,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -499,7 +499,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 96,
+          "n_stores": 97,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -535,7 +535,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 17,
+          "n_stores": 19,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -567,7 +567,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 19,
+          "n_stores": 20,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -600,7 +600,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 8,
+          "n_stores": 19,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -674,7 +674,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 85,
+          "n_stores": 97,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -690,8 +690,8 @@
           "as_of": "2026-09-28"
         }
       },
-      "avg_price": 12.77,
-      "change_pct": 2.0
+      "avg_price": 12.52,
+      "change_pct": 0.0
     },
     {
       "id": "frozen_peas",
@@ -764,8 +764,8 @@
           "as_of": "2026-09-28"
         }
       },
-      "avg_price": 42.92,
-      "change_pct": -0.3
+      "avg_price": 41.14,
+      "change_pct": -4.4
     },
     {
       "id": "schnitzel",
@@ -785,7 +785,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 97,
+          "n_stores": 96,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -822,7 +822,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 80,
+          "n_stores": 83,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -859,7 +859,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 37,
+          "n_stores": 36,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -896,7 +896,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 32,
+          "n_stores": 30,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -933,7 +933,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -970,7 +970,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 97,
+          "n_stores": 96,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1007,7 +1007,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 67,
+          "n_stores": 66,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1044,7 +1044,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 96,
+          "n_stores": 95,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1118,7 +1118,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1155,7 +1155,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 9,
+          "n_stores": 8,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1191,7 +1191,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 85,
+          "n_stores": 84,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1224,7 +1224,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 77,
+          "n_stores": 76,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1278,7 +1278,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 99,
+          "n_stores": 98,
           "as_of": "2026-09-28"
         },
         "yohananof": {
@@ -1315,7 +1315,7 @@
           "as_of": "2026-09-28"
         },
         "rami_levy": {
-          "n_stores": 63,
+          "n_stores": 62,
           "as_of": "2026-09-28"
         },
         "yohananof": {
