@@ -24,9 +24,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 16.3,
+      "change_pct": 17.9,
       "base": 3.89,
-      "current": 4.53
+      "current": 4.59
     },
     {
       "id": "frozen_peas",
@@ -127,6 +127,13 @@
       "current": 16.93
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 0.9,
+      "base": 43.03,
+      "current": 43.4
+    },
+    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -185,13 +192,6 @@
       "current": 7.15
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -2.6,
-      "base": 43.03,
-      "current": 41.9
-    },
-    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -2.4,
@@ -215,9 +215,9 @@
     {
       "id": "hummus",
       "name": "חומוס 400 גרם",
-      "change_pct": -1.7,
+      "change_pct": -1.2,
       "base": 11.71,
-      "current": 11.51
+      "current": 11.58
     },
     {
       "id": "bamba",
@@ -318,15 +318,6 @@
       "expensive_price": 15.9
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "gap_pct": 76.9,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 29.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 52.9
-    },
-    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -361,6 +352,15 @@
       "cheapest_price": 14.9,
       "expensive_chain": "shufersal",
       "expensive_price": 22.9
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "gap_pct": 51.6,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 34.9,
+      "expensive_chain": "tiv_taam",
+      "expensive_price": 52.9
     },
     {
       "id": "bamba",
