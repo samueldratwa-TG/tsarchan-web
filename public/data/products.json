@@ -485,7 +485,7 @@
       "id": "tomato",
       "name": "עגבניה לקג",
       "category": "produce",
-      "base_price": 6.34,
+      "base_price": 6.6,
       "chains": {
         "shufersal": 8.9,
         "rami_levy": 5.9,
@@ -516,7 +516,7 @@
         }
       },
       "avg_price": 7.58,
-      "change_pct": 19.6
+      "change_pct": 14.8
     },
     {
       "id": "cucumber",
@@ -554,7 +554,7 @@
       "id": "onion",
       "name": "בצל יבש לקג",
       "category": "produce",
-      "base_price": 4.26,
+      "base_price": 4.4,
       "chains": {
         "shufersal": 5.9,
         "rami_levy": 4.9,
@@ -580,7 +580,7 @@
         }
       },
       "avg_price": 5.28,
-      "change_pct": 23.9
+      "change_pct": 20.0
     },
     {
       "id": "potato",
@@ -660,7 +660,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "category": "produce",
-      "base_price": 12.52,
+      "base_price": 12.59,
       "chains": {
         "shufersal": 14.9,
         "rami_levy": 10.9,
@@ -691,7 +691,7 @@
         }
       },
       "avg_price": 12.52,
-      "change_pct": 0.0
+      "change_pct": -0.6
     },
     {
       "id": "frozen_peas",

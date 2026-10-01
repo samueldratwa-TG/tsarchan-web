@@ -389,6 +389,16 @@ export default async function MethodologyPage() {
           </p>
           <ul className="space-y-3 text-sm text-gray-600">
             <li className="bg-purple-50 border border-purple-200 rounded-xl p-4">
+              <p className="font-semibold text-purple-900 mb-1">1 באוקטובר 2026 - תיקון קריאת הארכיון ובסיס מחושב מחדש</p>
+              <p className="leading-relaxed">
+                קובצי הארכיון ב-Kaggle דחוסים (תא ריק = &quot;אותו ערך כמו בשורה שמעל&quot;), והקוד שלנו לא
+                פענח זאת - כ-5% משורות המחיר נשמטו. קראנו מחדש את כל הארכיון מ-30 במאי 2026 (כ-426 אלף
+                מחירים נוספו, אף מחיר לא אבד) וחישבנו מחדש את מחירי הבסיס, כך שיום הבסיס נשאר 100. כל
+                הסדרה זזה בעד 0.36 נקודות; המדד ל-28 בספטמבר עבר מ-101.48 ל-101.28 -{' '}
+                <strong>זה תיקון נתונים, לא ירידת מחירים</strong>.
+              </p>
+            </li>
+            <li className="bg-purple-50 border border-purple-200 rounded-xl p-4">
               <p className="font-semibold text-purple-900 mb-1">25 בספטמבר 2026 - שינוי מחיר נמדד על אותם סניפים</p>
               <p className="leading-relaxed">
                 עד אז השינוי היומי של כל רשת נמדד מחציון כל הסניפים שפרסמו באותו יום, ולכן סניף שנכנס

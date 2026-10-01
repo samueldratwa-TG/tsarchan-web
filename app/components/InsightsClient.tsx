@@ -269,6 +269,16 @@ export function InsightsClient({ priceData, productMeta, chainGaps, universalCou
             </p>
           </div>
           <div>
+            <p className="font-semibold text-gray-800 mb-1">ולמה כל ההיסטוריה של המדד עודכנה ב-1 באוקטובר 2026?</p>
+            <p className="text-gray-600 leading-relaxed">
+              בגלל באג שלנו בקריאת הנתונים, לא בגלל שינוי מחירים. קובצי הארכיון ב-Kaggle דחוסים: תא ריק
+              בהם פירושו &quot;אותו ערך כמו בשורה שמעל&quot;. הקוד שלנו לא פענח את הדחיסה הזו, ולכן כ-5%
+              משורות המחיר נשמטו. תיקנו את הקוד, קראנו מחדש את כל הארכיון מ-30 במאי 2026 (נוספו כ-426
+              אלף מחירים ואף מחיר לא אבד), וחישבנו מחדש את מחירי הבסיס כך שיום הבסיס נשאר 100. הסדרה
+              כולה זזה בעד 0.36 נקודות: המדד ל-28 בספטמבר עבר מ-101.48 ל-101.28.
+            </p>
+          </div>
+          <div>
             <p className="font-semibold text-gray-800 mb-1">האם 37 המוצרים זהים בכל הרשתות?</p>
             <p className="text-gray-600 leading-relaxed">
               חלק מהמוצרים ({universalCount} מתוך {universalCount + mappedCount}) הם מותגים לאומיים עם ברקוד GS1 אחיד - אותו ברקוד

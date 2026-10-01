@@ -3,16 +3,9 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 25.1,
-      "base": 4.26,
+      "change_pct": 21.1,
+      "base": 4.4,
       "current": 5.33
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 22.6,
-      "base": 6.34,
-      "current": 7.78
     },
     {
       "id": "cucumber",
@@ -27,6 +20,13 @@
       "change_pct": 17.9,
       "base": 3.89,
       "current": 4.59
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 17.8,
+      "base": 6.6,
+      "current": 7.78
     },
     {
       "id": "frozen_peas",
@@ -113,13 +113,6 @@
       "current": 47.02
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 1.0,
-      "base": 12.52,
-      "current": 12.65
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
@@ -146,6 +139,13 @@
       "change_pct": 0.6,
       "base": 8.65,
       "current": 8.7
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": 0.5,
+      "base": 12.59,
+      "current": 12.65
     },
     {
       "id": "butter",
