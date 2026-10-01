@@ -213,13 +213,6 @@
       "current": 4.75
     },
     {
-      "id": "hummus",
-      "name": "חומוס 400 גרם",
-      "change_pct": -1.2,
-      "base": 11.71,
-      "current": 11.58
-    },
-    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "change_pct": -1.0,
@@ -239,6 +232,13 @@
       "change_pct": -0.7,
       "base": 32.63,
       "current": 32.4
+    },
+    {
+      "id": "hummus",
+      "name": "חומוס 400 גרם",
+      "change_pct": -0.6,
+      "base": 11.71,
+      "current": 11.64
     },
     {
       "id": "potato",
