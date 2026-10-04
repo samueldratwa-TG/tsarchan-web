@@ -1,18 +1,18 @@
 {
   "biggest_increase": [
     {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 25.3,
+      "base": 4.4,
+      "current": 5.51
+    },
+    {
       "id": "tomato",
       "name": "עגבניה לקג",
       "change_pct": 24.4,
       "base": 6.6,
       "current": 8.21
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 24.4,
-      "base": 4.4,
-      "current": 5.47
     },
     {
       "id": "cucumber",
@@ -402,7 +402,7 @@
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 40.8,
-      "cheapest_chain": "rami_levy",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 4.9,
       "expensive_chain": "victory",
       "expensive_price": 6.9
