@@ -345,6 +345,15 @@
       "expensive_price": 7.9
     },
     {
+      "id": "bisli",
+      "name": "ביסלי גריל 70 גרם",
+      "gap_pct": 53.8,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 3.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 6.0
+    },
+    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "gap_pct": 53.7,
@@ -397,15 +406,6 @@
       "cheapest_price": 9.9,
       "expensive_chain": "shufersal",
       "expensive_price": 14.9
-    },
-    {
-      "id": "bisli",
-      "name": "ביסלי גריל 70 גרם",
-      "gap_pct": 43.6,
-      "cheapest_chain": "osher_ad",
-      "cheapest_price": 3.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 5.6
     },
     {
       "id": "sour_cream",

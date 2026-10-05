@@ -222,7 +222,7 @@
       "id": "bisli",
       "cat": "snacks",
       "name": "ביסלי גריל 70 גרם",
-      "barcode": "7290000067537",
+      "barcode": "7290000066141",
       "mapped": true
     },
     {
@@ -460,14 +460,14 @@
       "yayno_bitan_and_carrefour": "7290000311128"
     },
     "bisli": {
-      "shufersal": "7290000067537",
-      "rami_levy": "7290000067537",
-      "yohananof": "7290000067537",
-      "victory": "7290000067537",
-      "osher_ad": "7290000066134",
+      "shufersal": "7290000066141",
+      "rami_levy": "7290000066141",
+      "yohananof": "7290000066141",
+      "victory": "7290000066141",
+      "osher_ad": "7290000066141",
       "hazi_hinam": "7290000066141",
-      "tiv_taam": "7290115201680",
-      "yayno_bitan_and_carrefour": "7290000067537"
+      "tiv_taam": "7290000066141",
+      "yayno_bitan_and_carrefour": "7290000066141"
     }
   },
   "chains": [

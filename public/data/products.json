@@ -1249,16 +1249,36 @@
       "category": "snacks",
       "base_price": 4.84,
       "chains": {
-        "yayno_bitan_and_carrefour": 5.6
+        "shufersal": 5.5,
+        "rami_levy": 3.9,
+        "yohananof": 4.3,
+        "victory": 4.9,
+        "yayno_bitan_and_carrefour": 6.0
       },
       "chain_meta": {
+        "shufersal": {
+          "n_stores": 409,
+          "as_of": "2026-10-05"
+        },
+        "rami_levy": {
+          "n_stores": 73,
+          "as_of": "2026-10-05"
+        },
+        "yohananof": {
+          "n_stores": 47,
+          "as_of": "2026-10-05"
+        },
+        "victory": {
+          "n_stores": 70,
+          "as_of": "2026-10-05"
+        },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 15,
+          "n_stores": 145,
           "as_of": "2026-10-05"
         }
       },
-      "avg_price": 4.71,
-      "change_pct": -2.7
+      "avg_price": 4.7,
+      "change_pct": -2.9
     },
     {
       "id": "para_chocolate",
