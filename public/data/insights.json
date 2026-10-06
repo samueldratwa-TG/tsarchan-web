@@ -8,18 +8,18 @@
       "current": 5.56
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 20.6,
-      "base": 6.6,
-      "current": 7.96
-    },
-    {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 19.4,
+      "change_pct": 22.1,
       "base": 6.06,
-      "current": 7.23
+      "current": 7.4
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 21.6,
+      "base": 6.6,
+      "current": 8.03
     },
     {
       "id": "carrot",
@@ -31,9 +31,9 @@
     {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
-      "change_pct": 10.4,
+      "change_pct": 14.6,
       "base": 17.01,
-      "current": 18.77
+      "current": 19.5
     },
     {
       "id": "hot_dogs",
@@ -99,6 +99,13 @@
       "current": 9.12
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 2.3,
+      "base": 43.03,
+      "current": 44.02
+    },
+    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 2.2,
@@ -120,13 +127,6 @@
       "current": 16.93
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 0.9,
-      "base": 43.03,
-      "current": 43.4
-    },
-    {
       "id": "gevina_levana_5",
       "name": "גבינה לבנה 5% 250 גרם",
       "change_pct": 0.6,
@@ -139,6 +139,13 @@
       "change_pct": 0.6,
       "base": 8.65,
       "current": 8.7
+    },
+    {
+      "id": "hummus",
+      "name": "חומוס 400 גרם",
+      "change_pct": 0.6,
+      "base": 11.71,
+      "current": 11.78
     },
     {
       "id": "apple",
@@ -234,13 +241,6 @@
       "current": 32.4
     },
     {
-      "id": "hummus",
-      "name": "חומוס 400 גרם",
-      "change_pct": -0.6,
-      "base": 11.71,
-      "current": 11.64
-    },
-    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
       "change_pct": -0.5,
@@ -264,6 +264,15 @@
   ],
   "biggest_chain_gap": [
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 118.6,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 12.9
+    },
+    {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
       "gap_pct": 118.6,
@@ -271,15 +280,6 @@
       "cheapest_price": 5.9,
       "expensive_chain": "osher_ad",
       "expensive_price": 12.9
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 110.2,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 12.4
     },
     {
       "id": "carrot",
@@ -312,7 +312,7 @@
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "gap_pct": 78.7,
-      "cheapest_chain": "hazi_hinam",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 8.9,
       "expensive_chain": "victory",
       "expensive_price": 15.9
@@ -352,15 +352,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 6.0
-    },
-    {
-      "id": "frozen_peas",
-      "name": "אפונה מוקפאת",
-      "gap_pct": 53.7,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 14.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 22.9
     },
     {
       "id": "hot_dogs",
@@ -406,6 +397,15 @@
       "cheapest_price": 9.9,
       "expensive_chain": "shufersal",
       "expensive_price": 14.9
+    },
+    {
+      "id": "frozen_peas",
+      "name": "אפונה מוקפאת",
+      "gap_pct": 44.0,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 15.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 22.9
     },
     {
       "id": "sour_cream",
