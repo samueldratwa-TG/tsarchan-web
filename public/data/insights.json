@@ -127,13 +127,6 @@
       "current": 5.85
     },
     {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "change_pct": 0.6,
-      "base": 8.65,
-      "current": 8.7
-    },
-    {
       "id": "hummus",
       "name": "חומוס 400 גרם",
       "change_pct": 0.6,
@@ -169,6 +162,13 @@
       "change_pct": -7.7,
       "base": 16.74,
       "current": 15.45
+    },
+    {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "change_pct": -6.6,
+      "base": 8.65,
+      "current": 8.07
     },
     {
       "id": "rice",
@@ -435,6 +435,15 @@
       "expensive_price": 11.9
     },
     {
+      "id": "sweet_cream",
+      "name": "שמנת מתוקה 32% 250 מל",
+      "gap_pct": 33.3,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 9.2
+    },
+    {
       "id": "yogurt",
       "name": "יוגורט ביו 3% 200 גרם",
       "gap_pct": 31.6,
@@ -460,15 +469,6 @@
       "cheapest_price": 8.5,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 10.9
-    },
-    {
-      "id": "sweet_cream",
-      "name": "שמנת מתוקה 32% 250 מל",
-      "gap_pct": 25.3,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 7.9,
-      "expensive_chain": "tiv_taam",
-      "expensive_price": 9.9
     },
     {
       "id": "bread",

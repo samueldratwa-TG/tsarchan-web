@@ -191,36 +191,36 @@
       "category": "dairy",
       "base_price": 8.65,
       "chains": {
-        "shufersal": 8.4,
-        "rami_levy": 7.9,
-        "yohananof": 8.5,
-        "victory": 8.9,
-        "yayno_bitan_and_carrefour": 9.8
+        "shufersal": 9.2,
+        "rami_levy": 6.9,
+        "yohananof": 7.5,
+        "victory": 8.7,
+        "yayno_bitan_and_carrefour": 9.2
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 43,
+          "n_stores": 317,
           "as_of": "2026-10-08"
         },
         "rami_levy": {
-          "n_stores": 18,
+          "n_stores": 67,
           "as_of": "2026-10-08"
         },
         "yohananof": {
-          "n_stores": 46,
+          "n_stores": 47,
           "as_of": "2026-10-08"
         },
         "victory": {
-          "n_stores": 11,
+          "n_stores": 70,
           "as_of": "2026-10-08"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 5,
-          "as_of": "2026-10-04"
+          "n_stores": 146,
+          "as_of": "2026-10-08"
         }
       },
-      "avg_price": 8.67,
-      "change_pct": 0.2
+      "avg_price": 8.03,
+      "change_pct": -7.2
     },
     {
       "id": "sour_cream",

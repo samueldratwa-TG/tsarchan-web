@@ -43,11 +43,11 @@
       "jerusalem": 9.72
     },
     "sweet_cream": {
-      "center": 8.73,
-      "bnei_brak": 8.32,
-      "north": 8.46,
-      "south": 8.63,
-      "jerusalem": 8.04
+      "center": 8.63,
+      "bnei_brak": 7.59,
+      "north": 8.2,
+      "south": 7.98,
+      "jerusalem": 7.92
     },
     "sour_cream": {
       "center": 3.5,
@@ -269,9 +269,9 @@
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 91.8,
-    "north": 96.3,
-    "south": 94.1,
+    "bnei_brak": 91.7,
+    "north": 96.2,
+    "south": 94.0,
     "jerusalem": 93.7
   },
   "common_product_count": 37,
