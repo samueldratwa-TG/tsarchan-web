@@ -1,18 +1,18 @@
 {
   "biggest_increase": [
     {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 26.3,
-      "base": 4.4,
-      "current": 5.56
-    },
-    {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 24.4,
+      "change_pct": 25.4,
       "base": 6.6,
-      "current": 8.21
+      "current": 8.28
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 24.4,
+      "base": 4.4,
+      "current": 5.47
     },
     {
       "id": "cucumber",
@@ -85,13 +85,6 @@
       "current": 7.81
     },
     {
-      "id": "bread",
-      "name": "לחם אחיד פרוס 750 גרם",
-      "change_pct": 2.6,
-      "base": 7.97,
-      "current": 8.18
-    },
-    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.5,
@@ -118,13 +111,6 @@
       "change_pct": 1.8,
       "base": 46.21,
       "current": 47.02
-    },
-    {
-      "id": "potato",
-      "name": "תפוח אדמה לבן",
-      "change_pct": 1.4,
-      "base": 6.42,
-      "current": 6.51
     },
     {
       "id": "water",
@@ -155,18 +141,18 @@
       "current": 11.78
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 0.5,
-      "base": 12.59,
-      "current": 12.65
-    },
-    {
       "id": "butter",
       "name": "חמאה תנובה 200 גרם",
       "change_pct": 0.3,
       "base": 10.13,
       "current": 10.16
+    },
+    {
+      "id": "bread",
+      "name": "לחם אחיד פרוס 750 גרם",
+      "change_pct": 0.3,
+      "base": 7.97,
+      "current": 7.99
     }
   ],
   "biggest_decrease": [
@@ -248,11 +234,25 @@
       "current": 32.4
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -0.5,
+      "base": 12.59,
+      "current": 12.53
+    },
+    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
       "base": 36.96,
       "current": 36.9
+    },
+    {
+      "id": "potato",
+      "name": "תפוח אדמה לבן",
+      "change_pct": -0.1,
+      "base": 6.42,
+      "current": 6.41
     },
     {
       "id": "chocolate_spread",
@@ -330,7 +330,7 @@
       "id": "onion",
       "name": "בצל יבש לקג",
       "gap_pct": 61.2,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 4.9,
       "expensive_chain": "victory",
       "expensive_price": 7.9
@@ -393,7 +393,7 @@
       "id": "apple",
       "name": "תפוח עץ לקג",
       "gap_pct": 50.5,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 9.9,
       "expensive_chain": "shufersal",
       "expensive_price": 14.9
@@ -471,6 +471,15 @@
       "expensive_price": 9.9
     },
     {
+      "id": "bread",
+      "name": "לחם אחיד פרוס 750 גרם",
+      "gap_pct": 25.1,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.7,
+      "expensive_chain": "shufersal",
+      "expensive_price": 8.38
+    },
+    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "gap_pct": 24.5,
@@ -532,15 +541,6 @@
       "cheapest_price": 35.9,
       "expensive_chain": "shufersal",
       "expensive_price": 39.9
-    },
-    {
-      "id": "bread",
-      "name": "לחם אחיד פרוס 750 גרם",
-      "gap_pct": 10.3,
-      "cheapest_chain": "yohananof",
-      "cheapest_price": 7.6,
-      "expensive_chain": "shufersal",
-      "expensive_price": 8.38
     },
     {
       "id": "cottage_5",
