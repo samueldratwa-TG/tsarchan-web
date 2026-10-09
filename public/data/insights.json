@@ -3,16 +3,16 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 25.4,
+      "change_pct": 33.0,
       "base": 6.6,
-      "current": 8.28
+      "current": 8.78
     },
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 24.4,
+      "change_pct": 27.6,
       "base": 4.4,
-      "current": 5.47
+      "current": 5.61
     },
     {
       "id": "cucumber",
@@ -113,6 +113,13 @@
       "current": 47.02
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": 1.5,
+      "base": 12.59,
+      "current": 12.78
+    },
+    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": 1.0,
@@ -185,6 +192,13 @@
       "current": 14.38
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "change_pct": -3.2,
+      "base": 19.37,
+      "current": 18.74
+    },
+    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.1,
@@ -197,13 +211,6 @@
       "change_pct": -3.0,
       "base": 19.88,
       "current": 19.27
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -2.6,
-      "base": 19.37,
-      "current": 18.86
     },
     {
       "id": "bisli",
@@ -234,13 +241,6 @@
       "current": 32.4
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -0.5,
-      "base": 12.59,
-      "current": 12.53
-    },
-    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
@@ -263,15 +263,6 @@
     }
   ],
   "biggest_chain_gap": [
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 118.6,
-      "cheapest_chain": "tiv_taam",
-      "cheapest_price": 5.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 12.9
-    },
     {
       "id": "tea",
       "name": "תה ויסוצקי 25 שקיקים",
@@ -298,6 +289,15 @@
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 9.9
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 101.4,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 13.9
     },
     {
       "id": "couscous",
@@ -516,15 +516,6 @@
       "expensive_price": 18.7
     },
     {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 16.9,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 20.1
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "gap_pct": 16.1,
@@ -532,6 +523,15 @@
       "cheapest_price": 1.8,
       "expensive_chain": "shufersal",
       "expensive_price": 2.09
+    },
+    {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 12.8,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "victory",
+      "expensive_price": 19.4
     },
     {
       "id": "coffee_tasters",
