@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 33.0,
+      "change_pct": 31.1,
       "base": 6.6,
-      "current": 8.78
+      "current": 8.65
     },
     {
       "id": "onion",
@@ -17,9 +17,9 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 22.1,
+      "change_pct": 20.7,
       "base": 6.06,
-      "current": 7.4
+      "current": 7.32
     },
     {
       "id": "carrot",
@@ -192,13 +192,6 @@
       "current": 14.38
     },
     {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -3.2,
-      "base": 19.37,
-      "current": 18.74
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "change_pct": -3.1,
@@ -211,6 +204,13 @@
       "change_pct": -3.0,
       "base": 19.88,
       "current": 19.27
+    },
+    {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "change_pct": -2.1,
+      "base": 19.37,
+      "current": 18.97
     },
     {
       "id": "bisli",
@@ -318,6 +318,15 @@
       "expensive_price": 15.9
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 64.8,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.4,
+      "expensive_chain": "shufersal",
+      "expensive_price": 8.9
+    },
+    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -379,15 +388,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 50.8,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 8.9
     },
     {
       "id": "apple",
@@ -507,6 +507,15 @@
       "expensive_price": 36.9
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 21.5,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 20.9
+    },
+    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "gap_pct": 17.6,
@@ -523,15 +532,6 @@
       "cheapest_price": 1.8,
       "expensive_chain": "shufersal",
       "expensive_price": 2.09
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 12.8,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "victory",
-      "expensive_price": 19.4
     },
     {
       "id": "coffee_tasters",

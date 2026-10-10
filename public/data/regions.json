@@ -47,7 +47,7 @@
       "bnei_brak": 7.59,
       "north": 8.18,
       "south": 7.98,
-      "jerusalem": 7.92
+      "jerusalem": 7.91
     },
     "sour_cream": {
       "center": 3.5,
@@ -85,7 +85,7 @@
       "jerusalem": 11.9
     },
     "spaghetti": {
-      "center": 8.95,
+      "center": 8.96,
       "bnei_brak": 7.27,
       "north": 8.32,
       "south": 7.83,
@@ -101,8 +101,8 @@
     "tomato": {
       "center": 10.26,
       "bnei_brak": 7.7,
-      "north": 8.43,
-      "south": 8.15,
+      "north": 8.44,
+      "south": 8.12,
       "jerusalem": 7.76
     },
     "cucumber": {
@@ -113,7 +113,7 @@
       "jerusalem": 7.25
     },
     "onion": {
-      "center": 6.35,
+      "center": 6.36,
       "bnei_brak": 5.07,
       "north": 5.71,
       "south": 5.57,
@@ -136,7 +136,7 @@
     "apple": {
       "center": 14.4,
       "bnei_brak": 11.9,
-      "north": 13.15,
+      "north": 13.16,
       "south": 12.76,
       "jerusalem": 12.27
     },
@@ -151,7 +151,7 @@
       "center": 40.56,
       "bnei_brak": 44.9,
       "north": 40.96,
-      "south": 39.93,
+      "south": 39.98,
       "jerusalem": 42.71
     },
     "schnitzel": {
@@ -193,7 +193,7 @@
       "center": 11.71,
       "bnei_brak": 10.2,
       "north": 10.92,
-      "south": 10.81,
+      "south": 10.83,
       "jerusalem": 10.57
     },
     "chocolate_spread": {
@@ -253,9 +253,9 @@
       "jerusalem": 4.65
     },
     "para_chocolate": {
-      "center": 9.84,
+      "center": 9.85,
       "bnei_brak": 8.86,
-      "north": 9.3,
+      "north": 9.31,
       "south": 9.1,
       "jerusalem": 9.08
     },

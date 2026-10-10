@@ -15,23 +15,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 319,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 7.31,
@@ -51,24 +51,24 @@
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 288,
-          "as_of": "2026-10-09"
+          "n_stores": 287,
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 141,
-          "as_of": "2026-10-09"
+          "n_stores": 143,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 6.08,
@@ -88,24 +88,24 @@
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 128,
-          "as_of": "2026-10-09"
+          "n_stores": 127,
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 46,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 66,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 96,
-          "as_of": "2026-10-09"
+          "n_stores": 97,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 5.85,
@@ -121,32 +121,32 @@
         "rami_levy": 18.1,
         "yohananof": 18.9,
         "victory": 19.4,
-        "yayno_bitan_and_carrefour": 19.3
+        "yayno_bitan_and_carrefour": 20.9
       },
       "chain_meta": {
         "shufersal": {
           "n_stores": 42,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
           "n_stores": 53,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 15,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 60,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
           "n_stores": 7,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
-      "avg_price": 18.73,
-      "change_pct": -3.3
+      "avg_price": 18.94,
+      "change_pct": -2.2
     },
     {
       "id": "butter",
@@ -163,23 +163,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 297,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 10.12,
@@ -200,23 +200,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 317,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 8.03,
@@ -237,23 +237,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 312,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 3.17,
@@ -274,23 +274,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 313,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 65,
-          "as_of": "2026-10-09"
+          "n_stores": 64,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 37,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 141,
-          "as_of": "2026-10-09"
+          "n_stores": 143,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 14.38,
@@ -311,23 +311,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 316,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 4.36,
@@ -348,23 +348,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 140,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 15,
-          "as_of": "2026-10-09"
+          "n_stores": 13,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 37,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
-          "n_stores": 53,
-          "as_of": "2026-10-09"
+          "n_stores": 52,
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 115,
-          "as_of": "2026-10-09"
+          "n_stores": 116,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 7.97,
@@ -384,24 +384,24 @@
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 318,
-          "as_of": "2026-10-09"
+          "n_stores": 317,
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 11.85,
@@ -422,23 +422,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 299,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 57,
-          "as_of": "2026-10-09"
+          "n_stores": 55,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 45,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 20,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 137,
-          "as_of": "2026-10-09"
+          "n_stores": 138,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 7.65,
@@ -459,23 +459,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 317,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 6.94,
@@ -496,27 +496,27 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 316,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
-      "avg_price": 8.54,
-      "change_pct": 29.4
+      "avg_price": 8.41,
+      "change_pct": 27.4
     },
     {
       "id": "cucumber",
@@ -525,30 +525,30 @@
       "base_price": 6.06,
       "chains": {
         "shufersal": 8.9,
-        "rami_levy": 5.9,
+        "rami_levy": 5.4,
         "yohananof": 6.9,
         "victory": 7.9
       },
       "chain_meta": {
         "shufersal": {
           "n_stores": 318,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 17,
-          "as_of": "2026-10-09"
+          "n_stores": 16,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
-      "avg_price": 7.34,
-      "change_pct": 21.1
+      "avg_price": 7.23,
+      "change_pct": 19.3
     },
     {
       "id": "onion",
@@ -564,19 +564,19 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 318,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
           "n_stores": 9,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 5.53,
@@ -597,23 +597,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 274,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 6,
-          "as_of": "2026-10-09"
+          "n_stores": 5,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 6.32,
@@ -634,23 +634,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 274,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
           "n_stores": 11,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
           "n_stores": 6,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 4.47,
@@ -671,23 +671,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 274,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 12.6,
@@ -708,23 +708,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 251,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 66,
-          "as_of": "2026-10-09"
+          "n_stores": 65,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 131,
-          "as_of": "2026-10-09"
+          "n_stores": 133,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 19.38,
@@ -745,23 +745,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 111,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 63,
-          "as_of": "2026-10-09"
+          "n_stores": 62,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 43,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 11,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
           "n_stores": 5,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 43.64,
@@ -782,23 +782,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 273,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 32.3,
@@ -819,23 +819,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 257,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 54,
-          "as_of": "2026-10-09"
+          "n_stores": 53,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 41,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 129,
-          "as_of": "2026-10-09"
+          "n_stores": 131,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 17.49,
@@ -856,23 +856,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 275,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
           "n_stores": 11,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 5.32,
@@ -893,23 +893,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 121,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 25,
-          "as_of": "2026-10-09"
+          "n_stores": 26,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 1.98,
@@ -930,23 +930,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 42,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 15.39,
@@ -967,23 +967,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 273,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 67,
-          "as_of": "2026-10-09"
+          "n_stores": 66,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 33,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
-          "n_stores": 10,
-          "as_of": "2026-10-09"
+          "n_stores": 9,
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 41,
-          "as_of": "2026-10-09"
+          "n_stores": 40,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 11.63,
@@ -1004,23 +1004,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 285,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 65,
-          "as_of": "2026-10-09"
+          "n_stores": 64,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 45,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 66,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 127,
-          "as_of": "2026-10-09"
+          "n_stores": 128,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 28.17,
@@ -1041,23 +1041,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 317,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 67,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 47.01,
@@ -1078,23 +1078,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 318,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 69,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 16.9,
@@ -1115,23 +1115,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 408,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 36.86,
@@ -1152,23 +1152,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 275,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
           "n_stores": 7,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 19.21,
@@ -1188,19 +1188,19 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 302,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 62,
-          "as_of": "2026-10-09"
+          "n_stores": 61,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 116,
-          "as_of": "2026-10-09"
+          "n_stores": 118,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 8.12,
@@ -1221,23 +1221,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 409,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 67,
-          "as_of": "2026-10-09"
+          "n_stores": 66,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 142,
-          "as_of": "2026-10-09"
+          "n_stores": 144,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 4.69,
@@ -1258,23 +1258,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 409,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 67,
-          "as_of": "2026-10-09"
+          "n_stores": 66,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 141,
-          "as_of": "2026-10-09"
+          "n_stores": 143,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 4.7,
@@ -1295,23 +1295,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 328,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 68,
-          "as_of": "2026-10-09"
+          "n_stores": 67,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 47,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 70,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 115,
-          "as_of": "2026-10-09"
+          "n_stores": 118,
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 9.09,
@@ -1332,23 +1332,23 @@
       "chain_meta": {
         "shufersal": {
           "n_stores": 41,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "rami_levy": {
-          "n_stores": 61,
-          "as_of": "2026-10-09"
+          "n_stores": 60,
+          "as_of": "2026-10-10"
         },
         "yohananof": {
           "n_stores": 43,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "victory": {
           "n_stores": 60,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         },
         "yayno_bitan_and_carrefour": {
           "n_stores": 6,
-          "as_of": "2026-10-09"
+          "as_of": "2026-10-10"
         }
       },
       "avg_price": 8.97,
