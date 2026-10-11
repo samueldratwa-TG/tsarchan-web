@@ -17,9 +17,9 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 20.7,
+      "change_pct": 22.1,
       "base": 6.06,
-      "current": 7.32
+      "current": 7.4
     },
     {
       "id": "carrot",
@@ -208,9 +208,9 @@
     {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": -2.1,
+      "change_pct": -2.6,
       "base": 19.37,
-      "current": 18.97
+      "current": 18.86
     },
     {
       "id": "bisli",
@@ -318,15 +318,6 @@
       "expensive_price": 15.9
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 64.8,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.4,
-      "expensive_chain": "shufersal",
-      "expensive_price": 8.9
-    },
-    {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
       "gap_pct": 63.3,
@@ -388,6 +379,15 @@
       "cheapest_price": 3.9,
       "expensive_chain": "shufersal",
       "expensive_price": 5.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 50.8,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 5.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 8.9
     },
     {
       "id": "apple",
@@ -507,15 +507,6 @@
       "expensive_price": 36.9
     },
     {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 21.5,
-      "cheapest_chain": "shufersal",
-      "cheapest_price": 17.2,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 20.9
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "gap_pct": 17.6,
@@ -523,6 +514,15 @@
       "cheapest_price": 15.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 18.7
+    },
+    {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "gap_pct": 16.9,
+      "cheapest_chain": "shufersal",
+      "cheapest_price": 17.2,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 20.1
     },
     {
       "id": "salt",
