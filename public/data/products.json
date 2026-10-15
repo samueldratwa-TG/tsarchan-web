@@ -740,7 +740,7 @@
         "rami_levy": 42.9,
         "yohananof": 34.9,
         "victory": 49.9,
-        "yayno_bitan_and_carrefour": 49.9
+        "yayno_bitan_and_carrefour": 44.9
       },
       "chain_meta": {
         "shufersal": {
@@ -760,12 +760,12 @@
           "as_of": "2026-10-15"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 5,
-          "as_of": "2026-10-13"
+          "n_stores": 100,
+          "as_of": "2026-10-15"
         }
       },
-      "avg_price": 43.37,
-      "change_pct": 0.8
+      "avg_price": 42.81,
+      "change_pct": -0.5
     },
     {
       "id": "schnitzel",

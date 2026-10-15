@@ -106,13 +106,6 @@
       "current": 3.19
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": 1.7,
-      "base": 43.03,
-      "current": 43.77
-    },
-    {
       "id": "coca_cola",
       "name": "קוקה קולה 6x1.5 ליטר",
       "change_pct": 1.5,
@@ -146,6 +139,13 @@
       "change_pct": 0.3,
       "base": 10.13,
       "current": 10.16
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": 0.3,
+      "base": 43.03,
+      "current": 43.15
     },
     {
       "id": "water",
