@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { SITE_HOST } from "@/lib/site";
 
 // Daily data-sanity check, hit by the Vercel cron in vercel.json (0 6 * * *).
 // Verifies the published data files are fresh and internally healthy; returns
@@ -7,7 +8,7 @@ import { NextResponse } from "next/server";
 // served identical all-100 values for 8 days.
 export async function GET(request: Request) {
   const problems: string[] = [];
-  const host = request.headers.get("host") || "hamadad.sadot.click";
+  const host = request.headers.get("host") || SITE_HOST;
   const proto = host.startsWith("localhost") ? "http" : "https";
   const base = `${proto}://${host}`;
 

@@ -1,3 +1,5 @@
+import { HUB_HOST, HUB_URL } from "@/lib/site";
+
 export function Footer() {
   return (
     <footer className="bg-gray-800 text-gray-300 mt-12">
@@ -42,8 +44,8 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-3">קישורים ויצירת קשר</h3>
             <ul className="text-sm space-y-2">
               <li>
-                <a href="https://sadot.click" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                  הצרחן הנבון - כל הכלים (sadot.click)
+                <a href={HUB_URL} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                  הצרחן הנבון - כל הכלים ({HUB_HOST})
                 </a>
               </li>
               <li>
@@ -74,7 +76,7 @@ export function Footer() {
           <p>המידע באתר ניתן כמות שהוא (&quot;as is&quot;) ואינו מהווה ייעוץ צרכני. השתמשו על-אחריותכם בלבד.</p>
           <p className="mt-2">
             המדד הוא חלק מ-
-            <a href="https://sadot.click" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 underline">הצרחן הנבון</a>
+            <a href={HUB_URL} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 underline">הצרחן הנבון</a>
             {" "}- כלים חכמים אך פשוטים לחיי יומיום
           </p>
         </div>

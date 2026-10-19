@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
+import { SITE_URL } from "@/lib/site";
 
 export async function GET() {
   try {
-    const res = await fetch("https://hamadad.sadot.click/data/index.csv", {
+    const res = await fetch(`${SITE_URL}/data/index.csv`, {
       next: { revalidate: 1800 },
     });
 
     if (!res.ok) {
+      console.error(`[api/hamadad] index.csv fetch failed: HTTP ${res.status}`);
       return NextResponse.json(
         { error: "Failed to fetch index data" },
         { status: 502 }
@@ -64,7 +66,8 @@ export async function GET() {
       change: Math.round(change * 100) / 100,
       changePercent: Math.round(changePercent * 100) / 100,
     });
-  } catch {
+  } catch (err) {
+    console.error("[api/hamadad] index data error", err);
     return NextResponse.json(
       { error: "Failed to fetch index data" },
       { status: 502 }

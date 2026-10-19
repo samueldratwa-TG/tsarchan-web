@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* "We moved" banner (app/components/MovedBanner.tsx, domain migration 2026-10-19):
+   the footer's gray-800 panel with the site's blue-600 button. */
+:root {
+  --moved-banner-bg: #1f2937;
+  --moved-banner-fg: #ffffff;
+  --moved-banner-border: #374151;
+  --moved-banner-button-bg: #2563eb;
+  --moved-banner-button-fg: #ffffff;
+}
