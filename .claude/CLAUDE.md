@@ -24,8 +24,8 @@ Hebrew-first (RTL), Next.js 16, Tailwind CSS, Recharts.
   `--moved-banner-*` variables in app/globals.css.
 - Every page's canonical names its own path on the new host (`metadataBase` + canonical `./`
   in app/layout.tsx).
-- `public/llms.txt` is a stale copy of the hub's file, left untouched on purpose (Samuel,
-  2026-10-19 - the migration cleanup session decides).
+- No `public/llms.txt`: it was a stale copy of the hub's file and was deleted on 2026-10-19
+  (Samuel's decision in the migration cleanup). The hub's /llms.txt describes all the apps.
 - Until 2026-11-19 (or an IT allow-list of *.sadotlab.com) Allot's firewall blocks the new
   domain as newly-registered-domain; hamadad-phi.vercel.app is the fallback.
 
