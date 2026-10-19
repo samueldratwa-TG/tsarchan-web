@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { SITE_HOST } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
 
 // Daily data-sanity check, hit by the Vercel cron in vercel.json (0 6 * * *).
 // Verifies the published data files are fresh and internally healthy; returns
@@ -8,9 +8,12 @@ import { SITE_HOST } from "@/lib/site";
 // served identical all-100 values for 8 days.
 export async function GET(request: Request) {
   const problems: string[] = [];
-  const host = request.headers.get("host") || SITE_HOST;
-  const proto = host.startsWith("localhost") ? "http" : "https";
-  const base = `${proto}://${host}`;
+  // Check the PUBLISHED files through the canonical host. The Vercel cron calls this route on the
+  // deployment's own *.vercel.app URL, which Vercel Authentication protects, so a self-fetch on the
+  // request host got the SSO redirect instead of the data and reported 500 on every run (found
+  // 2026-10-19). Local dev still checks itself.
+  const host = request.headers.get("host") ?? "";
+  const base = host.startsWith("localhost") ? `http://${host}` : SITE_URL;
 
   try {
     // 1) Index freshness + plausibility
@@ -50,6 +53,7 @@ export async function GET(request: Request) {
   }
 
   const ok = problems.length === 0;
+  if (!ok) console.error(`[api/sanity] ${problems.length} problem(s) on ${base}:`, problems);
   return NextResponse.json(
     { ok, problems, checkedAt: new Date().toISOString() },
     { status: ok ? 200 : 500 }
