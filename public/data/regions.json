@@ -232,11 +232,11 @@
       "jerusalem": 19.11
     },
     "tea": {
-      "center": 8.41,
-      "bnei_brak": 8.12,
-      "north": 8.18,
-      "south": 7.85,
-      "jerusalem": 7.87
+      "center": 8.67,
+      "bnei_brak": 8.22,
+      "north": 8.4,
+      "south": 8.14,
+      "jerusalem": 8.17
     },
     "bamba": {
       "center": 5.69,
@@ -272,7 +272,7 @@
     "bnei_brak": 90.9,
     "north": 96.2,
     "south": 93.9,
-    "jerusalem": 93.3
+    "jerusalem": 93.4
   },
   "common_product_count": 37,
   "store_count": 861

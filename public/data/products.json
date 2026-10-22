@@ -1181,7 +1181,7 @@
       "base_price": 7.72,
       "chains": {
         "shufersal": 8.5,
-        "rami_levy": 5.9,
+        "rami_levy": 6.9,
         "yohananof": 7.5,
         "yayno_bitan_and_carrefour": 8.2
       },
@@ -1191,7 +1191,7 @@
           "as_of": "2026-10-22"
         },
         "rami_levy": {
-          "n_stores": 80,
+          "n_stores": 89,
           "as_of": "2026-10-22"
         },
         "yohananof": {
@@ -1199,12 +1199,12 @@
           "as_of": "2026-10-22"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 119,
+          "n_stores": 130,
           "as_of": "2026-10-22"
         }
       },
-      "avg_price": 8.12,
-      "change_pct": 5.2
+      "avg_price": 8.59,
+      "change_pct": 11.3
     },
     {
       "id": "bamba",

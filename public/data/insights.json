@@ -36,18 +36,18 @@
       "current": 19.5
     },
     {
+      "id": "tea",
+      "name": "תה ויסוצקי 25 שקיקים",
+      "change_pct": 13.6,
+      "base": 7.72,
+      "current": 8.77
+    },
+    {
       "id": "hot_dogs",
       "name": "נקניקיות 500 גרם",
       "change_pct": 9.9,
       "base": 16.13,
       "current": 17.73
-    },
-    {
-      "id": "tea",
-      "name": "תה ויסוצקי 25 שקיקים",
-      "change_pct": 8.1,
-      "base": 7.72,
-      "current": 8.34
     },
     {
       "id": "milk_tnuva_3",
@@ -264,15 +264,6 @@
   ],
   "biggest_chain_gap": [
     {
-      "id": "tea",
-      "name": "תה ויסוצקי 25 שקיקים",
-      "gap_pct": 118.6,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 5.9,
-      "expensive_chain": "osher_ad",
-      "expensive_price": 12.9
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
       "gap_pct": 103.4,
@@ -289,6 +280,15 @@
       "cheapest_price": 4.9,
       "expensive_chain": "shufersal",
       "expensive_price": 9.9
+    },
+    {
+      "id": "tea",
+      "name": "תה ויסוצקי 25 שקיקים",
+      "gap_pct": 87.0,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.9,
+      "expensive_chain": "osher_ad",
+      "expensive_price": 12.9
     },
     {
       "id": "couscous",
