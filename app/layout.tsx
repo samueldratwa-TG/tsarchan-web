@@ -15,8 +15,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   // "./" resolves per route, so every page names its own path on the canonical host.
   alternates: { canonical: "./" },
-  title: "מדד על מחירי מזון",
-  description: "מדד מחירי מזון שבועי המבוסס על נתוני הסופרמרקטים בישראל",
+  title: "מדד על מחירי מזון - מדד יומי של מחירי הסופרמרקטים בישראל",
+  description:
+    "מדד מחירי מזון יומי המבוסס על המחירים שרשתות השיווק בישראל מפרסמות: השוואה בין רשתות ואזורים, המוצרים שהתייקרו והוזלו, ומחיר כל מוצר בכל סניף.",
 };
 
 export default function RootLayout({
