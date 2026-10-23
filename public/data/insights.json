@@ -10,9 +10,9 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 24.4,
+      "change_pct": 27.6,
       "base": 4.4,
-      "current": 5.47
+      "current": 5.61
     },
     {
       "id": "cucumber",
@@ -92,6 +92,13 @@
       "current": 8.18
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": 2.5,
+      "base": 12.59,
+      "current": 12.9
+    },
+    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.5,
@@ -104,13 +111,6 @@
       "change_pct": 2.2,
       "base": 3.12,
       "current": 3.19
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 1.5,
-      "base": 12.59,
-      "current": 12.78
     },
     {
       "id": "coca_cola",
@@ -248,18 +248,18 @@
       "current": 32.4
     },
     {
+      "id": "chocolate_spread",
+      "name": "ממרח שוקולד השחר",
+      "change_pct": -0.3,
+      "base": 28.25,
+      "current": 28.16
+    },
+    {
       "id": "coffee_tasters",
       "name": "טסטרס צויס 200 גרם",
       "change_pct": -0.2,
       "base": 36.96,
       "current": 36.9
-    },
-    {
-      "id": "chocolate_spread",
-      "name": "ממרח שוקולד השחר",
-      "change_pct": -0.1,
-      "base": 28.25,
-      "current": 28.21
     }
   ],
   "biggest_chain_gap": [
