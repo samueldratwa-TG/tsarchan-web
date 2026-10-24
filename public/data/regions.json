@@ -74,7 +74,7 @@
       "center": 8.2,
       "bnei_brak": 8.19,
       "north": 7.94,
-      "south": 8.0,
+      "south": 7.99,
       "jerusalem": 8.15
     },
     "rice": {
@@ -99,16 +99,16 @@
       "jerusalem": 6.33
     },
     "tomato": {
-      "center": 10.77,
+      "center": 10.78,
       "bnei_brak": 7.9,
       "north": 9.02,
       "south": 8.9,
-      "jerusalem": 8.47
+      "jerusalem": 8.48
     },
     "cucumber": {
       "center": 8.37,
       "bnei_brak": 6.34,
-      "north": 7.6,
+      "north": 7.59,
       "south": 7.22,
       "jerusalem": 7.16
     },
@@ -127,7 +127,7 @@
       "jerusalem": 6.06
     },
     "carrot": {
-      "center": 5.72,
+      "center": 5.71,
       "bnei_brak": 3.9,
       "north": 5.17,
       "south": 4.95,
@@ -148,9 +148,9 @@
       "jerusalem": 19.29
     },
     "chicken_breast": {
-      "center": 41.74,
+      "center": 41.7,
       "bnei_brak": 41.4,
-      "north": 41.33,
+      "north": 41.22,
       "south": 39.84,
       "jerusalem": 42.01
     },
@@ -165,7 +165,7 @@
       "center": 19.84,
       "bnei_brak": 18.23,
       "north": 19.49,
-      "south": 18.59,
+      "south": 18.65,
       "jerusalem": 18.63
     },
     "sugar": {
@@ -186,7 +186,7 @@
       "center": 16.47,
       "bnei_brak": 14.79,
       "north": 15.59,
-      "south": 15.45,
+      "south": 15.44,
       "jerusalem": 15.21
     },
     "hummus": {
@@ -199,9 +199,9 @@
     "chocolate_spread": {
       "center": 29.23,
       "bnei_brak": 27.29,
-      "north": 28.55,
+      "north": 28.54,
       "south": 27.94,
-      "jerusalem": 27.98
+      "jerusalem": 28.02
     },
     "coca_cola": {
       "center": 47.44,
@@ -232,7 +232,7 @@
       "jerusalem": 19.11
     },
     "tea": {
-      "center": 8.67,
+      "center": 8.66,
       "bnei_brak": 8.22,
       "north": 8.4,
       "south": 8.14,
@@ -257,7 +257,7 @@
       "bnei_brak": 8.86,
       "north": 9.32,
       "south": 9.09,
-      "jerusalem": 9.08
+      "jerusalem": 9.07
     },
     "cookies": {
       "center": 10.11,
