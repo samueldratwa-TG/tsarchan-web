@@ -33,7 +33,7 @@
       "bnei_brak": 18.19,
       "north": 18.96,
       "south": 18.95,
-      "jerusalem": 18.76
+      "jerusalem": 18.7
     },
     "butter": {
       "center": 10.47,
@@ -87,7 +87,7 @@
     "spaghetti": {
       "center": 8.96,
       "bnei_brak": 7.27,
-      "north": 8.32,
+      "north": 8.34,
       "south": 7.82,
       "jerusalem": 7.72
     },
@@ -103,21 +103,21 @@
       "bnei_brak": 7.9,
       "north": 9.02,
       "south": 8.9,
-      "jerusalem": 8.48
+      "jerusalem": 8.47
     },
     "cucumber": {
       "center": 8.37,
       "bnei_brak": 6.34,
       "north": 7.59,
-      "south": 7.22,
+      "south": 7.24,
       "jerusalem": 7.16
     },
     "onion": {
       "center": 6.25,
       "bnei_brak": 5.01,
       "north": 5.7,
-      "south": 5.54,
-      "jerusalem": 5.5
+      "south": 5.53,
+      "jerusalem": 5.49
     },
     "potato": {
       "center": 6.81,
@@ -150,8 +150,8 @@
     "chicken_breast": {
       "center": 41.7,
       "bnei_brak": 41.4,
-      "north": 41.22,
-      "south": 39.84,
+      "north": 41.24,
+      "south": 39.92,
       "jerusalem": 42.01
     },
     "schnitzel": {
@@ -180,7 +180,7 @@
       "bnei_brak": 1.98,
       "north": 1.99,
       "south": 1.94,
-      "jerusalem": 1.95
+      "jerusalem": 1.94
     },
     "tahini": {
       "center": 16.47,
@@ -256,11 +256,11 @@
       "center": 9.85,
       "bnei_brak": 8.86,
       "north": 9.32,
-      "south": 9.09,
+      "south": 9.08,
       "jerusalem": 9.07
     },
     "cookies": {
-      "center": 10.11,
+      "center": 10.12,
       "bnei_brak": 8.1,
       "north": 9.01,
       "south": 9.09,
