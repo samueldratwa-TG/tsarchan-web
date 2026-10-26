@@ -36,10 +36,10 @@
       "jerusalem": 18.7
     },
     "butter": {
-      "center": 10.47,
+      "center": 10.46,
       "bnei_brak": 9.42,
-      "north": 10.1,
-      "south": 9.88,
+      "north": 10.09,
+      "south": 9.87,
       "jerusalem": 9.72
     },
     "sweet_cream": {
@@ -99,25 +99,25 @@
       "jerusalem": 6.33
     },
     "tomato": {
-      "center": 10.78,
+      "center": 10.76,
       "bnei_brak": 7.9,
-      "north": 9.02,
-      "south": 8.9,
-      "jerusalem": 8.47
+      "north": 9.04,
+      "south": 8.85,
+      "jerusalem": 8.56
     },
     "cucumber": {
-      "center": 8.37,
+      "center": 8.38,
       "bnei_brak": 6.34,
-      "north": 7.59,
-      "south": 7.24,
-      "jerusalem": 7.16
+      "north": 7.63,
+      "south": 7.26,
+      "jerusalem": 7.23
     },
     "onion": {
-      "center": 6.25,
+      "center": 6.2,
       "bnei_brak": 5.01,
-      "north": 5.7,
-      "south": 5.53,
-      "jerusalem": 5.49
+      "north": 5.65,
+      "south": 5.48,
+      "jerusalem": 5.52
     },
     "potato": {
       "center": 6.81,
@@ -134,10 +134,10 @@
       "jerusalem": 4.8
     },
     "apple": {
-      "center": 14.31,
+      "center": 14.24,
       "bnei_brak": 11.9,
       "north": 13.11,
-      "south": 12.75,
+      "south": 12.68,
       "jerusalem": 12.27
     },
     "frozen_peas": {
@@ -150,8 +150,8 @@
     "chicken_breast": {
       "center": 41.7,
       "bnei_brak": 41.4,
-      "north": 41.24,
-      "south": 39.92,
+      "north": 41.13,
+      "south": 39.75,
       "jerusalem": 42.01
     },
     "schnitzel": {
@@ -162,10 +162,10 @@
       "jerusalem": 31.88
     },
     "hot_dogs": {
-      "center": 19.84,
+      "center": 19.85,
       "bnei_brak": 18.23,
       "north": 19.49,
-      "south": 18.65,
+      "south": 18.69,
       "jerusalem": 18.63
     },
     "sugar": {
@@ -198,10 +198,10 @@
     },
     "chocolate_spread": {
       "center": 29.23,
-      "bnei_brak": 27.29,
-      "north": 28.54,
+      "bnei_brak": 27.24,
+      "north": 28.53,
       "south": 27.94,
-      "jerusalem": 28.02
+      "jerusalem": 28.01
     },
     "coca_cola": {
       "center": 47.44,
@@ -272,7 +272,7 @@
     "bnei_brak": 90.9,
     "north": 96.1,
     "south": 93.9,
-    "jerusalem": 93.3
+    "jerusalem": 93.4
   },
   "common_product_count": 37,
   "store_count": 861

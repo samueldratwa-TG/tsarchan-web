@@ -3,23 +3,23 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 43.4,
+      "change_pct": 44.3,
       "base": 6.6,
-      "current": 9.46
-    },
-    {
-      "id": "onion",
-      "name": "בצל יבש לקג",
-      "change_pct": 27.6,
-      "base": 4.4,
-      "current": 5.61
+      "current": 9.53
     },
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 23.5,
+      "change_pct": 24.9,
       "base": 6.06,
-      "current": 7.48
+      "current": 7.57
+    },
+    {
+      "id": "onion",
+      "name": "בצל יבש לקג",
+      "change_pct": 24.4,
+      "base": 4.4,
+      "current": 5.47
     },
     {
       "id": "carrot",
@@ -92,13 +92,6 @@
       "current": 8.18
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 2.5,
-      "base": 12.59,
-      "current": 12.9
-    },
-    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.5,
@@ -111,6 +104,13 @@
       "change_pct": 2.2,
       "base": 3.12,
       "current": 3.19
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": 1.5,
+      "base": 12.59,
+      "current": 12.78
     },
     {
       "id": "coca_cola",
@@ -408,15 +408,6 @@
       "expensive_price": 3.8
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "gap_pct": 39.1,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 6.4,
-      "expensive_chain": "shufersal",
-      "expensive_price": 8.9
-    },
-    {
       "id": "tahini",
       "name": "טחינה גולמית 500 גרם",
       "gap_pct": 35.7,
@@ -451,6 +442,15 @@
       "cheapest_price": 15.9,
       "expensive_chain": "shufersal",
       "expensive_price": 20.9
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "gap_pct": 29.0,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 6.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 8.9
     },
     {
       "id": "yogurt",
