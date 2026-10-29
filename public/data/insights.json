@@ -3,9 +3,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 40.5,
+      "change_pct": 42.4,
       "base": 6.6,
-      "current": 9.28
+      "current": 9.4
     },
     {
       "id": "onion",
@@ -24,9 +24,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 19.5,
+      "change_pct": 17.9,
       "base": 3.89,
-      "current": 4.65
+      "current": 4.59
     },
     {
       "id": "frozen_peas",
@@ -166,9 +166,9 @@
     {
       "id": "cookies",
       "name": "עוגיות חמאה מן 300 גרם",
-      "change_pct": -9.5,
+      "change_pct": -10.6,
       "base": 10.07,
-      "current": 9.11
+      "current": 9.0
     },
     {
       "id": "tahini",

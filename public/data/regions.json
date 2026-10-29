@@ -29,10 +29,10 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.43,
+      "center": 19.44,
       "bnei_brak": 18.19,
       "north": 18.96,
-      "south": 18.9,
+      "south": 18.87,
       "jerusalem": 18.7
     },
     "butter": {
@@ -99,17 +99,17 @@
       "jerusalem": 6.33
     },
     "tomato": {
-      "center": 10.67,
+      "center": 10.72,
       "bnei_brak": 7.9,
-      "north": 8.9,
-      "south": 8.7,
-      "jerusalem": 8.47
+      "north": 8.97,
+      "south": 8.85,
+      "jerusalem": 8.55
     },
     "cucumber": {
-      "center": 8.35,
+      "center": 8.33,
       "bnei_brak": 6.34,
-      "north": 7.61,
-      "south": 7.22,
+      "north": 7.59,
+      "south": 7.24,
       "jerusalem": 7.18
     },
     "onion": {
@@ -120,7 +120,7 @@
       "jerusalem": 5.53
     },
     "potato": {
-      "center": 6.82,
+      "center": 6.83,
       "bnei_brak": 5.9,
       "north": 6.27,
       "south": 5.96,
@@ -130,7 +130,7 @@
       "center": 5.71,
       "bnei_brak": 3.9,
       "north": 5.17,
-      "south": 4.94,
+      "south": 4.93,
       "jerusalem": 4.8
     },
     "apple": {
@@ -151,8 +151,8 @@
       "center": 41.68,
       "bnei_brak": 41.4,
       "north": 41.27,
-      "south": 40.05,
-      "jerusalem": 42.01
+      "south": 39.93,
+      "jerusalem": 41.94
     },
     "schnitzel": {
       "center": 34.83,
@@ -211,11 +211,11 @@
       "jerusalem": 46.26
     },
     "water": {
-      "center": 17.49,
+      "center": 17.5,
       "bnei_brak": 16.66,
-      "north": 17.06,
-      "south": 16.72,
-      "jerusalem": 16.76
+      "north": 17.07,
+      "south": 16.73,
+      "jerusalem": 16.78
     },
     "coffee_tasters": {
       "center": 38.9,
@@ -232,7 +232,7 @@
       "jerusalem": 19.11
     },
     "tea": {
-      "center": 8.66,
+      "center": 8.67,
       "bnei_brak": 8.22,
       "north": 8.4,
       "south": 8.14,
@@ -253,14 +253,14 @@
       "jerusalem": 4.61
     },
     "para_chocolate": {
-      "center": 9.84,
+      "center": 9.83,
       "bnei_brak": 8.86,
       "north": 9.32,
       "south": 9.08,
       "jerusalem": 9.07
     },
     "cookies": {
-      "center": 10.12,
+      "center": 10.13,
       "bnei_brak": 8.1,
       "north": 9.01,
       "south": 9.09,
