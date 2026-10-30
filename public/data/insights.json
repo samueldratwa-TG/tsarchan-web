@@ -24,9 +24,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 17.9,
+      "change_pct": 19.5,
       "base": 3.89,
-      "current": 4.59
+      "current": 4.65
     },
     {
       "id": "frozen_peas",
@@ -92,6 +92,13 @@
       "current": 8.18
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": 2.5,
+      "base": 12.59,
+      "current": 12.9
+    },
+    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 2.5,
@@ -104,13 +111,6 @@
       "change_pct": 2.2,
       "base": 3.12,
       "current": 3.19
-    },
-    {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": 1.5,
-      "base": 12.59,
-      "current": 12.78
     },
     {
       "id": "coca_cola",
