@@ -35,7 +35,9 @@
         }
       },
       "avg_price": 7.31,
-      "change_pct": 5.3
+      "change_pct": 5.3,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "cottage_5",
@@ -72,7 +74,9 @@
         }
       },
       "avg_price": 6.08,
-      "change_pct": -1.0
+      "change_pct": -1.6,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "gevina_levana_5",
@@ -109,7 +113,9 @@
         }
       },
       "avg_price": 5.85,
-      "change_pct": 0.5
+      "change_pct": 0.5,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "emek_28",
@@ -117,36 +123,38 @@
       "category": "dairy",
       "base_price": 19.37,
       "chains": {
-        "shufersal": 17.2,
-        "rami_levy": 18.1,
+        "shufersal": 19.9,
+        "rami_levy": 18.4,
         "yohananof": 18.9,
         "victory": 19.4,
-        "yayno_bitan_and_carrefour": 19.3
+        "yayno_bitan_and_carrefour": 19.9
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 41,
+          "n_stores": 240,
           "as_of": "2026-11-01"
         },
         "rami_levy": {
-          "n_stores": 68,
+          "n_stores": 89,
           "as_of": "2026-11-01"
         },
         "yohananof": {
-          "n_stores": 16,
+          "n_stores": 47,
           "as_of": "2026-11-01"
         },
         "victory": {
-          "n_stores": 57,
+          "n_stores": 68,
           "as_of": "2026-11-01"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 6,
+          "n_stores": 145,
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 18.73,
-      "change_pct": -3.3
+      "avg_price": 19.25,
+      "change_pct": 0.7,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "butter",
@@ -183,7 +191,9 @@
         }
       },
       "avg_price": 10.12,
-      "change_pct": -0.1
+      "change_pct": -0.7,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "sweet_cream",
@@ -220,7 +230,9 @@
         }
       },
       "avg_price": 8.03,
-      "change_pct": -7.2
+      "change_pct": 0.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "sour_cream",
@@ -257,7 +269,9 @@
         }
       },
       "avg_price": 3.17,
-      "change_pct": 1.6
+      "change_pct": 5.4,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "eggs_12",
@@ -293,8 +307,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 14.38,
-      "change_pct": -4.5
+      "avg_price": 14.23,
+      "change_pct": 1.2,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "yogurt",
@@ -331,7 +347,9 @@
         }
       },
       "avg_price": 4.35,
-      "change_pct": 3.3
+      "change_pct": 4.0,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "bread",
@@ -368,7 +386,9 @@
         }
       },
       "avg_price": 8.17,
-      "change_pct": 2.5
+      "change_pct": 2.0,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "rice",
@@ -405,7 +425,9 @@
         }
       },
       "avg_price": 11.85,
-      "change_pct": -5.7
+      "change_pct": -3.7,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "spaghetti",
@@ -413,36 +435,38 @@
       "category": "grains",
       "base_price": 7.59,
       "chains": {
-        "shufersal": 9.9,
-        "rami_levy": 6.9,
-        "yohananof": 6.9,
-        "victory": 7.4,
-        "yayno_bitan_and_carrefour": 9.2
+        "shufersal": 7.9,
+        "rami_levy": 4.9,
+        "yohananof": 4.9,
+        "victory": 6.9,
+        "yayno_bitan_and_carrefour": 7.5
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 294,
+          "n_stores": 318,
           "as_of": "2026-11-01"
         },
         "rami_levy": {
-          "n_stores": 52,
+          "n_stores": 89,
           "as_of": "2026-11-01"
         },
         "yohananof": {
-          "n_stores": 46,
+          "n_stores": 47,
           "as_of": "2026-11-01"
         },
         "victory": {
-          "n_stores": 18,
+          "n_stores": 69,
           "as_of": "2026-11-01"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 139,
+          "n_stores": 147,
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 7.65,
-      "change_pct": 0.8
+      "avg_price": 6.18,
+      "change_pct": 0.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "couscous",
@@ -479,7 +503,9 @@
         }
       },
       "avg_price": 6.91,
-      "change_pct": -6.4
+      "change_pct": 4.3,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "tomato",
@@ -516,7 +542,9 @@
         }
       },
       "avg_price": 9.23,
-      "change_pct": 39.8
+      "change_pct": 23.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "cucumber",
@@ -548,7 +576,9 @@
         }
       },
       "avg_price": 7.34,
-      "change_pct": 21.1
+      "change_pct": 5.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "onion",
@@ -580,7 +610,9 @@
         }
       },
       "avg_price": 5.39,
-      "change_pct": 22.5
+      "change_pct": 24.3,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "potato",
@@ -617,7 +649,9 @@
         }
       },
       "avg_price": 6.43,
-      "change_pct": 0.2
+      "change_pct": -4.0,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "carrot",
@@ -654,7 +688,9 @@
         }
       },
       "avg_price": 4.53,
-      "change_pct": 16.5
+      "change_pct": 12.1,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "apple",
@@ -691,7 +727,9 @@
         }
       },
       "avg_price": 12.75,
-      "change_pct": 1.3
+      "change_pct": -1.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "frozen_peas",
@@ -727,8 +765,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 19.38,
-      "change_pct": 13.9
+      "avg_price": 19.93,
+      "change_pct": 4.1,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "chicken_breast",
@@ -765,7 +805,9 @@
         }
       },
       "avg_price": 42.81,
-      "change_pct": -0.5
+      "change_pct": -1.3,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "schnitzel",
@@ -801,8 +843,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 32.3,
-      "change_pct": -1.0
+      "avg_price": 32.35,
+      "change_pct": -3.0,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "hot_dogs",
@@ -838,8 +882,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 17.49,
-      "change_pct": 8.4
+      "avg_price": 17.85,
+      "change_pct": 1.1,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "sugar",
@@ -876,7 +922,9 @@
         }
       },
       "avg_price": 5.32,
-      "change_pct": 4.7
+      "change_pct": -2.6,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "salt",
@@ -913,7 +961,9 @@
         }
       },
       "avg_price": 1.98,
-      "change_pct": 4.2
+      "change_pct": 4.2,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "tahini",
@@ -949,45 +999,49 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 15.39,
-      "change_pct": -8.1
+      "avg_price": 15.78,
+      "change_pct": -5.6,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "hummus",
-      "name": "חומוס 400 גרם",
+      "name": "חומוס צבר 400 גרם",
       "category": "pantry",
       "base_price": 11.71,
       "chains": {
-        "shufersal": 11.9,
-        "rami_levy": 8.9,
-        "yohananof": 10.9,
-        "victory": 15.9,
-        "yayno_bitan_and_carrefour": 12.9
+        "shufersal": 12.5,
+        "rami_levy": 9.9,
+        "yohananof": 9.9,
+        "victory": 10.9,
+        "yayno_bitan_and_carrefour": 13.9
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 273,
+          "n_stores": 289,
           "as_of": "2026-11-01"
         },
         "rami_levy": {
-          "n_stores": 86,
+          "n_stores": 88,
           "as_of": "2026-11-01"
         },
         "yohananof": {
-          "n_stores": 33,
+          "n_stores": 46,
           "as_of": "2026-11-01"
         },
         "victory": {
-          "n_stores": 9,
+          "n_stores": 63,
           "as_of": "2026-11-01"
         },
         "yayno_bitan_and_carrefour": {
-          "n_stores": 41,
+          "n_stores": 147,
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 11.63,
-      "change_pct": -0.7
+      "avg_price": 11.56,
+      "change_pct": -0.7,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "chocolate_spread",
@@ -1023,8 +1077,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 28.12,
-      "change_pct": -0.5
+      "avg_price": 28.61,
+      "change_pct": -0.4,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "coca_cola",
@@ -1061,7 +1117,9 @@
         }
       },
       "avg_price": 46.89,
-      "change_pct": 1.5
+      "change_pct": 1.7,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "water",
@@ -1098,7 +1156,9 @@
         }
       },
       "avg_price": 16.76,
-      "change_pct": 0.0
+      "change_pct": -0.8,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "coffee_tasters",
@@ -1135,7 +1195,9 @@
         }
       },
       "avg_price": 36.86,
-      "change_pct": -0.3
+      "change_pct": -0.8,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "coffee_turkish",
@@ -1171,8 +1233,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 19.21,
-      "change_pct": -3.4
+      "avg_price": 19.74,
+      "change_pct": -3.8,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "tea",
@@ -1203,8 +1267,10 @@
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 8.59,
-      "change_pct": 11.3
+      "avg_price": 8.03,
+      "change_pct": 7.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "bamba",
@@ -1241,7 +1307,9 @@
         }
       },
       "avg_price": 4.69,
-      "change_pct": -2.3
+      "change_pct": 4.0,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "bisli",
@@ -1278,7 +1346,9 @@
         }
       },
       "avg_price": 4.65,
-      "change_pct": -3.9
+      "change_pct": -0.2,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "para_chocolate",
@@ -1315,39 +1385,48 @@
         }
       },
       "avg_price": 9.09,
-      "change_pct": 2.1
+      "change_pct": 4.9,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     },
     {
       "id": "cookies",
-      "name": "עוגיות חמאה מן 300 גרם",
+      "name": "פתי בר אסם 500 גרם",
       "category": "snacks",
       "base_price": 10.07,
       "chains": {
-        "shufersal": 7.9,
-        "rami_levy": 7.9,
-        "yohananof": 7.9,
-        "victory": 10.5
+        "shufersal": 13.9,
+        "rami_levy": 8.9,
+        "yohananof": 8.9,
+        "victory": 13.9,
+        "yayno_bitan_and_carrefour": 13.9
       },
       "chain_meta": {
         "shufersal": {
-          "n_stores": 40,
+          "n_stores": 379,
           "as_of": "2026-11-01"
         },
         "rami_levy": {
-          "n_stores": 58,
+          "n_stores": 89,
           "as_of": "2026-11-01"
         },
         "yohananof": {
-          "n_stores": 43,
+          "n_stores": 47,
           "as_of": "2026-11-01"
         },
         "victory": {
-          "n_stores": 60,
+          "n_stores": 69,
+          "as_of": "2026-11-01"
+        },
+        "yayno_bitan_and_carrefour": {
+          "n_stores": 147,
           "as_of": "2026-11-01"
         }
       },
-      "avg_price": 8.84,
-      "change_pct": -12.2
+      "avg_price": 11.43,
+      "change_pct": -7.1,
+      "change_basis": "index_series",
+      "change_as_of": "2026-11-01"
     }
   ],
   "display_chains": [

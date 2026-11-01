@@ -53,7 +53,9 @@ export function ProductTable({ products, displayChains, chainNames, categories }
       <p className="mt-3 text-xs text-gray-500 leading-relaxed">
         המחיר בכל תא הוא <strong className="font-semibold text-gray-600">החציון של סניפי הרשת</strong>, לא מחיר של סניף בודד.
         ריחוף מעל תא מציג על כמה סניפים הוא מבוסס. תא המסומן ב-<span className="text-gray-400">—</span> אומר
-        שאין מספיק סניפים שמפרסמים את המוצר כדי לחשב חציון אמין, ולכן לא מוצג מספר.{" "}
+        שאין מספיק סניפים שמפרסמים את המוצר כדי לחשב חציון אמין, ולכן לא מוצג מספר.
+        עמודת <strong className="font-semibold text-gray-600">שינוי</strong> היא השינוי של המוצר במדד מאז 15/06/2025 -
+        נמדד על אותם סניפים, לא מהממוצע המוצג - ולכן החלפת ברקוד ברשת אינה יוצרת &quot;שינוי&quot; מדומה.{" "}
         <a href="/methodology" className="text-blue-600 hover:text-blue-800 underline">למה חציון ולא ממוצע?</a>
       </p>
     </div>

@@ -29,11 +29,11 @@
       "jerusalem": 5.83
     },
     "emek_28": {
-      "center": 19.45,
-      "bnei_brak": 18.19,
-      "north": 18.96,
-      "south": 18.88,
-      "jerusalem": 18.7
+      "center": 19.9,
+      "bnei_brak": 18.73,
+      "north": 19.38,
+      "south": 19.03,
+      "jerusalem": 19.12
     },
     "butter": {
       "center": 10.47,
@@ -57,11 +57,11 @@
       "jerusalem": 3.11
     },
     "eggs_12": {
-      "center": 14.29,
+      "center": 14.28,
       "bnei_brak": 14.24,
-      "north": 14.27,
-      "south": 14.19,
-      "jerusalem": 14.26
+      "north": 14.25,
+      "south": 14.13,
+      "jerusalem": 14.24
     },
     "yogurt": {
       "center": 4.68,
@@ -85,11 +85,11 @@
       "jerusalem": 11.9
     },
     "spaghetti": {
-      "center": 8.95,
-      "bnei_brak": 7.27,
-      "north": 8.32,
-      "south": 7.82,
-      "jerusalem": 7.73
+      "center": 6.98,
+      "bnei_brak": 5.42,
+      "north": 6.44,
+      "south": 6.16,
+      "jerusalem": 5.85
     },
     "couscous": {
       "center": 8.18,
@@ -141,11 +141,11 @@
       "jerusalem": 12.27
     },
     "frozen_peas": {
-      "center": 20.97,
-      "bnei_brak": 17.9,
-      "north": 19.93,
-      "south": 19.47,
-      "jerusalem": 19.29
+      "center": 21.06,
+      "bnei_brak": 18.9,
+      "north": 20.12,
+      "south": 19.65,
+      "jerusalem": 19.72
     },
     "chicken_breast": {
       "center": 41.65,
@@ -155,18 +155,18 @@
       "jerusalem": 41.94
     },
     "schnitzel": {
-      "center": 34.84,
+      "center": 34.9,
       "bnei_brak": 31.65,
       "north": 33.25,
       "south": 32.38,
       "jerusalem": 32.04
     },
     "hot_dogs": {
-      "center": 19.83,
-      "bnei_brak": 18.23,
-      "north": 19.49,
-      "south": 18.63,
-      "jerusalem": 18.63
+      "center": 20.27,
+      "bnei_brak": 18.4,
+      "north": 19.71,
+      "south": 18.8,
+      "jerusalem": 18.48
     },
     "sugar": {
       "center": 5.67,
@@ -183,25 +183,25 @@
       "jerusalem": 1.94
     },
     "tahini": {
-      "center": 16.47,
-      "bnei_brak": 14.79,
-      "north": 15.59,
-      "south": 15.44,
-      "jerusalem": 15.26
+      "center": 16.59,
+      "bnei_brak": 15.4,
+      "north": 15.79,
+      "south": 15.66,
+      "jerusalem": 15.45
     },
     "hummus": {
-      "center": 11.69,
-      "bnei_brak": 10.2,
-      "north": 10.91,
-      "south": 10.84,
-      "jerusalem": 10.56
+      "center": 12.85,
+      "bnei_brak": 10.86,
+      "north": 12.12,
+      "south": 11.71,
+      "jerusalem": 11.3
     },
     "chocolate_spread": {
-      "center": 29.24,
-      "bnei_brak": 27.24,
-      "north": 28.53,
-      "south": 27.94,
-      "jerusalem": 28.01
+      "center": 29.33,
+      "bnei_brak": 27.54,
+      "north": 28.68,
+      "south": 28.09,
+      "jerusalem": 28.27
     },
     "coca_cola": {
       "center": 47.44,
@@ -225,18 +225,18 @@
       "jerusalem": 36.8
     },
     "coffee_turkish": {
-      "center": 20.41,
-      "bnei_brak": 17.9,
-      "north": 19.99,
-      "south": 19.55,
-      "jerusalem": 19.13
+      "center": 20.49,
+      "bnei_brak": 19.4,
+      "north": 20.17,
+      "south": 19.75,
+      "jerusalem": 19.64
     },
     "tea": {
-      "center": 8.67,
-      "bnei_brak": 8.22,
-      "north": 8.4,
-      "south": 8.14,
-      "jerusalem": 8.17
+      "center": 8.58,
+      "bnei_brak": 7.7,
+      "north": 8.2,
+      "south": 7.87,
+      "jerusalem": 7.71
     },
     "bamba": {
       "center": 5.68,
@@ -260,20 +260,20 @@
       "jerusalem": 9.07
     },
     "cookies": {
-      "center": 10.13,
-      "bnei_brak": 8.1,
-      "north": 9.01,
-      "south": 9.09,
-      "jerusalem": 8.26
+      "center": 13.17,
+      "bnei_brak": 9.7,
+      "north": 12.12,
+      "south": 11.57,
+      "jerusalem": 10.51
     }
   },
   "basket_index": {
     "center": 100.0,
-    "bnei_brak": 90.9,
+    "bnei_brak": 91.1,
     "north": 96.1,
-    "south": 93.9,
-    "jerusalem": 93.4
+    "south": 93.7,
+    "jerusalem": 93.2
   },
   "common_product_count": 37,
-  "store_count": 861
+  "store_count": 862
 }

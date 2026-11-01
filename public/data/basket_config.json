@@ -5,238 +5,464 @@
       "id": "milk_tnuva_3",
       "cat": "dairy",
       "name": "חלב תנובה 3% קרטון 1 ליטר",
-      "barcode": "7290004131074"
+      "barcode": "7290004131074",
+      "spec": {
+        "brand": "תנובה",
+        "variety": "חלב 3% שומן מהדרין",
+        "pack": "קרטון 1 ליטר",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "cottage_5",
       "cat": "dairy",
       "name": "קוטג' תנובה 5% 250 גרם",
-      "barcode": "7290000041445"
+      "barcode": "7290000041445",
+      "spec": {
+        "brand": "תנובה",
+        "variety": "קוטג' 5%",
+        "pack": "250 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "gevina_levana_5",
       "cat": "dairy",
       "name": "גבינה לבנה 5% 250 גרם",
-      "barcode": "7290000047621"
+      "barcode": "7290000047621",
+      "spec": {
+        "brand": "תנובה",
+        "variety": "גבינה לבנה 5%",
+        "pack": "250 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "emek_28",
       "cat": "dairy",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "barcode": "7290000056753",
-      "mapped": true
+      "barcode": "7290004122270",
+      "mapped": true,
+      "spec": {
+        "brand": "תנובה",
+        "variety": "עמק 28% פרוס, כשרות רגילה",
+        "pack": "200 גרם",
+        "if_missing": "unmap",
+        "exceptions": "hazi_hinam: בד\"ץ 7290000056753 (אותה גבינה; הרגיל לא נמכר שם)"
+      }
     },
     {
       "id": "butter",
       "cat": "dairy",
       "name": "חמאה תנובה 200 גרם",
-      "barcode": "7290116932033"
+      "barcode": "7290116932033",
+      "spec": {
+        "brand": "תנובה",
+        "variety": "חמאה",
+        "pack": "200 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "sweet_cream",
       "cat": "dairy",
       "name": "שמנת מתוקה 32% 250 מל",
       "barcode": "7290114311038",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "השף הלבן (תנובה)",
+        "variety": "שמנת להקצפה 32%",
+        "pack": "250 מ\"ל",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "sour_cream",
       "cat": "dairy",
       "name": "שמנת חמוצה 15% 200 מל",
-      "barcode": "7290000041858"
+      "barcode": "7290000041858",
+      "spec": {
+        "brand": "יטבתה",
+        "variety": "שמנת חמוצה 15%",
+        "pack": "200 מ\"ל",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "eggs_12",
       "cat": "dairy",
       "name": "ביצים 12 יח L פיקוח",
       "barcode": "7290001201589",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "מ.לסר או ספק הרשת (פיקוח)",
+        "variety": "ביצים גודל L",
+        "pack": "12 יחידות",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "yogurt",
       "cat": "dairy",
       "name": "יוגורט ביו 3% 200 גרם",
-      "barcode": "7290000408316"
+      "barcode": "7290000408316",
+      "spec": {
+        "brand": "דנונה",
+        "variety": "יוגורט ביו טבעי 3%",
+        "pack": "200 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "bread",
       "cat": "grains",
       "name": "לחם אחיד פרוס 750 גרם",
       "barcode": "7290000574035",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "כל מאפייה (מחיר פיקוח)",
+        "variety": "לחם אחיד פרוס",
+        "pack": "750 גרם",
+        "if_missing": "unmap",
+        "exceptions": "מוצר מסוג 'type': ברקוד שונה לכל רשת מותר"
+      }
     },
     {
       "id": "rice",
       "cat": "grains",
       "name": "אורז פרסי סוגת 1 קג",
-      "barcode": "7290000211442"
+      "barcode": "7290000211442",
+      "spec": {
+        "brand": "סוגת",
+        "variety": "אורז פרסי קלאסי",
+        "pack": "1 ק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "spaghetti",
       "cat": "grains",
       "name": "ספגטי אסם 500 גרם",
       "barcode": "7290000060880",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "אסם",
+        "variety": "ספגטי מס' 8",
+        "pack": "500 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "couscous",
       "cat": "grains",
       "name": "קוסקוס אסם 500 גרם",
-      "barcode": "7290000060200"
+      "barcode": "7290000060200",
+      "spec": {
+        "brand": "אסם",
+        "variety": "פתיתים אפויים (קוסקוס)",
+        "pack": "500 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "tomato",
       "cat": "produce",
       "name": "עגבניה לקג",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "עגבניה רגילה (לא מגי/שרי), בתפזורת",
+        "pack": "לק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "cucumber",
       "cat": "produce",
       "name": "מלפפון לקג",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "מלפפון רגיל, בתפזורת",
+        "pack": "לק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "onion",
       "cat": "produce",
       "name": "בצל יבש לקג",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "בצל יבש",
+        "pack": "לק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "potato",
       "cat": "produce",
       "name": "תפוח אדמה לבן",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "תפוח אדמה לבן",
+        "pack": "לק\"ג / ארוז",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "carrot",
       "cat": "produce",
       "name": "גזר ארוז",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "גזר ארוז",
+        "pack": "לק\"ג / ארוז",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "apple",
       "cat": "produce",
       "name": "תפוח עץ לקג",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "תפוח עץ זהוב (גולדן)",
+        "pack": "לק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "frozen_peas",
       "cat": "produce",
       "name": "אפונה מוקפאת",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "סנפרוסט",
+        "variety": "אפונה עדינה מוקפאת",
+        "pack": "600 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "chicken_breast",
       "cat": "meat",
       "name": "חזה עוף טרי לקג",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "-",
+        "variety": "חזה עוף טרי",
+        "pack": "לק\"ג",
+        "if_missing": "unmap",
+        "exceptions": "מוצר מסוג 'type': קוד שונה לכל רשת מותר"
+      }
     },
     {
       "id": "schnitzel",
       "cat": "meat",
       "name": "שניצל תירס טבעול 750 גרם",
       "barcode": "7290000300900",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "טבעול",
+        "variety": "שניצל תירס (רגיל, לא חריף)",
+        "pack": "750 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "hot_dogs",
       "cat": "meat",
       "name": "נקניקיות 500 גרם",
       "barcode": "7290000530598",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "זוגלובק",
+        "variety": "נקניקיות וינר",
+        "pack": "500 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "sugar",
       "cat": "pantry",
       "name": "סוכר 1 קג",
       "barcode": "7290003643370",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "סוגת",
+        "variety": "סוכר לבן",
+        "pack": "1 ק\"ג",
+        "if_missing": "unmap",
+        "exceptions": "shufersal 7296073383666 ו-hazi_hinam 7290003485222: סוכר לבן 1 ק\"ג מותג פרטי (סחורה אחידה; סוגת דק שם) - חריג מאושר 2026-10-31"
+      }
     },
     {
       "id": "salt",
       "cat": "pantry",
       "name": "מלח שולחן סלית 1 קג",
-      "barcode": "7290004063016"
+      "barcode": "7290004063016",
+      "spec": {
+        "brand": "סלית",
+        "variety": "מלח שולחן",
+        "pack": "1 ק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "tahini",
       "cat": "pantry",
       "name": "טחינה גולמית 500 גרם",
       "barcode": "7290017275338",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "בארכה (אסם)",
+        "variety": "טחינה גולמית 100% שומשום",
+        "pack": "500 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "hummus",
       "cat": "pantry",
-      "name": "חומוס 400 גרם",
-      "barcode": "7290014435360",
-      "mapped": true
+      "name": "חומוס צבר 400 גרם",
+      "barcode": "7290106576513",
+      "mapped": true,
+      "spec": {
+        "brand": "צבר",
+        "variety": "חומוס רגיל (לא טחינה/חריף/צנובר)",
+        "pack": "400 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "chocolate_spread",
       "cat": "pantry",
       "name": "ממרח שוקולד השחר",
       "barcode": "7290000416045",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "השחר",
+        "variety": "ממרח בטעם שוקולד",
+        "pack": "1 ק\"ג",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "coca_cola",
       "cat": "beverages",
       "name": "קוקה קולה 6x1.5 ליטר",
-      "barcode": "7290110115364"
+      "barcode": "7290110115364",
+      "spec": {
+        "brand": "קוקה קולה",
+        "variety": "קלאסי",
+        "pack": "6 x 1.5 ליטר",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "water",
       "cat": "beverages",
       "name": "מים נביעות 6x1.5 ליטר",
-      "barcode": "7290110114855"
+      "barcode": "7290110114855",
+      "spec": {
+        "brand": "נביעות",
+        "variety": "מים מינרלים",
+        "pack": "6 x 1.5 ליטר",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "coffee_tasters",
       "cat": "beverages",
       "name": "טסטרס צויס 200 גרם",
-      "barcode": "7290000072753"
+      "barcode": "7290000072753",
+      "spec": {
+        "brand": "עלית",
+        "variety": "נס קפה טייסטרס צ'ויס",
+        "pack": "200 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "coffee_turkish",
       "cat": "beverages",
       "name": "קפה טורקי עלית 200 גרם",
       "barcode": "7290005201882",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "עלית",
+        "variety": "קפה טורקי (שקית, לא 'לדרך', לא עם הל)",
+        "pack": "200 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "tea",
       "cat": "beverages",
       "name": "תה ויסוצקי 25 שקיקים",
       "barcode": "7290000345208",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "ויסוצקי",
+        "variety": "תה שחור קלאסי",
+        "pack": "25 שקיקים x 1.5 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "bamba",
       "cat": "snacks",
       "name": "במבה 80 גרם",
-      "barcode": "7290000066318"
+      "barcode": "7290000066318",
+      "spec": {
+        "brand": "אסם",
+        "variety": "במבה קלאסי",
+        "pack": "80 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "bisli",
       "cat": "snacks",
       "name": "ביסלי גריל 70 גרם",
       "barcode": "7290000066141",
-      "mapped": true
+      "mapped": true,
+      "spec": {
+        "brand": "אסם",
+        "variety": "ביסלי גריל",
+        "pack": "70 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "para_chocolate",
       "cat": "snacks",
       "name": "שוקולד פרה חלב 100 גרם",
-      "barcode": "7290000170053"
+      "barcode": "7290000170053",
+      "spec": {
+        "brand": "עלית",
+        "variety": "שוקולד פרה חלב",
+        "pack": "100 גרם",
+        "if_missing": "unmap"
+      }
     },
     {
       "id": "cookies",
       "cat": "snacks",
-      "name": "עוגיות חמאה מן 300 גרם",
-      "barcode": "7290000311128",
-      "mapped": true
+      "name": "פתי בר אסם 500 גרם",
+      "barcode": "7290000074184",
+      "mapped": true,
+      "spec": {
+        "brand": "אסם",
+        "variety": "ביסקוויט פתי בר קלאסי",
+        "pack": "500 גרם",
+        "if_missing": "unmap"
+      }
     }
   ],
   "chain_mapping": {
@@ -305,7 +531,6 @@
       "rami_levy": "7290000104201",
       "yohananof": "7290000104201",
       "victory": "7290000104201",
-      "osher_ad": "7290019981688",
       "hazi_hinam": "7290000104201",
       "tiv_taam": "7290000104201",
       "yayno_bitan_and_carrefour": "7290000104201"
@@ -325,27 +550,25 @@
       "rami_levy": "7290000112220",
       "yohananof": "7290000112220",
       "victory": "7290000112220",
-      "osher_ad": "7290017275338",
       "hazi_hinam": "7290000112220",
       "tiv_taam": "7290000112220",
       "yayno_bitan_and_carrefour": "7290000112220"
     },
     "spaghetti": {
-      "shufersal": "8076808150072",
-      "rami_levy": "7290000060316",
-      "yohananof": "7290000060316",
-      "victory": "7290000060316",
+      "shufersal": "7290000060880",
+      "rami_levy": "7290000060880",
+      "yohananof": "7290000060880",
+      "victory": "7290000060880",
       "osher_ad": "7290000060880",
-      "hazi_hinam": "7290000060316",
-      "tiv_taam": "7290000060316",
-      "yayno_bitan_and_carrefour": "7290000060316"
+      "hazi_hinam": "7290000060880",
+      "tiv_taam": "7290000060880",
+      "yayno_bitan_and_carrefour": "7290000060880"
     },
     "eggs_12": {
       "shufersal": "7290001201589",
       "rami_levy": "742259241901",
       "yohananof": "742259241901",
       "victory": "7290001201589",
-      "osher_ad": "7290001201572",
       "hazi_hinam": "7290001201589",
       "tiv_taam": "7290001201589",
       "yayno_bitan_and_carrefour": "7290001201589"
@@ -361,33 +584,30 @@
       "yayno_bitan_and_carrefour": "7290000574035"
     },
     "hummus": {
-      "shufersal": "7296073725565",
-      "rami_levy": "7290105964564",
-      "yohananof": "7290014435360",
-      "victory": "7290014435360",
-      "osher_ad": "7290104061417",
-      "hazi_hinam": "7290014435360",
-      "tiv_taam": "7290104061417",
-      "yayno_bitan_and_carrefour": "7290014435360"
+      "shufersal": "7290106576513",
+      "rami_levy": "7290106576513",
+      "yohananof": "7290106576513",
+      "victory": "7290106576513",
+      "hazi_hinam": "7290106576513",
+      "tiv_taam": "7290106576513",
+      "yayno_bitan_and_carrefour": "7290106576513"
     },
     "tea": {
       "shufersal": "7290000345260",
       "rami_levy": "7290000345260",
       "yohananof": "7290000345260",
-      "victory": "7290000345260",
-      "osher_ad": "7290000345055",
       "hazi_hinam": "7290000345260",
       "tiv_taam": "7290000345260",
       "yayno_bitan_and_carrefour": "7290000345260"
     },
     "emek_28": {
-      "shufersal": "7290000056753",
-      "rami_levy": "7290000056753",
-      "yohananof": "7290000056753",
-      "victory": "7290000056753",
+      "shufersal": "7290004122270",
+      "rami_levy": "7290004122270",
+      "yohananof": "7290004122270",
+      "victory": "7290004122270",
       "hazi_hinam": "7290000056753",
       "tiv_taam": "7290004122270",
-      "yayno_bitan_and_carrefour": "7290000056753"
+      "yayno_bitan_and_carrefour": "7290004122270"
     },
     "sweet_cream": {
       "shufersal": "7290004125738",
@@ -405,7 +625,6 @@
       "yohananof": "7290000300900",
       "victory": "7290000300900",
       "osher_ad": "7290000300900",
-      "hazi_hinam": "7290118426479",
       "tiv_taam": "7290000300900",
       "yayno_bitan_and_carrefour": "7290000300900"
     },
@@ -414,9 +633,7 @@
       "rami_levy": "7290000530598",
       "yohananof": "7290000530598",
       "victory": "7290000530598",
-      "osher_ad": "7290014355910",
       "hazi_hinam": "7290000530598",
-      "tiv_taam": "7290000364872",
       "yayno_bitan_and_carrefour": "7290000530598"
     },
     "sugar": {
@@ -434,7 +651,6 @@
       "rami_levy": "7290000416045",
       "yohananof": "7290000416045",
       "victory": "7290000416045",
-      "osher_ad": "7290000416632",
       "hazi_hinam": "7290000416045",
       "tiv_taam": "7290000416045",
       "yayno_bitan_and_carrefour": "7290000416045"
@@ -444,20 +660,19 @@
       "rami_levy": "7290005201882",
       "yohananof": "7290005201882",
       "victory": "7290005201882",
-      "osher_ad": "7290107953559",
       "hazi_hinam": "7290005201882",
       "tiv_taam": "7290005201882",
       "yayno_bitan_and_carrefour": "7290005201882"
     },
     "cookies": {
-      "shufersal": "7290000311128",
-      "rami_levy": "7290000311128",
-      "yohananof": "7290000311128",
-      "victory": "7290000311128",
-      "osher_ad": "7290000311128",
-      "hazi_hinam": "7290000311128",
-      "tiv_taam": "7290014083806",
-      "yayno_bitan_and_carrefour": "7290000311128"
+      "shufersal": "7290000074184",
+      "rami_levy": "7290000074184",
+      "yohananof": "7290000074184",
+      "victory": "7290000074184",
+      "osher_ad": "7290000074184",
+      "hazi_hinam": "7290000074184",
+      "tiv_taam": "7290000074184",
+      "yayno_bitan_and_carrefour": "7290000074184"
     },
     "bisli": {
       "shufersal": "7290000066141",
@@ -479,5 +694,7 @@
     "hazi_hinam",
     "tiv_taam",
     "yayno_bitan_and_carrefour"
-  ]
+  ],
+  "spec_rule": "רשת שלא מוכרת את המפרט (מותג + סוג + אריזה) ב-5 סניפים לפחות נשארת לא ממופה. אין תחליף מותג, סוג או אריזה. חריגים מתועדים בשדה exceptions בלבד.",
+  "spec_rule_since": "2026-11-01"
 }
