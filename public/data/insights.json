@@ -1,14 +1,6 @@
 {
   "biggest_increase": [
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 24.1,
-      "base": 6.6,
-      "current": 9.53,
-      "basis": "index_series"
-    },
-    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "change_pct": 23.2,
@@ -17,11 +9,19 @@
       "basis": "index_series"
     },
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 21.1,
+      "base": 6.6,
+      "current": 9.21,
+      "basis": "index_series"
+    },
+    {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 12.9,
+      "change_pct": 18.5,
       "base": 3.89,
-      "current": 4.59,
+      "current": 4.9,
       "basis": "index_series"
     },
     {
@@ -33,11 +33,11 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 7.4,
-      "base": 6.06,
-      "current": 7.23,
+      "id": "milk_tnuva_3",
+      "name": "חלב תנובה 3% קרטון 1 ליטר",
+      "change_pct": 5.5,
+      "base": 6.94,
+      "current": 7.31,
       "basis": "index_series"
     },
     {
@@ -46,14 +46,6 @@
       "change_pct": 5.4,
       "base": 3.12,
       "current": 3.19,
-      "basis": "index_series"
-    },
-    {
-      "id": "milk_tnuva_3",
-      "name": "חלב תנובה 3% קרטון 1 ליטר",
-      "change_pct": 5.3,
-      "base": 6.94,
-      "current": 7.31,
       "basis": "index_series"
     },
     {
@@ -70,6 +62,14 @@
       "change_pct": 4.3,
       "base": 7.38,
       "current": 7.11,
+      "basis": "index_series"
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 4.3,
+      "base": 6.06,
+      "current": 7.07,
       "basis": "index_series"
     },
     {
@@ -107,7 +107,7 @@
     {
       "id": "eggs_12",
       "name": "ביצים 12 יח L פיקוח",
-      "change_pct": 2.5,
+      "change_pct": 2.7,
       "base": 15.06,
       "current": 14.53,
       "basis": "index_series"
@@ -189,7 +189,7 @@
     {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -4.0,
+      "change_pct": -4.4,
       "base": 6.42,
       "current": 6.51,
       "basis": "index_series"
@@ -243,14 +243,6 @@
       "basis": "index_series"
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -1.2,
-      "base": 43.03,
-      "current": 43.15,
-      "basis": "index_series"
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": -0.8,
@@ -283,6 +275,14 @@
       "basis": "index_series"
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.4,
+      "base": 43.03,
+      "current": 43.4,
+      "basis": "index_series"
+    },
+    {
       "id": "chocolate_spread",
       "name": "ממרח שוקולד השחר",
       "change_pct": -0.4,
@@ -301,15 +301,6 @@
   ],
   "biggest_chain_gap": [
     {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "gap_pct": 103.4,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 2.9,
-      "expensive_chain": "shufersal",
-      "expensive_price": 5.9
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
       "gap_pct": 81.6,
@@ -326,15 +317,6 @@
       "cheapest_price": 3.9,
       "expensive_chain": "victory",
       "expensive_price": 6.9
-    },
-    {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "gap_pct": 75.9,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 7.9,
-      "expensive_chain": "yayno_bitan_and_carrefour",
-      "expensive_price": 13.9
     },
     {
       "id": "spaghetti",
@@ -382,6 +364,15 @@
       "expensive_price": 52.9
     },
     {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "gap_pct": 51.3,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 5.9
+    },
+    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "gap_pct": 51.3,
@@ -394,10 +385,19 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 50.8,
-      "cheapest_chain": "hazi_hinam",
+      "cheapest_chain": "yohananof",
       "cheapest_price": 5.9,
       "expensive_chain": "shufersal",
       "expensive_price": 8.9
+    },
+    {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "gap_pct": 50.6,
+      "cheapest_chain": "rami_levy",
+      "cheapest_price": 7.9,
+      "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 11.9
     },
     {
       "id": "apple",
