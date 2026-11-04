@@ -3,7 +3,7 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.2,
+      "change_pct": 23.0,
       "base": 4.4,
       "current": 5.47,
       "basis": "index_series"
@@ -11,9 +11,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 21.1,
+      "change_pct": 20.2,
       "base": 6.6,
-      "current": 9.21,
+      "current": 9.15,
       "basis": "index_series"
     },
     {
@@ -65,14 +65,6 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 4.3,
-      "base": 6.06,
-      "current": 7.07,
-      "basis": "index_series"
-    },
-    {
       "id": "salt",
       "name": "מלח שולחן סלית 1 קג",
       "change_pct": 4.2,
@@ -105,9 +97,17 @@
       "basis": "index_series"
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 3.1,
+      "base": 6.06,
+      "current": 6.9,
+      "basis": "index_series"
+    },
+    {
       "id": "eggs_12",
       "name": "ביצים 12 יח L פיקוח",
-      "change_pct": 2.7,
+      "change_pct": 2.9,
       "base": 15.06,
       "current": 14.53,
       "basis": "index_series"
@@ -187,9 +187,17 @@
       "basis": "index_series"
     },
     {
+      "id": "rice",
+      "name": "אורז פרסי סוגת 1 קג",
+      "change_pct": -4.5,
+      "base": 12.56,
+      "current": 11.75,
+      "basis": "index_series"
+    },
+    {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -4.4,
+      "change_pct": -4.2,
       "base": 6.42,
       "current": 6.51,
       "basis": "index_series"
@@ -203,14 +211,6 @@
       "basis": "index_series"
     },
     {
-      "id": "rice",
-      "name": "אורז פרסי סוגת 1 קג",
-      "change_pct": -3.7,
-      "base": 12.56,
-      "current": 11.85,
-      "basis": "index_series"
-    },
-    {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
       "change_pct": -3.0,
@@ -221,7 +221,7 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": -2.7,
+      "change_pct": -2.8,
       "base": 12.59,
       "current": 12.78,
       "basis": "index_series"
@@ -277,7 +277,7 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "change_pct": -0.4,
+      "change_pct": -0.5,
       "base": 43.03,
       "current": 43.4,
       "basis": "index_series"
@@ -385,7 +385,7 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 50.8,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "shufersal",
       "expensive_price": 8.9
@@ -571,6 +571,15 @@
       "expensive_price": 8.38
     },
     {
+      "id": "rice",
+      "name": "אורז פרסי סוגת 1 קג",
+      "gap_pct": 9.2,
+      "cheapest_chain": "osher_ad",
+      "cheapest_price": 10.9,
+      "expensive_chain": "shufersal",
+      "expensive_price": 11.9
+    },
+    {
       "id": "cottage_5",
       "name": "קוטג' תנובה 5% 250 גרם",
       "gap_pct": 8.5,
@@ -605,15 +614,6 @@
       "cheapest_price": 7.2,
       "expensive_chain": "shufersal",
       "expensive_price": 7.35
-    },
-    {
-      "id": "rice",
-      "name": "אורז פרסי סוגת 1 קג",
-      "gap_pct": 1.7,
-      "cheapest_chain": "rami_levy",
-      "cheapest_price": 11.7,
-      "expensive_chain": "shufersal",
-      "expensive_price": 11.9
     },
     {
       "id": "gevina_levana_5",
