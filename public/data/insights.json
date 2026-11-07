@@ -11,7 +11,7 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 22.3,
+      "change_pct": 22.4,
       "base": 6.6,
       "current": 9.15,
       "basis": "index_series"
@@ -213,7 +213,7 @@
     {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
-      "change_pct": -2.9,
+      "change_pct": -2.7,
       "base": 32.63,
       "current": 32.47,
       "basis": "index_series"
@@ -231,7 +231,7 @@
       "name": "תפוח עץ לקג",
       "change_pct": -1.7,
       "base": 12.59,
-      "current": 12.9,
+      "current": 12.78,
       "basis": "index_series"
     },
     {
@@ -245,7 +245,7 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "change_pct": -0.8,
+      "change_pct": -1.0,
       "base": 43.03,
       "current": 43.15,
       "basis": "index_series"
