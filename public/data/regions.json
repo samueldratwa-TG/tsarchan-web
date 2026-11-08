@@ -74,7 +74,7 @@
       "center": 8.2,
       "bnei_brak": 8.19,
       "north": 7.95,
-      "south": 8.02,
+      "south": 8.05,
       "jerusalem": 8.15
     },
     "rice": {
@@ -99,17 +99,17 @@
       "jerusalem": 6.33
     },
     "tomato": {
-      "center": 10.44,
+      "center": 10.43,
       "bnei_brak": 7.3,
-      "north": 8.88,
-      "south": 8.79,
+      "north": 8.87,
+      "south": 8.77,
       "jerusalem": 8.32
     },
     "cucumber": {
       "center": 8.25,
       "bnei_brak": 6.34,
       "north": 7.49,
-      "south": 7.16,
+      "south": 7.17,
       "jerusalem": 7.14
     },
     "onion": {
@@ -136,7 +136,7 @@
     "apple": {
       "center": 14.36,
       "bnei_brak": 11.9,
-      "north": 13.18,
+      "north": 13.17,
       "south": 12.73,
       "jerusalem": 12.27
     },
@@ -162,10 +162,10 @@
       "jerusalem": 32.21
     },
     "hot_dogs": {
-      "center": 20.3,
+      "center": 20.29,
       "bnei_brak": 18.4,
       "north": 19.76,
-      "south": 18.74,
+      "south": 18.75,
       "jerusalem": 18.48
     },
     "sugar": {
