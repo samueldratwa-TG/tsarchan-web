@@ -3,7 +3,7 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.0,
+      "change_pct": 23.2,
       "base": 4.4,
       "current": 5.47,
       "basis": "index_series"
@@ -11,7 +11,7 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.9,
+      "change_pct": 20.3,
       "base": 6.6,
       "current": 9.03,
       "basis": "index_series"
@@ -19,9 +19,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 18.5,
+      "change_pct": 19.3,
       "base": 3.89,
-      "current": 4.96,
+      "current": 4.95,
       "basis": "index_series"
     },
     {
@@ -45,29 +45,21 @@
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 5.4,
       "base": 3.12,
-      "current": 3.19,
+      "current": 3.2,
       "basis": "index_series"
     },
     {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
-      "change_pct": 4.9,
+      "change_pct": 4.6,
       "base": 8.9,
       "current": 9.12,
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 4.5,
-      "base": 6.06,
-      "current": 6.9,
-      "basis": "index_series"
-    },
-    {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
-      "change_pct": 4.3,
+      "change_pct": 4.2,
       "base": 7.38,
       "current": 7.11,
       "basis": "index_series"
@@ -93,7 +85,7 @@
       "name": "יוגורט ביו 3% 200 גרם",
       "change_pct": 4.0,
       "base": 4.21,
-      "current": 4.38,
+      "current": 4.39,
       "basis": "index_series"
     },
     {
@@ -102,6 +94,14 @@
       "change_pct": 4.0,
       "base": 4.8,
       "current": 4.75,
+      "basis": "index_series"
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 3.6,
+      "base": 6.06,
+      "current": 6.92,
       "basis": "index_series"
     },
     {
@@ -137,6 +137,14 @@
       "basis": "index_series"
     },
     {
+      "id": "emek_28",
+      "name": "גבינה עמק 28% 200 גר פרוס",
+      "change_pct": 1.0,
+      "base": 19.37,
+      "current": 19.33,
+      "basis": "index_series"
+    },
+    {
       "id": "sweet_cream",
       "name": "שמנת מתוקה 32% 250 מל",
       "change_pct": 0.9,
@@ -150,14 +158,6 @@
       "change_pct": 0.9,
       "base": 7.59,
       "current": 6.29,
-      "basis": "index_series"
-    },
-    {
-      "id": "emek_28",
-      "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": 0.7,
-      "base": 19.37,
-      "current": 19.26,
       "basis": "index_series"
     },
     {
@@ -205,7 +205,7 @@
     {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -4.2,
+      "change_pct": -4.0,
       "base": 6.42,
       "current": 6.51,
       "basis": "index_series"
@@ -243,14 +243,6 @@
       "basis": "index_series"
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -1.1,
-      "base": 43.03,
-      "current": 43.15,
-      "basis": "index_series"
-    },
-    {
       "id": "water",
       "name": "מים נביעות 6x1.5 ליטר",
       "change_pct": -0.8,
@@ -264,6 +256,14 @@
       "change_pct": -0.7,
       "base": 10.13,
       "current": 10.16,
+      "basis": "index_series"
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.7,
+      "base": 43.03,
+      "current": 43.4,
       "basis": "index_series"
     },
     {
@@ -438,11 +438,11 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "gap_pct": 33.9,
+      "gap_pct": 35.6,
       "cheapest_chain": "yohananof",
       "cheapest_price": 5.9,
       "expensive_chain": "shufersal",
-      "expensive_price": 7.9
+      "expensive_price": 8.0
     },
     {
       "id": "butter",
@@ -591,9 +591,9 @@
     {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "gap_pct": 8.2,
+      "gap_pct": 5.3,
       "cheapest_chain": "rami_levy",
-      "cheapest_price": 18.4,
+      "cheapest_price": 18.9,
       "expensive_chain": "shufersal",
       "expensive_price": 19.9
     },
