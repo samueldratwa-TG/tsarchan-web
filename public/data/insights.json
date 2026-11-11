@@ -9,19 +9,19 @@
       "basis": "index_series"
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 20.3,
-      "base": 6.6,
-      "current": 9.03,
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "change_pct": 19.0,
+      "base": 3.89,
+      "current": 4.88,
       "basis": "index_series"
     },
     {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "change_pct": 19.3,
-      "base": 3.89,
-      "current": 4.95,
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 18.6,
+      "base": 6.6,
+      "current": 9.03,
       "basis": "index_series"
     },
     {
@@ -49,11 +49,27 @@
       "basis": "index_series"
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 4.8,
+      "base": 6.06,
+      "current": 6.9,
+      "basis": "index_series"
+    },
+    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 4.6,
       "base": 8.9,
       "current": 9.12,
+      "basis": "index_series"
+    },
+    {
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 4.3,
+      "base": 4.21,
+      "current": 4.39,
       "basis": "index_series"
     },
     {
@@ -81,27 +97,11 @@
       "basis": "index_series"
     },
     {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 4.0,
-      "base": 4.21,
-      "current": 4.39,
-      "basis": "index_series"
-    },
-    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "change_pct": 4.0,
       "base": 4.8,
       "current": 4.75,
-      "basis": "index_series"
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 3.6,
-      "base": 6.06,
-      "current": 6.92,
       "basis": "index_series"
     },
     {
@@ -139,7 +139,7 @@
     {
       "id": "emek_28",
       "name": "גבינה עמק 28% 200 גר פרוס",
-      "change_pct": 1.0,
+      "change_pct": 1.2,
       "base": 19.37,
       "current": 19.33,
       "basis": "index_series"
@@ -189,7 +189,7 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": -4.9,
+      "change_pct": -5.2,
       "base": 12.59,
       "current": 12.4,
       "basis": "index_series"
@@ -259,14 +259,6 @@
       "basis": "index_series"
     },
     {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -0.7,
-      "base": 43.03,
-      "current": 43.4,
-      "basis": "index_series"
-    },
-    {
       "id": "hummus",
       "name": "חומוס צבר 400 גרם",
       "change_pct": -0.7,
@@ -280,6 +272,14 @@
       "change_pct": -0.7,
       "base": 36.96,
       "current": 36.9,
+      "basis": "index_series"
+    },
+    {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.6,
+      "base": 43.03,
+      "current": 43.4,
       "basis": "index_series"
     },
     {
@@ -438,11 +438,11 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "gap_pct": 35.6,
+      "gap_pct": 33.9,
       "cheapest_chain": "yohananof",
       "cheapest_price": 5.9,
       "expensive_chain": "shufersal",
-      "expensive_price": 8.0
+      "expensive_price": 7.9
     },
     {
       "id": "butter",
