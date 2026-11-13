@@ -3,7 +3,7 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.6,
+      "change_pct": 24.8,
       "base": 4.4,
       "current": 5.47,
       "basis": "index_series"
@@ -11,17 +11,17 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.0,
+      "change_pct": 22.1,
       "base": 6.6,
-      "current": 9.15,
+      "current": 9.28,
       "basis": "index_series"
     },
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 19.8,
+      "change_pct": 20.6,
       "base": 3.89,
-      "current": 4.9,
+      "current": 5.03,
       "basis": "index_series"
     },
     {
@@ -81,19 +81,19 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 4.1,
-      "base": 6.06,
-      "current": 6.9,
-      "basis": "index_series"
-    },
-    {
       "id": "frozen_peas",
       "name": "אפונה מוקפאת",
       "change_pct": 4.1,
       "base": 17.01,
       "current": 20.01,
+      "basis": "index_series"
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 4.0,
+      "base": 6.06,
+      "current": 6.9,
       "basis": "index_series"
     },
     {
@@ -189,9 +189,9 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": -5.4,
+      "change_pct": -4.6,
       "base": 12.59,
-      "current": 12.4,
+      "current": 12.53,
       "basis": "index_series"
     },
     {
