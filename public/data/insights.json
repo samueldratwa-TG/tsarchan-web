@@ -89,19 +89,19 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 4.0,
-      "base": 6.06,
-      "current": 6.9,
-      "basis": "index_series"
-    },
-    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "change_pct": 4.0,
       "base": 4.8,
       "current": 4.75,
+      "basis": "index_series"
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 3.8,
+      "base": 6.06,
+      "current": 6.9,
       "basis": "index_series"
     },
     {
