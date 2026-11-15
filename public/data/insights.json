@@ -19,9 +19,9 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 20.6,
+      "change_pct": 20.3,
       "base": 3.89,
-      "current": 5.03,
+      "current": 5.01,
       "basis": "index_series"
     },
     {
