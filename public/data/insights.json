@@ -3,7 +3,7 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 22.3,
+      "change_pct": 22.5,
       "base": 4.4,
       "current": 5.33,
       "basis": "index_series"
@@ -11,9 +11,9 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 20.5,
+      "change_pct": 22.0,
       "base": 6.6,
-      "current": 9.4,
+      "current": 9.53,
       "basis": "index_series"
     },
     {
@@ -89,19 +89,19 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 4.0,
-      "base": 6.06,
-      "current": 6.73,
-      "basis": "index_series"
-    },
-    {
       "id": "bamba",
       "name": "במבה 80 גרם",
       "change_pct": 4.0,
       "base": 4.8,
       "current": 4.75,
+      "basis": "index_series"
+    },
+    {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 3.3,
+      "base": 6.06,
+      "current": 6.57,
       "basis": "index_series"
     },
     {
@@ -173,7 +173,7 @@
     {
       "id": "cookies",
       "name": "פתי בר אסם 500 גרם",
-      "change_pct": -6.9,
+      "change_pct": -7.0,
       "base": 10.07,
       "current": 11.65,
       "basis": "index_series"
@@ -197,7 +197,7 @@
     {
       "id": "potato",
       "name": "תפוח אדמה לבן",
-      "change_pct": -4.0,
+      "change_pct": -3.9,
       "base": 6.42,
       "current": 6.51,
       "basis": "index_series"
@@ -275,19 +275,19 @@
       "basis": "index_series"
     },
     {
+      "id": "chicken_breast",
+      "name": "חזה עוף טרי לקג",
+      "change_pct": -0.6,
+      "base": 43.03,
+      "current": 43.4,
+      "basis": "index_series"
+    },
+    {
       "id": "bisli",
       "name": "ביסלי גריל 70 גרם",
       "change_pct": -0.6,
       "base": 4.84,
       "current": 4.69,
-      "basis": "index_series"
-    },
-    {
-      "id": "chicken_breast",
-      "name": "חזה עוף טרי לקג",
-      "change_pct": -0.5,
-      "base": 43.03,
-      "current": 43.4,
       "basis": "index_series"
     },
     {
@@ -439,7 +439,7 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 33.9,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "rami_levy",
       "cheapest_price": 5.9,
       "expensive_chain": "shufersal",
       "expensive_price": 7.9
