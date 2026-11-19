@@ -1,6 +1,14 @@
 {
   "biggest_increase": [
     {
+      "id": "tomato",
+      "name": "עגבניה לקג",
+      "change_pct": 23.9,
+      "base": 6.6,
+      "current": 9.53,
+      "basis": "index_series"
+    },
+    {
       "id": "onion",
       "name": "בצל יבש לקג",
       "change_pct": 22.5,
@@ -9,19 +17,11 @@
       "basis": "index_series"
     },
     {
-      "id": "tomato",
-      "name": "עגבניה לקג",
-      "change_pct": 22.0,
-      "base": 6.6,
-      "current": 9.53,
-      "basis": "index_series"
-    },
-    {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 18.3,
+      "change_pct": 19.3,
       "base": 3.89,
-      "current": 4.89,
+      "current": 4.9,
       "basis": "index_series"
     },
     {
@@ -99,7 +99,7 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 3.3,
+      "change_pct": 3.6,
       "base": 6.06,
       "current": 6.57,
       "basis": "index_series"
@@ -203,14 +203,6 @@
       "basis": "index_series"
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -3.8,
-      "base": 12.59,
-      "current": 12.65,
-      "basis": "index_series"
-    },
-    {
       "id": "coffee_turkish",
       "name": "קפה טורקי עלית 200 גרם",
       "change_pct": -3.8,
@@ -219,9 +211,17 @@
       "basis": "index_series"
     },
     {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -3.7,
+      "base": 12.59,
+      "current": 12.65,
+      "basis": "index_series"
+    },
+    {
       "id": "schnitzel",
       "name": "שניצל תירס טבעול 750 גרם",
-      "change_pct": -2.7,
+      "change_pct": -2.6,
       "base": 32.63,
       "current": 32.47,
       "basis": "index_series"
