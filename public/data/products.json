@@ -553,7 +553,7 @@
       "base_price": 6.06,
       "chains": {
         "shufersal": 7.9,
-        "rami_levy": 5.9,
+        "rami_levy": 6.9,
         "yohananof": 5.9,
         "victory": 7.9,
         "yayno_bitan_and_carrefour": 8.9
@@ -564,7 +564,7 @@
           "as_of": "2026-11-20"
         },
         "rami_levy": {
-          "n_stores": 22,
+          "n_stores": 97,
           "as_of": "2026-11-20"
         },
         "yohananof": {
@@ -580,7 +580,7 @@
           "as_of": "2026-11-20"
         }
       },
-      "avg_price": 6.8,
+      "avg_price": 6.95,
       "change_pct": 3.8,
       "change_basis": "index_series",
       "change_as_of": "2026-11-20"
@@ -592,7 +592,7 @@
       "base_price": 4.4,
       "chains": {
         "shufersal": 5.9,
-        "rami_levy": 5.9,
+        "rami_levy": 5.6,
         "yohananof": 4.9,
         "victory": 5.9,
         "yayno_bitan_and_carrefour": 6.9
@@ -603,7 +603,7 @@
           "as_of": "2026-11-20"
         },
         "rami_levy": {
-          "n_stores": 14,
+          "n_stores": 97,
           "as_of": "2026-11-20"
         },
         "yohananof": {
@@ -619,7 +619,7 @@
           "as_of": "2026-11-20"
         }
       },
-      "avg_price": 5.45,
+      "avg_price": 5.42,
       "change_pct": 23.4,
       "change_basis": "index_series",
       "change_as_of": "2026-11-20"
@@ -670,7 +670,7 @@
       "base_price": 3.89,
       "chains": {
         "shufersal": 5.9,
-        "rami_levy": 4.4,
+        "rami_levy": 4.5,
         "yohananof": 3.9,
         "victory": 5.9,
         "yayno_bitan_and_carrefour": 5.9
@@ -681,7 +681,7 @@
           "as_of": "2026-11-20"
         },
         "rami_levy": {
-          "n_stores": 17,
+          "n_stores": 97,
           "as_of": "2026-11-20"
         },
         "yohananof": {
@@ -697,7 +697,7 @@
           "as_of": "2026-11-20"
         }
       },
-      "avg_price": 4.83,
+      "avg_price": 4.84,
       "change_pct": 18.5,
       "change_basis": "index_series",
       "change_as_of": "2026-11-20"
