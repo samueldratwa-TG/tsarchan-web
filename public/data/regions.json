@@ -68,7 +68,7 @@
       "bnei_brak": 4.11,
       "north": 4.47,
       "south": 4.35,
-      "jerusalem": 4.21
+      "jerusalem": 4.2
     },
     "bread": {
       "center": 8.2,
@@ -109,7 +109,7 @@
       "center": 8.26,
       "bnei_brak": 5.5,
       "north": 7.37,
-      "south": 6.94,
+      "south": 6.92,
       "jerusalem": 6.9
     },
     "onion": {
@@ -151,8 +151,8 @@
       "center": 41.77,
       "bnei_brak": 41.4,
       "north": 41.35,
-      "south": 39.81,
-      "jerusalem": 41.91
+      "south": 39.77,
+      "jerusalem": 41.98
     },
     "schnitzel": {
       "center": 34.94,
@@ -184,7 +184,7 @@
     },
     "tahini": {
       "center": 16.59,
-      "bnei_brak": 15.57,
+      "bnei_brak": 15.5,
       "north": 15.78,
       "south": 15.65,
       "jerusalem": 15.45

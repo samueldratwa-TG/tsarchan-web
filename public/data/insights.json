@@ -99,9 +99,9 @@
     {
       "id": "cucumber",
       "name": "מלפפון לקג",
-      "change_pct": 3.8,
+      "change_pct": 3.6,
       "base": 6.06,
-      "current": 7.04,
+      "current": 7.11,
       "basis": "index_series"
     },
     {
