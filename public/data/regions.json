@@ -101,23 +101,23 @@
     "tomato": {
       "center": 10.25,
       "bnei_brak": 7.8,
-      "north": 8.79,
-      "south": 8.67,
+      "north": 8.8,
+      "south": 8.68,
       "jerusalem": 8.12
     },
     "cucumber": {
       "center": 8.26,
       "bnei_brak": 5.5,
-      "north": 7.37,
-      "south": 6.92,
+      "north": 7.38,
+      "south": 6.93,
       "jerusalem": 6.9
     },
     "onion": {
-      "center": 6.35,
+      "center": 6.34,
       "bnei_brak": 5.17,
-      "north": 5.63,
-      "south": 5.56,
-      "jerusalem": 5.57
+      "north": 5.61,
+      "south": 5.53,
+      "jerusalem": 5.54
     },
     "potato": {
       "center": 6.83,
@@ -127,11 +127,11 @@
       "jerusalem": 6.15
     },
     "carrot": {
-      "center": 5.79,
+      "center": 5.78,
       "bnei_brak": 4.4,
-      "north": 5.17,
-      "south": 4.94,
-      "jerusalem": 4.8
+      "north": 5.15,
+      "south": 4.92,
+      "jerusalem": 4.77
     },
     "apple": {
       "center": 14.26,
@@ -150,7 +150,7 @@
     "chicken_breast": {
       "center": 41.77,
       "bnei_brak": 41.4,
-      "north": 41.35,
+      "north": 41.13,
       "south": 39.77,
       "jerusalem": 41.98
     },
@@ -270,7 +270,7 @@
   "basket_index": {
     "center": 100.0,
     "bnei_brak": 91.1,
-    "north": 96.2,
+    "north": 96.1,
     "south": 93.7,
     "jerusalem": 93.3
   },
