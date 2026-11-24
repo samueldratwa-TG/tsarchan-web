@@ -1,9 +1,17 @@
 {
   "biggest_increase": [
     {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "change_pct": 25.2,
+      "base": 3.89,
+      "current": 5.35,
+      "basis": "index_series"
+    },
+    {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 26.2,
+      "change_pct": 24.2,
       "base": 6.6,
       "current": 9.65,
       "basis": "index_series"
@@ -11,17 +19,9 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 21.6,
+      "change_pct": 22.5,
       "base": 4.4,
-      "current": 5.55,
-      "basis": "index_series"
-    },
-    {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "change_pct": 20.1,
-      "base": 3.89,
-      "current": 5.1,
+      "current": 5.74,
       "basis": "index_series"
     },
     {
@@ -33,19 +33,19 @@
       "basis": "index_series"
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 6.1,
+      "base": 6.06,
+      "current": 7.33,
+      "basis": "index_series"
+    },
+    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 5.8,
       "base": 3.12,
       "current": 3.2,
-      "basis": "index_series"
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 5.6,
-      "base": 6.06,
-      "current": 7.19,
       "basis": "index_series"
     },
     {
@@ -173,7 +173,7 @@
     {
       "id": "cookies",
       "name": "פתי בר אסם 500 גרם",
-      "change_pct": -7.0,
+      "change_pct": -6.9,
       "base": 10.07,
       "current": 11.65,
       "basis": "index_series"
@@ -213,17 +213,9 @@
     {
       "id": "apple",
       "name": "תפוח עץ לקג",
-      "change_pct": -2.9,
+      "change_pct": -2.7,
       "base": 12.59,
       "current": 12.78,
-      "basis": "index_series"
-    },
-    {
-      "id": "schnitzel",
-      "name": "שניצל תירס טבעול 750 גרם",
-      "change_pct": -2.6,
-      "base": 32.63,
-      "current": 32.47,
       "basis": "index_series"
     },
     {
@@ -232,6 +224,14 @@
       "change_pct": -2.6,
       "base": 5.08,
       "current": 5.34,
+      "basis": "index_series"
+    },
+    {
+      "id": "schnitzel",
+      "name": "שניצל תירס טבעול 750 גרם",
+      "change_pct": -2.5,
+      "base": 32.63,
+      "current": 32.47,
       "basis": "index_series"
     },
     {
@@ -245,9 +245,9 @@
     {
       "id": "chicken_breast",
       "name": "חזה עוף טרי לקג",
-      "change_pct": -1.1,
+      "change_pct": -1.0,
       "base": 43.03,
-      "current": 43.27,
+      "current": 43.15,
       "basis": "index_series"
     },
     {
@@ -283,32 +283,23 @@
       "basis": "index_series"
     },
     {
-      "id": "bisli",
-      "name": "ביסלי גריל 70 גרם",
-      "change_pct": -0.4,
-      "base": 4.84,
-      "current": 4.69,
-      "basis": "index_series"
-    },
-    {
       "id": "chocolate_spread",
       "name": "ממרח שוקולד השחר",
       "change_pct": -0.3,
       "base": 28.25,
       "current": 28.63,
       "basis": "index_series"
+    },
+    {
+      "id": "bisli",
+      "name": "ביסלי גריל 70 גרם",
+      "change_pct": -0.2,
+      "base": 4.84,
+      "current": 4.69,
+      "basis": "index_series"
     }
   ],
   "biggest_chain_gap": [
-    {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "gap_pct": 137.9,
-      "cheapest_chain": "hazi_hinam",
-      "cheapest_price": 2.9,
-      "expensive_chain": "victory",
-      "expensive_price": 6.9
-    },
     {
       "id": "couscous",
       "name": "קוסקוס אסם 500 גרם",
@@ -325,6 +316,15 @@
       "cheapest_chain": "hazi_hinam",
       "cheapest_price": 3.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
+      "expensive_price": 6.9
+    },
+    {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "gap_pct": 76.9,
+      "cheapest_chain": "yohananof",
+      "cheapest_price": 3.9,
+      "expensive_chain": "victory",
       "expensive_price": 6.9
     },
     {
@@ -385,7 +385,7 @@
       "id": "cucumber",
       "name": "מלפפון לקג",
       "gap_pct": 50.8,
-      "cheapest_chain": "yohananof",
+      "cheapest_chain": "hazi_hinam",
       "cheapest_price": 5.9,
       "expensive_chain": "yayno_bitan_and_carrefour",
       "expensive_price": 8.9
