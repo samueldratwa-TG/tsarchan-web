@@ -11,6 +11,7 @@ import { RegionCheapest } from "../../../components/RegionCheapest";
 import type { Catalog } from "../../../components/CatalogTable";
 import { summaryLines, fmtDate, type PriceHistory } from "@/lib/priceHistory";
 import { CHAIN_NAMES, REGION_NAMES } from "@/lib/catalogNames";
+import { catalogPageParams } from "@/lib/catalogPages";
 
 // Size budget: every byte this page renders lands ~5 times per page in the deploy (HTML, its inline
 // RSC payload, .rsc, _full and __PAGE__ segments) x ~1,550 pages, inside a 10 GB quota that keeps
@@ -102,12 +103,8 @@ const ils = (v: number) => `₪${v.toFixed(2)}`;
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const params: { chain: string; barcode: string }[] = [];
-  for (const chain of CHAINS) {
-    const data = await loadChain(chain);
-    for (const barcode of Object.keys(data)) params.push({ chain, barcode });
-  }
-  return params;
+  // Shared with app/sitemap.ts, so the sitemap lists exactly the pages built here.
+  return catalogPageParams();
 }
 
 export async function generateMetadata({
