@@ -3,7 +3,7 @@
     {
       "id": "carrot",
       "name": "גזר ארוז",
-      "change_pct": 24.7,
+      "change_pct": 25.2,
       "base": 3.89,
       "current": 5.35,
       "basis": "index_series"
@@ -11,7 +11,7 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 23.9,
+      "change_pct": 25.0,
       "base": 6.6,
       "current": 9.65,
       "basis": "index_series"
@@ -19,7 +19,7 @@
     {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 22.5,
+      "change_pct": 23.0,
       "base": 4.4,
       "current": 5.74,
       "basis": "index_series"
@@ -33,19 +33,19 @@
       "basis": "index_series"
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 5.9,
+      "base": 6.06,
+      "current": 7.33,
+      "basis": "index_series"
+    },
+    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 5.8,
       "base": 3.12,
       "current": 3.2,
-      "basis": "index_series"
-    },
-    {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 5.8,
-      "base": 6.06,
-      "current": 7.33,
       "basis": "index_series"
     },
     {
