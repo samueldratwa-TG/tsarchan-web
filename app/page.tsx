@@ -76,7 +76,9 @@ export default async function Home() {
 
   return (
     <>
-      <main className="max-w-5xl mx-auto px-4 py-8">
+      {/* w-full min-w-0: <body> is a flex column; without them <main> sizes to its widest child and
+          the page stretched past a phone's width. */}
+      <main className="w-full min-w-0 max-w-5xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">מדד על מחירי מזון</h1>
@@ -137,7 +139,7 @@ export default async function Home() {
         </Link>
 
         {/* Product Table */}
-        <div className="bg-white rounded-xl shadow p-6 mb-4">
+        <div className="bg-white rounded-xl shadow p-3 sm:p-6 mb-4">
           <h2 className="text-lg font-semibold mb-4">טבלת מחיר - השוואה בין רשתות</h2>
           <ProductTable
             products={productsData.products}

@@ -56,7 +56,9 @@ export default async function RegionsPage() {
 
   return (
     <>
-      <main className="max-w-5xl mx-auto px-4 py-8">
+      {/* w-full min-w-0: <body> is a flex column; without them <main> sizes to its widest child and
+          the page stretched past a phone's width. */}
+      <main className="w-full min-w-0 max-w-5xl mx-auto px-4 py-8">
         <Link href="/" className="text-blue-600 hover:text-blue-800 text-sm mb-4 inline-block">&rarr; חזרה לדף הראשי</Link>
 
         <h1 className="text-3xl font-bold text-gray-900 mb-2">השוואה אזורית</h1>
@@ -120,17 +122,17 @@ export default async function RegionsPage() {
         </div>
 
         {/* Product comparison table */}
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-xl shadow p-3 sm:p-6">
           <h2 className="text-lg font-semibold mb-4">מחיר ממוצע לפי אזור</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b-2 border-gray-200">
-                  <th className="text-right py-2 px-2 font-semibold">מוצר</th>
+                  <th className="text-right py-2 px-1 sm:px-2 font-semibold">מוצר</th>
                   {regionOrder.map((r) => (
-                    <th key={r} className="text-center py-2 px-2 font-semibold text-xs">{regionNames[r]}</th>
+                    <th key={r} className="text-center py-2 px-1 sm:px-2 font-semibold text-xs">{regionNames[r]}</th>
                   ))}
-                  <th className="text-center py-2 px-2 font-semibold text-xs">פער</th>
+                  <th className="text-center py-2 px-1 sm:px-2 font-semibold text-xs">פער</th>
                 </tr>
               </thead>
               <tbody>
@@ -145,19 +147,19 @@ export default async function RegionsPage() {
 
                   return (
                     <tr key={product.id} className="border-b border-gray-100 hover:bg-gray-50">
-                      <td className="py-1.5 px-2 text-xs">{product.name}</td>
+                      <td className="py-1.5 px-1 sm:px-2 text-xs">{product.name}</td>
                       {regionOrder.map((r) => {
                         const price = regionPrices[r];
-                        if (!price) return <td key={r} className="py-1.5 px-2 text-center text-xs text-gray-300">-</td>;
+                        if (!price) return <td key={r} className="py-1.5 px-1 sm:px-2 text-center text-xs text-gray-300">-</td>;
                         const isMin = price === minP && minP !== maxP;
                         const isMax = price === maxP && minP !== maxP;
                         return (
-                          <td key={r} className={`py-1.5 px-2 text-center text-xs ${isMin ? "text-green-700 font-bold" : isMax ? "text-red-500" : "text-gray-600"}`}>
+                          <td key={r} className={`py-1.5 px-1 sm:px-2 text-center text-xs ${isMin ? "text-green-700 font-bold" : isMax ? "text-red-500" : "text-gray-600"}`}>
                             {price.toFixed(2)}
                           </td>
                         );
                       })}
-                      <td className="py-1.5 px-2 text-center text-xs text-gray-500">{gapPct}%</td>
+                      <td className="py-1.5 px-1 sm:px-2 text-center text-xs text-gray-500">{gapPct}%</td>
                     </tr>
                   );
                 })}

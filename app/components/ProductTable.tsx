@@ -36,12 +36,12 @@ export function ProductTable({ products, displayChains, chainNames, categories }
       <table className="w-full text-sm">
         <thead>
           <tr className="border-b-2 border-gray-200">
-            <th className="text-right py-2 px-2 font-semibold">מוצר</th>
+            <th className="text-right py-2 px-1 sm:px-2 font-semibold">מוצר</th>
             {displayChains.map((c) => (
-              <th key={c} className="text-center py-2 px-1 font-semibold text-xs">{chainNames[c]}</th>
+              <th key={c} className="text-center py-2 px-0.5 sm:px-1 font-semibold text-xs">{chainNames[c]}</th>
             ))}
-            <th className="text-center py-2 px-2 font-semibold bg-blue-50">ממוצע</th>
-            <th className="text-center py-2 px-2 font-semibold">שינוי</th>
+            <th className="text-center py-2 px-1 sm:px-2 font-semibold bg-blue-50">ממוצע</th>
+            <th className="text-center py-2 px-1 sm:px-2 font-semibold">שינוי</th>
           </tr>
         </thead>
         <tbody>
@@ -67,7 +67,7 @@ function CategoryRows({ category, products, displayChains }: { category: string;
   return (
     <>
       <tr>
-        <td colSpan={colSpan} className="pt-4 pb-1 px-2 font-bold text-blue-700 text-base">{category}</td>
+        <td colSpan={colSpan} className="pt-4 pb-1 px-1 sm:px-2 font-bold text-blue-700 text-base">{category}</td>
       </tr>
       {products.map((p) => {
         const chainPrices = displayChains.map((c) => p.chains[c]);
@@ -77,7 +77,7 @@ function CategoryRows({ category, products, displayChains }: { category: string;
 
         return (
           <tr key={p.id} className="border-b border-gray-100 hover:bg-gray-50">
-            <td className="py-1.5 px-2 text-xs">{p.name}</td>
+            <td className="py-1.5 px-1 sm:px-2 text-xs">{p.name}</td>
             {displayChains.map((c) => {
               const price = p.chains[c];
               const isMin = price != null && price === minPrice && minPrice !== maxPrice;
@@ -92,15 +92,15 @@ function CategoryRows({ category, products, displayChains }: { category: string;
                     : "חציון סניפי הרשת")
                 : "אין מספיק סניפים שמפרסמים את המוצר הזה כדי לחשב חציון";
               return (
-                <td key={c} title={title} className={`py-1.5 px-1 text-center text-xs ${isMin ? "text-green-700 font-bold" : isMax ? "text-red-500" : "text-gray-500"}`}>
+                <td key={c} title={title} className={`py-1.5 px-0.5 sm:px-1 text-center text-xs ${isMin ? "text-green-700 font-bold" : isMax ? "text-red-500" : "text-gray-500"}`}>
                   {price ? price.toFixed(2) : <span className="text-gray-300">—</span>}
                 </td>
               );
             })}
-            <td className="py-1.5 px-2 text-center font-medium bg-blue-50 text-xs">
+            <td className="py-1.5 px-1 sm:px-2 text-center font-medium bg-blue-50 text-xs">
               {p.avg_price ? p.avg_price.toFixed(2) : "-"}
             </td>
-            <td className="py-1.5 px-2 text-center text-xs">
+            <td className="py-1.5 px-1 sm:px-2 text-center text-xs">
               {p.change_pct != null ? (
                 <span className={p.change_pct > 0 ? "text-red-600" : p.change_pct < 0 ? "text-green-600" : "text-gray-400"}>
                   {p.change_pct > 0 ? "+" : ""}{p.change_pct.toFixed(1)}%
