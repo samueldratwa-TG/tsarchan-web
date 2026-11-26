@@ -21,7 +21,10 @@ export default async function CatalogPage() {
 
   return (
     <>
-      <main className="max-w-7xl mx-auto px-4 py-8">
+      {/* w-full min-w-0: <body> is a flex column, so without them <main> sizes to its content and
+          the wide product grid stretched the whole page to ~1,170px on a phone. The grid scrolls
+          sideways inside its own box instead (sticky product-name column). */}
+      <main className="w-full min-w-0 max-w-7xl mx-auto px-4 py-8">
         <Link href="/" className="text-blue-600 text-sm mb-4 inline-block">&rarr; חזרה לעמוד הראשי</Link>
 
         <div className="mb-5">
@@ -34,7 +37,7 @@ export default async function CatalogPage() {
           </p>
         </div>
 
-        <div className="bg-white rounded-xl shadow p-5">
+        <div className="bg-white rounded-xl shadow p-3 sm:p-5">
           <CatalogTable catalog={catalog} />
         </div>
 

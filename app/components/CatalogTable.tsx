@@ -111,10 +111,13 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
 
       {/* table */}
       <div className="overflow-auto border border-gray-200 rounded-xl" style={{ maxHeight: "78vh" }}>
-        <table className="text-sm border-collapse" style={{ minWidth: 1080 }}>
+        {/* Below sm the grid is narrower and the sticky product column is 120px: at 1080px the
+            leftover width all went to that column (~330px), wider than a phone's scroll box, so
+            no price was ever visible beside it. */}
+        <table className="text-sm border-collapse min-w-[860px] sm:min-w-[1080px]">
           <thead>
             <tr>
-              <th className="sticky top-0 right-0 z-30 bg-gray-50 text-right py-2.5 px-3 font-semibold text-xs border-b border-gray-200" style={{ minWidth: 190 }}>
+              <th className="sticky top-0 right-0 z-30 bg-gray-50 text-right py-2.5 px-3 font-semibold text-xs border-b border-gray-200 min-w-[120px] sm:min-w-[190px]">
                 מוצר
               </th>
               <th className="sticky top-0 z-20 bg-gray-50 py-2.5 px-2 font-semibold text-xs text-gray-600 border-b border-gray-200">רשתות</th>
@@ -200,7 +203,7 @@ function CatalogRow({
 
   return (
     <tr className="border-b border-gray-100 hover:bg-gray-50/60">
-      <td className="sticky right-0 z-10 bg-white text-right py-1.5 px-3 text-[13px] font-medium" style={{ minWidth: 190 }}>
+      <td className="sticky right-0 z-10 bg-white text-right py-1.5 px-2 sm:px-3 text-[13px] font-medium min-w-[120px] sm:min-w-[190px]">
         {row.category && categories[row.category] && (
           <span className="inline-block text-[10.5px] font-semibold text-indigo-800 bg-indigo-50 rounded px-1.5 py-px ml-1.5">
             {categories[row.category]}
