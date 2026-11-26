@@ -99,7 +99,9 @@ export default async function StoreDetailPage({
 
   return (
     <>
-      <main className="max-w-4xl mx-auto px-4 py-8">
+      {/* w-full min-w-0: <body> is a flex column, so without them <main> sizes to its content and
+          the store table's 480px min-width stretched the whole page past a phone's width. */}
+      <main className="w-full min-w-0 max-w-4xl mx-auto px-4 py-8">
         <Link href="/catalog" className="text-blue-600 text-sm mb-4 inline-block">&rarr; חזרה לקטלוג</Link>
 
         <div className="flex items-baseline gap-2 flex-wrap mb-1">
@@ -115,10 +117,14 @@ export default async function StoreDetailPage({
           <StatCard label="ממוצע" value={`₪${st.mean?.toFixed(2)}`} />
           <StatCard label="טווח" value={`${st.min?.toFixed(2)}-${st.max?.toFixed(2)}`} ltr />
           <StatCard label="סניפים" value={st.chain_stores ? `${st.stores} / ${st.chain_stores}` : `${st.stores}`} ltr />
+          {/* chg: 0 = the chain median really did not move this week; null = too few stores
+              (or no snapshot a week ago) to compare - only null is "no data". */}
           <StatCard
             label="שינוי שבועי"
-            value={st.chg != null && st.chg !== 0 ? `${st.chg > 0 ? "+" : ""}${st.chg}%` : "—"}
-            color={st.chg && st.chg > 0 ? "text-red-600" : st.chg && st.chg < 0 ? "text-green-600" : undefined}
+            value={st.chg == null ? "—" : st.chg === 0 ? "ללא שינוי" : `${st.chg > 0 ? "+" : ""}${st.chg}%`}
+            color={st.chg == null || st.chg === 0 ? "text-gray-600" : st.chg > 0 ? "text-red-600" : "text-green-600"}
+            ltr={st.chg != null && st.chg !== 0}
+            title={st.chg == null ? "אין מספיק סניפים או נתונים כדי להשוות לשבוע שעבר" : "שינוי במחיר החציוני של הרשת לעומת לפני שבוע"}
           />
         </div>
 
@@ -128,8 +134,8 @@ export default async function StoreDetailPage({
           </p>
         ) : null}
 
-        <div className="bg-white rounded-xl shadow p-5">
-          <StoreTable stores={entry.stores} regionNames={REGION_NAMES} />
+        <div className="bg-white rounded-xl shadow p-3 sm:p-5">
+          <StoreTable stores={entry.stores} regionNames={REGION_NAMES} chain={chain} chainName={chainHe} />
         </div>
 
         <p className="text-xs text-gray-400 mt-4 leading-relaxed">
@@ -142,9 +148,9 @@ export default async function StoreDetailPage({
   );
 }
 
-function StatCard({ label, value, color, ltr }: { label: string; value: string; color?: string; ltr?: boolean }) {
+function StatCard({ label, value, color, ltr, title }: { label: string; value: string; color?: string; ltr?: boolean; title?: string }) {
   return (
-    <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 min-w-[110px]">
+    <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 min-w-[110px]" title={title}>
       <div className="text-xs text-gray-500">{label}</div>
       <div className={`text-lg font-bold ${color || "text-gray-900"}`} dir={ltr ? "ltr" : undefined} style={ltr ? { textAlign: "right" } : undefined}>{value}</div>
     </div>

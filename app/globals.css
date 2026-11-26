@@ -9,3 +9,26 @@
   --moved-banner-button-bg: #2563eb;
   --moved-banner-button-fg: #ffffff;
 }
+
+/* Store table rows on the ~1,550 prerendered product pages (app/components/StoreTable.tsx).
+   Short class names on purpose: this markup repeats for every store on every page (and the
+   site keeps ~a week of ~200 MB deploys in a 10 GB quota), so a long utility list per row
+   costs megabytes per deploy. */
+.st-r {
+  @apply border-b border-gray-100 cursor-pointer hover:bg-blue-50/60 focus-visible:bg-blue-50/60 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-300;
+}
+.st-r > td {
+  @apply py-2 px-2 sm:px-4 text-[13px] text-gray-600;
+}
+.st-r > td:first-child {
+  @apply text-blue-700;
+}
+.st-r > td.st-p {
+  @apply text-center font-bold text-sm text-gray-800;
+}
+.st-r > td.st-min {
+  @apply bg-green-50 text-green-700;
+}
+.st-r > td.st-max {
+  @apply bg-red-50 text-red-600;
+}

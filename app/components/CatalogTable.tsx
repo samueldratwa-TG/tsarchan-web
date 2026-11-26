@@ -153,7 +153,11 @@ export function CatalogTable({ catalog }: { catalog: Catalog }) {
           <Stat k="טווח סניפים" v={`${tip.cell.min.toFixed(2)}-${tip.cell.max.toFixed(2)}`} ltr />
           <Stat k="ממוצע" v={`₪${tip.cell.mean.toFixed(2)}`} />
           <Stat k="סניפים" v={`${tip.cell.stores}`} />
-          <Stat k="שינוי שבועי" v={tip.cell.chg != null ? `${tip.cell.chg > 0 ? "+" : ""}${tip.cell.chg}%` : "—"} />
+          <Stat
+            k="שינוי שבועי"
+            v={tip.cell.chg == null ? "—" : tip.cell.chg === 0 ? "ללא שינוי" : `${tip.cell.chg > 0 ? "+" : ""}${tip.cell.chg}%`}
+            ltr={tip.cell.chg != null && tip.cell.chg !== 0}
+          />
           <div className="text-blue-300 text-[11px] mt-1.5">לחץ לפירוט כל הסניפים ←</div>
         </div>
       )}
@@ -222,8 +226,11 @@ function CatalogRow({
             >
               <span className={`font-semibold text-[13px] ${priceColor}`}>{cell.median.toFixed(2)}</span>
               <span className="block text-[10.5px] mt-px">
-                {cell.chg == null || cell.chg === 0 ? (
-                  <span className="text-gray-300">—</span>
+                {/* null = not enough data to compare; 0 = the median did not move */}
+                {cell.chg == null ? (
+                  <span className="text-gray-300" title="אין מספיק נתונים להשוואה שבועית">—</span>
+                ) : cell.chg === 0 ? (
+                  <span className="text-gray-400" title="ללא שינוי בשבוע האחרון">0%</span>
                 ) : cell.chg > 0 ? (
                   <span className="text-red-600">▲{cell.chg}%</span>
                 ) : (
