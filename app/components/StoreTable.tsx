@@ -309,21 +309,27 @@ function StoreDialog({
   const address = d?.address || "";
   const online = !!d?.online;
 
-  // Map links: by address when one is published, else a search for the store by name.
-  // No API key - plain public URLs. An online-only or unlisted store gets none.
+  // Map links: by address + city when both are published, else a search for the store by its
+  // name (and address, if any). No API key - plain public URLs. An online-only or unlisted store
+  // gets none. Waze starts driving (navigate=yes) only for a full address + city; for a
+  // name-only or city-less query it shows its search results instead of picking the first hit.
   let mapQuery = "";
   let byName = false;
+  const exact = !!(address && city);
   if (d && !online) {
-    if (address) {
-      mapQuery = city && !norm(address).includes(norm(city)) ? `${address}, ${city}` : address;
+    const nm = norm(store.name).includes(norm(chainName)) ? store.name : `${chainName} ${store.name}`;
+    if (exact) {
+      mapQuery = norm(address).includes(norm(city)) ? address : `${address}, ${city}`;
+    } else if (address) {
+      mapQuery = `${nm}, ${address}`;
+      byName = true;
     } else {
-      const nm = norm(store.name).includes(norm(chainName)) ? store.name : `${chainName} ${store.name}`;
       mapQuery = city && !norm(nm).includes(norm(city)) ? `${nm}, ${city}` : nm;
       byName = true;
     }
   }
   const gmaps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
-  const waze = `https://waze.com/ul?q=${encodeURIComponent(mapQuery)}&navigate=yes`;
+  const waze = `https://waze.com/ul?q=${encodeURIComponent(mapQuery)}${exact ? "&navigate=yes" : ""}`;
 
   return (
     <div
@@ -401,11 +407,15 @@ function StoreDialog({
                 rel="noopener noreferrer"
                 className="flex-1 min-w-[140px] text-center text-sm font-semibold px-4 py-2.5 rounded-lg border border-blue-600 text-blue-700 hover:bg-blue-50"
               >
-                ניווט ב-Waze
+                {exact ? "ניווט ב-Waze" : "חיפוש ב-Waze"}
               </a>
             </div>
             {byName && (
-              <p className="text-xs text-gray-400 mt-2">אין כתובת רשמית - הקישורים מחפשים את הסניף לפי שמו.</p>
+              <p className="text-xs text-gray-400 mt-2">
+                {address
+                  ? "הרשת לא פרסמה עיר - הקישורים מחפשים את הסניף לפי שמו וכתובתו."
+                  : "אין כתובת רשמית - הקישורים מחפשים את הסניף לפי שמו."}
+              </p>
             )}
           </>
         ) : null}
