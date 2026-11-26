@@ -16,12 +16,19 @@ export interface PriceHistory {
   p: [number, number, number, number, number][];
   /** chain-days inside [from, to] that are not fresh price points, by reason (day offsets) */
   x: Partial<Record<"held" | "same" | "low", number[]>>;
+  /** points of `p` (day offsets) where the product was in fewer than half its usual stores: a real
+   *  median of a much smaller store set, so not the chain's price - drawn apart, left out of the
+   *  summary's low / high / change */
+  t?: number[];
 }
 
 export interface HistoryDay {
   date: string;
+  /** median on a representative day (the line) */
   med: number | null;
   band: [number, number] | null;
+  /** median on a thin-coverage day (a grey dot off the line) */
+  medThin: number | null;
   n: number | null;
   /** why there is no point that day (null when there is one) */
   reason: GapReason | null;
@@ -56,15 +63,14 @@ export function expandHistory(h: PriceHistory): HistoryDay[] {
   for (const [reason, offsets] of Object.entries(h.x || {})) {
     for (const o of offsets || []) why.set(o, reason as GapReason);
   }
+  const thin = new Set(h.t || []);
   const out: HistoryDay[] = [];
   for (let o = 0; o <= span; o++) {
     const date = addDays(h.from, o);
     const r = pts.get(o);
-    out.push(
-      r
-        ? { date, med: r[1], band: [r[2], r[3]], n: r[4], reason: null }
-        : { date, med: null, band: null, n: null, reason: why.get(o) ?? "none" }
-    );
+    if (!r) out.push({ date, med: null, band: null, medThin: null, n: null, reason: why.get(o) ?? "none" });
+    else if (thin.has(o)) out.push({ date, med: null, band: null, medThin: r[1], n: r[4], reason: null });
+    else out.push({ date, med: r[1], band: [r[2], r[3]], medThin: null, n: r[4], reason: null });
   }
   return out;
 }
@@ -93,16 +99,27 @@ const ils = (v: number) => `₪${v.toFixed(2)}`;
  *  null when there is no file or no point at all. */
 export function summaryLines(h: PriceHistory | null, chainHe: string): string[] | null {
   if (!h || !Array.isArray(h.p) || h.p.length === 0) return null;
-  const pts: Pt[] = h.p.map((r) => ({ date: addDays(h.from, r[0]), med: r[1], n: r[4] }));
-  const first = pts[0].date;
-  const last = pts[pts.length - 1].date;
+  const thin = new Set(h.t || []);
+  const all: (Pt & { thin: boolean })[] = h.p.map((r) => ({
+    date: addDays(h.from, r[0]), med: r[1], n: r[4], thin: thin.has(r[0]),
+  }));
+  const first = all[0].date;
+  const last = all[all.length - 1].date;
+  const nThin = all.filter((p) => p.thin).length;
   const lines: string[] = [
-    `המחיר החציוני של המוצר ב${chainHe} נמדד ב-${pts.length} ימים, מ-${fmtDate(first)} עד ${fmtDate(last)}.`,
+    `המחיר החציוני של המוצר ב${chainHe} נמדד ב-${all.length} ימים, מ-${fmtDate(first)} עד ${fmtDate(last)}.`,
   ];
+  if (nThin > 0) {
+    lines.push(
+      nThin === 1
+        ? "ביום אחד מהם המוצר פורסם בפחות ממחצית הסניפים שבהם הוא מתפרסם בדרך כלל. החציון של יום כזה אינו מייצג את הרשת, ולכן הוא מסומן בגרף באפור ואינו נכלל בסיכום."
+        : `ב-${nThin} מהם המוצר פורסם בפחות ממחצית הסניפים שבהם הוא מתפרסם בדרך כלל. החציון של ימים כאלה אינו מייצג את הרשת, ולכן הם מסומנים בגרף באפור ואינם נכללים בסיכום.`
+    );
+  }
 
-  const solid = pts.filter((p) => p.n >= SUMMARY_MIN_STORES);
+  const solid = all.filter((p) => !p.thin && p.n >= SUMMARY_MIN_STORES);
   if (solid.length === 0) {
-    lines.push(`בכל ימי המדידה המוצר נמצא בפחות מ-${SUMMARY_MIN_STORES} סניפים, ולכן אין כאן סיכום של שפל, שיא ושינוי.`);
+    lines.push(`אין ימי מדידה מייצגים עם ${SUMMARY_MIN_STORES} סניפים לפחות, ולכן אין כאן סיכום של שפל, שיא ושינוי.`);
   } else {
     const lo = extreme(solid, Math.min);
     const hi = extreme(solid, Math.max);
@@ -142,7 +159,7 @@ export function summaryLines(h: PriceHistory | null, chainHe: string): string[] 
     }
   }
   if (last !== h.to) {
-    lines.push(`ל-${fmtDate(h.to)} אין נתון טרי מהרשת; הנקודה האחרונה בגרף היא מ-${fmtDate(last)}.`);
+    lines.push(`ל-${fmtDate(h.to)} אין נקודה בגרף (לא התקבל נתון טרי ומלא מהרשת); הנקודה האחרונה היא מ-${fmtDate(last)}.`);
   }
   return lines;
 }

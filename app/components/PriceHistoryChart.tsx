@@ -89,6 +89,15 @@ function HistoryTooltip(props: {
           </div>
           <div style={{ color: "#6b7280" }}>סניפים: {row.n}</div>
         </>
+      ) : row.medThin != null ? (
+        <>
+          <div style={{ color: "#4b5563", fontWeight: 700 }}>
+            חציון: ₪{row.medThin.toFixed(2)} ({row.n === 1 ? "סניף אחד" : `${row.n} סניפים`} בלבד)
+          </div>
+          <div style={{ color: "#6b7280" }}>
+            פחות ממחצית הסניפים שבהם המוצר מתפרסם בדרך כלל - לא מייצג את מחיר הרשת
+          </div>
+        </>
       ) : (
         <div style={{ color: "#6b7280" }}>{REASON_TEXT[row.reason || "none"]}</div>
       )}
@@ -134,12 +143,17 @@ export function PriceHistoryChart({ chain, barcode }: { chain: string; barcode: 
 
   const byDate = useMemo(() => new Map(visible.map((r) => [r.date, r])), [visible]);
   const nPoints = visible.filter((r) => r.med != null).length;
+  const hasThin = visible.some((r) => r.medThin != null);
 
   // Y range from what is drawn (the band only when it is shown), on round ticks.
   const yTicks = useMemo(() => {
     let lo = Infinity;
     let hi = -Infinity;
     for (const r of visible) {
+      if (r.medThin != null) {
+        lo = Math.min(lo, r.medThin);
+        hi = Math.max(hi, r.medThin);
+      }
       if (r.med == null || !r.band) continue;
       lo = Math.min(lo, showBand ? r.band[0] : r.med);
       hi = Math.max(hi, showBand ? r.band[1] : r.med);
@@ -222,6 +236,18 @@ export function PriceHistoryChart({ chain, barcode }: { chain: string; barcode: 
               connectNulls={false}
               isAnimationActive={false}
             />
+            {/* Thin-coverage days (product in < half its usual stores): grey dots, never on the line. */}
+            {hasThin && (
+              <Line
+                type="linear"
+                dataKey="medThin"
+                stroke="none"
+                dot={{ r: 2.5, fill: "#9ca3af", stroke: "#9ca3af" }}
+                activeDot={{ r: 4, fill: "#6b7280" }}
+                connectNulls={false}
+                isAnimationActive={false}
+              />
+            )}
           </ComposedChart>
         </ResponsiveContainer>
       </div>
@@ -235,6 +261,12 @@ export function PriceHistoryChart({ chain, barcode }: { chain: string; barcode: 
           <span className="flex items-center gap-1.5">
             <span className="inline-block w-3 h-3 rounded-sm bg-blue-200" />
             מהסניף הזול ליקר
+          </span>
+        )}
+        {hasThin && (
+          <span className="flex items-center gap-1.5">
+            <span className="inline-block w-2 h-2 rounded-full bg-gray-400" />
+            מעט סניפים - לא מייצג
           </span>
         )}
         <span>רווח בקו = יום בלי נתון טרי (פרטים במעבר עכבר)</span>
