@@ -1,25 +1,25 @@
 {
   "biggest_increase": [
     {
-      "id": "carrot",
-      "name": "גזר ארוז",
-      "change_pct": 25.2,
-      "base": 3.89,
-      "current": 5.35,
-      "basis": "index_series"
-    },
-    {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 25.0,
+      "change_pct": 26.4,
       "base": 6.6,
       "current": 9.65,
       "basis": "index_series"
     },
     {
+      "id": "carrot",
+      "name": "גזר ארוז",
+      "change_pct": 25.2,
+      "base": 3.89,
+      "current": 5.34,
+      "basis": "index_series"
+    },
+    {
       "id": "onion",
       "name": "בצל יבש לקג",
-      "change_pct": 23.0,
+      "change_pct": 24.3,
       "base": 4.4,
       "current": 5.74,
       "basis": "index_series"
@@ -211,14 +211,6 @@
       "basis": "index_series"
     },
     {
-      "id": "apple",
-      "name": "תפוח עץ לקג",
-      "change_pct": -2.7,
-      "base": 12.59,
-      "current": 12.78,
-      "basis": "index_series"
-    },
-    {
       "id": "sugar",
       "name": "סוכר 1 קג",
       "change_pct": -2.6,
@@ -232,6 +224,14 @@
       "change_pct": -2.5,
       "base": 32.63,
       "current": 32.47,
+      "basis": "index_series"
+    },
+    {
+      "id": "apple",
+      "name": "תפוח עץ לקג",
+      "change_pct": -1.8,
+      "base": 12.59,
+      "current": 12.9,
       "basis": "index_series"
     },
     {
