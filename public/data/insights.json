@@ -3,7 +3,7 @@
     {
       "id": "tomato",
       "name": "עגבניה לקג",
-      "change_pct": 26.4,
+      "change_pct": 26.5,
       "base": 6.6,
       "current": 9.65,
       "basis": "index_series"
@@ -33,14 +33,6 @@
       "basis": "index_series"
     },
     {
-      "id": "cucumber",
-      "name": "מלפפון לקג",
-      "change_pct": 5.9,
-      "base": 6.06,
-      "current": 7.33,
-      "basis": "index_series"
-    },
-    {
       "id": "sour_cream",
       "name": "שמנת חמוצה 15% 200 מל",
       "change_pct": 5.8,
@@ -57,19 +49,19 @@
       "basis": "index_series"
     },
     {
+      "id": "cucumber",
+      "name": "מלפפון לקג",
+      "change_pct": 5.4,
+      "base": 6.06,
+      "current": 7.33,
+      "basis": "index_series"
+    },
+    {
       "id": "para_chocolate",
       "name": "שוקולד פרה חלב 100 גרם",
       "change_pct": 4.6,
       "base": 8.9,
       "current": 9.12,
-      "basis": "index_series"
-    },
-    {
-      "id": "yogurt",
-      "name": "יוגורט ביו 3% 200 גרם",
-      "change_pct": 4.3,
-      "base": 4.21,
-      "current": 4.39,
       "basis": "index_series"
     },
     {
@@ -102,6 +94,14 @@
       "change_pct": 3.9,
       "base": 17.01,
       "current": 20.01,
+      "basis": "index_series"
+    },
+    {
+      "id": "yogurt",
+      "name": "יוגורט ביו 3% 200 גרם",
+      "change_pct": 3.8,
+      "base": 4.21,
+      "current": 4.39,
       "basis": "index_series"
     },
     {
